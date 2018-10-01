@@ -10,7 +10,7 @@ Which means your code is compiled prior to being interpreted.
 
 https://docs.python.org/3/glossary.html#term-bytecode
 
-[/images/image001.png]
+![enter image description here](/images/image001.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODAzMTYxODQsMTcxODg0ODU5N119
+eyJoaXN0b3J5IjpbLTE0ODI0NzEwNzksMTcxODg0ODU5N119
 -->
