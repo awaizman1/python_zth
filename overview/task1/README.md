@@ -6,8 +6,8 @@
  - In python you can also extend the program by adding new code, extend objects and definitions and modify the type system.
 
 # Python is a compiled-interpreted language!
-(https://docs.python.org/3/glossary.html#term-bytecode)
+https://docs.python.org/3/glossary.html#term-bytecode
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTI5NDI3NF19
+eyJoaXN0b3J5IjpbNzkyNDY1MDUzXX0=
 -->
