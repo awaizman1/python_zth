@@ -18,9 +18,10 @@ https://docs.python.org/3/glossary.html#term-bytecode
 
 > **From now on Python == CPython**
 
+
 ### Time for task:
 - observe ***task2.py***, run it and inspect its output
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1ODY4MTcsNDE5OTkxMDUyLDE3MTg4ND
-g1OTddfQ==
+eyJoaXN0b3J5IjpbMTM3MzAwMTIzNSw0MTk5OTEwNTIsMTcxOD
+g0ODU5N119
 -->
