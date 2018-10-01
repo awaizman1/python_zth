@@ -5,7 +5,9 @@
  - In a statically-typed language like C++ / Java - the compiler does a lot of type checking for you.  
  - In python you can also extend the program by adding new code, extend objects and definitions and modify the type system.
 
-# 
+# Python is a compiled-interpreted language!
+(https://docs.python.org/3/glossary.html#term-bytecode)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0ODE3NjQ3Ml19
+eyJoaXN0b3J5IjpbLTE2OTI5NDI3NF19
 -->
