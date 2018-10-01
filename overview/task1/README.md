@@ -5,8 +5,8 @@
  - In a statically-typed language like C++ / Java - the compiler does a lot of type checking for you.  
  - In python you can also extend the program by adding new code, extend objects and definitions and modify the type system.
 ### Time for task
-- perform task.py
-- test yourself by running test_task.py
+- perform *task.py*
+- test yourself by running *test_task.py*
 
 # Python is a compiled-interpreted language!
 Which means your code is compiled prior to being interpreted.
@@ -17,7 +17,9 @@ https://docs.python.org/3/glossary.html#term-bytecode
 
 
 ### From now on Python == CPython
+### Time for task
+- observe *task2.py*, run it and inspect its output
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk1ODQ5NTQxLDQxOTk5MTA1MiwxNzE4OD
+eyJoaXN0b3J5IjpbNzU1NzcwODUyLDQxOTk5MTA1MiwxNzE4OD
 Q4NTk3XX0=
 -->
