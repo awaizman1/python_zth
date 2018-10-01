@@ -12,7 +12,7 @@ https://docs.python.org/3/glossary.html#term-bytecode
 
 ![enter image description here](/images/image001.png)
 
-### **From now on Python == CPython**
+### From now on Python == CPython
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTQ5Mzk3MTgsMTcxODg0ODU5N119
+eyJoaXN0b3J5IjpbMzI5MTk4OTA2LDE3MTg4NDg1OTddfQ==
 -->
