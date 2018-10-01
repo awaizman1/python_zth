@@ -1,3 +1,4 @@
+
 # --- python is strongly typed
 # lets verify that every object has a definite type
 for obj in [1, True, 2.5, "hello", [1, 2, 3], {1: "one", 2: "two"}]:
