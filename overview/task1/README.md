@@ -16,10 +16,10 @@ https://docs.python.org/3/glossary.html#term-bytecode
 ![enter image description here](/images/image001.png)
 
 
-### From now on Python == CPython
+> **From now on Python == CPython**
 ### Time for task
 - observe *task2.py*, run it and inspect its output
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NDIzNzUzNiw0MTk5OTEwNTIsMTcxOD
-g0ODU5N119
+eyJoaXN0b3J5IjpbNDUzMDk5MTQxLDQxOTk5MTA1MiwxNzE4OD
+Q4NTk3XX0=
 -->
