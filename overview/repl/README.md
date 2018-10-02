@@ -16,11 +16,11 @@ From pycharm:
 def add(a, b):
 	return a + b
 ```
-6. now call ***print("hello world")*** and check yourself - what is the difference from above step?
-7. in the **REPL**, the **'_'** variable has a special meaning - find out what?
-8. exit the interpreter - ***ctrl+z / quit() / exit()***
+5. now call ***print("hello world")*** and check yourself - what is the difference from above step?
+6. in the **REPL**, the **'_'** variable has a special meaning - find out what?
+7. exit the interpreter - ***ctrl+z / quit() / exit()***
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NDc4NjI0M119
+eyJoaXN0b3J5IjpbLTY5MjE4MTA4NiwxNDk0Nzg2MjQzXX0=
 -->
