@@ -12,9 +12,9 @@ From pycharm:
 - define a function, call it and validate that its output is printed
 - now call print("hello world") and check yourself - what is the difference from above step?
 - in the REPL, the '_' variable has a special meaning - find out what?
-- exit the interpreter - ctrl
+- exit the interpreter - ctrl+z / quit() / exit()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIxNTE5NDk1XX0=
+eyJoaXN0b3J5IjpbNDYxNTYyNzkzXX0=
 -->
