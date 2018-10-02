@@ -13,12 +13,14 @@ From pycharm:
 3. type some arithmetic operation
 4. define a function, call it and validate that its output is printed
 ```python
-def 
-6. now call print("hello world") and check yourself - what is the difference from above step?
-7. in the REPL, the '_' variable has a special meaning - find out what?
-8. exit the interpreter - ctrl+z / quit() / exit()
+def add(a, b):
+	return a + b
+```
+6. now call ***print("hello world")*** and check yourself - what is the difference from above step?
+7. in the **REPL**, the **'_'** variable has a special meaning - find out what?
+8. exit the interpreter - ***ctrl+z / quit() / exit()***
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc3NTIxOTE4XX0=
+eyJoaXN0b3J5IjpbMTQ5NDc4NjI0M119
 -->
