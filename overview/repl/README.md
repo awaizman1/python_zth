@@ -6,8 +6,10 @@
  4. **Loop**: repeat
 ### Time for task:
 From pycharm:
-- open terminal
-- invoke the interactive interpreter (simply run python)
+ 1. open terminal
+ 2. invoke the interactive interpreter (simply run python)
+ ![Terminal window](/images/image002.png)
+
 - type some arithmetic operation
 - define a function, call it and validate that its output is printed
 - now call print("hello world") and check yourself - what is the difference from above step?
@@ -16,5 +18,5 @@ From pycharm:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYxNTYyNzkzXX0=
+eyJoaXN0b3J5IjpbLTkzMjgxNDI1NF19
 -->
