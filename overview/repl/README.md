@@ -6,17 +6,19 @@
  4. **Loop**: repeat
 ### Time for task:
 From pycharm:
- 1. open terminal
- 2. invoke the interactive interpreter (simply run python)
+ 1. open **terminal**
+ 2. invoke the interactive interpreter (simply run ***python***)
  ![Terminal window](/images/image002.png)
 
-- type some arithmetic operation
-- define a function, call it and validate that its output is printed
-- now call print("hello world") and check yourself - what is the difference from above step?
-- in the REPL, the '_' variable has a special meaning - find out what?
-- exit the interpreter - ctrl+z / quit() / exit()
+3. type some arithmetic operation
+4. define a function, call it and validate that its output is printed
+```python
+def 
+6. now call print("hello world") and check yourself - what is the difference from above step?
+7. in the REPL, the '_' variable has a special meaning - find out what?
+8. exit the interpreter - ctrl+z / quit() / exit()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMjgxNDI1NF19
+eyJoaXN0b3J5IjpbNzc3NTIxOTE4XX0=
 -->
