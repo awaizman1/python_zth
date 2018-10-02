@@ -9,9 +9,12 @@ From pycharm:
 - open terminal
 - invoke the interactive interpreter (simply run python)
 - type some arithmetic operation
-- define a function, call it and validate 
+- define a function, call it and validate that its output is printed
+- now call print("hello world") and check yourself - what is the difference from above step?
+- in the REPL, the '_' variable has a special meaning - find out what?
+- exit the interpreter - ctrl
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgwMTUxNDYzXX0=
+eyJoaXN0b3J5IjpbNDIxNTE5NDk1XX0=
 -->
