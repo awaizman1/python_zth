@@ -1,6 +1,6 @@
 import inspect
 import sys
-from subprocess import run
+from subprocess import run, PIPE, STDOUT
 
 def get_task_module_name():
 
@@ -13,7 +13,7 @@ def get_task_module_name():
 def run_test_and_get_output():
     task_module_name = get_task_module_name()
     print(f"Running: {sys.executable} -m {task_module_name}")
-    ret = run([sys.executable, '-m', task_module_name], capture_output=True, text=True)
+    ret = run([sys.executable, '-m', task_module_name], stdout=PIPE, stderr=STDOUT, universal_newlines=True)
     return ret.stdout
 
 
