@@ -15,7 +15,10 @@ multiline str too"""
 
 '''this is a
 multiline str too'''
+```
+
+> '\n' is a universal newline in python
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjA2NjUzMjldfQ==
+eyJoaXN0b3J5IjpbMTgwMzYwMzk0OF19
 -->
