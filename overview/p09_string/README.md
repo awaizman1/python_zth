@@ -28,7 +28,11 @@ multiline str too'''
 "instead of C:\\foo\\goo"
 r"C:\foo\goo"
 ```
+```python
+# format strings (f-string)
+f"
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNjEyNzQ2NSwtMTM2Nzc5NjAwNywxOD
-AzNjAzOTQ4XX0=
+eyJoaXN0b3J5IjpbLTExNzkzNjU1MjQsLTMxNjEyNzQ2NSwtMT
+M2Nzc5NjAwNywxODAzNjAzOTQ4XX0=
 -->
