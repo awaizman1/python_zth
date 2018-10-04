@@ -47,7 +47,10 @@ rf"C:\tmp\{'general' if user is None else 'user'}"
 ```
 ## Convert objects to str
 ```python
-str(5)
+>>> str(5)
+'5'
+>>> str(datetime.now())
+
 ## str as sequence protocol
 ```python
 >>> s = "hello world"
@@ -95,7 +98,7 @@ False
  - perform ***task.py*** and ***task2.py***
  - test yourself by running ***test_task.py*** and ***test_task2.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2OTM3NzU4OCwtMTA1NDA0Nzc5MCw4Mj
+eyJoaXN0b3J5IjpbLTIwNzcwNjUwMSwtMTA1NDA0Nzc5MCw4Mj
 MxNjI2MzgsODIxODU1NTE4LC0zMTYxMjc0NjUsLTEzNjc3OTYw
 MDcsMTgwMzYwMzk0OF19
 -->
