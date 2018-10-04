@@ -15,7 +15,7 @@ else:
 		print("0<=x<=10")
 ```
 
-> Zen: 
+> Zen: ***flat is better than nested.***
 
 ```python
 if x > 10:
@@ -26,5 +26,5 @@ else:
 	print("0<=x<=10")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjIwNTYwNjhdfQ==
+eyJoaXN0b3J5IjpbOTY5MzgxMzExXX0=
 -->
