@@ -9,7 +9,8 @@ https://docs.python.org/3/library/stdtypes.html
 
 ## Truth Value Testing
 Any object can be tested for truth value, for use in an [`if`](https://docs.python.org/3.7/reference/compound_stmts.html#if) or [`while`](https://docs.python.org/3.7/reference/compound_stmts.html#while) condition or as operand of the Boolean operations ([`and`](https://docs.python.org/3.7/reference/expressions.html#and), [`or`](https://docs.python.org/3.7/reference/expressions.html#or), [`not`](https://docs.python.org/3.7/reference/expressions.html#not)).
-In fact this one of the rare cases where "explicit is better than implict" is not followed
+In fact this one of the rare cases where ***"explicit is better than implicit"*** is not followed.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNjc1NDcxMiwxNTEzMjA0NjgyXX0=
+eyJoaXN0b3J5IjpbLTUyMjI2MTc3MSwxNTEzMjA0NjgyXX0=
 -->
