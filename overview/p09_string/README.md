@@ -7,10 +7,13 @@ Immutable sequence of unicode codepoints
 'this is a literal string'
 "this is a literal string too"
 
-# literal str concatenation (don't use 
+# literal str concatenation (don't use '+' for literal str concatenation)
 >>> s = "hello" " world"
 >>> s
 'hello world'
+>>> print("hi "
+>>> 	"there")
+'hi there'
 
 # multiline str
 "this is a\n multiline str"
@@ -88,7 +91,7 @@ False
  - perform ***task.py*** and ***task2.py***
  - test yourself by running ***test_task.py*** and ***test_task2.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk4NTAwMzkzLC0xMDU0MDQ3NzkwLDgyMz
-E2MjYzOCw4MjE4NTU1MTgsLTMxNjEyNzQ2NSwtMTM2Nzc5NjAw
-NywxODAzNjAzOTQ4XX0=
+eyJoaXN0b3J5IjpbLTEyMTgwMTU2MzgsLTEwNTQwNDc3OTAsOD
+IzMTYyNjM4LDgyMTg1NTUxOCwtMzE2MTI3NDY1LC0xMzY3Nzk2
+MDA3LDE4MDM2MDM5NDhdfQ==
 -->
