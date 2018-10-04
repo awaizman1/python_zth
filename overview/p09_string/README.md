@@ -17,8 +17,9 @@ multiline str too"""
 multiline str too'''
 ```
 
-> '\n' is a universal newline in python - io in text mode will automatically translate '\n' to/from native newline
+> ***'\n'*** is a universal newline in python - io in text mode will automatically translate ***'\n'*** to/from native newline
+> https://pythonconquerstheuniverse.wordpress.com/2011/05/08/newline-conversion-in-python-3/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MzY2MjU5MiwxODAzNjAzOTQ4XX0=
+eyJoaXN0b3J5IjpbLTEzNjc3OTYwMDcsMTgwMzYwMzk0OF19
 -->
