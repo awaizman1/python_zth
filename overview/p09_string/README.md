@@ -45,14 +45,19 @@ rf"C:\tmp\{'general' if user is None else 'user'}"
 "hello worldhello world"
 >>> s * 3
 "hello worldhello worldhello world"
->>> 
+>>> s[1]
+'e'
+>>> s[1:5]
+'ello'
+>>> s.count('o')
+
 
 ```
 ### Time for task:
  - perform ***task.py*** and ***task2.py***
  - test yourself by running ***test_task.py*** and ***test_task2.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzE1NzU4NzYsODIzMTYyNjM4LDgyMT
-g1NTUxOCwtMzE2MTI3NDY1LC0xMzY3Nzk2MDA3LDE4MDM2MDM5
-NDhdfQ==
+eyJoaXN0b3J5IjpbLTExMjkyNjkwOCw4MjMxNjI2MzgsODIxOD
+U1NTE4LC0zMTYxMjc0NjUsLTEzNjc3OTYwMDcsMTgwMzYwMzk0
+OF19
 -->
