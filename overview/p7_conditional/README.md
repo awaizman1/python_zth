@@ -5,6 +5,7 @@ if x > 10:
 else:
 	print("<=10")
 ```
+### no
 ```python
 if x > 10:
 	print(">10")
@@ -32,5 +33,5 @@ a = 5 if x > 0 else -5
 print("y") if x else print("n")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMjMyNzc5MCw5NjkzODEzMTFdfQ==
+eyJoaXN0b3J5IjpbOTQxNzQ0MDMwLDk2OTM4MTMxMV19
 -->
