@@ -5,7 +5,7 @@ if x > 10:
 else:
 	print("<=10")
 ```
-### no
+## Remember the zen
 ```python
 if x > 10:
 	print(">10")
@@ -32,6 +32,9 @@ The expression `x  if  C  else  y` first evaluates the condition, _C_ rather tha
 a = 5 if x > 0 else -5
 print("y") if x else print("n")
 ```
+### Time for task:
+ - perform ***task.py***
+ - test yourself by running ***test_task.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQxNzQ0MDMwLDk2OTM4MTMxMV19
+eyJoaXN0b3J5IjpbLTE5NDcyODk3MjgsOTY5MzgxMzExXX0=
 -->
