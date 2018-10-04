@@ -36,7 +36,7 @@ f"today is {today} tomorrow is {today + datetime.timedelta(days=1)}"
 # raw f-string
 rf"C:\tmp\{'general' if user is None else 'user'}"
 ```
-## str as sequence
+## str as sequence protocol
 ```python
 >>> s = "hello world"
 >>> len(s)
@@ -71,17 +71,18 @@ False
 >>> s *= 2
 >>> s
 'hello world againhello world again'
+```
+```python
 >>> s[4]
 >>> del s[4]
 >>> s[1:3] = 'abc'
 >>> del s[1:3]
-
 ```
 ### Time for task:
  - perform ***task.py*** and ***task2.py***
  - test yourself by running ***test_task.py*** and ***test_task2.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEyNjI3NDk2LDgyMzE2MjYzOCw4MjE4NT
-U1MTgsLTMxNjEyNzQ2NSwtMTM2Nzc5NjAwNywxODAzNjAzOTQ4
-XX0=
+eyJoaXN0b3J5IjpbLTExNjU2Njk0Miw4MjMxNjI2MzgsODIxOD
+U1NTE4LC0zMTYxMjc0NjUsLTEzNjc3OTYwMDcsMTgwMzYwMzk0
+OF19
 -->
