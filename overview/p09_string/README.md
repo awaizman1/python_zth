@@ -30,9 +30,10 @@ r"C:\foo\goo"
 ```
 ```python
 # format strings (f-string)
-f"
+today = datatime.now()
+f"today is {today} tomorrow is {today
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzkzNjU1MjQsLTMxNjEyNzQ2NSwtMT
-M2Nzc5NjAwNywxODAzNjAzOTQ4XX0=
+eyJoaXN0b3J5IjpbLTM5NjgxNDg0NywtMzE2MTI3NDY1LC0xMz
+Y3Nzk2MDA3LDE4MDM2MDM5NDhdfQ==
 -->
