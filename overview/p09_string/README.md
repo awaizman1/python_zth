@@ -33,10 +33,11 @@ r"C:\foo\goo"
 today = datatime.now()
 f"today is {today} tomorrow is {today + datetime.timedelta(days=1)}"
 
+# raw f-string
 folder = "foo"
-path = f{
+rf"C:\tmp\{folder}"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU2NzE1ODExLC0zMTYxMjc0NjUsLTEzNj
-c3OTYwMDcsMTgwMzYwMzk0OF19
+eyJoaXN0b3J5IjpbMTMxNDgzMTYwMSwtMzE2MTI3NDY1LC0xMz
+Y3Nzk2MDA3LDE4MDM2MDM5NDhdfQ==
 -->
