@@ -7,8 +7,15 @@ Immutable sequence of unicode codepoints
 'this is a literal string'
 "this is a literal string too"
 
-# multiline 
+# multiline str
+"this is a\n multiline str"
+
+"""this is a
+multiline str too"""
+
+'''this is a
+multiline str too'''
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODY0NDQ5ODVdfQ==
+eyJoaXN0b3J5IjpbLTE0NjA2NjUzMjldfQ==
 -->
