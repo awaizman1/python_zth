@@ -25,6 +25,9 @@ elif x < 0:
 else:
 	print("0<=x<=10")
 ```
+## Conditional expression
+```python
+a = 5 if x > 0 else -5
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY5MzgxMzExXX0=
+eyJoaXN0b3J5IjpbLTE4NTkzMjI4NCw5NjkzODEzMTFdfQ==
 -->
