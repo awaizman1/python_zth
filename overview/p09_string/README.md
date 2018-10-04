@@ -40,13 +40,19 @@ rf"C:\tmp\{'general' if user is None else 'user'}"
 ```python
 >>> s = "hello world"
 >>> len(s)
+11
+>>> s + s
+"hello worldhello world"
+>>> s * 3
+"hello worldhello worldhello world"
+>>> 
 
 ```
 ### Time for task:
  - perform ***task.py*** and ***task2.py***
  - test yourself by running ***test_task.py*** and ***test_task2.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzkzNTgyOTEsODIzMTYyNjM4LDgyMT
+eyJoaXN0b3J5IjpbLTE3MzE1NzU4NzYsODIzMTYyNjM4LDgyMT
 g1NTUxOCwtMzE2MTI3NDY1LC0xMzY3Nzk2MDA3LDE4MDM2MDM5
 NDhdfQ==
 -->
