@@ -12,7 +12,12 @@ Any object can be tested for truth value, for use in an [`if`](https://docs.pyth
 
 > This one of the **rare** cases where ***"explicit is better than implicit"*** is not followed.
 
+### Time for task:
+ - perform ***task.py***
+ - test yourself by running ***test_task.py***
+ - can you find out the ***
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNjI3NjAwNiwtNTIyMjYxNzcxLDE1MT
-MyMDQ2ODJdfQ==
+eyJoaXN0b3J5IjpbLTI1NTc0ODg2MywtMjM2Mjc2MDA2LC01Mj
+IyNjE3NzEsMTUxMzIwNDY4Ml19
 -->
