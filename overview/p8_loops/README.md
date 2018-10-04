@@ -22,6 +22,9 @@ The else suite will be executed if we don't exit the loop in any way other than 
 
 Useful for search patterns:
 ![enter image description here](/images/p8-3.png)
+### Time for task:
+ - perform ***task.py***
+ - test yourself by running ***test_task.py***
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbOTM1NDQ0ODQwXX0=
 -->
