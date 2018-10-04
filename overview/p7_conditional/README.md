@@ -14,6 +14,17 @@ else:
 	else:
 		print("0<=x<=10")
 ```
+
+> Zen: 
+
+```python
+if x > 10:
+	print(">10")
+elif x < 0:
+	print("<0")
+else:
+	print("0<=x<=10")
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NTcxMzBdfQ==
+eyJoaXN0b3J5IjpbLTEwNjIwNTYwNjhdfQ==
 -->
