@@ -11,15 +11,15 @@ def get_task_module_name(run_task_ref):
             return test_task_module_name.replace("test_task", task_module_name)
 
 
-def run_test_and_get_output(run_task_ref):
+def run_test_and_get_output(input, run_task_ref):
     task_module_name = get_task_module_name(run_task_ref)
     print(f"Running: {sys.executable} -m {task_module_name}")
-    ret = run([sys.executable, '-m', task_module_name], stdout=PIPE, stderr=STDOUT, universal_newlines=True)
+    ret = run([sys.executable, '-m', task_module_name], input=input, stdout=PIPE, stderr=STDOUT, universal_newlines=True)
     return ret.stdout
 
 
-def check_output(expected_output, run_task_ref = False):
-    output = run_test_and_get_output(run_task_ref)
+def check_output(expected_output, input = None, run_task_ref = False):
+    output = run_test_and_get_output(input, run_task_ref)
 
     if expected_output != output:
         raise AssertionError(f"""expected_output != output
@@ -28,3 +28,8 @@ expected_output:-->
 
 ouput:-->
 {output}<--""")
+
+def check_samples(samples, run_task_ref=False):
+
+    for input_, expected_output in samples:
+        check_output(expected_output, input_, run_task_ref)
