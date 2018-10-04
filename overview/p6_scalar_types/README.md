@@ -15,9 +15,9 @@ Any object can be tested for truth value, for use in an [`if`](https://docs.pyth
 ### Time for task:
  - perform ***task.py***
  - test yourself by running ***test_task.py***
- - can you find out the ***sizeof(int)***?
+ - can you find out the ***sizeof(int)*** ?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NTUxMjE0NCwtMjM2Mjc2MDA2LC01Mj
+eyJoaXN0b3J5IjpbMTQ5OTYxOTU4NiwtMjM2Mjc2MDA2LC01Mj
 IyNjE3NzEsMTUxMzIwNDY4Ml19
 -->
