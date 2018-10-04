@@ -11,9 +11,10 @@ Immutable sequence of unicode codepoints
 >>> s = "hello" " world"
 >>> s
 'hello world'
->>> print("hi "
->>> 	"there")
-'hi there'
+>>> print("this is a very long line so i split it to two: "
+>>> 	"first part and "
+>>> 	"second part")
+'this is a very long line so i split it to two: first part and second '
 
 # multiline str
 "this is a\n multiline str"
@@ -91,7 +92,7 @@ False
  - perform ***task.py*** and ***task2.py***
  - test yourself by running ***test_task.py*** and ***test_task2.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTgwMTU2MzgsLTEwNTQwNDc3OTAsOD
-IzMTYyNjM4LDgyMTg1NTUxOCwtMzE2MTI3NDY1LC0xMzY3Nzk2
-MDA3LDE4MDM2MDM5NDhdfQ==
+eyJoaXN0b3J5IjpbODc0ODYyMDY3LC0xMDU0MDQ3NzkwLDgyMz
+E2MjYzOCw4MjE4NTU1MTgsLTMxNjEyNzQ2NSwtMTM2Nzc5NjAw
+NywxODAzNjAzOTQ4XX0=
 -->
