@@ -34,10 +34,9 @@ today = datatime.now()
 f"today is {today} tomorrow is {today + datetime.timedelta(days=1)}"
 
 # raw f-string
-folder = "foo"
-rf"C:\tmp\{folder}"
+rf"C:\tmp\{'general' if user is None else }"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNDgzMTYwMSwtMzE2MTI3NDY1LC0xMz
+eyJoaXN0b3J5IjpbMjEwNDc2NDkxNSwtMzE2MTI3NDY1LC0xMz
 Y3Nzk2MDA3LDE4MDM2MDM5NDhdfQ==
 -->
