@@ -46,6 +46,7 @@ f"today is {today} tomorrow is {today + datetime.timedelta(days=1)}"
 rf"C:\tmp\{'general' if user is None else 'user'}"
 ```
 ## Convert objects to str
+Use the ***str*** constructor
 ```python
 >>> str(5)
 '5'
@@ -100,7 +101,7 @@ False
  - perform ***task.py*** and ***task2.py***
  - test yourself by running ***test_task.py*** and ***test_task2.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDA5MzE3MzAsLTEwNTQwNDc3OTAsOD
+eyJoaXN0b3J5IjpbLTE4NDc2MTQyMDksLTEwNTQwNDc3OTAsOD
 IzMTYyNjM4LDgyMTg1NTUxOCwtMzE2MTI3NDY1LC0xMzY3Nzk2
 MDA3LDE4MDM2MDM5NDhdfQ==
 -->
