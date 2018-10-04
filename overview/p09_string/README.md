@@ -31,9 +31,12 @@ r"C:\foo\goo"
 ```python
 # format strings (f-string)
 today = datatime.now()
-f"today is {today} tomorrow is {today
+f"today is {today} tomorrow is {today + datetime.timedelta(days=1)}"
+
+folder = "foo"
+path = f{
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NjgxNDg0NywtMzE2MTI3NDY1LC0xMz
-Y3Nzk2MDA3LDE4MDM2MDM5NDhdfQ==
+eyJoaXN0b3J5IjpbMzU2NzE1ODExLC0zMTYxMjc0NjUsLTEzNj
+c3OTYwMDcsMTgwMzYwMzk0OF19
 -->
