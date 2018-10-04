@@ -20,7 +20,7 @@ The else suite will be executed if we don't exit the loop in any way other than 
 [the forgotten optional else in python loops](https://medimum.com/@s16h/the-forgotten-optional-else-in-python-loops)
 
 Useful for search patterns:
-![enter image description here](/images/p8-3)
+![enter image description here](/images/p8-3.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NzEyNTIzOV19
+eyJoaXN0b3J5IjpbLTEzMTc2MzU5NjRdfQ==
 -->
