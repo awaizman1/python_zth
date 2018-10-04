@@ -72,7 +72,7 @@ False
 >>> s
 'hello world againhello world again'
 ```
-### All of the below statement gives TypeError, (although part of sequ why?
+### All of the below statement gives TypeError (although part of sequence protocol) - why?
 ```python
 >>> s[4]
 >>> del s[4]
@@ -83,7 +83,7 @@ False
  - perform ***task.py*** and ***task2.py***
  - test yourself by running ***test_task.py*** and ***test_task2.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njk1ODgwODMsODIzMTYyNjM4LDgyMT
+eyJoaXN0b3J5IjpbLTEwNTQwNDc3OTAsODIzMTYyNjM4LDgyMT
 g1NTUxOCwtMzE2MTI3NDY1LC0xMzY3Nzk2MDA3LDE4MDM2MDM5
 NDhdfQ==
 -->
