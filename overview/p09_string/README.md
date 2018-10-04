@@ -50,6 +50,8 @@ rf"C:\tmp\{'general' if user is None else 'user'}"
 >>> str(5)
 '5'
 >>> str(datetime.now())
+'2018-10-04 21:24:43.201961'
+```
 
 ## str as sequence protocol
 ```python
@@ -98,7 +100,7 @@ False
  - perform ***task.py*** and ***task2.py***
  - test yourself by running ***test_task.py*** and ***test_task2.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzcwNjUwMSwtMTA1NDA0Nzc5MCw4Mj
-MxNjI2MzgsODIxODU1NTE4LC0zMTYxMjc0NjUsLTEzNjc3OTYw
-MDcsMTgwMzYwMzk0OF19
+eyJoaXN0b3J5IjpbLTEyMDA5MzE3MzAsLTEwNTQwNDc3OTAsOD
+IzMTYyNjM4LDgyMTg1NTUxOCwtMzE2MTI3NDY1LC0xMzY3Nzk2
+MDA3LDE4MDM2MDM5NDhdfQ==
 -->
