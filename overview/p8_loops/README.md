@@ -15,7 +15,9 @@
 > ...
 > while
 ![enter image description here](/images/p8-2.png)
-## The optional els
+## The optional else-clause
+The else suite will be executed if we don't exit the loop in any way other than its natural way. So, no break statements, no return statement, or no exceptions being raised inside the loop.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NjQyMTg1XX0=
+eyJoaXN0b3J5IjpbLTEzNzM1ODYxNDddfQ==
 -->
