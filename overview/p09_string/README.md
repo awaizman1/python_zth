@@ -23,8 +23,12 @@ multiline str too'''
 # escape char in literals
 "say \"hello\""
 'say "hello" better'
+
+# raw str
+"instead of C:\\foo\\goo"
+r"C:\foo\goo"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzMwNDQ5MTYsLTEzNjc3OTYwMDcsMT
-gwMzYwMzk0OF19
+eyJoaXN0b3J5IjpbLTMxNjEyNzQ2NSwtMTM2Nzc5NjAwNywxOD
+AzNjAzOTQ4XX0=
 -->
