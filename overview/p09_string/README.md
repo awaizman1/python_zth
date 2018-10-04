@@ -57,7 +57,11 @@ True
 True
 >>> 'z' in s
 False
-
+>>> o.index('e')
+1
+>>> s.index('world')
+6
+>>> list(s)
 
 
 ```
@@ -65,7 +69,7 @@ False
  - perform ***task.py*** and ***task2.py***
  - test yourself by running ***test_task.py*** and ***test_task2.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NDQ1MDg3Nyw4MjMxNjI2MzgsODIxOD
-U1NTE4LC0zMTYxMjc0NjUsLTEzNjc3OTYwMDcsMTgwMzYwMzk0
-OF19
+eyJoaXN0b3J5IjpbNjE5NjM3Njg5LDgyMzE2MjYzOCw4MjE4NT
+U1MTgsLTMxNjEyNzQ2NSwtMTM2Nzc5NjAwNywxODAzNjAzOTQ4
+XX0=
 -->
