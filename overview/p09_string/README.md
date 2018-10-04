@@ -65,15 +65,18 @@ False
 ['h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd']
 >>> tuple(s)
 ('h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd')
+>>> s += "
 >>> s[4]
 >>> del s[4]
+>>> s[1:3] = 'abc'
+>>> del s[1:3]
 
 ```
 ### Time for task:
  - perform ***task.py*** and ***task2.py***
  - test yourself by running ***test_task.py*** and ***test_task2.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTk1NTU4NzUsODIzMTYyNjM4LDgyMT
+eyJoaXN0b3J5IjpbLTIwMjY5OTcwMDYsODIzMTYyNjM4LDgyMT
 g1NTUxOCwtMzE2MTI3NDY1LC0xMzY3Nzk2MDA3LDE4MDM2MDM5
 NDhdfQ==
 -->
