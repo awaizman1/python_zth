@@ -14,7 +14,7 @@ Immutable sequence of unicode codepoints
 >>> print("this is a very long line so i split it to two: "
 >>> 	"first part and "
 >>> 	"second part")
-'this is a very long line so i split it to two: first part and second '
+'this is a very long line so i split it to two: first part and second part'
 
 # multiline str
 "this is a\n multiline str"
@@ -45,6 +45,9 @@ f"today is {today} tomorrow is {today + datetime.timedelta(days=1)}"
 # raw f-string
 rf"C:\tmp\{'general' if user is None else 'user'}"
 ```
+## Convert objects to str
+```python
+str(5)
 ## str as sequence protocol
 ```python
 >>> s = "hello world"
@@ -92,7 +95,7 @@ False
  - perform ***task.py*** and ***task2.py***
  - test yourself by running ***test_task.py*** and ***test_task2.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc0ODYyMDY3LC0xMDU0MDQ3NzkwLDgyMz
-E2MjYzOCw4MjE4NTU1MTgsLTMxNjEyNzQ2NSwtMTM2Nzc5NjAw
-NywxODAzNjAzOTQ4XX0=
+eyJoaXN0b3J5IjpbMTI2OTM3NzU4OCwtMTA1NDA0Nzc5MCw4Mj
+MxNjI2MzgsODIxODU1NTE4LC0zMTYxMjc0NjUsLTEzNjc3OTYw
+MDcsMTgwMzYwMzk0OF19
 -->
