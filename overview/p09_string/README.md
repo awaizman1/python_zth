@@ -36,10 +36,17 @@ f"today is {today} tomorrow is {today + datetime.timedelta(days=1)}"
 # raw f-string
 rf"C:\tmp\{'general' if user is None else 'user'}"
 ```
+## str as sequence
+```python
+>>> s = "hello world"
+>>> len(s)
+
+```
 ### Time for task:
  - perform ***task.py*** and ***task2.py***
  - test yourself by running ***test_task.py*** and ***test_task2.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIzMTYyNjM4LDgyMTg1NTUxOCwtMzE2MT
-I3NDY1LC0xMzY3Nzk2MDA3LDE4MDM2MDM5NDhdfQ==
+eyJoaXN0b3J5IjpbLTEyMzkzNTgyOTEsODIzMTYyNjM4LDgyMT
+g1NTUxOCwtMzE2MTI3NDY1LC0xMzY3Nzk2MDA3LDE4MDM2MDM5
+NDhdfQ==
 -->
