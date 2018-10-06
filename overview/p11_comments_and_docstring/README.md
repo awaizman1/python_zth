@@ -47,9 +47,49 @@ class Calculator:
         return a + b
 ```
 ```python
-help(calculator
+>>> import calculator
+>>> help(calculator)
+Help on module calculator:
+NAME
+    nts_and_docstring.task - A very basic calculator
+CLASSES
+    builtins.object
+        Calculator
+    
+    class Calculator(builtins.object)
+     |  Calculator(print_to_console)
+     |  
+     |  Provides basic calculator operations.
+     |  
+     |  Methods defined here:
+     |  
+     |  __init__(self, print_to_console)
+     |      Initializes the calculator
+     |      
+     |      :param print_to_console: controls whether to print all operations
+     |  
+     |  add(a, b)
+     |      Adds 2 numbers.
+     |      
+     |      :param a: first arg
+     |      :param b: second arg
+     |      :return: a + b
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+FUNCTIONS
+    get_default_calculator()
+        Gets the default calculator
+FILE
+    /Users/assaf/Documents/GitHub/python_zth/overview/p11_comments_and_docstring/task.py
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTM1MTgxNTQsLTI3Nzk0MDUxMywtOT
-MzOTgxMTYzXX0=
+eyJoaXN0b3J5IjpbMTIzNzA4NDEyMiwtMjc3OTQwNTEzLC05Mz
+M5ODExNjNdfQ==
 -->
