@@ -23,7 +23,7 @@ def get_default_calculator():
 class Calculator:
     """ Provides basic calculator operations. """
 	
-    def __init__(print_to_console):
+    def __init__(self, print_to_console):
 	    """
 	    Initializes the calculator
 	    
@@ -32,7 +32,7 @@ class Calculator:
 
 		self._print_to_console = print_to_console
 
-    def add(a, b):
+    def add(self, a, b):
         """
         Adds 2 numbers.
         
@@ -42,7 +42,7 @@ class Calculator:
         """
 
         if self._print_to_console:
-            print(f"adding {a} and {b}"})
+            print(f"adding {a} and {b}")
         
         return a + b
 ```
@@ -50,5 +50,6 @@ class Calculator:
 help(calculator
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3Nzk0MDUxMywtOTMzOTgxMTYzXX0=
+eyJoaXN0b3J5IjpbLTE5OTM1MTgxNTQsLTI3Nzk0MDUxMywtOT
+MzOTgxMTYzXX0=
 -->
