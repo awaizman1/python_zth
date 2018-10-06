@@ -12,11 +12,19 @@ class Calculator:
 	    """Initializes the calculator
 	    
 	    :param print_to_console: controls whether to print all operations
+	    """
 
+    def add(a, b):
+        """ Adds 2 numbers.
+        
+            :param a: first arg
+            :param b: second arg
+            :return: a + b
+        """
 
-"""
+        if self._print_to_console:
 		self._print_to_console = print_to_console
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MTk3NjYyMCwtOTMzOTgxMTYzXX0=
+eyJoaXN0b3J5IjpbLTU1MjI1ODU0OCwtOTMzOTgxMTYzXX0=
 -->
