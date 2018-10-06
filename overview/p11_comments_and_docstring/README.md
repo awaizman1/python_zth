@@ -96,16 +96,17 @@ FILE
 - Targeting you and fellow developers.
 -  Document public and private package / module / class / method / function as needed.
 ```python
-# single line comment
+# create a list of ints (single line comment)
+l = [1, 2, 3]
 
-# comments block
-# line1
-# line2
+# create a list of ints (comments block)
+# list on index i will hold i + 1
 # ...
+l = [1, 2, 3]
 
-l = [1, 2, 3]  # inline comment
+l = [1, 2, 3]  # create a list of lines (inline comment)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzk0MzMwNTUsLTI3Nzk0MDUxMywtOT
-MzOTgxMTYzXX0=
+eyJoaXN0b3J5IjpbOTczNjc5OTk5LC0yNzc5NDA1MTMsLTkzMz
+k4MTE2M119
 -->
