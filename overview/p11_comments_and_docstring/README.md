@@ -6,8 +6,12 @@ Use comments to explain the way. comments are for you and fellow developers.
 """ A basic calculator
 
 class Calculator:
-""" Provides 
+	""" Provides basic calculator operations. """
+	
+	def __init__(print_to_console):
+		"""Initializes the calculator
+		self._print_to_console = print_to_console
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY3ODk1MjU5LC05MzM5ODExNjNdfQ==
+eyJoaXN0b3J5IjpbMTAwODY2NTk2NiwtOTMzOTgxMTYzXX0=
 -->
