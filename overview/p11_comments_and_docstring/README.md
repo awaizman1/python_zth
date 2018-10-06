@@ -5,6 +5,9 @@ Use comments to explain the way. comments are for you and fellow developers.
 ```python
 """ A basic calculator
 
+def get_default_calculator():
+	return Calculator(True)
+
 class Calculator:
     """ Provides basic calculator operations. """
 	
@@ -31,5 +34,5 @@ class Calculator:
         
         return a + b
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzOTM5NDE4NCwtOTMzOTgxMTYzXX0=
+eyJoaXN0b3J5IjpbLTIwODQ3NDkxNTQsLTkzMzk4MTE2M119
 -->
