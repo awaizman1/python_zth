@@ -21,6 +21,7 @@ def get_default_calculator():
     """
     return Calculator(True)
 
+
 class Calculator:
     """ Provides basic calculator operations. """
 	
@@ -107,6 +108,6 @@ l = [1, 2, 3]
 l = [1, 2, 3]  # create a list of lines (inline comment)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc1NzU4NjIxLC0yNzc5NDA1MTMsLTkzMz
-k4MTE2M119
+eyJoaXN0b3J5IjpbMTgxNjI2NDkwNywtMjc3OTQwNTEzLC05Mz
+M5ODExNjNdfQ==
 -->
