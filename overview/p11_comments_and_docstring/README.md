@@ -3,9 +3,14 @@ Use docstring to document public package / module / class / method / function. d
 Use comments to explain the way. comments are for you and fellow developers.
 # docstrings
 ```python
-""" A basic calculator
+"""
+ A basic calculator
 
 def get_default_calculator():
+    """
+    Gets the default calculator
+    """
+    
 	return Calculator(True)
 
 class Calculator:
@@ -33,6 +38,7 @@ class Calculator:
             print(f"adding {a} and {b}"})
         
         return a + b
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODQ3NDkxNTQsLTkzMzk4MTE2M119
+eyJoaXN0b3J5IjpbNjY0MzM4ODU1LC05MzM5ODExNjNdfQ==
 -->
