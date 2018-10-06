@@ -8,8 +8,10 @@ Immutable sequence of bytes
 b'this is a bytes literal'
 b"this is a bytes literal too"
 
-b"0xCA
+#with hex values (whitespace ignored)
+b"0xCA 0xFE"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY3Mjk5OTA1LC0yMDkxNTk5OTldfQ==
+eyJoaXN0b3J5IjpbMTM5NDQ4NTA4MCwyNjcyOTk5MDUsLTIwOT
+E1OTk5OV19
 -->
