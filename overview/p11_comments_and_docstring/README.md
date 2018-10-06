@@ -92,7 +92,10 @@ FUNCTIONS
 FILE
     /Users/assaf/calculator.py
 ```
+# Comments
+```python
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMTMyNTIwMywtMjc3OTQwNTEzLC05Mz
+eyJoaXN0b3J5IjpbLTM0NDg1NTY2OCwtMjc3OTQwNTEzLC05Mz
 M5ODExNjNdfQ==
 -->
