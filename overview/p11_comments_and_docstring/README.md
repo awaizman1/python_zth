@@ -2,9 +2,13 @@
 Use docstring to document public package / module / class / method / function. docstring should focus on what and are mainly for your users.
 Use comments to explain the way. comments are for you and fellow developers.
 # docstrings
+- Focuses on what!
+- T
+The code below shows module, class, method and function docstring.
 ```python
 """
- A basic calculator
+A very basic calculator
+"""
 
 def get_default_calculator():
     """
@@ -40,5 +44,5 @@ class Calculator:
         return a + b
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY0MzM4ODU1LC05MzM5ODExNjNdfQ==
+eyJoaXN0b3J5IjpbLTEwNzEzNDEzODcsLTkzMzk4MTE2M119
 -->
