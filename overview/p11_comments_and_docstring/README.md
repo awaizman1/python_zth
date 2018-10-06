@@ -3,8 +3,11 @@ Use docstring to document public package / module / class / method / function. d
 Use comments to explain the way. comments are for you and fellow developers.
 # docstrings
 ```python
-"""
+""" A basic calculator
+
+class Calculator:
+""" Provides 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIyODU1NzE4LC05MzM5ODExNjNdfQ==
+eyJoaXN0b3J5IjpbOTY3ODk1MjU5LC05MzM5ODExNjNdfQ==
 -->
