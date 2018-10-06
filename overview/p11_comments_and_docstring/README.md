@@ -46,12 +46,13 @@ class Calculator:
         
         return a + b
 ```
+Now we get informative description of our module:
 ```python
 >>> import calculator
 >>> help(calculator)
 Help on module calculator:
 NAME
-    nts_and_docstring.task - A very basic calculator
+    calculator - A very basic calculator
 CLASSES
     builtins.object
         Calculator
@@ -90,6 +91,6 @@ FILE
     /Users/assaf/Documents/GitHub/python_zth/overview/p11_comments_and_docstring/task.py
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNzA4NDEyMiwtMjc3OTQwNTEzLC05Mz
-M5ODExNjNdfQ==
+eyJoaXN0b3J5IjpbLTExOTgyMTc2NzMsLTI3Nzk0MDUxMywtOT
+MzOTgxMTYzXX0=
 -->
