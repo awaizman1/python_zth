@@ -7,7 +7,9 @@ Immutable sequence of bytes
 ```python
 b'this is a bytes literal'
 b"this is a bytes literal too"
+
+b"0xCA
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTE1OTk5OV19
+eyJoaXN0b3J5IjpbMjY3Mjk5OTA1LC0yMDkxNTk5OTldfQ==
 -->
