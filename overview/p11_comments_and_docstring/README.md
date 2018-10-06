@@ -3,7 +3,9 @@ Use docstring to document public package / module / class / method / function. d
 Use comments to explain the way. comments are for you and fellow developers.
 # docstrings
 - Focuses on what!
-- T
+- Targeting your consumers.
+- Useful with [help](
+- Document only public package / module / class / method / function, not private ones!
 The code below shows module, class, method and function docstring.
 ```python
 """
@@ -44,5 +46,5 @@ class Calculator:
         return a + b
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzEzNDEzODcsLTkzMzk4MTE2M119
+eyJoaXN0b3J5IjpbMjAwMTM1NDMyMCwtOTMzOTgxMTYzXX0=
 -->
