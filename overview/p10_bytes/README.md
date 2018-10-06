@@ -15,10 +15,13 @@ b"this is a bytes literal too"
 #with hex values
 b"\xCA\xFE"
 ```
+## Converting to / from str
+Convert bytes to / from str using encode / decode 
 # bytearray
 Mutable counterpart of bytes
 https://docs.python.org/3/library/stdtypes.html#bytearray-objects
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU2Mjc0MjIwLC05MzYxMjUxMjgsMTM5ND
-Q4NTA4MCwyNjcyOTk5MDUsLTIwOTE1OTk5OV19
+eyJoaXN0b3J5IjpbMTY0ODI5NjMzMiw4NTYyNzQyMjAsLTkzNj
+EyNTEyOCwxMzk0NDg1MDgwLDI2NzI5OTkwNSwtMjA5MTU5OTk5
+XX0=
 -->
