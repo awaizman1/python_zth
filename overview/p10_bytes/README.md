@@ -22,8 +22,11 @@ Convert bytes to / from str using ***encode / decode*** methods.
 # bytearray
 Mutable counterpart of bytes
 https://docs.python.org/3/library/stdtypes.html#bytearray-objects
+### Time for task:
+ - perform ***task.py***
+ - test yourself by running ***test_task.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg3MzQ4MjU4LDg1NjI3NDIyMCwtOTM2MT
-I1MTI4LDEzOTQ0ODUwODAsMjY3Mjk5OTA1LC0yMDkxNTk5OTld
-fQ==
+eyJoaXN0b3J5IjpbNDA1NDM4MzU3LDc4NzM0ODI1OCw4NTYyNz
+QyMjAsLTkzNjEyNTEyOCwxMzk0NDg1MDgwLDI2NzI5OTkwNSwt
+MjA5MTU5OTk5XX0=
 -->
