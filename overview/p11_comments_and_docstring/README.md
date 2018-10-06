@@ -5,6 +5,7 @@ Use docstrings and comments for documenting your code.
 - Targeting your consumers.
 - Useful with [help](https://docs.python.org/3/library/functions.html#help) builtin function.
 - Document only public package / module / class / method / function, not private ones!   
+- There are tools for creating web / pdf / etc. documentation from docstrings (i.e. [sphinx](http://www.sphinx-doc.org/en/master/)).
 
 > package docstrings is placed in package's ***__init__.py*** file (will be discussed later)
 
@@ -107,6 +108,6 @@ l = [1, 2, 3]
 l = [1, 2, 3]  # create a list of lines (inline comment)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTczNjc5OTk5LC0yNzc5NDA1MTMsLTkzMz
-k4MTE2M119
+eyJoaXN0b3J5IjpbLTU1Nzk2MzMyMSwtMjc3OTQwNTEzLC05Mz
+M5ODExNjNdfQ==
 -->
