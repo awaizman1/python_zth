@@ -19,8 +19,7 @@ def get_default_calculator():
     """
     Gets the default calculator
     """
-    
-	return Calculator(True)
+    return Calculator(True)
 
 class Calculator:
     """ Provides basic calculator operations. """
@@ -108,6 +107,6 @@ l = [1, 2, 3]
 l = [1, 2, 3]  # create a list of lines (inline comment)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1Nzk2MzMyMSwtMjc3OTQwNTEzLC05Mz
-M5ODExNjNdfQ==
+eyJoaXN0b3J5IjpbMzM0OTA5MzQxLC0yNzc5NDA1MTMsLTkzMz
+k4MTE2M119
 -->
