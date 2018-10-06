@@ -1,5 +1,5 @@
 # Comments and docstring
-Use docstrings and comments for d
+Use docstrings and comments for documenting your code.
 # docstrings
 - Focused on what!
 - Targeting your consumers.
@@ -96,8 +96,16 @@ FILE
 - Targeting you and fellow developers.
 -  Document public and private package / module / class / method / function as needed.
 ```python
+# single line comment
+
+# comments block
+# line1
+# line2
+# ...
+
+l = [1, 2, 3]  # inline comment
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NjMzNTA3NiwtMjc3OTQwNTEzLC05Mz
-M5ODExNjNdfQ==
+eyJoaXN0b3J5IjpbLTE5Nzk0MzMwNTUsLTI3Nzk0MDUxMywtOT
+MzOTgxMTYzXX0=
 -->
