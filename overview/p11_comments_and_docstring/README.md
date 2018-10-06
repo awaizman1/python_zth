@@ -25,13 +25,13 @@ class Calculator:
     """ Provides basic calculator operations. """
 	
     def __init__(self, print_to_console):
-	    """
-	    Initializes the calculator
+        """
+        Initializes the calculator
 	    
-	    :param print_to_console: controls whether to print all operations
-	    """
+        :param print_to_console: controls whether to print all operations
+        """
 
-		self._print_to_console = print_to_console
+        self._print_to_console = print_to_console
 
     def add(self, a, b):
         """
@@ -107,6 +107,6 @@ l = [1, 2, 3]
 l = [1, 2, 3]  # create a list of lines (inline comment)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM0OTA5MzQxLC0yNzc5NDA1MTMsLTkzMz
+eyJoaXN0b3J5IjpbODc1NzU4NjIxLC0yNzc5NDA1MTMsLTkzMz
 k4MTE2M119
 -->
