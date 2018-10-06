@@ -1,8 +1,7 @@
 # Comments and docstring
-Use docstring to document public package / module / class / method / function. docstring should focus on what and are mainly for your users.
-Use comments to explain the way. comments are for you and fellow developers.
+Use docstrings and comments for d
 # docstrings
-- Focuses on what!
+- Focused on what!
 - Targeting your consumers.
 - Useful with [help](https://docs.python.org/3/library/functions.html#help) builtin function.
 - Document only public package / module / class / method / function, not private ones!   
@@ -93,9 +92,12 @@ FILE
     /Users/assaf/calculator.py
 ```
 # Comments
+- Focused on why and how!
+- Targeting you and fellow developers.
+-  Document public and private package / module / class / method / function as needed.
 ```python
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NDg1NTY2OCwtMjc3OTQwNTEzLC05Mz
+eyJoaXN0b3J5IjpbLTg2NjMzNTA3NiwtMjc3OTQwNTEzLC05Mz
 M5ODExNjNdfQ==
 -->
