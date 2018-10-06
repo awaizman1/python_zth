@@ -7,6 +7,15 @@ Immutable sequence of unicode codepoints
 'this is a literal string'
 "this is a literal string too"
 
+# literal str concatenation (don't use '+' for literal str concatenation)
+>>> s = "hello" " world"
+>>> s
+'hello world'
+>>> print("this is a very long line so i split it to two: "
+>>> 	"first part and "
+>>> 	"second part")
+'this is a very long line so i split it to two: first part and second part'
+
 # multiline str
 "this is a\n multiline str"
 
@@ -36,6 +45,15 @@ f"today is {today} tomorrow is {today + datetime.timedelta(days=1)}"
 # raw f-string
 rf"C:\tmp\{'general' if user is None else 'user'}"
 ```
+## Convert objects to str
+Use the ***str*** constructor
+```python
+>>> str(5)
+'5'
+>>> str(datetime.now())
+'2018-10-04 21:24:43.201961'
+```
+
 ## str as sequence protocol
 ```python
 >>> s = "hello world"
@@ -83,7 +101,7 @@ False
  - perform ***task.py*** and ***task2.py***
  - test yourself by running ***test_task.py*** and ***test_task2.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTQwNDc3OTAsODIzMTYyNjM4LDgyMT
-g1NTUxOCwtMzE2MTI3NDY1LC0xMzY3Nzk2MDA3LDE4MDM2MDM5
-NDhdfQ==
+eyJoaXN0b3J5IjpbLTE4NDc2MTQyMDksLTEwNTQwNDc3OTAsOD
+IzMTYyNjM4LDgyMTg1NTUxOCwtMzE2MTI3NDY1LC0xMzY3Nzk2
+MDA3LDE4MDM2MDM5NDhdfQ==
 -->
