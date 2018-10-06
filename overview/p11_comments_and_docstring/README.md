@@ -4,9 +4,10 @@ Use comments to explain the way. comments are for you and fellow developers.
 # docstrings
 - Focuses on what!
 - Targeting your consumers.
-- Useful with [help](
-- Document only public package / module / class / method / function, not private ones!
-The code below shows module, class, method and function docstring.
+- Useful with [help](https://docs.python.org/3/library/functions.html#help) builtin function.
+- Document only public package / module / class / method / function, not private ones!   
+
+The code below shows module, class, method and function docstrings:
 ```python
 """
 A very basic calculator
@@ -45,6 +46,9 @@ class Calculator:
         
         return a + b
 ```
+```python
+help(calculator
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMTM1NDMyMCwtOTMzOTgxMTYzXX0=
+eyJoaXN0b3J5IjpbLTI3Nzk0MDUxMywtOTMzOTgxMTYzXX0=
 -->
