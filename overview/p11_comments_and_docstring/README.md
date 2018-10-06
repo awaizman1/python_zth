@@ -7,6 +7,8 @@ Use comments to explain the way. comments are for you and fellow developers.
 - Useful with [help](https://docs.python.org/3/library/functions.html#help) builtin function.
 - Document only public package / module / class / method / function, not private ones!   
 
+> package docstrings is placed in package's ***__init__.py*** file (will be discussed later)
+
 The code below shows module, class, method and function docstrings:
 ```python
 """
@@ -88,9 +90,9 @@ FUNCTIONS
     get_default_calculator()
         Gets the default calculator
 FILE
-    /Users/assaf/Documents/GitHub/python_zth/overview/p11_comments_and_docstring/task.py
+    /Users/assaf/calculator.py
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTgyMTc2NzMsLTI3Nzk0MDUxMywtOT
-MzOTgxMTYzXX0=
+eyJoaXN0b3J5IjpbMjEzMTMyNTIwMywtMjc3OTQwNTEzLC05Mz
+M5ODExNjNdfQ==
 -->
