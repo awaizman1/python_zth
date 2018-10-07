@@ -109,9 +109,11 @@ l = [1, 2, 3]  # create a list of lines (inline comment)
 ```
 # Advanced
 How does [help](https://docs.python.org/3/library/functions.html#help) works? where are docstrings being stored?
-everything in python is an object, play around with some documented code using [dir](https://docs.python.org/3/library/functions.html#dir) and check __doc__ (dunder doc) attribute.
+everything in python is an object, play around with some documented code using [dir](https://docs.python.org/3/library/functions.html#dir) and check **\_\_doc__** (dunder doc) attribute.  
+
 docstrings format can be much more than plain text. For example, using [reStructuredText](http://docutils.sourceforge.net/rst.html) format allows parsers and generators to create rich, beautiful docs.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMjQ2MDY1MywtOTU0MzU3NDYzLDE4MT
-YyNjQ5MDcsLTI3Nzk0MDUxMywtOTMzOTgxMTYzXX0=
+eyJoaXN0b3J5IjpbMTMxMDE0NDI1NywtNjAyNDYwNjUzLC05NT
+QzNTc0NjMsMTgxNjI2NDkwNywtMjc3OTQwNTEzLC05MzM5ODEx
+NjNdfQ==
 -->
