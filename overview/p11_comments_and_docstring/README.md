@@ -109,8 +109,9 @@ l = [1, 2, 3]  # create a list of lines (inline comment)
 ```
 # Advanced
 How does help works? where are docstrings being stored?
-everything in python is an object, play around with some documented code using dir
+everything in python is an object, play around with some documented code using dir and check __doc__ (dunder doc) attribute.
+docstrings format can be much more than plain text. For example, using reStructuredText format allows parsers
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NzI3NTI0OCwxODE2MjY0OTA3LC0yNz
-c5NDA1MTMsLTkzMzk4MTE2M119
+eyJoaXN0b3J5IjpbNjM0ODYyMzg1LDE4MTYyNjQ5MDcsLTI3Nz
+k0MDUxMywtOTMzOTgxMTYzXX0=
 -->
