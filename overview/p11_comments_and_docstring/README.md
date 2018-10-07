@@ -107,7 +107,10 @@ l = [1, 2, 3]
 
 l = [1, 2, 3]  # create a list of lines (inline comment)
 ```
+# Advanced
+How does help works? where are docstrings being stored?
+everything in python is an object, play around with some documented code using dir
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNjI2NDkwNywtMjc3OTQwNTEzLC05Mz
-M5ODExNjNdfQ==
+eyJoaXN0b3J5IjpbMTE4NzI3NTI0OCwxODE2MjY0OTA3LC0yNz
+c5NDA1MTMsLTkzMzk4MTE2M119
 -->
