@@ -18,7 +18,7 @@ https://docs.python.org/3/glossary.html#term-bytecode
 
 > **From now on Python == CPython**
 
-
+> [CPython interpreter](https://github.com/python/cpython/blob/master/Python/ceval.c) - search for main 'switch (opcode)'
 ### Time for task:
 - observe ***task2.py***, run it and inspect its output
 <!--stackedit_data:
