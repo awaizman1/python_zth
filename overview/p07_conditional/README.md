@@ -32,6 +32,21 @@ The expression `x  if  C  else  y` first evaluates the condition, _C_ rather tha
 a = 5 if x > 0 else -5
 print("y") if x else print("n")
 ```
+## Initializing optional variables
+```python
+def connect_verbose(host, port=0):
+	if port == 0:
+		port = 12345
+	...
+
+def connect_better(host, port=0):
+	port = port if port else 12345
+	...
+
+def connect_preferred(host, port=0):
+	port = port or 12345
+	...
+```
 ### Time for task:
  - perform ***task.py***
  - test yourself by running ***test_task.py***
