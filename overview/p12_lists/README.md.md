@@ -12,7 +12,17 @@
 ```python
 >>> # concatanation
 >>> [1, 2] + [3, 4]
+[1, 2, 3, 4]
+
+>>> # repetition
+>>> [1, 2] * 2
+[1, 2, 1, 2]
+
+>>> # membership testing
+>>> 3 in [1, 2, 4]
+False
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMwMzQxNzMyLDEwMjM1ODc1NDhdfQ==
+eyJoaXN0b3J5IjpbNzA2MDc5NjYsMTAyMzU4NzU0OF19
 -->
