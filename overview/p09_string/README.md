@@ -101,12 +101,13 @@ False
 >>> del s[1:3]
 ```
 ## *str* format
+### `printf`-style
 
 ### Time for task:
  - perform ***task.py*** and ***task2.py***
  - test yourself by running ***test_task.py*** and ***test_task2.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTg1MjU2MjMsLTE4NDc2MTQyMDksLT
-EwNTQwNDc3OTAsODIzMTYyNjM4LDgyMTg1NTUxOCwtMzE2MTI3
-NDY1LC0xMzY3Nzk2MDA3LDE4MDM2MDM5NDhdfQ==
+eyJoaXN0b3J5IjpbLTY4NzUwMjMzMywtMTg0NzYxNDIwOSwtMT
+A1NDA0Nzc5MCw4MjMxNjI2MzgsODIxODU1NTE4LC0zMTYxMjc0
+NjUsLTEzNjc3OTYwMDcsMTgwMzYwMzk0OF19
 -->
