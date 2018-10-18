@@ -78,9 +78,18 @@ sequence[start:stop:step]
 >>> a = ['foo', 'bar', 'baz', 'qux', 'quux', 'corge']
 >>> a[2:5]
 ['baz', 'qux', 'quux']
+
 >>> a[4:]
 ['quux', 'corge']
+
+>>> a[:2]
+['foo', 'bar']
+
+>>> a[:]
+['foo', 'bar', 'baz', 'qux', 'quux', 'corge']
+
+>>> a[::2]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NTMzNTQxMiwtMTk3ODc1OTgxXX0=
+eyJoaXN0b3J5IjpbMTEwMDY0NDM5LC0xOTc4NzU5ODFdfQ==
 -->
