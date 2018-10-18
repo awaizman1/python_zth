@@ -39,11 +39,12 @@ False
 >>> l
 [1, 5, 6]
 
->>> # copy and empty a list
+>>> # coping and empty a list (not changing the reference!)
 >>> l = [1, 2, 3]
->>> l 
+>>> l[:] = [4, 5, 6]
+>>> l[:] = []
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MzUxMTMyMywxNDkxNzEyNDkzLDEwMj
+eyJoaXN0b3J5IjpbLTkxNzQzODQzNywxNDkxNzEyNDkzLDEwMj
 M1ODc1NDhdfQ==
 -->
