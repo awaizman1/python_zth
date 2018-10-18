@@ -55,9 +55,10 @@ False
 - equality is deep element-wise equality
 ```python
 [1, 2, 3] < [1, 2, 4]
-[1, 2] < [0, 0, 0]
+[1, 2] < [1, 2, -1]
+[1
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MDk1MDI3MCwtMTc4MDAyNTUzNiwtOT
-E3NDM4NDM3LDE0OTE3MTI0OTMsMTAyMzU4NzU0OF19
+eyJoaXN0b3J5IjpbOTcwMDkxNzE5LC0xNzgwMDI1NTM2LC05MT
+c0Mzg0MzcsMTQ5MTcxMjQ5MywxMDIzNTg3NTQ4XX0=
 -->
