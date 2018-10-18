@@ -32,10 +32,13 @@ False
 
 >>> # list is a mutable sequence
 >>> l = [1, 2, 3]
+>>> l[1:] = [4, 5, 6]
+>>> l
+[1, 4, 5, 6]
 >>> del(l[1])
 >>> l
-[1, 3
+[1, 3]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTMwNjEzMjUsMTAyMzU4NzU0OF19
+eyJoaXN0b3J5IjpbMTQ5MTcxMjQ5MywxMDIzNTg3NTQ4XX0=
 -->
