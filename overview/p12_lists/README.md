@@ -68,6 +68,7 @@ False
 ```
 ## Slicing (of list or any other sequence)
 ![](/images/p12-slice.png)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzg3NTk4MV19
+eyJoaXN0b3J5IjpbLTMxNDg1NTUzNywtMTk3ODc1OTgxXX0=
 -->
