@@ -59,6 +59,7 @@ Use the ***str*** constructor
 
 ## str as sequence protocol
 ```python
+
 >>> s = "hello world"
 >>> len(s)
 11
@@ -143,14 +144,17 @@ False
 >>>"The grade of {student[0]} is {student[1]}".format(student=("Bob", 93))
 'The grade of Bob is 93'
 ```
+> 
+> 
+> **Advanced:** you can implement your own formatting specifiers and control how your objects will be formatted by overriding ***\__format__***
 
-    **Advanced:** you can implement your own formatting specifiers and control how your objects will be formatted by overriding ***__format__***
+    
 
 ### Time for task:
  - perform ***task.py*** and ***task2.py***
  - test yourself by running ***test_task.py*** and ***test_task2.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NjgxNDA1MywxNzQ5NzkzNzc5LC05MD
+eyJoaXN0b3J5IjpbMTg5MjM4MjQxOSwxNzQ5NzkzNzc5LC05MD
 EzNDM0MDgsMTA4MjU1NzU3NSwtMTg4NTMwMzEzMywtNjg3NTAy
 MzMzLC0xODQ3NjE0MjA5LC0xMDU0MDQ3NzkwLDgyMzE2MjYzOC
 w4MjE4NTU1MTgsLTMxNjEyNzQ2NSwtMTM2Nzc5NjAwNywxODAz
