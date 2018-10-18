@@ -1,5 +1,7 @@
 # List
 ***Mutable*** sequences of objects
+[list](https://docs.python.org/3.7/tutorial/datastructures.html)
+## List literal
 ```python
 >>> # empty list
 >>> l = []
@@ -64,6 +66,7 @@ False
 [1, 2] == [1.0, 2.0]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NjM0NTQyNSwtMTc4MDAyNTUzNiwtOT
-E3NDM4NDM3LDE0OTE3MTI0OTMsMTAyMzU4NzU0OF19
+eyJoaXN0b3J5IjpbLTE4OTAyNDg5NzMsMTI5NjM0NTQyNSwtMT
+c4MDAyNTUzNiwtOTE3NDM4NDM3LDE0OTE3MTI0OTMsMTAyMzU4
+NzU0OF19
 -->
