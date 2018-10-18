@@ -108,12 +108,12 @@ False
 >>> name = "Bob"
 >>> grade = 93
 
->>> # positional substitution
+# positional substitution
 >>> "The grade of %s is %d in hex 0x%x" % (name, grade, grade)
 'The grade of Bob is 93 in hex 0x5d'
 ```
 ```python
->>> # named substitution
+# named substitution
 >>> "The grade of %(student_name)s is %(grade)d in hex 0x%(grade)x" % {"grade": grade, "student_name": name}
 'The grade of Bob is 93 in hex 0x5d'
 ```
@@ -133,7 +133,7 @@ False
 'The grade of Bob is 93 in hex 0x5d'
 ```
 ```python
->>># named attribute and index lookup
+# named attribute and index lookup
 >>> class Student:
 >>> ...	def __init__(name, grade):
 >>> ... 	self.name = name
@@ -157,9 +157,9 @@ False
  - perform ***task.py*** and ***task2.py***
  - test yourself by running ***test_task.py*** and ***test_task2.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NDkzMDM2OSwxNzQ5NzkzNzc5LC05MD
-EzNDM0MDgsMTA4MjU1NzU3NSwtMTg4NTMwMzEzMywtNjg3NTAy
-MzMzLC0xODQ3NjE0MjA5LC0xMDU0MDQ3NzkwLDgyMzE2MjYzOC
-w4MjE4NTU1MTgsLTMxNjEyNzQ2NSwtMTM2Nzc5NjAwNywxODAz
-NjAzOTQ4XX0=
+eyJoaXN0b3J5IjpbLTExMjg4ODI5ODEsMTc0OTc5Mzc3OSwtOT
+AxMzQzNDA4LDEwODI1NTc1NzUsLTE4ODUzMDMxMzMsLTY4NzUw
+MjMzMywtMTg0NzYxNDIwOSwtMTA1NDA0Nzc5MCw4MjMxNjI2Mz
+gsODIxODU1NTE4LC0zMTYxMjc0NjUsLTEzNjc3OTYwMDcsMTgw
+MzYwMzk0OF19
 -->
