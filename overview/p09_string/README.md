@@ -118,13 +118,19 @@ False
 ### Format string style
 [format-string-syntax](https://docs.python.org/3/library/string.html#format-string-syntax)
 ```python
-"The grade of {} is {}".format(
+>>> "The grade of {} is {}".format(name, grade)
+'The grade of Bob is 93'
+```
+```python
+>>> "The grade of {student_name} is {grade}".format(student_name=name, grade=grade)
+'The grade of Bob is 93'
 ```
 ### Time for task:
  - perform ***task.py*** and ***task2.py***
  - test yourself by running ***test_task.py*** and ***test_task2.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgzMDg5MDksLTY4NzUwMjMzMywtMTg0Nz
-YxNDIwOSwtMTA1NDA0Nzc5MCw4MjMxNjI2MzgsODIxODU1NTE4
-LC0zMTYxMjc0NjUsLTEzNjc3OTYwMDcsMTgwMzYwMzk0OF19
+eyJoaXN0b3J5IjpbLTE4ODUzMDMxMzMsLTY4NzUwMjMzMywtMT
+g0NzYxNDIwOSwtMTA1NDA0Nzc5MCw4MjMxNjI2MzgsODIxODU1
+NTE4LC0zMTYxMjc0NjUsLTEzNjc3OTYwMDcsMTgwMzYwMzk0OF
+19
 -->
