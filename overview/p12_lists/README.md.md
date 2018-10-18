@@ -47,11 +47,10 @@ False
 >>> l2 = l.copy()
 >>> l2 = list(l)
 
->>> # 
->>> l[:] = [4, 5, 6]
+>>> # emptying a list (not assigning new empty list to the reference!)
 >>> l[:] = []
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTgxNTk3NzgsLTkxNzQzODQzNywxND
+eyJoaXN0b3J5IjpbLTE3ODAwMjU1MzYsLTkxNzQzODQzNywxND
 kxNzEyNDkzLDEwMjM1ODc1NDhdfQ==
 -->
