@@ -40,11 +40,13 @@ r"C:\foo\goo"
 ```
 ```python
 # format strings (f-string)
-today = datatime.now()
-f"today is {today} tomorrow is {today + datetime.timedelta(days=1)}"
+>>> today = datatime.now()
+>>> f"today is {today} tomorrow is {today + datetime.timedelta(days=1)}"
+'today is 2018-10-18 14:38:53.204763 tomorrow is 2018-10-19 14:38:53.204763'
 
 # raw f-string
-rf"C:\tmp\{'general' if user is None else 'user'}"
+>>> rf"C:\tmp\{'general' if user is None else 'user'}"
+'C:\\tmp\\user'
 ```
 ## Convert objects to str
 Use the ***str*** constructor
