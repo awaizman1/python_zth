@@ -74,6 +74,11 @@ sequence[start:stop:step]
 * ***start [default = 0]*** - the beginning index of the slice (including this index)
 * ***end [default = len(sequence)]*** - the ending index of the slice (excluding this index)
 * ***step [default = 1]*** - the amount by which the index increases
+```python
+>>> a = ['foo', 'bar', 'baz', 'qux', 'quux', 'corge']
+>>> a[2:5]
+['baz', 'qux', 'quux']
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NDQxOTIyNSwtMTk3ODc1OTgxXX0=
+eyJoaXN0b3J5IjpbMTk1MzE2NTg3NiwtMTk3ODc1OTgxXX0=
 -->
