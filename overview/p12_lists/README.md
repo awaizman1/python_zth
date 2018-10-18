@@ -124,8 +124,15 @@ for x in [1, 2, 3]:
 ```python
 [x**2 for x in [1, 2, 3]]
 ```
-#### Example 2
+#### With filtering
+```python
+even_squares = []
+for x in range(10):
+	if x % 2:
+		even_squares.append[x**2]
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MTU4NjY0NCwxODk1MTEyNTAyLDE2MT
+eyJoaXN0b3J5IjpbLTQ5Njk5NjA5NCwxODk1MTEyNTAyLDE2MT
 Y0MzYxNCwtMTk3ODc1OTgxXX0=
 -->
