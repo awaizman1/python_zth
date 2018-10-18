@@ -147,6 +147,8 @@ False
 >>>"The grade of {student[0]} is {student[1]}".format(student=("Bob", 93))
 'The grade of Bob is 93'
 ```
+### f-string
+As you already saw above, all you need to know is that f-string uses the same 
 > 
 > 
 > **Advanced:** you can implement your own formatting specifiers and control how your objects will be formatted by overriding ***\_\_format\_\_***
@@ -157,9 +159,9 @@ False
  - perform ***task.py*** and ***task2.py***
  - test yourself by running ***test_task.py*** and ***test_task2.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjg4ODI5ODEsMTc0OTc5Mzc3OSwtOT
-AxMzQzNDA4LDEwODI1NTc1NzUsLTE4ODUzMDMxMzMsLTY4NzUw
-MjMzMywtMTg0NzYxNDIwOSwtMTA1NDA0Nzc5MCw4MjMxNjI2Mz
-gsODIxODU1NTE4LC0zMTYxMjc0NjUsLTEzNjc3OTYwMDcsMTgw
-MzYwMzk0OF19
+eyJoaXN0b3J5IjpbLTE5NDM1NzU2ODcsLTExMjg4ODI5ODEsMT
+c0OTc5Mzc3OSwtOTAxMzQzNDA4LDEwODI1NTc1NzUsLTE4ODUz
+MDMxMzMsLTY4NzUwMjMzMywtMTg0NzYxNDIwOSwtMTA1NDA0Nz
+c5MCw4MjMxNjI2MzgsODIxODU1NTE4LC0zMTYxMjc0NjUsLTEz
+Njc3OTYwMDcsMTgwMzYwMzk0OF19
 -->
