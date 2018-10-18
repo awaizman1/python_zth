@@ -59,6 +59,7 @@ Use the ***str*** constructor
 
 ## str as sequence protocol
 ```python
+
 >>> s = "hello world"
 >>> len(s)
 11
@@ -100,11 +101,67 @@ False
 >>> s[1:3] = 'abc'
 >>> del s[1:3]
 ```
+## *str* format
+### `printf`-style
+[printf-style-string-formatting](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting)
+```python
+>>> name = "Bob"
+>>> grade = 93
+
+# positional substitution
+>>> "The grade of %s is %d in hex 0x%x" % (name, grade, grade)
+'The grade of Bob is 93 in hex 0x5d'
+```
+```python
+# named substitution
+>>> "The grade of %(student_name)s is %(grade)d in hex 0x%(grade)x" % {"grade": grade, "student_name": name}
+'The grade of Bob is 93 in hex 0x5d'
+```
+### Format string style
+[format-string-syntax](https://docs.python.org/3/library/string.html#format-string-syntax)
+```python
+# positional substitution
+>>> "The grade of {} is {} in hex 0x{:x}".format(name, grade, grade)
+'The grade of Bob is 93 in hex 0x5d'
+
+>>> "The grade of {1} is {0} in hex 0x{0:x}".format(grade, name)
+'The grade of Bob is 93 in hex 0x5d'
+```
+```python
+# named substitution
+>>> "The grade of {student_name} is {grade} in hex 0x{grade:x}".format(student_name=name, grade=grade)
+'The grade of Bob is 93 in hex 0x5d'
+```
+```python
+# named attribute and index lookup
+>>> class Student:
+>>> ...	def __init__(name, grade):
+>>> ... 	self.name = name
+>>> ...		self.grade = grade
+>>>
+>>> bob = Student("Bob", 93)
+>>>
+>>>"The grade of {student.name} is {student.grade}".format(student=bob)
+'The grade of Bob is 93'
+
+>>>"The grade of {student[0]} is {student[1]}".format(student=("Bob", 93))
+'The grade of Bob is 93'
+```
+### f-string
+As you already saw above, all you need to know is that f-string uses the same [format()](https://docs.python.org/3/library/functions.html#format) protocol as in [Format string style](#Format-string-style)
+> 
+> 
+> **Advanced:** you can implement your own formatting specifiers and control how your objects will be formatted by overriding ***\_\_format\_\_***
+
+    
+
 ### Time for task:
  - perform ***task.py*** and ***task2.py***
  - test yourself by running ***test_task.py*** and ***test_task2.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDc2MTQyMDksLTEwNTQwNDc3OTAsOD
-IzMTYyNjM4LDgyMTg1NTUxOCwtMzE2MTI3NDY1LC0xMzY3Nzk2
-MDA3LDE4MDM2MDM5NDhdfQ==
+eyJoaXN0b3J5IjpbLTYwOTM4MzIxMCwtMTEyODg4Mjk4MSwxNz
+Q5NzkzNzc5LC05MDEzNDM0MDgsMTA4MjU1NzU3NSwtMTg4NTMw
+MzEzMywtNjg3NTAyMzMzLC0xODQ3NjE0MjA5LC0xMDU0MDQ3Nz
+kwLDgyMzE2MjYzOCw4MjE4NTU1MTgsLTMxNjEyNzQ2NSwtMTM2
+Nzc5NjAwNywxODAzNjAzOTQ4XX0=
 -->
