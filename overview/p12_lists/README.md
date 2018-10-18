@@ -91,8 +91,14 @@ sequence[start:stop:step]
 >>> a[::2]
 ['foo', 'baz', 'quux']
 
+>>> # reverse
+>>> a[::-1]
+['corge', 'quux', 'qux', 'baz', 'bar', 'foo']
 
+>>> # last 2 items
+>>> a[-2:]
+['quux', 'corge']
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY5NjkzNTUsLTE5Nzg3NTk4MV19
+eyJoaXN0b3J5IjpbLTc4MjIzNDg5NCwtMTk3ODc1OTgxXX0=
 -->
