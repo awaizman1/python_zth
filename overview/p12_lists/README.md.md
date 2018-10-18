@@ -22,7 +22,7 @@
 >>> 3 in [1, 2, 4]
 False
 
->>>
+>>> # other sequence methods
 >>> len([1, 2])
 2
 >>> [1, 2, 1].count(1)
@@ -37,8 +37,13 @@ False
 [1, 4, 5, 6]
 >>> del(l[1])
 >>> l
-[1, 3]
+[1, 5, 6]
+
+>>> # copy and empty a list
+>>> l = [1, 2, 3]
+>>> l 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MTcxMjQ5MywxMDIzNTg3NTQ4XX0=
+eyJoaXN0b3J5IjpbMTE3MzUxMTMyMywxNDkxNzEyNDkzLDEwMj
+M1ODc1NDhdfQ==
 -->
