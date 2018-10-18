@@ -108,9 +108,9 @@ A concise way to create lists.
 * readable
 * expressive
 * effective
-* 
+* great for ***map / filter*** operations
 [list comprehensions](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDE1MDYyNTQsMTYxNjQzNjE0LC0xOT
-c4NzU5ODFdfQ==
+eyJoaXN0b3J5IjpbLTg5OTYxOTA3MSwxNjE2NDM2MTQsLTE5Nz
+g3NTk4MV19
 -->
