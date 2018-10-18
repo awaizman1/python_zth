@@ -138,13 +138,15 @@ False
 >>> bob = Student("Bob", 93)
 >>>
 >>>"The grade of {student.name} is {student.grade}".format(student=bob)
->>>"The grade of {student.name} is {student.grade}".format(student=bob)
+'The grade of Bob is 93'
+>>>"The grade of {student[0]} is {student[1]}".format(student=("Bob", 93))
+'The grade of Bob is 93'
 ```
 ### Time for task:
  - perform ***task.py*** and ***task2.py***
  - test yourself by running ***test_task.py*** and ***test_task2.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MzkzMzMwMCwxMDgyNTU3NTc1LC0xOD
+eyJoaXN0b3J5IjpbLTkwMTM0MzQwOCwxMDgyNTU3NTc1LC0xOD
 g1MzAzMTMzLC02ODc1MDIzMzMsLTE4NDc2MTQyMDksLTEwNTQw
 NDc3OTAsODIzMTYyNjM4LDgyMTg1NTUxOCwtMzE2MTI3NDY1LC
 0xMzY3Nzk2MDA3LDE4MDM2MDM5NDhdfQ==
