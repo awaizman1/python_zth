@@ -40,7 +40,7 @@ r"C:\foo\goo"
 ```
 ```python
 # format strings (f-string)
->>> today = datatime.now()
+>>> today = datetime.now()
 >>> f"today is {today} tomorrow is {today + datetime.timedelta(days=1)}"
 'today is 2018-10-18 14:38:53.204763 tomorrow is 2018-10-19 14:38:53.204763'
 
