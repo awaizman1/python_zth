@@ -121,13 +121,13 @@ False
 # positional substitution
 >>> "The grade of {} is {} in hex 0x{:x}".format(name, grade, grade)
 'The grade of Bob is 93 in hex 0x5d'
->>> "The grade of {1} is {0} in hex 0x{:x}".format(grade, name)
-'The grade of Bob is 93'
+>>> "The grade of {1} is {0} in hex 0x{0:x}".format(grade, name)
+'The grade of Bob is 93 in hex 0x5d'
 ```
 ```python
 # named substitution
->>> "The grade of {student_name} is {grade}".format(student_name=name, grade=grade)
-'The grade of Bob is 93'
+>>> "The grade of {student_name} is {grade} in hex 0x{grade:x}".format(student_name=name, grade=grade)
+'The grade of Bob is 93 in hex 0x5d'
 ```
 ```python
 >>># named attribute and index lookup
@@ -143,12 +143,15 @@ False
 >>>"The grade of {student[0]} is {student[1]}".format(student=("Bob", 93))
 'The grade of Bob is 93'
 ```
+
+    Advanced:
+
 ### Time for task:
  - perform ***task.py*** and ***task2.py***
  - test yourself by running ***test_task.py*** and ***test_task2.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MTg5NTE5OCwtOTAxMzQzNDA4LDEwOD
-I1NTc1NzUsLTE4ODUzMDMxMzMsLTY4NzUwMjMzMywtMTg0NzYx
-NDIwOSwtMTA1NDA0Nzc5MCw4MjMxNjI2MzgsODIxODU1NTE4LC
-0zMTYxMjc0NjUsLTEzNjc3OTYwMDcsMTgwMzYwMzk0OF19
+eyJoaXN0b3J5IjpbNDc4NzU1NTMsLTkwMTM0MzQwOCwxMDgyNT
+U3NTc1LC0xODg1MzAzMTMzLC02ODc1MDIzMzMsLTE4NDc2MTQy
+MDksLTEwNTQwNDc3OTAsODIzMTYyNjM4LDgyMTg1NTUxOCwtMz
+E2MTI3NDY1LC0xMzY3Nzk2MDA3LDE4MDM2MDM5NDhdfQ==
 -->
