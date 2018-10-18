@@ -104,8 +104,13 @@ sequence[start:stop:step]
 ['foo', 'bar', 'baz', 'qux']
 ```
 ## List comprehensions
-a concise way to create lists[list comprehensions](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)
+A concise way to create lists.
+* readable
+* expressive
+* effective
+* 
+[list comprehensions](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjA5NTY4ODEsMTYxNjQzNjE0LC0xOT
+eyJoaXN0b3J5IjpbLTIxNDE1MDYyNTQsMTYxNjQzNjE0LC0xOT
 c4NzU5ODFdfQ==
 -->
