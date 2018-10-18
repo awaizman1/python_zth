@@ -144,14 +144,14 @@ False
 'The grade of Bob is 93'
 ```
 
-    Advanced:
+    Advanced: you can implement your own formatting specifiers and control how your objects will be formatted by overriding __format__
 
 ### Time for task:
  - perform ***task.py*** and ***task2.py***
  - test yourself by running ***test_task.py*** and ***test_task2.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc4NzU1NTMsLTkwMTM0MzQwOCwxMDgyNT
-U3NTc1LC0xODg1MzAzMTMzLC02ODc1MDIzMzMsLTE4NDc2MTQy
-MDksLTEwNTQwNDc3OTAsODIzMTYyNjM4LDgyMTg1NTUxOCwtMz
-E2MTI3NDY1LC0xMzY3Nzk2MDA3LDE4MDM2MDM5NDhdfQ==
+eyJoaXN0b3J5IjpbMTc0OTc5Mzc3OSwtOTAxMzQzNDA4LDEwOD
+I1NTc1NzUsLTE4ODUzMDMxMzMsLTY4NzUwMjMzMywtMTg0NzYx
+NDIwOSwtMTA1NDA0Nzc5MCw4MjMxNjI2MzgsODIxODU1NTE4LC
+0zMTYxMjc0NjUsLTEzNjc3OTYwMDcsMTgwMzYwMzk0OF19
 -->
