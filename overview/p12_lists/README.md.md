@@ -65,8 +65,10 @@ False
 
 [1, 2] == [1.0, 2.0]
 ```
+## Slicing (of list or any other sequence)
+![](https://files.realpython.com/media/t.c11ea56e8ca2.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTAyNDg5NzMsMTI5NjM0NTQyNSwtMT
-c4MDAyNTUzNiwtOTE3NDM4NDM3LDE0OTE3MTI0OTMsMTAyMzU4
-NzU0OF19
+eyJoaXN0b3J5IjpbMTkwMzUwMzE0MywtMTg5MDI0ODk3MywxMj
+k2MzQ1NDI1LC0xNzgwMDI1NTM2LC05MTc0Mzg0MzcsMTQ5MTcx
+MjQ5MywxMDIzNTg3NTQ4XX0=
 -->
