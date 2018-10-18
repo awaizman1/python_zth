@@ -106,20 +106,22 @@ False
 ```python
 >>> name = "Bob"
 >>> grade = 93
->>> # positional formatting
+>>> # positional substitution
 >>> "The grade of %s is %d" % (name, grade)
 'The grade of Bob is 93'
 ```
 ```python
->>> "The grade of %(student_name)s is %(grade)d" % {"student_name": name, "grade": grade}
+>>> # named substitution
+>>> "The grade of %(student_name)s is %(grade)d" % {"grade": grade, "student_name": name}
 'The grade of Bob is 93'
 ```
+### 
 ### Time for task:
  - perform ***task.py*** and ***task2.py***
  - test yourself by running ***test_task.py*** and ***test_task2.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjYwNDA0MDEsLTY4NzUwMjMzMywtMT
-g0NzYxNDIwOSwtMTA1NDA0Nzc5MCw4MjMxNjI2MzgsODIxODU1
-NTE4LC0zMTYxMjc0NjUsLTEzNjc3OTYwMDcsMTgwMzYwMzk0OF
-19
+eyJoaXN0b3J5IjpbMTQzMjY4OTcyMywtNjg3NTAyMzMzLC0xOD
+Q3NjE0MjA5LC0xMDU0MDQ3NzkwLDgyMzE2MjYzOCw4MjE4NTU1
+MTgsLTMxNjEyNzQ2NSwtMTM2Nzc5NjAwNywxODAzNjAzOTQ4XX
+0=
 -->
