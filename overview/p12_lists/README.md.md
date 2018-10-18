@@ -27,8 +27,15 @@ False
 2
 >>> [1, 2, 1].count(1)
 2
->>> [
+>>> [1, 2].index(2)
+1
+
+>>> # list is a mutable sequence
+>>> l = [1, 2, 3]
+>>> del(l[1])
+>>> l
+[1, 3
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MDc1MzcxNywxMDIzNTg3NTQ4XX0=
+eyJoaXN0b3J5IjpbLTExOTMwNjEzMjUsMTAyMzU4NzU0OF19
 -->
