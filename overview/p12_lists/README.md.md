@@ -53,12 +53,13 @@ False
 ### Comparing lists (or any other sequence)
 - comparison uses lexicographical ordering
 - equality is deep element-wise equality
+[comparing-sequences](https://docs.python.org/3/tutorial/datastructures.html#comparing-sequences-and-other-types)
 ```python
 [1, 2, 3] < [1, 2, 4]
 [1, 2] < [1, 2, -1]
-[1
+[1, 2]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcwMDkxNzE5LC0xNzgwMDI1NTM2LC05MT
-c0Mzg0MzcsMTQ5MTcxMjQ5MywxMDIzNTg3NTQ4XX0=
+eyJoaXN0b3J5IjpbLTIwMzYxMzI2OTAsLTE3ODAwMjU1MzYsLT
+kxNzQzODQzNywxNDkxNzEyNDkzLDEwMjM1ODc1NDhdfQ==
 -->
