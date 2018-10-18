@@ -1,5 +1,6 @@
 # List
-***Mutable*** sequences of objects
+***Mutable*** sequences of objects  
+
 [list](https://docs.python.org/3.7/tutorial/datastructures.html)
 ## List literal
 ```python
