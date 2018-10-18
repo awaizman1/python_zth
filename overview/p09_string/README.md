@@ -112,16 +112,16 @@ False
 ```
 ```python
 >>> # named substitution
->>> "The grade of %(student_name)s is %(grade)d in hex " % {"grade": grade, "student_name": name}
-'The grade of Bob is 93'
+>>> "The grade of %(student_name)s is %(grade)d in hex 0x%(grade)x" % {"grade": grade, "student_name": name}
+'The grade of Bob is 93 in hex 0x5d'
 ```
 ### Format string style
 [format-string-syntax](https://docs.python.org/3/library/string.html#format-string-syntax)
 ```python
 # positional substitution
->>> "The grade of {} is {}".format(name, grade)
-'The grade of Bob is 93'
->>> "The grade of {1} is {0}".format(grade, name)
+>>> "The grade of {} is {} in hex 0x{:x}".format(name, grade, grade)
+'The grade of Bob is 93 in hex 0x5d'
+>>> "The grade of {1} is {0} in hex 0x{:x}".format(grade, name)
 'The grade of Bob is 93'
 ```
 ```python
@@ -147,8 +147,8 @@ False
  - perform ***task.py*** and ***task2.py***
  - test yourself by running ***test_task.py*** and ***test_task2.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI2NzgzMTQsLTkwMTM0MzQwOCwxMDgyNT
-U3NTc1LC0xODg1MzAzMTMzLC02ODc1MDIzMzMsLTE4NDc2MTQy
-MDksLTEwNTQwNDc3OTAsODIzMTYyNjM4LDgyMTg1NTUxOCwtMz
-E2MTI3NDY1LC0xMzY3Nzk2MDA3LDE4MDM2MDM5NDhdfQ==
+eyJoaXN0b3J5IjpbLTI3MTg5NTE5OCwtOTAxMzQzNDA4LDEwOD
+I1NTc1NzUsLTE4ODUzMDMxMzMsLTY4NzUwMjMzMywtMTg0NzYx
+NDIwOSwtMTA1NDA0Nzc5MCw4MjMxNjI2MzgsODIxODU1NTE4LC
+0zMTYxMjc0NjUsLTEzNjc3OTYwMDcsMTgwMzYwMzk0OF19
 -->
