@@ -39,12 +39,19 @@ False
 >>> l
 [1, 5, 6]
 
->>> # coping and empty a list (not changing the reference!)
+>>> # coping a list (not the reference!)
 >>> l = [1, 2, 3]
+>>> l2 = l[:]
+>>> id(l) == id(l2)
+False 
+>>> l2 = l.copy()
+>>> l2 = list(l)
+
+>>> # 
 >>> l[:] = [4, 5, 6]
 >>> l[:] = []
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNzQzODQzNywxNDkxNzEyNDkzLDEwMj
-M1ODc1NDhdfQ==
+eyJoaXN0b3J5IjpbLTEzOTgxNTk3NzgsLTkxNzQzODQzNywxND
+kxNzEyNDkzLDEwMjM1ODc1NDhdfQ==
 -->
