@@ -106,14 +106,15 @@ False
 ```python
 >>> name = "Bob"
 >>> grade = 93
->>> "The grade of %s is %d"
+>>> "The grade of %s is %d" % (name, grade)
+
 ```
 ### Time for task:
  - perform ***task.py*** and ***task2.py***
  - test yourself by running ***test_task.py*** and ***test_task2.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MzE5MDY0NCwtNjg3NTAyMzMzLC0xOD
-Q3NjE0MjA5LC0xMDU0MDQ3NzkwLDgyMzE2MjYzOCw4MjE4NTU1
-MTgsLTMxNjEyNzQ2NSwtMTM2Nzc5NjAwNywxODAzNjAzOTQ4XX
-0=
+eyJoaXN0b3J5IjpbNzc1ODMwMzk2LC02ODc1MDIzMzMsLTE4ND
+c2MTQyMDksLTEwNTQwNDc3OTAsODIzMTYyNjM4LDgyMTg1NTUx
+OCwtMzE2MTI3NDY1LC0xMzY3Nzk2MDA3LDE4MDM2MDM5NDhdfQ
+==
 -->
