@@ -128,12 +128,16 @@ False
 >>> "The grade of {student_name} is {grade}".format(student_name=name, grade=grade)
 'The grade of Bob is 93'
 ```
+```python
+>>># named attribute and index lookup
+>>>"The grade of {student.name} is {student.grade}".format(student=bob)
+
 ### Time for task:
  - perform ***task.py*** and ***task2.py***
  - test yourself by running ***test_task.py*** and ***test_task2.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MjU1NzU3NSwtMTg4NTMwMzEzMywtNj
-g3NTAyMzMzLC0xODQ3NjE0MjA5LC0xMDU0MDQ3NzkwLDgyMzE2
-MjYzOCw4MjE4NTU1MTgsLTMxNjEyNzQ2NSwtMTM2Nzc5NjAwNy
-wxODAzNjAzOTQ4XX0=
+eyJoaXN0b3J5IjpbLTE2MTcxNTAxOTQsMTA4MjU1NzU3NSwtMT
+g4NTMwMzEzMywtNjg3NTAyMzMzLC0xODQ3NjE0MjA5LC0xMDU0
+MDQ3NzkwLDgyMzE2MjYzOCw4MjE4NTU1MTgsLTMxNjEyNzQ2NS
+wtMTM2Nzc5NjAwNywxODAzNjAzOTQ4XX0=
 -->
