@@ -51,8 +51,9 @@ False
 >>> l[:] = []
 ```
 ### Comparing lists (or any other sequence)
-
+- comparison uses lexicographical ordering
+- equality is deep equality
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MzQ2NTI5MSwtMTc4MDAyNTUzNiwtOT
-E3NDM4NDM3LDE0OTE3MTI0OTMsMTAyMzU4NzU0OF19
+eyJoaXN0b3J5IjpbLTIxMjQwNDAxMDUsLTE3ODAwMjU1MzYsLT
+kxNzQzODQzNywxNDkxNzEyNDkzLDEwMjM1ODc1NDhdfQ==
 -->
