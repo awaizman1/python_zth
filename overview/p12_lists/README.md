@@ -110,6 +110,7 @@ A concise way to create lists.
 * effective
 * great for ***map / filter*** operations
 [list comprehensions](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)
+###Synt
 ```python
 [ expression for-clause [for-clause | if-clause]* ]
 ```
@@ -118,10 +119,10 @@ squares = []
 for x in [1, 2, 3]:
 	squares.append(x**2)
 ```
-
+```python
 [x**2 for x in [1, 2, 3]]
-[expression(item) for item in iterable]
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ5MzgwNTY5LDE4OTUxMTI1MDIsMTYxNj
+eyJoaXN0b3J5IjpbNDM0OTA0ODE5LDE4OTUxMTI1MDIsMTYxNj
 QzNjE0LC0xOTc4NzU5ODFdfQ==
 -->
