@@ -123,6 +123,7 @@ for x in [1, 2, 3]:
 ```
 ```python
 >>> [x**2 for x in [1, 2, 3]]
+[1, 4, 9]
 ```
 #### With filtering
 ```python
@@ -166,7 +167,7 @@ for i in range(1, 5):
 [[0], [0, 1], [0, 1, 2], [0, 1, 2, 3]]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIzNjM0MjksLTE0NDg4NTI5MjUsMTY5Nj
-ExNTM5MywxODk1MTEyNTAyLDE2MTY0MzYxNCwtMTk3ODc1OTgx
-XX0=
+eyJoaXN0b3J5IjpbLTEwNjY1MDg0OTksLTE0NDg4NTI5MjUsMT
+Y5NjExNTM5MywxODk1MTEyNTAyLDE2MTY0MzYxNCwtMTk3ODc1
+OTgxXX0=
 -->
