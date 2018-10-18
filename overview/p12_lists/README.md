@@ -89,7 +89,8 @@ sequence[start:stop:step]
 ['foo', 'bar', 'baz', 'qux', 'quux', 'corge']
 
 >>> a[::2]
+['foo', 'baz', 'quux']
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMDY0NDM5LC0xOTc4NzU5ODFdfQ==
+eyJoaXN0b3J5IjpbLTM0NDEzNDI5NywtMTk3ODc1OTgxXX0=
 -->
