@@ -141,9 +141,10 @@ for x in range(10):
 ```
 #### Combining several sequences and filters
 ```python
-[send_message(
+[send_message(host, port) for host in hosts if host not in black_list for port in get_ports(host)]
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzg0NTMyMTAsLTE0NDg4NTI5MjUsMT
+eyJoaXN0b3J5IjpbLTEzNzA4MjkwMzAsLTE0NDg4NTI5MjUsMT
 Y5NjExNTM5MywxODk1MTEyNTAyLDE2MTY0MzYxNCwtMTk3ODc1
 OTgxXX0=
 -->
