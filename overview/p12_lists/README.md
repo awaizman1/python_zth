@@ -149,8 +149,11 @@ if host not in black_list
 for port in get_ports(host)]
 
 ```
+### Nested comprehension
+Each element in the comprehension can be a comprehension...
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU3NTkzNDM3LC0xNDQ4ODUyOTI1LDE2OT
-YxMTUzOTMsMTg5NTExMjUwMiwxNjE2NDM2MTQsLTE5Nzg3NTk4
-MV19
+eyJoaXN0b3J5IjpbLTc2ODYxNTM0NiwtMTQ0ODg1MjkyNSwxNj
+k2MTE1MzkzLDE4OTUxMTI1MDIsMTYxNjQzNjE0LC0xOTc4NzU5
+ODFdfQ==
 -->
