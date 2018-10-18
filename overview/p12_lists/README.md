@@ -134,7 +134,11 @@ for x in range(10):
 ```python
 [x**2 for x in range(10) if x % 2]
 ```
+#### Combining several sequences
+```python
+[f"({a}x{b})" for a in range(5) for b in ra
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NjExNTM5MywxODk1MTEyNTAyLDE2MT
-Y0MzYxNCwtMTk3ODc1OTgxXX0=
+eyJoaXN0b3J5IjpbLTcwNTE4MjYwOSwxNjk2MTE1MzkzLDE4OT
+UxMTI1MDIsMTYxNjQzNjE0LC0xOTc4NzU5ODFdfQ==
 -->
