@@ -110,7 +110,9 @@ A concise way to create lists.
 * effective
 * great for ***map / filter*** operations
 [list comprehensions](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)
+```python
+[expression(item) for item in iterable]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5OTYxOTA3MSwxNjE2NDM2MTQsLTE5Nz
+eyJoaXN0b3J5IjpbMTg5NTExMjUwMiwxNjE2NDM2MTQsLTE5Nz
 g3NTk4MV19
 -->
