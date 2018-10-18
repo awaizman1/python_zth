@@ -122,7 +122,7 @@ for x in [1, 2, 3]:
 	squares.append(x**2)
 ```
 ```python
-[x**2 for x in [1, 2, 3]]
+>>> [x**2 for x in [1, 2, 3]]
 ```
 #### With filtering
 ```python
@@ -132,7 +132,8 @@ for x in range(10):
 		even_squares.append[x**2]
 ```
 ```python
-[x**2 for x in range(10) if x % 2]
+>>> [x**2 for x in range(10) if x % 2]
+[1, 9, 25, 49, 81]
 ```
 #### Combining several sequences
 ```python
@@ -161,10 +162,11 @@ for i in range(1, 5):
 	seq_up_to += seq_up_to_i
 ```
 ```python
-[[x for x in range(i)] for i in range(1, 5)]
+>>> [[x for x in range(i)] for i in range(1, 5)]
+[[0], [0, 1], [0, 1, 2], [0, 1, 2, 3]]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNDU4MjI5MCwtMTQ0ODg1MjkyNSwxNj
-k2MTE1MzkzLDE4OTUxMTI1MDIsMTYxNjQzNjE0LC0xOTc4NzU5
-ODFdfQ==
+eyJoaXN0b3J5IjpbMzIzNjM0MjksLTE0NDg4NTI5MjUsMTY5Nj
+ExNTM5MywxODk1MTEyNTAyLDE2MTY0MzYxNCwtMTk3ODc1OTgx
+XX0=
 -->
