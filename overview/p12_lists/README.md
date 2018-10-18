@@ -153,7 +153,7 @@ for port in get_ports(host)]
 Each element in the comprehension can be a comprehension...
 ```python
 seq_up_to = []
-for i in range(start=1, 5):
+for i in range(1, 5):
 	seq_up_to_i = []
 	for i in range(i):
 		seq_up_to_i.append(i)
@@ -161,10 +161,10 @@ for i in range(start=1, 5):
 	seq_up_to += seq_up_to_i
 ```
 ```python
-[[x for x in range(i)] for i in range(start=1, 5)]
+[[x for x in range(i)] for i in range(1, 5)]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM2NDA3ODU4LC0xNDQ4ODUyOTI1LDE2OT
-YxMTUzOTMsMTg5NTExMjUwMiwxNjE2NDM2MTQsLTE5Nzg3NTk4
-MV19
+eyJoaXN0b3J5IjpbMTgxNDU4MjI5MCwtMTQ0ODg1MjkyNSwxNj
+k2MTE1MzkzLDE4OTUxMTI1MDIsMTYxNjQzNjE0LC0xOTc4NzU5
+ODFdfQ==
 -->
