@@ -71,9 +71,9 @@ False
 ```python
 sequence[start:stop:step]
 ```
-* ***start*** - the beginning index of the slice (including this index)
-* ***end*** - the ending index of the slice (excluding this index)
-* ***step*** - the amount by which the index increases
+* ***start [default = 0]*** - the beginning index of the slice (including this index)
+* ***end [default = len(sequence)]*** - the ending index of the slice (excluding this index)
+* ***step [default = 1]*** - the amount by which the index increases
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODg2MTUzNDksLTE5Nzg3NTk4MV19
+eyJoaXN0b3J5IjpbMTU5NDQxOTIyNSwtMTk3ODc1OTgxXX0=
 -->
