@@ -52,8 +52,12 @@ False
 ```
 ### Comparing lists (or any other sequence)
 - comparison uses lexicographical ordering
-- equality is deep equality
+- equality is deep element-wise equality
+```python
+[1, 2, 3] < [1, 2, 4]
+[1, 2] < [0, 0, 0]
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjQwNDAxMDUsLTE3ODAwMjU1MzYsLT
-kxNzQzODQzNywxNDkxNzEyNDkzLDEwMjM1ODc1NDhdfQ==
+eyJoaXN0b3J5IjpbMTQ0MDk1MDI3MCwtMTc4MDAyNTUzNiwtOT
+E3NDM4NDM3LDE0OTE3MTI0OTMsMTAyMzU4NzU0OF19
 -->
