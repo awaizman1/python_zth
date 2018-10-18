@@ -11,6 +11,7 @@
 >>> s = "hello" " world"
 >>> s
 'hello world'
+
 >>> print("this is a very long line so i split it to two: "
 >>> 	"first part and "
 >>> 	"second part")
