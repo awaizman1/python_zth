@@ -112,10 +112,16 @@ A concise way to create lists.
 [list comprehensions](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)
 ```python
 [ expression for-clause [for-clause | if-clause]* ]
+```
+```python
+squares = []
+for x in [1, 2, 3]:
+	squares.append(x**2)
+```
 
-
+[x**2 for x in [1, 2, 3]]
 [expression(item) for item in iterable]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0Nzc2MTQzLDE4OTUxMTI1MDIsMTYxNj
+eyJoaXN0b3J5IjpbNDQ5MzgwNTY5LDE4OTUxMTI1MDIsMTYxNj
 QzNjE0LC0xOTc4NzU5ODFdfQ==
 -->
