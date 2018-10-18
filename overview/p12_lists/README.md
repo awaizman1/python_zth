@@ -98,7 +98,11 @@ sequence[start:stop:step]
 >>> # last 2 items
 >>> a[-2:]
 ['quux', 'corge']
+
+>>> # everything except the last two items
+>>> a[:,-2]
+['foo', 'bar', 'baz', 'qux']
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MjIzNDg5NCwtMTk3ODc1OTgxXX0=
+eyJoaXN0b3J5IjpbMTYxNjQzNjE0LC0xOTc4NzU5ODFdfQ==
 -->
