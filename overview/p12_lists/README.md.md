@@ -56,10 +56,14 @@ False
 [comparing-sequences](https://docs.python.org/3/tutorial/datastructures.html#comparing-sequences-and-other-types)
 ```python
 [1, 2, 3] < [1, 2, 4]
+
 [1, 2] < [1, 2, -1]
-[1, 2]
+
+[1, 2] == [1, 2]
+
+[1, 2] == [1.0, 2.0]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzYxMzI2OTAsLTE3ODAwMjU1MzYsLT
-kxNzQzODQzNywxNDkxNzEyNDkzLDEwMjM1ODc1NDhdfQ==
+eyJoaXN0b3J5IjpbMTI5NjM0NTQyNSwtMTc4MDAyNTUzNiwtOT
+E3NDM4NDM3LDE0OTE3MTI0OTMsMTAyMzU4NzU0OF19
 -->
