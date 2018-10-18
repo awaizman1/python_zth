@@ -118,7 +118,10 @@ False
 ### Format string style
 [format-string-syntax](https://docs.python.org/3/library/string.html#format-string-syntax)
 ```python
+# positional substitution
 >>> "The grade of {} is {}".format(name, grade)
+'The grade of Bob is 93'
+>>> "The grade of {1} is {0}".format(grade, name)
 'The grade of Bob is 93'
 ```
 ```python
@@ -129,8 +132,8 @@ False
  - perform ***task.py*** and ***task2.py***
  - test yourself by running ***test_task.py*** and ***test_task2.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODUzMDMxMzMsLTY4NzUwMjMzMywtMT
-g0NzYxNDIwOSwtMTA1NDA0Nzc5MCw4MjMxNjI2MzgsODIxODU1
-NTE4LC0zMTYxMjc0NjUsLTEzNjc3OTYwMDcsMTgwMzYwMzk0OF
-19
+eyJoaXN0b3J5IjpbMTA4MjU1NzU3NSwtMTg4NTMwMzEzMywtNj
+g3NTAyMzMzLC0xODQ3NjE0MjA5LC0xMDU0MDQ3NzkwLDgyMzE2
+MjYzOCw4MjE4NTU1MTgsLTMxNjEyNzQ2NSwtMTM2Nzc5NjAwNy
+wxODAzNjAzOTQ4XX0=
 -->
