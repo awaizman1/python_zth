@@ -115,13 +115,14 @@ False
 >>> "The grade of %(student_name)s is %(grade)d" % {"grade": grade, "student_name": name}
 'The grade of Bob is 93'
 ```
-### 
+### Format string style
+[](https://docs.python.org/3/library/string.html#format-string-syntax
 ### Time for task:
  - perform ***task.py*** and ***task2.py***
  - test yourself by running ***test_task.py*** and ***test_task2.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMjY4OTcyMywtNjg3NTAyMzMzLC0xOD
-Q3NjE0MjA5LC0xMDU0MDQ3NzkwLDgyMzE2MjYzOCw4MjE4NTU1
-MTgsLTMxNjEyNzQ2NSwtMTM2Nzc5NjAwNywxODAzNjAzOTQ4XX
-0=
+eyJoaXN0b3J5IjpbMzIzNzM3MTM3LC02ODc1MDIzMzMsLTE4ND
+c2MTQyMDksLTEwNTQwNDc3OTAsODIzMTYyNjM4LDgyMTg1NTUx
+OCwtMzE2MTI3NDY1LC0xMzY3Nzk2MDA3LDE4MDM2MDM5NDhdfQ
+==
 -->
