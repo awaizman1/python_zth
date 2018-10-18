@@ -100,11 +100,13 @@ False
 >>> s[1:3] = 'abc'
 >>> del s[1:3]
 ```
+## *str* format
+
 ### Time for task:
  - perform ***task.py*** and ***task2.py***
  - test yourself by running ***test_task.py*** and ***test_task2.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDc2MTQyMDksLTEwNTQwNDc3OTAsOD
-IzMTYyNjM4LDgyMTg1NTUxOCwtMzE2MTI3NDY1LC0xMzY3Nzk2
-MDA3LDE4MDM2MDM5NDhdfQ==
+eyJoaXN0b3J5IjpbLTE3NTg1MjU2MjMsLTE4NDc2MTQyMDksLT
+EwNTQwNDc3OTAsODIzMTYyNjM4LDgyMTg1NTUxOCwtMzE2MTI3
+NDY1LC0xMzY3Nzk2MDA3LDE4MDM2MDM5NDhdfQ==
 -->
