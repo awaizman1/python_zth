@@ -22,7 +22,13 @@
 >>> 3 in [1, 2, 4]
 False
 
+>>>
+>>> len([1, 2])
+2
+>>> [1, 2, 1].count(1)
+2
+>>> [
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA2MDc5NjYsMTAyMzU4NzU0OF19
+eyJoaXN0b3J5IjpbLTY4MDc1MzcxNywxMDIzNTg3NTQ4XX0=
 -->
