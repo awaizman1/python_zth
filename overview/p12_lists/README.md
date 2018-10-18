@@ -136,9 +136,10 @@ for x in range(10):
 ```
 #### Combining several sequences
 ```python
-[f"({a}x{b})" for a in range(5) for b in ra
+>>> [f"({a}x{b})" for a in range(3) for b in range(3)]
+['(0x0)', '(0x1)', '(0x2)', '(1x0)', '(1x1)', '(1x2)', '(2x0)', '(2x1)', '(2x2)']
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNTE4MjYwOSwxNjk2MTE1MzkzLDE4OT
-UxMTI1MDIsMTYxNjQzNjE0LC0xOTc4NzU5ODFdfQ==
+eyJoaXN0b3J5IjpbLTE0NDg4NTI5MjUsMTY5NjExNTM5MywxOD
+k1MTEyNTAyLDE2MTY0MzYxNCwtMTk3ODc1OTgxXX0=
 -->
