@@ -1,6 +1,6 @@
 
 # bytes
-Immutable sequence of bytes
+***Immutable*** sequence of bytes
 - immutable - means you can't modify str content
 - sequence - follows the sequence protocol
 https://docs.python.org/3/library/stdtypes.html#bytes-objects
