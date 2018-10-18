@@ -7,7 +7,7 @@ Use docstrings and comments for documenting your code.
 - Document only public package / module / class / method / function, not private ones!   
 - There are tools for creating web / pdf / etc. documentation from docstrings (i.e. [sphinx](http://www.sphinx-doc.org/en/master/)).
 
-> package docstrings is placed in package's ***____init____.py*** file (will be discussed later)
+> package docstrings is placed in package's ***__\__init__\__.py*** file (will be discussed later)
 
 The code below shows module, class, method and function docstrings:
 ```python
