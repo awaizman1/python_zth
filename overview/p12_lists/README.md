@@ -139,7 +139,11 @@ for x in range(10):
 >>> [f"({a}x{b})" for a in range(3) for b in range(3)]
 ['(0x0)', '(0x1)', '(0x2)', '(1x0)', '(1x1)', '(1x2)', '(2x0)', '(2x1)', '(2x2)']
 ```
+#### Combining several sequences and filters
+```python
+[send_message(
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDg4NTI5MjUsMTY5NjExNTM5MywxOD
-k1MTEyNTAyLDE2MTY0MzYxNCwtMTk3ODc1OTgxXX0=
+eyJoaXN0b3J5IjpbLTE5Nzg0NTMyMTAsLTE0NDg4NTI5MjUsMT
+Y5NjExNTM5MywxODk1MTEyNTAyLDE2MTY0MzYxNCwtMTk3ODc1
+OTgxXX0=
 -->
