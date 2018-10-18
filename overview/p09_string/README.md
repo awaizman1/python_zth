@@ -107,6 +107,7 @@ False
 ```python
 >>> name = "Bob"
 >>> grade = 93
+
 >>> # positional substitution
 >>> "The grade of %s is %d in hex 0x%x" % (name, grade, grade)
 'The grade of Bob is 93 in hex 0x5d'
@@ -122,6 +123,7 @@ False
 # positional substitution
 >>> "The grade of {} is {} in hex 0x{:x}".format(name, grade, grade)
 'The grade of Bob is 93 in hex 0x5d'
+
 >>> "The grade of {1} is {0} in hex 0x{0:x}".format(grade, name)
 'The grade of Bob is 93 in hex 0x5d'
 ```
@@ -141,12 +143,13 @@ False
 >>>
 >>>"The grade of {student.name} is {student.grade}".format(student=bob)
 'The grade of Bob is 93'
+
 >>>"The grade of {student[0]} is {student[1]}".format(student=("Bob", 93))
 'The grade of Bob is 93'
 ```
 > 
 > 
-> **Advanced:** you can implement your own formatting specifiers and control how your objects will be formatted by overriding ***\__format__***
+> **Advanced:** you can implement your own formatting specifiers and control how your objects will be formatted by overriding ***\_\_format\_\_***
 
     
 
@@ -154,7 +157,7 @@ False
  - perform ***task.py*** and ***task2.py***
  - test yourself by running ***test_task.py*** and ***test_task2.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MjM4MjQxOSwxNzQ5NzkzNzc5LC05MD
+eyJoaXN0b3J5IjpbMTE2NDkzMDM2OSwxNzQ5NzkzNzc5LC05MD
 EzNDM0MDgsMTA4MjU1NzU3NSwtMTg4NTMwMzEzMywtNjg3NTAy
 MzMzLC0xODQ3NjE0MjA5LC0xMDU0MDQ3NzkwLDgyMzE2MjYzOC
 w4MjE4NTU1MTgsLTMxNjEyNzQ2NSwtMTM2Nzc5NjAwNywxODAz
