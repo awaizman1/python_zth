@@ -50,7 +50,9 @@ False
 >>> # emptying a list (not assigning new empty list to the reference!)
 >>> l[:] = []
 ```
+### Comparing lists (or any other sequence)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODAwMjU1MzYsLTkxNzQzODQzNywxND
-kxNzEyNDkzLDEwMjM1ODc1NDhdfQ==
+eyJoaXN0b3J5IjpbMTY5MzQ2NTI5MSwtMTc4MDAyNTUzNiwtOT
+E3NDM4NDM3LDE0OTE3MTI0OTMsMTAyMzU4NzU0OF19
 -->
