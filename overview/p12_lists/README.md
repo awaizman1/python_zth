@@ -111,8 +111,11 @@ A concise way to create lists.
 * great for ***map / filter*** operations
 [list comprehensions](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)
 ```python
+[ expression for-clause [for-clause | if-clause]* ]
+
+
 [expression(item) for item in iterable]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NTExMjUwMiwxNjE2NDM2MTQsLTE5Nz
-g3NTk4MV19
+eyJoaXN0b3J5IjpbMTc0Nzc2MTQzLDE4OTUxMTI1MDIsMTYxNj
+QzNjE0LC0xOTc4NzU5ODFdfQ==
 -->
