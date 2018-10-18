@@ -102,12 +102,18 @@ False
 ```
 ## *str* format
 ### `printf`-style
-
+[printf-style-string-formatting](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting)
+```python
+>>> name = "Bob"
+>>> grade = 93
+>>> "The grade of %s is %d"
+```
 ### Time for task:
  - perform ***task.py*** and ***task2.py***
  - test yourself by running ***test_task.py*** and ***test_task2.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NzUwMjMzMywtMTg0NzYxNDIwOSwtMT
-A1NDA0Nzc5MCw4MjMxNjI2MzgsODIxODU1NTE4LC0zMTYxMjc0
-NjUsLTEzNjc3OTYwMDcsMTgwMzYwMzk0OF19
+eyJoaXN0b3J5IjpbLTU5MzE5MDY0NCwtNjg3NTAyMzMzLC0xOD
+Q3NjE0MjA5LC0xMDU0MDQ3NzkwLDgyMzE2MjYzOCw4MjE4NTU1
+MTgsLTMxNjEyNzQ2NSwtMTM2Nzc5NjAwNywxODAzNjAzOTQ4XX
+0=
 -->
