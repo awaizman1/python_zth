@@ -68,7 +68,11 @@ False
 ```
 ## Slicing (of list or any other sequence)
 ![](/images/p12-slice.png)
+```python
+sequence[start:stop:step]
 ```
+* ***start*** - the beginning index of the slice
+* ***end***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwODU4MjAxMSwtMTk3ODc1OTgxXX0=
+eyJoaXN0b3J5IjpbNTc4NDg1NjUwLC0xOTc4NzU5ODFdfQ==
 -->
