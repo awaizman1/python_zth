@@ -148,7 +148,7 @@ False
 'The grade of Bob is 93'
 ```
 ### f-string
-As you already saw above, all you need to know is that f-string uses the same 
+As you already saw above, all you need to know is that f-string uses the same ***format()*** protocol as 
 > 
 > 
 > **Advanced:** you can implement your own formatting specifiers and control how your objects will be formatted by overriding ***\_\_format\_\_***
@@ -159,9 +159,9 @@ As you already saw above, all you need to know is that f-string uses the same
  - perform ***task.py*** and ***task2.py***
  - test yourself by running ***test_task.py*** and ***test_task2.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDM1NzU2ODcsLTExMjg4ODI5ODEsMT
-c0OTc5Mzc3OSwtOTAxMzQzNDA4LDEwODI1NTc1NzUsLTE4ODUz
-MDMxMzMsLTY4NzUwMjMzMywtMTg0NzYxNDIwOSwtMTA1NDA0Nz
-c5MCw4MjMxNjI2MzgsODIxODU1NTE4LC0zMTYxMjc0NjUsLTEz
-Njc3OTYwMDcsMTgwMzYwMzk0OF19
+eyJoaXN0b3J5IjpbLTI2NTMzOTA0NywtMTEyODg4Mjk4MSwxNz
+Q5NzkzNzc5LC05MDEzNDM0MDgsMTA4MjU1NzU3NSwtMTg4NTMw
+MzEzMywtNjg3NTAyMzMzLC0xODQ3NjE0MjA5LC0xMDU0MDQ3Nz
+kwLDgyMzE2MjYzOCw4MjE4NTU1MTgsLTMxNjEyNzQ2NSwtMTM2
+Nzc5NjAwNywxODAzNjAzOTQ4XX0=
 -->
