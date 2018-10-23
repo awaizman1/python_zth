@@ -33,7 +33,7 @@ if __name__ == "__main__":
 
         diag = read_diagonal_from_user()
 
-        if diag == 0:
+        if not diag:
             break
 
         print_diamond(diag)
