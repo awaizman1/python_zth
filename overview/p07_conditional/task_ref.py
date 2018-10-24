@@ -20,17 +20,20 @@ def is_password_valid(password):
     has_digit = False
     has_special = False
 
-    for c in password:
-        if c in string.ascii_lowercase:
+    for ch in password:
+        if ch in string.ascii_lowercase:
             has_lowercase = True
-        elif c in string.ascii_uppercase:
+        elif ch in string.ascii_uppercase:
             has_uppercase = True
-        elif c in string.digits:
-            has_digit = True
-        elif c in "$#@":
+        elif ch in "$#@":
             has_special = True
+        elif ch in string.digits:
+            has_digit = True
 
-    return has_lowercase and has_uppercase and has_digit and has_special
+        if has_lowercase and has_uppercase and has_special and has_digit:
+            return True
+
+    return False
 
 
 p = input("Enter password:\n")
