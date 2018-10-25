@@ -9,17 +9,22 @@
 
 
 def remove_dups(some_string, dups=3):
+    
     n = dups - 1
     i = 0
     while i < len(some_string) - n:
+        # keep fwd until different char
         j = i + 1
         while j < len(some_string) and some_string[i] == some_string[j]:
             j += 1
+        
+        # remove duplication
         if j - i > n:
             some_string = some_string[:i] + some_string[j:]
             i -= n
         else:
-            i += 1
+            i = j
+    
     return some_string
 
 
