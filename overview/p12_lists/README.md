@@ -90,12 +90,13 @@ sequence[start:stop:step]
 
 >>> a[::2]
 ['foo', 'baz', 'quux']
-
+```
 
 # If a negative stride is specified and the starting or stopping indices are omitted,
 # they default to ``end of axis'' and ``beginning of axis'' respectively.
 # Notice that this is correct only if start and stop are omitted. 
 
+```python
 >>> # reverse
 >>> a[::-1]
 ['corge', 'quux', 'qux', 'baz', 'bar', 'foo']
