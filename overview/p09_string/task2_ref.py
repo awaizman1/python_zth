@@ -21,7 +21,7 @@ def remove_dups(some_string, dups=3):
         # remove duplication
         if j - i > n:
             some_string = some_string[:i] + some_string[j:]
-            i -= n
+            i = i - n if i >= n else 0
         else:
             i = j
     
