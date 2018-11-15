@@ -7,10 +7,12 @@ Immutable sequence of objects.
 
 >>> # single element tuple
 >>> t = (1,)
->
+>>> t = 1,
+
 >>> # tuple of hetrogenous items
 >>> t = (1, "two", 3.0)
+>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMzg0Njg5NF19
+eyJoaXN0b3J5IjpbMjIwMjc2MDUyXX0=
 -->
