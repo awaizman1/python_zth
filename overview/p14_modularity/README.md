@@ -40,11 +40,20 @@ greet.print_greeting()
 $ python greet.py
 have a nice day
 ```
-#### 
+#### Distinguish between import and running as a script
+```python
+# greet.py module - fixed!
+
+def print_greeting():
+    print('have a nice day')
+
+if __name__=="__main
+print_greeting()
+```
 # Package
 A collection of modules (sub-modules) and other packages (sub-packages).
 ![](/images/p14-2.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDUxNjU0MzIsNjU2NjgzNzcsLTIwMz
-MzMTcxNDQsMTQ0NDQ3NzU2NywxMDEyOTgzNTk2XX0=
+eyJoaXN0b3J5IjpbLTg3MDcxNzkxOSw2NTY2ODM3NywtMjAzMz
+MxNzE0NCwxNDQ0NDc3NTY3LDEwMTI5ODM1OTZdfQ==
 -->
