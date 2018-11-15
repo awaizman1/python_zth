@@ -56,13 +56,26 @@ if __name__=="__main__":
 ```
 ## Recommanded scriptable module layout
 ```python
-# main.
+# main.py module
+
+def some_func(args):
+    ...
+
+def parse_args():
+    ...
+
+def main():
+    args = parse_args()
+    some_func(args)
+
+if __name__ == "__main__":
+    main()
 ```
 # Package
 A collection of modules (sub-modules) and other packages (sub-packages).
 ![](/images/p14-2.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MDk2ODQ0NSwxMDk2NTUxNjU5LDY1Nj
-Y4Mzc3LC0yMDMzMzE3MTQ0LDE0NDQ0Nzc1NjcsMTAxMjk4MzU5
-Nl19
+eyJoaXN0b3J5IjpbMTAyMDg1MDY2LDEwOTY1NTE2NTksNjU2Nj
+gzNzcsLTIwMzMzMTcxNDQsMTQ0NDQ3NzU2NywxMDEyOTgzNTk2
+XX0=
 -->
