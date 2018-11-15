@@ -30,8 +30,9 @@ Immutable sequence of objects.
 2
 >>> c
 3
+>>> # use _ for unused variables (IDEs aware of this convension)
 >>> a, _, c = foo()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MzAxMzI0NSwxMDA3Mjc5Njc5XX0=
+eyJoaXN0b3J5IjpbLTE5MTU0OTkxNjEsMTAwNzI3OTY3OV19
 -->
