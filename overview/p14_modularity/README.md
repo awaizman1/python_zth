@@ -98,7 +98,10 @@ from fibo import fib as fibonacci
 
 fibonacci(5)
 ```
-### all module symbols import
+### all module symbols import (except those beginning with `_`)
+
+> Bad practice: 
+
 ```python
 from fibo import *
 
@@ -109,7 +112,7 @@ fib2(5)
 A collection of modules (sub-modules) and other packages (sub-packages).
 ![](/images/p14-2.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NDE3MTg5OSwyNjc5NzE2MTgsMTA5Nj
+eyJoaXN0b3J5IjpbMTc1MjUzODExNiwyNjc5NzE2MTgsMTA5Nj
 U1MTY1OSw2NTY2ODM3NywtMjAzMzMxNzE0NCwxNDQ0NDc3NTY3
 LDEwMTI5ODM1OTZdfQ==
 -->
