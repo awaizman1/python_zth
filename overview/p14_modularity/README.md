@@ -1,4 +1,4 @@
-
+![](/images/p14-3.png)
 # Function
 The smallest granularity of reusable code
 ```python
@@ -140,8 +140,8 @@ __all__ = ["echo", "surround", "reverse"]
 ``` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MDgyNTg2NCwtMjQwNjc0MTg2LDQ3MD
-E4OTUzMCwxNDU3MDk2MjEsMjY3OTcxNjE4LDEwOTY1NTE2NTks
-NjU2NjgzNzcsLTIwMzMzMTcxNDQsMTQ0NDQ3NzU2NywxMDEyOT
-gzNTk2XX0=
+eyJoaXN0b3J5IjpbMzU4OTM4MDI2LC0yNDA2NzQxODYsNDcwMT
+g5NTMwLDE0NTcwOTYyMSwyNjc5NzE2MTgsMTA5NjU1MTY1OSw2
+NTY2ODM3NywtMjAzMzMxNzE0NCwxNDQ0NDc3NTY3LDEwMTI5OD
+M1OTZdfQ==
 -->
