@@ -28,6 +28,7 @@ def set_count(value):
 >>> print_count()
 0
 ```
+#### using the `global` keyword
 ```python
 # legb.py module
 
@@ -71,6 +72,7 @@ before inner call: enclosed value
 within inner: local value
 after inner call: enclosed value
 ```
+#### using the `nonlocal` keyword
 ```python
 # legb.py module
 
@@ -95,6 +97,6 @@ within inner: local value
 after inner call: local value
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNTUxOTE0NywtMTMyNjc3MTI4MiwyMT
-IxNzMwMjU3XX0=
+eyJoaXN0b3J5IjpbLTE1MDI1NTE1NTIsLTEzMjY3NzEyODIsMj
+EyMTczMDI1N119
 -->
