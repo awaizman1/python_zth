@@ -35,12 +35,14 @@ Immutable sequence of objects.
 >>> a, _, c = foo()
 ```
 # Named tuple
-a way of creating tuple subclass which provides:
 [namedtuple](https://docs.python.org/3/library/collections.html#collections.namedtuple)
+
+a way of creating tuple subclass which provides (in addition for what already provided by `tuple`):
  - own type
  - accessible fields
  - docstring
  - helpful \_\_repr\_\_
+
  
  ```python
 >>> # create new namedtuple
@@ -58,13 +60,13 @@ Point(x=1, y=5)
 >>> Point(1, 2)
 Point(x=1, y=2)
 
->>> # field access
+>>> # by-field access
 >>> p = Point(1,2)
 >>> p.x
 1
  ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyODIzNjM5NCwxMzg5Mzg5MDM5LC0xOT
-E1NDk5MTYxLDEwMDcyNzk2NzldfQ==
+eyJoaXN0b3J5IjpbLTEyNDA0MjcxNTksMTM4OTM4OTAzOSwtMT
+kxNTQ5OTE2MSwxMDA3Mjc5Njc5XX0=
 -->
