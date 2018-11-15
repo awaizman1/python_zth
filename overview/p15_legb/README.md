@@ -18,9 +18,13 @@ def set_count(value):
     count = value
 ``` 
 ```python
-import 
+>>> from legb import print_count, set_count
+
+>>> set_count(5)
+>>> print_count()
+0
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyODAxMDMwMV19
+eyJoaXN0b3J5IjpbMjUwODQ2MTU0XX0=
 -->
