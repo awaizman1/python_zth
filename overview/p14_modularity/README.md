@@ -20,11 +20,20 @@ A collection of functions and source code in a single ***.py*** file.
 ## Reusing a module
 A module can be either imported by another module or run directly by the interactive interpreter.
 ```python
->>> def greet():
+# greet.py module
+
+def greet():
+    print('have a nice day')
+
+greet()
+```
+```python
+# main.p
+```
 # Package
 A collection of modules (sub-modules) and other packages (sub-packages).
 ![](/images/p14-2.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODUzMTM0NTksNjU2NjgzNzcsLTIwMz
-MzMTcxNDQsMTQ0NDQ3NzU2NywxMDEyOTgzNTk2XX0=
+eyJoaXN0b3J5IjpbMTUyMjc0MjQ1Niw2NTY2ODM3NywtMjAzMz
+MxNzE0NCwxNDQ0NDc3NTY3LDEwMTI5ODM1OTZdfQ==
 -->
