@@ -27,7 +27,7 @@ def print_greeting():
 
 print_greeting()
 ```
-### Importing a module
+#### Importing a module
 ```python
 # my_module.py module
 
@@ -35,11 +35,14 @@ import greet
 
 greet.print_greeting()
 ```
-
+#### Running a module from interactive interpreter
+```bash
+python greet.py
+```
 # Package
 A collection of modules (sub-modules) and other packages (sub-packages).
 ![](/images/p14-2.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg4MDM1MTQ1LDY1NjY4Mzc3LC0yMDMzMz
-E3MTQ0LDE0NDQ0Nzc1NjcsMTAxMjk4MzU5Nl19
+eyJoaXN0b3J5IjpbLTE1MTQ2NTU4MTIsNjU2NjgzNzcsLTIwMz
+MzMTcxNDQsMTQ0NDQ3NzU2NywxMDEyOTgzNTk2XX0=
 -->
