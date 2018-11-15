@@ -36,7 +36,7 @@ import greet
 greet.print_greeting()
 ```
 
-> Executing my_moudle.py will print 'have a nice day' twice
+> Executing ***my_moudle.py*** will print 'have a nice day' twice. **Why?**
 
 #### Running a module from interactive interpreter
 ```cmd
@@ -58,6 +58,6 @@ if __name__=="__main__":
 A collection of modules (sub-modules) and other packages (sub-packages).
 ![](/images/p14-2.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxODk3MDcwLDY1NjY4Mzc3LC0yMDMzMz
-E3MTQ0LDE0NDQ0Nzc1NjcsMTAxMjk4MzU5Nl19
+eyJoaXN0b3J5IjpbMTA5NjU1MTY1OSw2NTY2ODM3NywtMjAzMz
+MxNzE0NCwxNDQ0NDc3NTY3LDEwMTI5ODM1OTZdfQ==
 -->
