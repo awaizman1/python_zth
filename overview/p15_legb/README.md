@@ -7,6 +7,7 @@ Whenever the interpreter accesses a variable (named reference), it follows the s
  4. **Built-in** - provided by the `builtins` module
 
 > if, for, while, with blocks doesn't add new scope
+
 ![](/images/p15-1.png)
 ## [global](https://docs.python.org/3/reference/simple_stmts.html#global) keyword
 The [`global`](https://docs.python.org/3/reference/simple_stmts.html#global) statement causes the listed identifiers to be interpreted as globals.
@@ -97,6 +98,6 @@ within inner: local value
 after inner call: local value
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDI1NTE1NTIsLTEzMjY3NzEyODIsMj
-EyMTczMDI1N119
+eyJoaXN0b3J5IjpbLTE3Njk2MzI2MjIsLTE1MDI1NTE1NTIsLT
+EzMjY3NzEyODIsMjEyMTczMDI1N119
 -->
