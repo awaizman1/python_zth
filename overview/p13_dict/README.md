@@ -46,8 +46,14 @@ True
 one
 two
 three
+>>> # iterate over key, value pairs
+>>> for k, v in d.items():
+>>>     print(f"{k} --> {v}")
+1 --> one
+2 --> two
+3 --> three
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MjMwOTYyMCwtODI4NzQ3Nzk1LDIwMT
-c3NDgyMzVdfQ==
+eyJoaXN0b3J5IjpbNDk4NzA0Mzc5LC04Mjg3NDc3OTUsMjAxNz
+c0ODIzNV19
 -->
