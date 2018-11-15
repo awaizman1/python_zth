@@ -79,12 +79,23 @@ if __name__ == "__main__":
 ```
 ## The import statement
 ```python
-import 
+import fibo
+
+fibo.fib(5)
+```
+```python
+from fibo import fib
+
+fib(5)
+```
+```python
+
+```
 # Package
 A collection of modules (sub-modules) and other packages (sub-packages).
 ![](/images/p14-2.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM4MjQzNDIwLDI2Nzk3MTYxOCwxMDk2NT
-UxNjU5LDY1NjY4Mzc3LC0yMDMzMzE3MTQ0LDE0NDQ0Nzc1Njcs
-MTAxMjk4MzU5Nl19
+eyJoaXN0b3J5IjpbLTk3ODgwNjA0MCwyNjc5NzE2MTgsMTA5Nj
+U1MTY1OSw2NTY2ODM3NywtMjAzMzMxNzE0NCwxNDQ0NDc3NTY3
+LDEwMTI5ODM1OTZdfQ==
 -->
