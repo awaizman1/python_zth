@@ -52,7 +52,7 @@ a way of creating tuple subclass which provides (in addition for what already pr
 >>> Point()
 Point(x=0, y=0)
 
->>> # instantiate with named args
+>>> # instantiate with keyword args
 >>> Point(x=1, y=5)
 Point(x=1, y=5)
 
@@ -67,6 +67,6 @@ Point(x=1, y=2)
  ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDA0MjcxNTksMTM4OTM4OTAzOSwtMT
-kxNTQ5OTE2MSwxMDA3Mjc5Njc5XX0=
+eyJoaXN0b3J5IjpbLTg4NzU5ODU5OSwtMTI0MDQyNzE1OSwxMz
+g5Mzg5MDM5LC0xOTE1NDk5MTYxLDEwMDcyNzk2NzldfQ==
 -->
