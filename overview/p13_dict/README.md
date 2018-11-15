@@ -60,8 +60,8 @@ two
 three
 ```
 ## Keys immutability
-(/images/p13-1.png)
+![](/images/p13-1.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MDUxNTMyNSwtMTg5MTA4ODM4MywtOD
-I4NzQ3Nzk1LDIwMTc3NDgyMzVdfQ==
+eyJoaXN0b3J5IjpbLTEyNjg4MDQ0MzgsLTE4OTEwODgzODMsLT
+gyODc0Nzc5NSwyMDE3NzQ4MjM1XX0=
 -->
