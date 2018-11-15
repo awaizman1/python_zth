@@ -120,8 +120,9 @@ When a module named  `spam`  is imported, the interpreter first searches for a b
 # Package
 A collection of modules (sub-modules) and other packages (sub-packages).
 ![](/images/p14-2.png)
+## __ini
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE1NDcwMTE0LDQ3MDE4OTUzMCwxNDU3MD
-k2MjEsMjY3OTcxNjE4LDEwOTY1NTE2NTksNjU2NjgzNzcsLTIw
-MzMzMTcxNDQsMTQ0NDQ3NzU2NywxMDEyOTgzNTk2XX0=
+eyJoaXN0b3J5IjpbMTc0NjczOTQ2OCw0NzAxODk1MzAsMTQ1Nz
+A5NjIxLDI2Nzk3MTYxOCwxMDk2NTUxNjU5LDY1NjY4Mzc3LC0y
+MDMzMzE3MTQ0LDE0NDQ0Nzc1NjcsMTAxMjk4MzU5Nl19
 -->
