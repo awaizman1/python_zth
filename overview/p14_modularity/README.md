@@ -54,7 +54,7 @@ def print_greeting():
 if __name__=="__main__":
     print_greeting()
 ```
-## Recommanded scriptable module layout
+## Recommended scriptable module layout
 
  - add ***main()*** function which runs script logic
  - ***if \_\_name\_\_ == \_\_main\_\_*** should call main()
@@ -80,7 +80,7 @@ if __name__ == "__main__":
 A collection of modules (sub-modules) and other packages (sub-packages).
 ![](/images/p14-2.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQzNDE4ODA0LDEwOTY1NTE2NTksNjU2Nj
+eyJoaXN0b3J5IjpbMTIwMDE1OTIwLDEwOTY1NTE2NTksNjU2Nj
 gzNzcsLTIwMzMzMTcxNDQsMTQ0NDQ3NzU2NywxMDEyOTgzNTk2
 XX0=
 -->
