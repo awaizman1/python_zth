@@ -16,7 +16,8 @@ def foo(x, y, z):
 A collection of functions and source code in a single ***.py*** file. 
 [modules](https://docs.python.org/3/tutorial/modules.html#modules)
  fibo.py
-![fibo.py3](/images/p14-1.png)
+![](/images/p14-1.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NDQ3NzU2NywxMDEyOTgzNTk2XX0=
+eyJoaXN0b3J5IjpbLTE1MDg3OTkzMTcsMTQ0NDQ3NzU2NywxMD
+EyOTgzNTk2XX0=
 -->
