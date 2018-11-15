@@ -14,10 +14,13 @@ count = 0
 def print_count():
     print(count)
 
-def inc_count():
-    count = count + 1
+def set_count(value):
+    count = value
 ``` 
+```python
+import 
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMzE0MTAzOV19
+eyJoaXN0b3J5IjpbMjAyODAxMDMwMV19
 -->
