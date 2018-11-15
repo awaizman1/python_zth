@@ -22,18 +22,24 @@ A module can be either imported by another module or run directly by the interac
 ```python
 # greet.py module
 
-def greet():
+def print_greeting():
     print('have a nice day')
 
-greet()
+print_greeting()
 ```
+### Importing a module
 ```python
-# main.p
+# my_module.py module
+
+import greet
+
+greet.print_greeting()
 ```
+
 # Package
 A collection of modules (sub-modules) and other packages (sub-packages).
 ![](/images/p14-2.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMjc0MjQ1Niw2NTY2ODM3NywtMjAzMz
-MxNzE0NCwxNDQ0NDc3NTY3LDEwMTI5ODM1OTZdfQ==
+eyJoaXN0b3J5IjpbMzg4MDM1MTQ1LDY1NjY4Mzc3LC0yMDMzMz
+E3MTQ0LDE0NDQ0Nzc1NjcsMTAxMjk4MzU5Nl19
 -->
