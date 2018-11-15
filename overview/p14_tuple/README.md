@@ -11,8 +11,8 @@ Immutable sequence of objects.
 
 >>> # tuple of hetrogenous items
 >>> t = (1, "two", 3.0)
->
+>>> t = 1, "two", 3.0
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIwMjc2MDUyXX0=
+eyJoaXN0b3J5IjpbMTAwNzI3OTY3OV19
 -->
