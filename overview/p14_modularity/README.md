@@ -78,6 +78,7 @@ if __name__ == "__main__":
     main()
 ```
 ## The import statement
+[import](https://docs.python.org/3/reference/simple_stmts.html#import)
 #### module import
 ```python
 import fibo
@@ -114,7 +115,7 @@ fib2(5)
 A collection of modules (sub-modules) and other packages (sub-packages).
 ![](/images/p14-2.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NzA5NjIxLDI2Nzk3MTYxOCwxMDk2NT
-UxNjU5LDY1NjY4Mzc3LC0yMDMzMzE3MTQ0LDE0NDQ0Nzc1Njcs
-MTAxMjk4MzU5Nl19
+eyJoaXN0b3J5IjpbLTk2MzM4NjQ2NSwxNDU3MDk2MjEsMjY3OT
+cxNjE4LDEwOTY1NTE2NTksNjU2NjgzNzcsLTIwMzMzMTcxNDQs
+MTQ0NDQ3NzU2NywxMDEyOTgzNTk2XX0=
 -->
