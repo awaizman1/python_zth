@@ -61,23 +61,27 @@ def outer():
     inner()
     print("after inner call: " + a_var)
 ```
-``` 
 ```python
->>> from legb import print_count, set_count
+>>> from legb import outer
 
->>> set_count(5)
->>> print_count()
-0
+>>> outer()
+before inner call: enclosed value
+within inner: local value
+after inner call: enclosed value
 ```
 ```python
-count = 0
+# legb.py module
 
-def print_count():
-    print(count)  # L-->E-->*G*
+def outer():
+    a_var = 'enclosed value'
 
-def set_count(value):
-	global count  # now count is the global one
-    count = value  # L-->E-->*G*
+    def inner():
+        a_var = 'local value'
+        print("within inner: " + a_var)
+    
+    print("before inner call: " + a_var)
+    inner()
+    print("after inner call: " + a_var)
 ``` 
 ```python
 >>> from legb import print_count, set_count
@@ -87,6 +91,6 @@ def set_count(value):
 5
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5ODg2NTA4MywtMTMyNjc3MTI4MiwyMT
-IxNzMwMjU3XX0=
+eyJoaXN0b3J5IjpbLTExMTYxNzUyMjMsLTEzMjY3NzEyODIsMj
+EyMTczMDI1N119
 -->
