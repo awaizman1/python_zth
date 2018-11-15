@@ -38,7 +38,14 @@ True
 >>> 
 ```
 ## Iterating dict
+```python
+>>> d = {1: 'one', 2: 'two', 3: 'three'} 
+>>> # iterate over keys
+>>> for k in d:
+>>>     print(d[k])
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjA0MzA5NTgsLTgyODc0Nzc5NSwyMD
-E3NzQ4MjM1XX0=
+eyJoaXN0b3J5IjpbLTI0MzAyMTg1MiwtODI4NzQ3Nzk1LDIwMT
+c3NDgyMzVdfQ==
 -->
