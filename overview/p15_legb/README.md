@@ -76,6 +76,7 @@ def outer():
     a_var = 'enclosed value'
 
     def inner():
+	    nonlocal a_var
         a_var = 'local value'
         print("within inner: " + a_var)
     
@@ -84,13 +85,14 @@ def outer():
     print("after inner call: " + a_var)
 ``` 
 ```python
->>> from legb import print_count, set_count
+>>> from legb import outer
 
->>> set_count(5)
->>> print_count()
-5
+>>> outer()
+before inner call: enclosed value
+within inner: local value
+after inner call: local value
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTYxNzUyMjMsLTEzMjY3NzEyODIsMj
-EyMTczMDI1N119
+eyJoaXN0b3J5IjpbLTY0MTkxNjg1OSwtMTMyNjc3MTI4MiwyMT
+IxNzMwMjU3XX0=
 -->
