@@ -44,16 +44,16 @@ def set_count(value):
 ```
 ## [nonlocal](https://docs.python.org/3/reference/simple_stmts.html#nonlocal) keyword
 ```python
-a_var = 'global value'
-
 def outer():
     a_var = 'enclosed value'
 
     def inner():
         a_var = 'local value'
         print(a_var)
-
+    
+    print("before ina_var)
     inner()
+    print(a_var)
 
 outer()
 ```
@@ -83,6 +83,6 @@ def set_count(value):
 5
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE3NzUyMTQwLC0xMzI2NzcxMjgyLDIxMj
+eyJoaXN0b3J5IjpbNjg5MDQzMjk2LC0xMzI2NzcxMjgyLDIxMj
 E3MzAyNTddfQ==
 -->
