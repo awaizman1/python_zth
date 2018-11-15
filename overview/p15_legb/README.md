@@ -9,7 +9,7 @@ Whenever the interpreter accesses a variable (named reference), it follows the s
 > if, for, while, with blocks doesn't add new scope
 ![](/images/p15-1.png)
 ## [global](https://docs.python.org/3/reference/simple_stmts.html#global) keyword
-The [`nonlocal`](https://docs.python.org/3/reference/simple_stmts.html#nonlocal) statement causes the listed identifiers to refer to previously bound variables in the nearest enclosing scope excluding globals
+The [`global`](https://docs.python.org/3/reference/simple_stmts.html#global) statement causes the listed identifiers to be interpreted as globals.
 ```python
 # legb.py module
 
@@ -48,6 +48,7 @@ def set_count(value):
 5
 ```
 ## [nonlocal](https://docs.python.org/3/reference/simple_stmts.html#nonlocal) keyword
+The [`nonlocal`](https://docs.python.org/3/reference/simple_stmts.html#nonlocal) statement causes the listed identifiers to refer to previously bound variables in the nearest enclosing scope excluding globals.
 ```python
 # legb.py module
 
@@ -94,6 +95,6 @@ within inner: local value
 after inner call: local value
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODAxNDM0ODMsLTEzMjY3NzEyODIsMj
-EyMTczMDI1N119
+eyJoaXN0b3J5IjpbLTUxNTUxOTE0NywtMTMyNjc3MTI4MiwyMT
+IxNzMwMjU3XX0=
 -->
