@@ -36,17 +36,17 @@ Immutable sequence of objects.
 ```
 # Named tuple
 a way of creating tuple subclass which provides:
-
+[namedtuple](https://docs.python.org/3/library/collections.html#collections.namedtuple)
  - own type
  - accessible fields
  - docstring
  - helpful \_\_repr\_\_
  
  ```python
->>> Point = namedtuple('Point', ['x', 
+>>> Point = namedtuple('Point', ('x', 'y'), (0, 0))
  ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NTM2ODc3NCwxMzg5Mzg5MDM5LC0xOT
+eyJoaXN0b3J5IjpbLTIwODc2ODU5NSwxMzg5Mzg5MDM5LC0xOT
 E1NDk5MTYxLDEwMDcyNzk2NzldfQ==
 -->
