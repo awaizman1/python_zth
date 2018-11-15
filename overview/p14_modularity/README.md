@@ -14,6 +14,8 @@ def foo(x, y, z):
 ```
 # Module
 A collection of functions and source code in a single ***.py*** file
+[modules](https://docs.python.org/3/tutorial/modules.html#modules)
+![fibo.py](/images/p14-1.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMjk4MzU5Nl19
+eyJoaXN0b3J5IjpbNTM5NjA0NDUxLDEwMTI5ODM1OTZdfQ==
 -->
