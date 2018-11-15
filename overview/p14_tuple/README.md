@@ -35,8 +35,13 @@ Immutable sequence of objects.
 >>> a, _, c = foo()
 ```
 # Named tuple
-a way of crea
+a way of creating tuple subclass which provides:
+
+ - own type
+ - accessible fields
+ - 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NDg1NzU5LDEzODkzODkwMzksLTE5MT
-U0OTkxNjEsMTAwNzI3OTY3OV19
+eyJoaXN0b3J5IjpbLTEyNTk0OTkxNzAsMTM4OTM4OTAzOSwtMT
+kxNTQ5OTE2MSwxMDA3Mjc5Njc5XX0=
 -->
