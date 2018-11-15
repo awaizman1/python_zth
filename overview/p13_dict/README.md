@@ -21,16 +21,19 @@ mutable mapping of keys to values
 >>> d[3] = 'THREE'
 >>> d
 {1: 'one', 2: 'two', 3: 'THREE'}
->>> # add new item at key
+>>> # add new item at key (creates new entry)
 >>> d[4] = 'four'
->>> del 
+>>> d
+{1: 'one', 2: 'two', 3: 'THREE', 4: 'four'}
+>>> # remove item at key
+>>> del d[
 >>> len(d)
-3
+2
 >>> 2 in d
 True
 >>>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODA3NjkwNTYsLTgyODc0Nzc5NSwyMD
+eyJoaXN0b3J5IjpbLTEyOTA3MDcyNzYsLTgyODc0Nzc5NSwyMD
 E3NzQ4MjM1XX0=
 -->
