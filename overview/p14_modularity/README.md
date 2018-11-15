@@ -44,7 +44,7 @@ $ python greet.py
 have a nice day
 ```
 #### Distinguish between import and running as a script
-module's [\_\_name\_\_ ](https://docs.python.org/3/library/__main__.html) global variable is set to "\_\_main\_\_" if running as script, otherwise it is the module name.
+module's [\_\_name\_\_ ](https://docs.python.org/3/library/__main__.html) global variable is set to ***"\_\_main\_\_"*** if running as script, otherwise it is the module name.
 ```python
 # greet.py module - fixed!
 
@@ -80,7 +80,7 @@ if __name__ == "__main__":
 A collection of modules (sub-modules) and other packages (sub-packages).
 ![](/images/p14-2.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMDE1OTIwLDEwOTY1NTE2NTksNjU2Nj
-gzNzcsLTIwMzMzMTcxNDQsMTQ0NDQ3NzU2NywxMDEyOTgzNTk2
-XX0=
+eyJoaXN0b3J5IjpbMTc0ODkzMTgwMiwxMDk2NTUxNjU5LDY1Nj
+Y4Mzc3LC0yMDMzMzE3MTQ0LDE0NDQ0Nzc1NjcsMTAxMjk4MzU5
+Nl19
 -->
