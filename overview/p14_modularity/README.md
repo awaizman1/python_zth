@@ -122,9 +122,11 @@ A collection of modules (sub-modules) and other packages (sub-packages).
 ![](/images/p14-2.png)
 ## `__init__.py`
 Marks a directory as package.
-In mosthe simplest case, `__init__.py` can just be an empty file, but it can also execute initialization code for the package or set the `__all__` variable, described later.
+In most cases, `__init__.py` can just be an empty file, but it can also execute initialization code for the package or set the `__all__` variable.
+### ### Importing * from a package
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM3NzU1Mzg0LDQ3MDE4OTUzMCwxNDU3MD
-k2MjEsMjY3OTcxNjE4LDEwOTY1NTE2NTksNjU2NjgzNzcsLTIw
-MzMzMTcxNDQsMTQ0NDQ3NzU2NywxMDEyOTgzNTk2XX0=
+eyJoaXN0b3J5IjpbLTEzMzk1NzM4NzAsNDcwMTg5NTMwLDE0NT
+cwOTYyMSwyNjc5NzE2MTgsMTA5NjU1MTY1OSw2NTY2ODM3Nywt
+MjAzMzMxNzE0NCwxNDQ0NDc3NTY3LDEwMTI5ODM1OTZdfQ==
 -->
