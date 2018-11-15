@@ -81,7 +81,7 @@ def outer():
     a_var = 'enclosed value'
 
     def inner():
-	    nonlocal a_var
+        nonlocal a_var
         a_var = 'local value'
         print("within inner: " + a_var)
     
@@ -98,6 +98,6 @@ within inner: local value
 after inner call: local value
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODEzOTkyMzgsLTE1MDI1NTE1NTIsLT
-EzMjY3NzEyODIsMjEyMTczMDI1N119
+eyJoaXN0b3J5IjpbMTc0OTI4NzIyLC0xNTAyNTUxNTUyLC0xMz
+I2NzcxMjgyLDIxMjE3MzAyNTddfQ==
 -->
