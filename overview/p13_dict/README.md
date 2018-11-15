@@ -11,6 +11,7 @@ mutable mapping of keys to values
 >>> # dict of hetrogenous keys and values
 >>> d = {'one': 1, 2: 'two'}
 ```
+## Dict operations
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTgxMzUyNDMsMjAxNzc0ODIzNV19
+eyJoaXN0b3J5IjpbLTgyODc0Nzc5NSwyMDE3NzQ4MjM1XX0=
 -->
