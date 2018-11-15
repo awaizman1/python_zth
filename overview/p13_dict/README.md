@@ -52,8 +52,14 @@ three
 1 --> one
 2 --> two
 3 --> three
+>>> # iterate over values
+>>> for v in d.values():
+>>>     print(v)
+one
+two
+three
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk4NzA0Mzc5LC04Mjg3NDc3OTUsMjAxNz
-c0ODIzNV19
+eyJoaXN0b3J5IjpbLTE4OTEwODgzODMsLTgyODc0Nzc5NSwyMD
+E3NzQ4MjM1XX0=
 -->
