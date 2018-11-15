@@ -11,9 +11,13 @@ Whenever the interpreter accesses a variable (named reference), it follows the s
 ```python
 count = 0
 
-def 
+def print_count():
+    print(count)
+
+def inc_count():
+    count = count + 1
 ``` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1ODA2ODMxNV19
+eyJoaXN0b3J5IjpbMTgyMzE0MTAzOV19
 -->
