@@ -55,6 +55,10 @@ if __name__=="__main__":
     print_greeting()
 ```
 ## Recommanded scriptable module layout
+
+ - add main() function which runs script logic
+ - if \_\_name\_\_ == \_\_main\_\_ should call main()
+
 ```python
 # main.py module
 
@@ -75,7 +79,7 @@ if __name__ == "__main__":
 A collection of modules (sub-modules) and other packages (sub-packages).
 ![](/images/p14-2.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMDg1MDY2LDEwOTY1NTE2NTksNjU2Nj
-gzNzcsLTIwMzMzMTcxNDQsMTQ0NDQ3NzU2NywxMDEyOTgzNTk2
-XX0=
+eyJoaXN0b3J5IjpbMTAyMzI1NDg5MSwxMDk2NTUxNjU5LDY1Nj
+Y4Mzc3LC0yMDMzMzE3MTQ0LDE0NDQ0Nzc1NjcsMTAxMjk4MzU5
+Nl19
 -->
