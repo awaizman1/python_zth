@@ -54,10 +54,15 @@ def print_greeting():
 if __name__=="__main__":
     print_greeting()
 ```
+## Recommanded scriptable module layout
+```python
+# main.
+```
 # Package
 A collection of modules (sub-modules) and other packages (sub-packages).
 ![](/images/p14-2.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NjU1MTY1OSw2NTY2ODM3NywtMjAzMz
-MxNzE0NCwxNDQ0NDc3NTY3LDEwMTI5ODM1OTZdfQ==
+eyJoaXN0b3J5IjpbLTQ1MDk2ODQ0NSwxMDk2NTUxNjU5LDY1Nj
+Y4Mzc3LC0yMDMzMzE3MTQ0LDE0NDQ0Nzc1NjcsMTAxMjk4MzU5
+Nl19
 -->
