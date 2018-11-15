@@ -44,13 +44,19 @@ def set_count(value):
 ```
 ## [nonlocal](https://docs.python.org/3/reference/simple_stmts.html#nonlocal) keyword
 ```python
-count = 0
+a_var = 'global value'
 
-def print_count():
-    print(count)  # L-->E-->*G*
+def outer():
+    a_var = 'enclosed value'
 
-def set_count(value):
-    count = value # *L*
+    def inner():
+        a_var = 'local value'
+        print(a_var)
+
+    inner()
+
+outer()
+```
 ``` 
 ```python
 >>> from legb import print_count, set_count
@@ -77,6 +83,6 @@ def set_count(value):
 5
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg5MTUzMzcxLC0xMzI2NzcxMjgyLDIxMj
+eyJoaXN0b3J5IjpbNjE3NzUyMTQwLC0xMzI2NzcxMjgyLDIxMj
 E3MzAyNTddfQ==
 -->
