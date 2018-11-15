@@ -6,8 +6,14 @@ Whenever the interpreter accesses a variable (named reference), it follows the s
  3. **Global** - module top level
  4. **Built-in** - provided by the `builtins` module
 
-> i
+> if, for, while, with blocks doesn't add new scope
+
+```python
+count = 0
+
+def 
+``` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNzE4NzUxN119
+eyJoaXN0b3J5IjpbLTI1ODA2ODMxNV19
 -->
