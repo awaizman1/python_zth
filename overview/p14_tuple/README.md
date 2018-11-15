@@ -15,13 +15,14 @@ Immutable sequence of objects.
 ```
 ## tuple unpacking
 ```python
-# 
+>>> # returning multiple objects from function is done using tuple
 >>> def foo():
 ...     return 1, 2, 3
 
 >>> a = foo()
 >>> a
 (1, 2, 3)
+>>> # tuple unpacking
 >>> a, b, c = foo()
 >>> a
 1
@@ -32,5 +33,5 @@ Immutable sequence of objects.
 >>> a, _, c = foo()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NjUyNzE2NCwxMDA3Mjc5Njc5XX0=
+eyJoaXN0b3J5IjpbLTc0MzAxMzI0NSwxMDA3Mjc5Njc5XX0=
 -->
