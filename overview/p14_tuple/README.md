@@ -20,7 +20,16 @@ Immutable sequence of objects.
 
 >>> a = foo()
 >>> a
+(1, 2, 3)
+>>> a, b, c = foo()
+>>> a
+1
+>>> b
+2
+>>> c
+3
+>>> a, _, c = foo()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNjEyNjgwOSwxMDA3Mjc5Njc5XX0=
+eyJoaXN0b3J5IjpbLTIxMTkzNTQxMywxMDA3Mjc5Njc5XX0=
 -->
