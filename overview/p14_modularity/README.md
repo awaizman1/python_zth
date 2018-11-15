@@ -125,7 +125,7 @@ Marks a directory as package.
 In most cases, `__init__.py` can just be an empty file, but it can also execute initialization code for the package or set the `__all__` variable.
 ### ### Importing * from a package
 
-> Blockquote
+> **Bad practice, don't do it!**
 
 `from sound.effects import *` doesn't goes out to the filesystem and imports all submodules.
  - could take a long time
@@ -139,7 +139,7 @@ __all__ = ["echo", "surround", "reverse"]
 ``` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MTEzMjAwNyw0NzAxODk1MzAsMTQ1Nz
+eyJoaXN0b3J5IjpbLTYzMDEzODk1Nyw0NzAxODk1MzAsMTQ1Nz
 A5NjIxLDI2Nzk3MTYxOCwxMDk2NTUxNjU5LDY1NjY4Mzc3LC0y
 MDMzMzE3MTQ0LDE0NDQ0Nzc1NjcsMTAxMjk4MzU5Nl19
 -->
