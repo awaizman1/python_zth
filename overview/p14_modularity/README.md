@@ -1,3 +1,4 @@
+
 # Function
 The smallest granularity of reusable code
 ```python
@@ -139,7 +140,8 @@ __all__ = ["echo", "surround", "reverse"]
 ``` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MDY3NDE4Niw0NzAxODk1MzAsMTQ1Nz
-A5NjIxLDI2Nzk3MTYxOCwxMDk2NTUxNjU5LDY1NjY4Mzc3LC0y
-MDMzMzE3MTQ0LDE0NDQ0Nzc1NjcsMTAxMjk4MzU5Nl19
+eyJoaXN0b3J5IjpbMTA5MDgyNTg2NCwtMjQwNjc0MTg2LDQ3MD
+E4OTUzMCwxNDU3MDk2MjEsMjY3OTcxNjE4LDEwOTY1NTE2NTks
+NjU2NjgzNzcsLTIwMzMzMTcxNDQsMTQ0NDQ3NzU2NywxMDEyOT
+gzNTk2XX0=
 -->
