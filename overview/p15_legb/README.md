@@ -7,7 +7,7 @@ Whenever the interpreter accesses a variable (named reference), it follows the s
  4. **Built-in** - provided by the `builtins` module
 
 > if, for, while, with blocks doesn't add new scope
-
+![](/images/p15-1.png)
 ```python
 count = 0
 
@@ -42,5 +42,5 @@ def set_count(value):
 5
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMTczMDI1N119
+eyJoaXN0b3J5IjpbLTEzMjY3NzEyODIsMjEyMTczMDI1N119
 -->
