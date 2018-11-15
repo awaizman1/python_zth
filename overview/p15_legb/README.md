@@ -39,7 +39,7 @@ def print_count():
     print(count)  # L-->E-->*G*
 
 def set_count(value):
-	global count  # now count is the global one
+    global count  # now count is the global one
     count = value  # L-->E-->*G*
 ``` 
 ```python
@@ -98,6 +98,6 @@ within inner: local value
 after inner call: local value
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2OTIyMjQxOCwtMTUwMjU1MTU1MiwtMT
-MyNjc3MTI4MiwyMTIxNzMwMjU3XX0=
+eyJoaXN0b3J5IjpbLTExODEzOTkyMzgsLTE1MDI1NTE1NTIsLT
+EzMjY3NzEyODIsMjEyMTczMDI1N119
 -->
