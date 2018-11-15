@@ -66,10 +66,11 @@ In more details, keys must be [hashable](https://docs.python.org/3/glossary.html
 ## dict comprehension
 Similarly to [list comprehensions](https://docs.python.org/3/tutorial/datastructures.html#tut-listcomps), dict comprehensions are also supported:
 ```python
-{x: x ** 2 for 
+>>> {x: x**2 for x in (2, 4, 6)}
+{2: 4, 4: 16, 6: 36}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNTc1NDk0MCw3MzI2MTEwOSwtMTI2OD
-gwNDQzOCwtMTg5MTA4ODM4MywtODI4NzQ3Nzk1LDIwMTc3NDgy
-MzVdfQ==
+eyJoaXN0b3J5IjpbNzM5MTQxODg5LDczMjYxMTA5LC0xMjY4OD
+A0NDM4LC0xODkxMDg4MzgzLC04Mjg3NDc3OTUsMjAxNzc0ODIz
+NV19
 -->
