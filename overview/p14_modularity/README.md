@@ -128,13 +128,14 @@ In most cases, `__init__.py` can just be an empty file, but it can also execute 
  - could take a long time
 -  importing sub-modules might have unwanted side-effects (executing all submodules code).
 
-The only solution is for the package author to provide an explicit index of the package. The  [`import`](https://docs.python.org/3/reference/simple_stmts.html#import)statement uses the following convention: if a package’s  `__init__.py`  code defines a list named  `__all__`, it is taken to be the list of module names that should be imported when  `from  packageimport  *`  is encountered. It is up to the package author to keep this list up-to-date when a new version of the package is released. Package authors may also decide not to support it, if they don’t see a use for importing * from their package. For example, the file  `sound/effects/__init__.py`  could contain the following code:
+In order to explicitly define which modules to impo 
 
+if a package’s  `__init__.py`  code defines a list named  `__all__`, it is taken to be the list of module names that should be imported when  `from package import *`  is encountered.
 __all__ = ["echo", "surround", "reverse"]
 
 This would mean that  `from  sound.effects  import  *`  would import the three named submodules of the  `sound`  package.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjYwMTk1OTMsNDcwMTg5NTMwLDE0NT
-cwOTYyMSwyNjc5NzE2MTgsMTA5NjU1MTY1OSw2NTY2ODM3Nywt
-MjAzMzMxNzE0NCwxNDQ0NDc3NTY3LDEwMTI5ODM1OTZdfQ==
+eyJoaXN0b3J5IjpbMTg0MjE0NzAwOSw0NzAxODk1MzAsMTQ1Nz
+A5NjIxLDI2Nzk3MTYxOCwxMDk2NTUxNjU5LDY1NjY4Mzc3LC0y
+MDMzMzE3MTQ0LDE0NDQ0Nzc1NjcsMTAxMjk4MzU5Nl19
 -->
