@@ -123,7 +123,7 @@ A collection of modules (sub-modules) and other packages (sub-packages).
 ## `__init__.py`
 Marks a directory as package.
 In most cases, `__init__.py` can just be an empty file, but it can also execute initialization code for the package or set the `__all__` variable.
-### ### Importing * from a package
+### Importing * from a package
 
 > **Bad practice, don't do it!**
 
@@ -139,7 +139,7 @@ __all__ = ["echo", "surround", "reverse"]
 ``` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMDEzODk1Nyw0NzAxODk1MzAsMTQ1Nz
+eyJoaXN0b3J5IjpbLTI0MDY3NDE4Niw0NzAxODk1MzAsMTQ1Nz
 A5NjIxLDI2Nzk3MTYxOCwxMDk2NTUxNjU5LDY1NjY4Mzc3LC0y
 MDMzMzE3MTQ0LDE0NDQ0Nzc1NjcsMTAxMjk4MzU5Nl19
 -->
