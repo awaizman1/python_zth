@@ -15,6 +15,7 @@ Immutable sequence of objects.
 ```
 ## tuple unpacking
 ```python
+# 
 >>> def foo():
 ...     return 1, 2, 3
 
@@ -31,5 +32,5 @@ Immutable sequence of objects.
 >>> a, _, c = foo()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTkzNTQxMywxMDA3Mjc5Njc5XX0=
+eyJoaXN0b3J5IjpbMTA4NjUyNzE2NCwxMDA3Mjc5Njc5XX0=
 -->
