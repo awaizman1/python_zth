@@ -43,9 +43,11 @@ True
 >>> # iterate over keys
 >>> for k in d:
 >>>     print(d[k])
-
+one
+two
+three
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MzAyMTg1MiwtODI4NzQ3Nzk1LDIwMT
+eyJoaXN0b3J5IjpbLTQ2MjMwOTYyMCwtODI4NzQ3Nzk1LDIwMT
 c3NDgyMzVdfQ==
 -->
