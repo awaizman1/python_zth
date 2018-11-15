@@ -101,6 +101,7 @@ fibonacci(5)
 ### all module symbols import (except those beginning with `_`)
 
 > Bad practice: 
+> - introduces an unknown set of names into the interpreter, possibly hiding some things you have already defined.
 
 ```python
 from fibo import *
@@ -112,7 +113,7 @@ fib2(5)
 A collection of modules (sub-modules) and other packages (sub-packages).
 ![](/images/p14-2.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MjUzODExNiwyNjc5NzE2MTgsMTA5Nj
-U1MTY1OSw2NTY2ODM3NywtMjAzMzMxNzE0NCwxNDQ0NDc3NTY3
-LDEwMTI5ODM1OTZdfQ==
+eyJoaXN0b3J5IjpbNDAwOTgyNjQzLDI2Nzk3MTYxOCwxMDk2NT
+UxNjU5LDY1NjY4Mzc3LC0yMDMzMzE3MTQ0LDE0NDQ0Nzc1Njcs
+MTAxMjk4MzU5Nl19
 -->
