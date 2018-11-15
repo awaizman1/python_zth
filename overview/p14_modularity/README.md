@@ -36,13 +36,15 @@ import greet
 greet.print_greeting()
 ```
 #### Running a module from interactive interpreter
-```bash
-python greet.py
+```cmd
+$ python greet.py
+have a nice day
 ```
+#### 
 # Package
 A collection of modules (sub-modules) and other packages (sub-packages).
 ![](/images/p14-2.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTQ2NTU4MTIsNjU2NjgzNzcsLTIwMz
+eyJoaXN0b3J5IjpbLTEzMDUxNjU0MzIsNjU2NjgzNzcsLTIwMz
 MzMTcxNDQsMTQ0NDQ3NzU2NywxMDEyOTgzNTk2XX0=
 -->
