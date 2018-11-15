@@ -10,6 +10,8 @@ Whenever the interpreter accesses a variable (named reference), it follows the s
 ![](/images/p15-1.png)
 ## [global](https://docs.python.org/3/reference/simple_stmts.html#global) keyword
 ```python
+# legb.py module
+
 count = 0
 
 def print_count():
@@ -26,6 +28,8 @@ def set_count(value):
 0
 ```
 ```python
+# legb.py module
+
 count = 0
 
 def print_count():
@@ -44,18 +48,18 @@ def set_count(value):
 ```
 ## [nonlocal](https://docs.python.org/3/reference/simple_stmts.html#nonlocal) keyword
 ```python
+# legb.py module
+
 def outer():
     a_var = 'enclosed value'
 
     def inner():
         a_var = 'local value'
-        print(a_var)
+        print("within inner: " + a_var)
     
-    print("before ina_var)
+    print("before inner call: " + a_var)
     inner()
-    print(a_var)
-
-outer()
+    print("after inner call: " + a_var)
 ```
 ``` 
 ```python
@@ -83,6 +87,6 @@ def set_count(value):
 5
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg5MDQzMjk2LC0xMzI2NzcxMjgyLDIxMj
-E3MzAyNTddfQ==
+eyJoaXN0b3J5IjpbLTI5ODg2NTA4MywtMTMyNjc3MTI4MiwyMT
+IxNzMwMjU3XX0=
 -->
