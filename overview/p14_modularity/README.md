@@ -13,7 +13,7 @@ def foo(x, y, z):
     return x + y + z
 ```
 # Module
-
+A collection of functions and source code in a single ***.py*** file
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5ODMyODIzNV19
+eyJoaXN0b3J5IjpbMTAxMjk4MzU5Nl19
 -->
