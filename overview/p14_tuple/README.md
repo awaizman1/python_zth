@@ -39,9 +39,14 @@ a way of creating tuple subclass which provides:
 
  - own type
  - accessible fields
- - 
+ - docstring
+ - helpful \_\_repr\_\_
+ 
+ ```python
+>>> Point = namedtuple('Point', ['x', 
+ ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTk0OTkxNzAsMTM4OTM4OTAzOSwtMT
-kxNTQ5OTE2MSwxMDA3Mjc5Njc5XX0=
+eyJoaXN0b3J5IjpbMTQ3NTM2ODc3NCwxMzg5Mzg5MDM5LC0xOT
+E1NDk5MTYxLDEwMDcyNzk2NzldfQ==
 -->
