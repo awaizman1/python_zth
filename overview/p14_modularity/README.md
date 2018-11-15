@@ -58,6 +58,7 @@ if __name__=="__main__":
 
  - add main() function which runs script logic
  - if \_\_name\_\_ == \_\_main\_\_ should call main()
+Intoducing the 
 
 ```python
 # main.py module
@@ -79,7 +80,7 @@ if __name__ == "__main__":
 A collection of modules (sub-modules) and other packages (sub-packages).
 ![](/images/p14-2.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMzI1NDg5MSwxMDk2NTUxNjU5LDY1Nj
+eyJoaXN0b3J5IjpbMTQwODA3MTc1OCwxMDk2NTUxNjU5LDY1Nj
 Y4Mzc3LC0yMDMzMzE3MTQ0LDE0NDQ0Nzc1NjcsMTAxMjk4MzU5
 Nl19
 -->
