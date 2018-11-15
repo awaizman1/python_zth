@@ -12,6 +12,18 @@ mutable mapping of keys to values
 >>> d = {'one': 1, 2: 'two'}
 ```
 ## Dict operations
+```python
+>>> d = {1: 'one', 2: 'two', 3: 'three'}
+>>> d[3]
+'three'
+>>> 
+>>> len(d)
+3
+>>> 2 in d
+True
+>>>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyODc0Nzc5NSwyMDE3NzQ4MjM1XX0=
+eyJoaXN0b3J5IjpbLTQ0MDg2NDM4NywtODI4NzQ3Nzk1LDIwMT
+c3NDgyMzVdfQ==
 -->
