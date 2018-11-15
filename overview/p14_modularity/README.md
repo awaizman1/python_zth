@@ -13,10 +13,10 @@ def foo(x, y, z):
     return x + y + z
 ```
 # Module
-A collection of functions and source code in a single ***.py*** file . 
-
+A collection of functions and source code in a single ***.py*** file. 
 [modules](https://docs.python.org/3/tutorial/modules.html#modules)
-![fibo.py](/images/p14-1.png)
+ fibo.py
+![fibo.py3](/images/p14-1.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MDQ3NzI1OSwxMDEyOTgzNTk2XX0=
+eyJoaXN0b3J5IjpbMTQ0NDQ3NzU2NywxMDEyOTgzNTk2XX0=
 -->
