@@ -1,5 +1,6 @@
 # Tuple
 Immutable sequence of objects.
+tuple is a sequence so all sequence opearations apply to it (in, [], iterating, slicinf
 ## tuple literals
 ```python
 >>> # empty tuple
@@ -34,5 +35,6 @@ Immutable sequence of objects.
 >>> a, _, c = foo()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTU0OTkxNjEsMTAwNzI3OTY3OV19
+eyJoaXN0b3J5IjpbMTI0NjA2Mzg4NiwtMTkxNTQ5OTE2MSwxMD
+A3Mjc5Njc5XX0=
 -->
