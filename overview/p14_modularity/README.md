@@ -77,11 +77,14 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+## The import statement
+```python
+import 
 # Package
 A collection of modules (sub-modules) and other packages (sub-packages).
 ![](/images/p14-2.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY3OTcxNjE4LDEwOTY1NTE2NTksNjU2Nj
-gzNzcsLTIwMzMzMTcxNDQsMTQ0NDQ3NzU2NywxMDEyOTgzNTk2
-XX0=
+eyJoaXN0b3J5IjpbMzM4MjQzNDIwLDI2Nzk3MTYxOCwxMDk2NT
+UxNjU5LDY1NjY4Mzc3LC0yMDMzMzE3MTQ0LDE0NDQ0Nzc1Njcs
+MTAxMjk4MzU5Nl19
 -->
