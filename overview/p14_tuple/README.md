@@ -44,12 +44,18 @@ a way of creating tuple subclass which provides:
  
  ```python
 >>> Point = namedtuple('Point', field_names=('x', 'y'), defaults=(0, 0))
->>> p1 = Point()
->>> p1
-
+>>> Point()
+Point(x=0, y=0)
+>>> Point(x=1, y=5)
+Point(x=1, y=5)
+>>> Point(1, 2)
+Point(x=1, y=2)
+>>> p = Point(1,2)
+>>> p.x
+1
  ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkyNTkzMjc4LDEzODkzODkwMzksLTE5MT
-U0OTkxNjEsMTAwNzI3OTY3OV19
+eyJoaXN0b3J5IjpbLTgzODg3NTM1NCwxMzg5Mzg5MDM5LC0xOT
+E1NDk5MTYxLDEwMDcyNzk2NzldfQ==
 -->
