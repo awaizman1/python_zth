@@ -24,7 +24,23 @@ def set_count(value):
 >>> print_count()
 0
 ```
+```python
+count = 0
 
+def print_count():
+    print(count)
+
+def set_count(value):
+	global count
+    count = value
+``` 
+```python
+>>> from legb import print_count, set_count
+
+>>> set_count(5)
+>>> print_count()
+5
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUwODQ2MTU0XX0=
+eyJoaXN0b3J5IjpbMjEyMTczMDI1N119
 -->
