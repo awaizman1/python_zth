@@ -14,11 +14,15 @@ mutable mapping of keys to values
 ## Dict operations
 ```python
 >>> d = {1: 'one', 2: 'two', 3: 'three'}
+>>> # access item by key
 >>> d[3]
 'three'
+>>> # modify item at key
 >>> d[3] = 'THREE'
 >>> d
-{
+{1: 'one', 2: 'two', 3: 'THREE'}
+>>> # add new item at key
+>>> d[4] = 'four'
 >>> del 
 >>> len(d)
 3
@@ -27,6 +31,6 @@ True
 >>>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NzgwNTQyMSwtODI4NzQ3Nzk1LDIwMT
-c3NDgyMzVdfQ==
+eyJoaXN0b3J5IjpbLTIwODA3NjkwNTYsLTgyODc0Nzc5NSwyMD
+E3NzQ4MjM1XX0=
 -->
