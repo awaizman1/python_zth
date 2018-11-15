@@ -13,6 +13,14 @@ Immutable sequence of objects.
 >>> t = (1, "two", 3.0)
 >>> t = 1, "two", 3.0
 ```
+## tuple unpacking
+```python
+>>> def foo():
+...     return 1, 2, 3
+
+>>> a = foo()
+>>> a
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNzI3OTY3OV19
+eyJoaXN0b3J5IjpbLTgyNjEyNjgwOSwxMDA3Mjc5Njc5XX0=
 -->
