@@ -111,12 +111,13 @@ from fibo import *
 fib(5)
 fib2(5)
 ```
-### Module 
+### Module search path
+
 # Package
 A collection of modules (sub-modules) and other packages (sub-packages).
 ![](/images/p14-2.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI5NTU5NjkxLDE0NTcwOTYyMSwyNjc5Nz
-E2MTgsMTA5NjU1MTY1OSw2NTY2ODM3NywtMjAzMzMxNzE0NCwx
-NDQ0NDc3NTY3LDEwMTI5ODM1OTZdfQ==
+eyJoaXN0b3J5IjpbLTU1MDYxNzU4MiwxNDU3MDk2MjEsMjY3OT
+cxNjE4LDEwOTY1NTE2NTksNjU2NjgzNzcsLTIwMzMzMTcxNDQs
+MTQ0NDQ3NzU2NywxMDEyOTgzNTk2XX0=
 -->
