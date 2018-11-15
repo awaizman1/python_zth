@@ -124,18 +124,22 @@ A collection of modules (sub-modules) and other packages (sub-packages).
 Marks a directory as package.
 In most cases, `__init__.py` can just be an empty file, but it can also execute initialization code for the package or set the `__all__` variable.
 ### ### Importing * from a package
+
+> Blockquote
+
 `from sound.effects import *` doesn't goes out to the filesystem and imports all submodules.
  - could take a long time
 -  importing sub-modules might have unwanted side-effects (executing all submodules code).
 
-In order to explicitly define which modules to impo 
+In order to explicitly define which modules to import on package * import use the `__all__` variable in `__init__.py`
+```python
+# __init__.py
 
-if a package’s  `__init__.py`  code defines a list named  `__all__`, it is taken to be the list of module names that should be imported when  `from package import *`  is encountered.
 __all__ = ["echo", "surround", "reverse"]
+``` 
 
-This would mean that  `from  sound.effects  import  *`  would import the three named submodules of the  `sound`  package.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MjE0NzAwOSw0NzAxODk1MzAsMTQ1Nz
+eyJoaXN0b3J5IjpbMTA1MTEzMjAwNyw0NzAxODk1MzAsMTQ1Nz
 A5NjIxLDI2Nzk3MTYxOCwxMDk2NTUxNjU5LDY1NjY4Mzc3LC0y
 MDMzMzE3MTQ0LDE0NDQ0Nzc1NjcsMTAxMjk4MzU5Nl19
 -->
