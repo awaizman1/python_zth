@@ -35,8 +35,8 @@ Immutable sequence of objects.
 >>> a, _, c = foo()
 ```
 # Named tuple
-
+a way of crea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4OTM4OTAzOSwtMTkxNTQ5OTE2MSwxMD
-A3Mjc5Njc5XX0=
+eyJoaXN0b3J5IjpbLTc5NDg1NzU5LDEzODkzODkwMzksLTE5MT
+U0OTkxNjEsMTAwNzI3OTY3OV19
 -->
