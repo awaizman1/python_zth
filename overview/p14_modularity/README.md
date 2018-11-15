@@ -124,9 +124,15 @@ A collection of modules (sub-modules) and other packages (sub-packages).
 Marks a directory as package.
 In most cases, `__init__.py` can just be an empty file, but it can also execute initialization code for the package or set the `__all__` variable.
 ### ### Importing * from a package
+`from sound.effects import *` doesn't goes out to the filesystem, finds which submodules are present in the package, and imports them all. This could take a long time and importing sub-modules might have unwanted side-effects that should only happen when the sub-module is explicitly imported.
 
+The only solution is for the package author to provide an explicit index of the package. The  [`import`](https://docs.python.org/3/reference/simple_stmts.html#import)statement uses the following convention: if a package’s  `__init__.py`  code defines a list named  `__all__`, it is taken to be the list of module names that should be imported when  `from  packageimport  *`  is encountered. It is up to the package author to keep this list up-to-date when a new version of the package is released. Package authors may also decide not to support it, if they don’t see a use for importing * from their package. For example, the file  `sound/effects/__init__.py`  could contain the following code:
+
+__all__ = ["echo", "surround", "reverse"]
+
+This would mean that  `from  sound.effects  import  *`  would import the three named submodules of the  `sound`  package.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzk1NzM4NzAsNDcwMTg5NTMwLDE0NT
-cwOTYyMSwyNjc5NzE2MTgsMTA5NjU1MTY1OSw2NTY2ODM3Nywt
-MjAzMzMxNzE0NCwxNDQ0NDc3NTY3LDEwMTI5ODM1OTZdfQ==
+eyJoaXN0b3J5IjpbNzIzODgxMDAxLDQ3MDE4OTUzMCwxNDU3MD
+k2MjEsMjY3OTcxNjE4LDEwOTY1NTE2NTksNjU2NjgzNzcsLTIw
+MzMzMTcxNDQsMTQ0NDQ3NzU2NywxMDEyOTgzNTk2XX0=
 -->
