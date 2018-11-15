@@ -63,7 +63,13 @@ three
 dict keys must be immutable (i.e. list can't be dict key).
 In more details, keys must be [hashable](https://docs.python.org/3/glossary.html#term-hashable).
 ![](/images/p13-1.png)
+## dict comprehension
+Similarly to [list comprehensions](https://docs.python.org/3/tutorial/datastructures.html#tut-listcomps), dict comprehensions are also supported:
+```python
+{x: x ** 2 for 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMyNjExMDksLTEyNjg4MDQ0MzgsLTE4OT
-EwODgzODMsLTgyODc0Nzc5NSwyMDE3NzQ4MjM1XX0=
+eyJoaXN0b3J5IjpbLTUxNTc1NDk0MCw3MzI2MTEwOSwtMTI2OD
+gwNDQzOCwtMTg5MTA4ODM4MywtODI4NzQ3Nzk1LDIwMTc3NDgy
+MzVdfQ==
 -->
