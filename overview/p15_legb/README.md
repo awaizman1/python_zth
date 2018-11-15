@@ -42,8 +42,41 @@ def set_count(value):
 >>> print_count()
 5
 ```
-#
+## [nonlocal](https://docs.python.org/3/reference/simple_stmts.html#nonlocal) keyword
+```python
+count = 0
+
+def print_count():
+    print(count)  # L-->E-->*G*
+
+def set_count(value):
+    count = value # *L*
+``` 
+```python
+>>> from legb import print_count, set_count
+
+>>> set_count(5)
+>>> print_count()
+0
+```
+```python
+count = 0
+
+def print_count():
+    print(count)  # L-->E-->*G*
+
+def set_count(value):
+	global count  # now count is the global one
+    count = value  # L-->E-->*G*
+``` 
+```python
+>>> from legb import print_count, set_count
+
+>>> set_count(5)
+>>> print_count()
+5
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzOTQ0MDUzMiwtMTMyNjc3MTI4MiwyMT
-IxNzMwMjU3XX0=
+eyJoaXN0b3J5IjpbOTg5MTUzMzcxLC0xMzI2NzcxMjgyLDIxMj
+E3MzAyNTddfQ==
 -->
