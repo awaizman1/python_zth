@@ -99,7 +99,7 @@ from fibo import fib as fibonacci
 
 fibonacci(5)
 ```
-### all module symbols import (except those beginning with `_`)
+#### all module symbols import (except those beginning with `_`)
 
 > **Bad practice** (use only in interactive sessions!): 
 > - introduces an unknown set of names into the interpreter, possibly hiding some things you have already defined.
@@ -111,11 +111,12 @@ from fibo import *
 fib(5)
 fib2(5)
 ```
+### Module 
 # Package
 A collection of modules (sub-modules) and other packages (sub-packages).
 ![](/images/p14-2.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MzM4NjQ2NSwxNDU3MDk2MjEsMjY3OT
-cxNjE4LDEwOTY1NTE2NTksNjU2NjgzNzcsLTIwMzMzMTcxNDQs
-MTQ0NDQ3NzU2NywxMDEyOTgzNTk2XX0=
+eyJoaXN0b3J5IjpbNjI5NTU5NjkxLDE0NTcwOTYyMSwyNjc5Nz
+E2MTgsMTA5NjU1MTY1OSw2NTY2ODM3NywtMjAzMzMxNzE0NCwx
+NDQ0NDc3NTY3LDEwMTI5ODM1OTZdfQ==
 -->
