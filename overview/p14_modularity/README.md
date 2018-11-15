@@ -35,13 +35,16 @@ import greet
 
 greet.print_greeting()
 ```
+
+> Executing my_moudle.py will print 'have a nice day' twice
+
 #### Running a module from interactive interpreter
 ```cmd
 $ python greet.py
 have a nice day
 ```
 #### Distinguish between import and running as a script
-module's [\_\_name\_\_ ](https://docs.python.org/3/library/__main__.html) global variable is set to "\_\_main\_\_" if running as script, otherwise it is the module name
+module's [\_\_name\_\_ ](https://docs.python.org/3/library/__main__.html) global variable is set to "\_\_main\_\_" if running as script, otherwise it is the module name.
 ```python
 # greet.py module - fixed!
 
@@ -55,6 +58,6 @@ if __name__=="__main__":
 A collection of modules (sub-modules) and other packages (sub-packages).
 ![](/images/p14-2.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg3NTMyODE1LDY1NjY4Mzc3LC0yMDMzMz
+eyJoaXN0b3J5IjpbMTcxODk3MDcwLDY1NjY4Mzc3LC0yMDMzMz
 E3MTQ0LDE0NDQ0Nzc1NjcsMTAxMjk4MzU5Nl19
 -->
