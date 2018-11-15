@@ -1,6 +1,6 @@
 # Tuple
 Immutable sequence of objects.
-tuple is a `sequence` so all sequence operations apply to it (in, [], iterating, slicing, ...)
+[tuple](https://docs.python.org/3/library/stdtypes.html#tuple) is a `sequence` so all sequence operations apply to it (in, [], iterating, slicing, ...)
 ## tuple literals
 ```python
 >>> # empty tuple
@@ -34,7 +34,9 @@ tuple is a `sequence` so all sequence operations apply to it (in, [], iterating,
 >>> # use _ for unused variables (IDEs aware of this convension)
 >>> a, _, c = foo()
 ```
+# Named tuple
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMDU0ODAwMSwtMTkxNTQ5OTE2MSwxMD
+eyJoaXN0b3J5IjpbMTM4OTM4OTAzOSwtMTkxNTQ5OTE2MSwxMD
 A3Mjc5Njc5XX0=
 -->
