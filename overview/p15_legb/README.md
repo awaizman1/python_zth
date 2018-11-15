@@ -12,10 +12,10 @@ Whenever the interpreter accesses a variable (named reference), it follows the s
 count = 0
 
 def print_count():
-    print(count)
+    print(count)  # L-->E-->*G*
 
 def set_count(value):
-    count = value
+    count = value # *L*
 ``` 
 ```python
 >>> from legb import print_count, set_count
@@ -32,7 +32,7 @@ def print_count():
 
 def set_count(value):
 	global count
-    count = value
+    count = value . #
 ``` 
 ```python
 >>> from legb import print_count, set_count
@@ -42,5 +42,6 @@ def set_count(value):
 5
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjY3NzEyODIsMjEyMTczMDI1N119
+eyJoaXN0b3J5IjpbODkyNDAyMTA5LC0xMzI2NzcxMjgyLDIxMj
+E3MzAyNTddfQ==
 -->
