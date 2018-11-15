@@ -8,7 +8,7 @@ Whenever the interpreter accesses a variable (named reference), it follows the s
 
 > if, for, while, with blocks doesn't add new scope
 ![](/images/p15-1.png)
-## [global] keyword
+## [global](https://docs.python.org/3/reference/simple_stmts.html#global) keyword
 ```python
 count = 0
 
@@ -42,7 +42,8 @@ def set_count(value):
 >>> print_count()
 5
 ```
+#
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzMwMzMxMDAsLTEzMjY3NzEyODIsMj
-EyMTczMDI1N119
+eyJoaXN0b3J5IjpbLTMzOTQ0MDUzMiwtMTMyNjc3MTI4MiwyMT
+IxNzMwMjU3XX0=
 -->
