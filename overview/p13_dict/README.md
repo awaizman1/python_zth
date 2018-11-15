@@ -1,6 +1,7 @@
 # Dict
 mutable mapping of keys to values.
-https://docs.python.org/3/library/stdtypes.html#mapping-types-dict
+[Mapping types](https://docs.python.org/3/library/stdtypes.html#mapping-types-dict)
+[dict](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)
 ## Dict literal
 ```python
 >>> # empty dict
@@ -36,7 +37,8 @@ https://docs.python.org/3/library/stdtypes.html#mapping-types-dict
 True
 >>> 
 ```
+## Iterating dict
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNjYxMzM5NCwtODI4NzQ3Nzk1LDIwMT
-c3NDgyMzVdfQ==
+eyJoaXN0b3J5IjpbLTIwMjA0MzA5NTgsLTgyODc0Nzc5NSwyMD
+E3NzQ4MjM1XX0=
 -->
