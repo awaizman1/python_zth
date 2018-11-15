@@ -16,7 +16,10 @@ mutable mapping of keys to values
 >>> d = {1: 'one', 2: 'two', 3: 'three'}
 >>> d[3]
 'three'
->>> 
+>>> d[3] = 'THREE'
+>>> d
+{
+>>> del 
 >>> len(d)
 3
 >>> 2 in d
@@ -24,6 +27,6 @@ True
 >>>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MDg2NDM4NywtODI4NzQ3Nzk1LDIwMT
+eyJoaXN0b3J5IjpbMTI0NzgwNTQyMSwtODI4NzQ3Nzk1LDIwMT
 c3NDgyMzVdfQ==
 -->
