@@ -69,6 +69,10 @@ Similarly to [list comprehensions](https://docs.python.org/3/tutorial/datastruct
 >>> {x: x**2 for x in (2, 4, 6)}
 {2: 4, 4: 16, 6: 36}
 ```
+
+### Time for task:
+ - perform ***task.py***
+ - test yourself by running ***test_task.py***
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbNzM5MTQxODg5LDczMjYxMTA5LC0xMjY4OD
 A0NDM4LC0xODkxMDg4MzgzLC04Mjg3NDc3OTUsMjAxNzc0ODIz
