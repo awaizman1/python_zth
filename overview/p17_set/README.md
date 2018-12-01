@@ -38,8 +38,8 @@ set([1, 2])
 [diff](/images/p17-symmetric-difference.png)
 ```python
 >>> a.symmetric_difference(b)  # or a ^ b
-set([1, 2])
+set([1, 2, 4, 5)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU5NzkyNDIzLC0xOTM0MjA0NDgzXX0=
+eyJoaXN0b3J5IjpbLTk0NzAzMTMxLC0xOTM0MjA0NDgzXX0=
 -->
