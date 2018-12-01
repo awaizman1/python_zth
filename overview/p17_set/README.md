@@ -21,8 +21,7 @@ b = {3, 4, 5}
 ```python
 >>> a.union(b)  # or a | b
 set([1, 2, 3 ,4 ,5])
-
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ5NDE1MTQ3LC0xOTM0MjA0NDgzXX0=
+eyJoaXN0b3J5IjpbNDc2NzU5MDY1LC0xOTM0MjA0NDgzXX0=
 -->
