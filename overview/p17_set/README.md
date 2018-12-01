@@ -36,7 +36,7 @@ set([3])
 set([1, 2])
 ```
 ### Symmetric difference
-![diff](/images/p17-symmetric-difference.png)
+![sym-diff](/images/p17-symmetric-diff.png)
 ```python
 >>> a.symmetric_difference(b)  # or a ^ b
 set([1, 2, 4, 5)
@@ -47,5 +47,6 @@ set([1, 2, 4, 5)
  - perform ***task.py***
  - test yourself by running ***test_task.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NTg0MDk0MywtMTkzNDIwNDQ4M119
+eyJoaXN0b3J5IjpbLTM2MDg1NTkzMywtNjY1ODQwOTQzLC0xOT
+M0MjA0NDgzXX0=
 -->
