@@ -3,7 +3,7 @@ Unordered collection of unique, immutable objects.
 Set literals
 ```python
 # empty set
-empty_set = set()
+empty_set = set() . # not {} since it resevered for dict...
 
 # set of objects
 int_set = {1, 4, 2, 7}
@@ -12,5 +12,5 @@ int_set = {1, 4, 2, 7}
 hetro_set = {1, False, 4.3}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MDQ4MjU3NF19
+eyJoaXN0b3J5IjpbLTE5MzQyMDQ0ODNdfQ==
 -->
