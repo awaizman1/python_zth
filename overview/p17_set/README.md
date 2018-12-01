@@ -32,9 +32,14 @@ set([3])
 [diff](/images/p17-difference.png)
 ```python
 >>> a.difference(b)  # or a - b
-set([3])
+set([1, 2])
+```
+### Symmetric difference
+[diff](/images/p17-symmetric-difference.png)
+```python
+>>> a.symmetric_difference(b)  # or a ^ b
+set([1, 2])
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzEyODkxODUsLTE5MzQyMDQ0ODNdfQ
-==
+eyJoaXN0b3J5IjpbNjU5NzkyNDIzLC0xOTM0MjA0NDgzXX0=
 -->
