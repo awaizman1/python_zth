@@ -25,8 +25,16 @@ set([1, 2, 3 ,4 ,5])
 ### Intersection
 ![intersect](/images/p17-intersect.png)
 ```python
->>> a.intersection(b)  # or a and 
+>>> a.intersection(b)  # or a & b
+set([3])
+```
+### Difference
+[diff](/images/p17-difference.png)
+```python
+>>> a.difference(b)  # or a - b
+set([3])
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDI1MDU5ODQsLTE5MzQyMDQ0ODNdfQ
+eyJoaXN0b3J5IjpbLTIwMzEyODkxODUsLTE5MzQyMDQ0ODNdfQ
 ==
 -->
