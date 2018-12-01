@@ -12,6 +12,7 @@ int_set = {1, 4, 2, 7}
 hetro_set = {1, False, 4.3}
 ```
 ## Set algebra
+[set](https://docs.python.org/3.7/library/stdtypes.html?highlight=set#set)
 ```python
 a = {1, 2, 3}
 b = {3, 4, 5}
@@ -40,6 +41,8 @@ set([1, 2])
 >>> a.symmetric_difference(b)  # or a ^ b
 set([1, 2, 4, 5)
 ```
+### Other operations
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NzAzMTMxLC0xOTM0MjA0NDgzXX0=
+eyJoaXN0b3J5IjpbLTc5MzIxNzk1NSwtMTkzNDIwNDQ4M119
 -->
