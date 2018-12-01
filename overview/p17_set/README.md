@@ -41,8 +41,9 @@ set([1, 2])
 >>> a.symmetric_difference(b)  # or a ^ b
 set([1, 2, 4, 5)
 ```
-### Other operations
-```
+### Other useful operations
+```isdisjoint```, ```issubset```, ```issuperset```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MzIxNzk1NSwtMTkzNDIwNDQ4M119
+eyJoaXN0b3J5IjpbLTIxMDA4NzMxNjYsLTE5MzQyMDQ0ODNdfQ
+==
 -->
