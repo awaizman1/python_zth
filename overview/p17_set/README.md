@@ -18,7 +18,7 @@ a = {1, 2, 3}
 b = {3, 4, 5}
 ```
 ### Union
-![unioun](/images/p17-union.png)
+![union](/images/p17-union.png)
 ```python
 >>> a.union(b)  # or a | b
 set([1, 2, 3 ,4 ,5])
@@ -47,5 +47,5 @@ set([1, 2, 4, 5)
  - perform ***task.py***
  - test yourself by running ***test_task.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMDA5NTg5NiwtMTkzNDIwNDQ4M119
+eyJoaXN0b3J5IjpbLTY2NTg0MDk0MywtMTkzNDIwNDQ4M119
 -->
