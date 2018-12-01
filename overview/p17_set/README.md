@@ -30,20 +30,22 @@ set([1, 2, 3 ,4 ,5])
 set([3])
 ```
 ### Difference
-[diff](/images/p17-difference.png)
+![diff](/images/p17-difference.png)
 ```python
 >>> a.difference(b)  # or a - b
 set([1, 2])
 ```
 ### Symmetric difference
-[diff](/images/p17-symmetric-difference.png)
+![diff](/images/p17-symmetric-difference.png)
 ```python
 >>> a.symmetric_difference(b)  # or a ^ b
 set([1, 2, 4, 5)
 ```
 ### Other useful operations
 ```isdisjoint```, ```issubset```, ```issuperset```
+## Time for task:
+ - perform ***task.py***
+ - test yourself by running ***test_task.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDA4NzMxNjYsLTE5MzQyMDQ0ODNdfQ
-==
+eyJoaXN0b3J5IjpbLTgyMDA5NTg5NiwtMTkzNDIwNDQ4M119
 -->
