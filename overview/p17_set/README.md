@@ -9,8 +9,8 @@ empty_set = set()
 int_set = {1, 4, 2, 7}
 
 # set of hetrogenous objects
-hetro_set = {
+hetro_set = {1, False, 4.3}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NzAwNTM2XX0=
+eyJoaXN0b3J5IjpbMTE5MDQ4MjU3NF19
 -->
