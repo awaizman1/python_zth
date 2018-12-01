@@ -22,6 +22,11 @@ b = {3, 4, 5}
 >>> a.union(b)  # or a | b
 set([1, 2, 3 ,4 ,5])
 ```
+### Intersection
+![intersect](/images/p17-intersect.png)
+```python
+>>> a.intersection(b)  # or a and 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc2NzU5MDY1LC0xOTM0MjA0NDgzXX0=
+eyJoaXN0b3J5IjpbLTE5MDI1MDU5ODQsLTE5MzQyMDQ0ODNdfQ
+==
 -->
