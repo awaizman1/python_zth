@@ -105,7 +105,7 @@ they default to ***-1*** and ***-1*** respectively.
 ['quux', 'corge']
 
 >>> # everything except the last two items
->>> a[:,-2]
+>>> a[:-2]
 ['foo', 'bar', 'baz', 'qux']
 ```
 ## List comprehensions
