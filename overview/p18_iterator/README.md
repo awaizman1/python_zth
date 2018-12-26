@@ -101,10 +101,10 @@ class SquareIterator:
 1
 4
 ```
-> Why an iterator ```__iter__``` must return ```self```?
+> Why an iterator must have ```__iter__``` which returns ```self```?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MTcyNTc2NywxNjI0MTgwNDQyLC0zMT
-YzMDQwMzcsMTI2ODc4NzE1NCw5MjgzNTc3NzYsMTcyNjU4OTI2
-MiwzMjY0NDg2MTIsLTE5NDc2MDE1NTddfQ==
+eyJoaXN0b3J5IjpbMTEwMDIyNzk3LDE2MjQxODA0NDIsLTMxNj
+MwNDAzNywxMjY4Nzg3MTU0LDkyODM1Nzc3NiwxNzI2NTg5MjYy
+LDMyNjQ0ODYxMiwtMTk0NzYwMTU1N119
 -->
