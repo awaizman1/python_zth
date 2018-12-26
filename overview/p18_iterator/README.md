@@ -34,10 +34,17 @@ class SquareIterable:
 >>> print(next(sqr_iterator))
 4
 >>> print(next(sqr_iterator))
-5
+Traceback (most recent call last):
+  File ...
+  File ..., in __next__
+StopIteration
+```
+```python
+for x in SquareIterable(max=2):
+	
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MTQ5MDk1MywxNjI0MTgwNDQyLC0zMT
-YzMDQwMzcsMTI2ODc4NzE1NCw5MjgzNTc3NzYsMTcyNjU4OTI2
-MiwzMjY0NDg2MTIsLTE5NDc2MDE1NTddfQ==
+eyJoaXN0b3J5IjpbLTEwNzkwNjk0MTcsMTYyNDE4MDQ0MiwtMz
+E2MzA0MDM3LDEyNjg3ODcxNTQsOTI4MzU3Nzc2LDE3MjY1ODky
+NjIsMzI2NDQ4NjEyLC0xOTQ3NjAxNTU3XX0=
 -->
