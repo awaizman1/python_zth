@@ -59,9 +59,64 @@ StopIteration
 4
 >>> for x in sqr_interable:
 ... 	print(x)
+>>>
+```
+## Separate iterable and iterator objects
+```python
+class SquareIterable:
+	def __init__(self, max):
+		self._max = max
+
+	def __iter__(self):  # because of this i'm an iterable
+		return SquareIterator(self)
+
+
+	def __next__(self):  # because of this and __iter__ i'm an iterator
+		if self.x > self.max:
+			raise StopIteration()
+		
+		ret = self._x**2
+		self._x += 1
+		
+		return ret
+```
+```python
+
+>>> sqr_iterable = SquareIterable(max=2)
+>>> sqr_iterator = iter(sqr_iterable)
+>>> print(next(sqr_iterator))
+0
+>>> print(next(sqr_iterator))
+1
+>>> print(next(sqr_iterator))
+4
+>>> print(next(sqr_iterator))
+Traceback (most recent call last):
+  File ...
+  File ..., in __next__
+StopIteration
+```
+```python
+>>> for x in SquareIterable(max=2):
+...		print(x)
+0
+1
+4
+```
+> Since both iteratable and iterator are the same object, it can be consumed only once!
+```python
+>>> sqr_iterable = SquareIterable(max=2)
+>>> for x in sqr_iterable:
+...		print(x)
+0
+1
+4
+>>> for x in sqr_interable:
+... 	print(x)
+>>>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTEzMDY2MTgsMTYyNDE4MDQ0MiwtMz
-E2MzA0MDM3LDEyNjg3ODcxNTQsOTI4MzU3Nzc2LDE3MjY1ODky
-NjIsMzI2NDQ4NjEyLC0xOTQ3NjAxNTU3XX0=
+eyJoaXN0b3J5IjpbMTA1NDg0MDQxNSwxNjI0MTgwNDQyLC0zMT
+YzMDQwMzcsMTI2ODc4NzE1NCw5MjgzNTc3NzYsMTcyNjU4OTI2
+MiwzMjY0NDg2MTIsLTE5NDc2MDE1NTddfQ==
 -->
