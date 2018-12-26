@@ -65,21 +65,21 @@ StopIteration
 ```python
 class SquareIterable:
 	def __init__(self, max):
-		self._max = max
+		self.max = max
 
 	def __iter__(self):  # because of this i'm an iterable
 		return SquareIterator(self)
 
 class SquareIterator:
 	def __init__(self, sqr_iterable):
-		self.sqr_iterable = sqr_iterable
-		self.x = 0
+		self._sqr_iterable = sqr_iterable
+		self._x = 0
 	
 	def __iter__(self):  # because of this i'm an iterable
 		return self
 	
 	def __next__(self):  # because of this and __iter__ i'm an iterator
-		if self.x > self.max:
+		if self._x > self.sqr_iterable.max:
 			raise StopIteration()
 		
 		ret = self._x**2
@@ -88,42 +88,20 @@ class SquareIterator:
 		return ret
 ```
 ```python
-
->>> sqr_iterable = SquareIterable(max=2)
->>> sqr_iterator = iter(sqr_iterable)
->>> print(next(sqr_iterator))
-0
->>> print(next(sqr_iterator))
-1
->>> print(next(sqr_iterator))
-4
->>> print(next(sqr_iterator))
-Traceback (most recent call last):
-  File ...
-  File ..., in __next__
-StopIteration
-```
-```python
->>> for x in SquareIterable(max=2):
-...		print(x)
-0
-1
-4
-```
-> Since both iteratable and iterator are the same object, it can be consumed only once!
-```python
 >>> sqr_iterable = SquareIterable(max=2)
 >>> for x in sqr_iterable:
 ...		print(x)
 0
 1
 4
->>> for x in sqr_interable:
+>>> for x in sqr_iterable:
 ... 	print(x)
->>>
+0
+1
+4
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MDkzNzc3MywxNjI0MTgwNDQyLC0zMT
+eyJoaXN0b3J5IjpbMjA5MjQ4NDQ2MiwxNjI0MTgwNDQyLC0zMT
 YzMDQwMzcsMTI2ODc4NzE1NCw5MjgzNTc3NzYsMTcyNjU4OTI2
 MiwzMjY0NDg2MTIsLTE5NDc2MDE1NTddfQ==
 -->
