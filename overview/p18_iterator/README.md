@@ -7,17 +7,17 @@ Calling [next()](https://docs.python.org/3/library/functions.html#next) on an it
 
 > Iterator objects follows the [iterator protocol](https://docs.python.org/3/library/stdtypes.html#typeiter) - required to support ```__next__``` and ```__iter__``` methods.
 
-## 
+## Iterable and iterator as same object (do not!)
 ```python
 class SquareIterable:
 	def __init__(self, max):
 		self._x = 0
 		self._max = max
 
-	def __iter__(self):
+	def __iter__(self):  # because of this i'm an iterable
 		return self
 	
-	def __next__(self):
+	def __next__(self):  # because of this and __iter__ i'm an iterator
 		if self.x > self.max:
 			raise StopIteration()
 		
@@ -49,7 +49,7 @@ StopIteration
 4
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDc3MTIyOTAsMTYyNDE4MDQ0MiwtMz
+eyJoaXN0b3J5IjpbLTExMTQyNzM4MzEsMTYyNDE4MDQ0MiwtMz
 E2MzA0MDM3LDEyNjg3ODcxNTQsOTI4MzU3Nzc2LDE3MjY1ODky
 NjIsMzI2NDQ4NjEyLC0xOTQ3NjAxNTU3XX0=
 -->
