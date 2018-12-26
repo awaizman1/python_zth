@@ -51,10 +51,17 @@ StopIteration
 ```
 > Since both iteratable and iterator are the same object, it can be consumed only once!
 ```python
-
+>>> sqr_iterable = SquareIterable(max=2)
+>>> for x in sqr_iterable:
+...		print(x)
+0
+1
+4
+>>> for x in sqr_interable:
+... 	print(x)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODkxMDQwODIsMTYyNDE4MDQ0MiwtMz
+eyJoaXN0b3J5IjpbLTE1MTEzMDY2MTgsMTYyNDE4MDQ0MiwtMz
 E2MzA0MDM3LDEyNjg3ODcxNTQsOTI4MzU3Nzc2LDE3MjY1ODky
 NjIsMzI2NDQ4NjEyLC0xOTQ3NjAxNTU3XX0=
 -->
