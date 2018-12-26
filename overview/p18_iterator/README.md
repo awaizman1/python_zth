@@ -27,6 +27,7 @@ class SquareIterable:
 		return ret
 ```
 ```python
+
 >>> sqr_iterable = SquareIterable(max=2)
 >>> sqr_iterator = iter(sqr_iterable)
 >>> print(next(sqr_iterator))
@@ -48,8 +49,12 @@ StopIteration
 1
 4
 ```
+> Since both iteratable and iterator are the same object, it can be consumed only once!
+```python
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTQyNzM4MzEsMTYyNDE4MDQ0MiwtMz
+eyJoaXN0b3J5IjpbLTE2ODkxMDQwODIsMTYyNDE4MDQ0MiwtMz
 E2MzA0MDM3LDEyNjg3ODcxNTQsOTI4MzU3Nzc2LDE3MjY1ODky
 NjIsMzI2NDQ4NjEyLC0xOTQ3NjAxNTU3XX0=
 -->
