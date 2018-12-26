@@ -12,13 +12,13 @@ Calling [next()](https://docs.python.org/3/library/functions.html#next) on an it
 class SquareIterable:
 	def __init__(self, max):
 		self._x = 0
-		self._max = max
+		self.max = max
 
 	def __iter__(self):  # because of this i'm an iterable
 		return self
 	
 	def __next__(self):  # because of this and __iter__ i'm an iterator
-		if self.x > self.max:
+		if self._x > self.max:
 			raise StopIteration()
 		
 		ret = self._x**2
@@ -88,6 +88,7 @@ class SquareIterator:
 		return ret
 ```
 ```python
+
 >>> sqr_iterable = SquareIterable(max=2)
 >>> for x in sqr_iterable:
 ...		print(x)
@@ -100,8 +101,10 @@ class SquareIterator:
 1
 4
 ```
+> Why an iterator ```__iter__``` must return ```self```?
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MjQ4NDQ2MiwxNjI0MTgwNDQyLC0zMT
+eyJoaXN0b3J5IjpbMTA3MTcyNTc2NywxNjI0MTgwNDQyLC0zMT
 YzMDQwMzcsMTI2ODc4NzE1NCw5MjgzNTc3NzYsMTcyNjU4OTI2
 MiwzMjY0NDg2MTIsLTE5NDc2MDE1NTddfQ==
 -->
