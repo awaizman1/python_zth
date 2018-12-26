@@ -40,11 +40,14 @@ Traceback (most recent call last):
 StopIteration
 ```
 ```python
-for x in SquareIterable(max=2):
-	
+>>> for x in SquareIterable(max=2):
+...		print(x)
+0
+1
+4
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzkwNjk0MTcsMTYyNDE4MDQ0MiwtMz
-E2MzA0MDM3LDEyNjg3ODcxNTQsOTI4MzU3Nzc2LDE3MjY1ODky
-NjIsMzI2NDQ4NjEyLC0xOTQ3NjAxNTU3XX0=
+eyJoaXN0b3J5IjpbMTY4NDUyNjQ1MiwxNjI0MTgwNDQyLC0zMT
+YzMDQwMzcsMTI2ODc4NzE1NCw5MjgzNTc3NzYsMTcyNjU4OTI2
+MiwzMjY0NDg2MTIsLTE5NDc2MDE1NTddfQ==
 -->
