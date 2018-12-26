@@ -7,7 +7,7 @@ Calling [next()](https://docs.python.org/3/library/functions.html#next) on an it
 
 > Iterator objects follows the [iterator protocol](https://docs.python.org/3/library/stdtypes.html#typeiter) - required to support ```__next__``` and ```__iter__``` methods.
 ```python
-class BankAccounts:
+class InfiniteFibIterable:
 	def __init__(self):
 		self._prev = 1
 		self._prev_prev = 0
@@ -35,7 +35,7 @@ class BankAccounts:
 5
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNjMwNDAzNywxMjY4Nzg3MTU0LDkyOD
-M1Nzc3NiwxNzI2NTg5MjYyLDMyNjQ0ODYxMiwtMTk0NzYwMTU1
-N119
+eyJoaXN0b3J5IjpbLTIxMzgwNTIxNzAsLTMxNjMwNDAzNywxMj
+Y4Nzg3MTU0LDkyODM1Nzc3NiwxNzI2NTg5MjYyLDMyNjQ0ODYx
+MiwtMTk0NzYwMTU1N119
 -->
