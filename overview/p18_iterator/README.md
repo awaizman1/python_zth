@@ -70,7 +70,14 @@ class SquareIterable:
 	def __iter__(self):  # because of this i'm an iterable
 		return SquareIterator(self)
 
-
+class SquareIterator:
+	def __init__(self, sqr_iterable):
+		self.sqr_iterable = sqr_iterable
+		self.x = 0
+	
+	def __iter__(self):  # because of this i'm an iterable
+		return self
+	
 	def __next__(self):  # because of this and __iter__ i'm an iterator
 		if self.x > self.max:
 			raise StopIteration()
@@ -116,7 +123,7 @@ StopIteration
 >>>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NDg0MDQxNSwxNjI0MTgwNDQyLC0zMT
+eyJoaXN0b3J5IjpbMTE1MDkzNzc3MywxNjI0MTgwNDQyLC0zMT
 YzMDQwMzcsMTI2ODc4NzE1NCw5MjgzNTc3NzYsMTcyNjU4OTI2
 MiwzMjY0NDg2MTIsLTE5NDc2MDE1NTddfQ==
 -->
