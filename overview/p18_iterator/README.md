@@ -19,22 +19,22 @@ class SquareIterable:
 		ret = self._x**2
 		self._x += 1
 		
-		return 
+		return ret
 ```
 ```python
->>> fib_iterable = InfiniteFibTry1()
->>> fib_iterator = iter(InfiniteFibTry1())
->>> print(next(fib_iterator))
+>>> sqr_iterable = SquareIterable(max=2)
+>>> sqr_iterator = iter(sqr_iterable)
+>>> print(next(sqr_iterator))
+0
+>>> print(next(sqr_iterator))
 1
->>> print(next(fib_iterator))
-2
->>> print(next(fib_iterator))
-3
->>> print(next(fib_iterator))
+>>> print(next(sqr_iterator))
+4
+>>> print(next(sqr_iterator))
 5
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTkzMDc3MTIsLTMxNjMwNDAzNywxMj
-Y4Nzg3MTU0LDkyODM1Nzc3NiwxNzI2NTg5MjYyLDMyNjQ0ODYx
-MiwtMTk0NzYwMTU1N119
+eyJoaXN0b3J5IjpbMTYyNDE4MDQ0MiwtMzE2MzA0MDM3LDEyNj
+g3ODcxNTQsOTI4MzU3Nzc2LDE3MjY1ODkyNjIsMzI2NDQ4NjEy
+LC0xOTQ3NjAxNTU3XX0=
 -->
