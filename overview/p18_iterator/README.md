@@ -9,18 +9,17 @@ Calling [next()](https://docs.python.org/3/library/functions.html#next) on an it
 ```python
 class SquareIterable:
 	def __init__(self, max):
-		self.x = 1
-		self._prev_prev = 0
+		self._x = 0
+		self._max = max
 
 	def __iter__(self):
 		return self
 	
 	def __next__(self):
-		curr = self._prev + self._prev_prev
-		self._prev_prev = self._prev
-		self._prev = curr
+		ret = self._x**2
+		self._x += 1
 		
-		return curr
+		return 
 ```
 ```python
 >>> fib_iterable = InfiniteFibTry1()
@@ -35,7 +34,7 @@ class SquareIterable:
 5
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDUwNTU2OTAsLTMxNjMwNDAzNywxMj
+eyJoaXN0b3J5IjpbLTExNTkzMDc3MTIsLTMxNjMwNDAzNywxMj
 Y4Nzg3MTU0LDkyODM1Nzc3NiwxNzI2NTg5MjYyLDMyNjQ0ODYx
 MiwtMTk0NzYwMTU1N119
 -->
