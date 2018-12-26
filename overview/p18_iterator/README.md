@@ -1,6 +1,9 @@
 # Iterable
 An object that can be passed to [iter()](https://docs.python.org/3/library/functions.html#iter) in order to get an [iterator](https://docs.python.org/3/glossary.html#term-iterator).
 ```iterator = iter(iterable)```
+
+> **Every** python collection is an iterable!
+
 # Iterator
 An object representing a stream of data (finite or infinite).
 Calling [next()](https://docs.python.org/3/library/functions.html#next) on an iterator return successive item in the stream. When the stream is exhausted a [StopIteration](https://docs.python.org/3/library/exceptions.html#StopIteration) exception is raised.
@@ -104,7 +107,7 @@ class SquareIterator:
 > Why an iterator must have ```__iter__``` which returns ```self```?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMDIyNzk3LDE2MjQxODA0NDIsLTMxNj
-MwNDAzNywxMjY4Nzg3MTU0LDkyODM1Nzc3NiwxNzI2NTg5MjYy
-LDMyNjQ0ODYxMiwtMTk0NzYwMTU1N119
+eyJoaXN0b3J5IjpbLTY2NDI4MjAwOCwxNjI0MTgwNDQyLC0zMT
+YzMDQwMzcsMTI2ODc4NzE1NCw5MjgzNTc3NzYsMTcyNjU4OTI2
+MiwzMjY0NDg2MTIsLTE5NDc2MDE1NTddfQ==
 -->
