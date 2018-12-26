@@ -23,11 +23,19 @@ class InfiniteFibTry1:
 		return curr
 ```
 ```python
->>> for i in InfiniteFibTry1():
-...		print(i)
+>>> fib_iterable = InfiniteFibTry1()
+>>> fib_iterator = iter(InfiniteFibTry1())
+>>> print(next(fib_iterator))
+1
+>>> print(next(fib_iterator))
+2
+>>> print(next(fib_iterator))
+3
+>>> print(next(fib_iterator))
+5
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcyNTY0MDEyLDkyODM1Nzc3NiwxNzI2NT
-g5MjYyLDMyNjQ0ODYxMiwtMTk0NzYwMTU1N119
+eyJoaXN0b3J5IjpbMTU3OTE5NzI4NCw5MjgzNTc3NzYsMTcyNj
+U4OTI2MiwzMjY0NDg2MTIsLTE5NDc2MDE1NTddfQ==
 -->
