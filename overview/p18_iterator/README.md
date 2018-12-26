@@ -33,9 +33,8 @@ class InfiniteFibTry1:
 3
 >>> print(next(fib_iterator))
 5
-
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3OTE5NzI4NCw5MjgzNTc3NzYsMTcyNj
+eyJoaXN0b3J5IjpbMTI2ODc4NzE1NCw5MjgzNTc3NzYsMTcyNj
 U4OTI2MiwzMjY0NDg2MTIsLTE5NDc2MDE1NTddfQ==
 -->
