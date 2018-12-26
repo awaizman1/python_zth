@@ -43,6 +43,12 @@ set([1, 2, 4, 5)
 ```
 ### Other useful operations
 ```isdisjoint```, ```issubset```, ```issuperset```
+## Set comprehension
+Similarly to [list comprehensions](https://docs.python.org/3/tutorial/datastructures.html#tut-listcomps), set comprehensions are also supported:
+```python
+>>> {len(str(x)) for x in (2, 4, 10, 20)}
+{1, 2}
+```
 ## Time for task:
  - perform ***task.py***
  - test yourself by running ***test_task.py***
