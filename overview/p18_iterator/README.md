@@ -16,9 +16,13 @@ class InfiniteFib:
 		return self
 	
 	def __next__():
+		curr = self._prev + self._prev_prev
+		self._prev_prev = self._prev
+		self._prev = curr
 		
+		return curr
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNDMzMzU4NiwxNzI2NTg5MjYyLDMyNj
+eyJoaXN0b3J5IjpbLTYxMTg5Mzg1NCwxNzI2NTg5MjYyLDMyNj
 Q0ODYxMiwtMTk0NzYwMTU1N119
 -->
