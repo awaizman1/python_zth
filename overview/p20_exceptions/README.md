@@ -133,9 +133,12 @@ It's **E**asier to **A**sk **F**orgiveness than **P**ermission.
 ### Ask for permission approach
 ```python
 def process_file(filename):
-	
+	if not os.path.exists(filename):
+		print("missing file")
+		return
+	f = open(filename)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMDA3ODA0LDE0MzYxNDAxNDksLTI4Nj
-MwMzAyNiw2NTk5MjczMjMsLTk3Mjk0ODAzMCwtNjczMjIyNzUx
-LDE5Mzg4MjYyOTYsLTE2NzU0MjI3MzVdfQ==
+eyJoaXN0b3J5IjpbMjA4NzQ4MDEyNiwxNDM2MTQwMTQ5LC0yOD
+YzMDMwMjYsNjU5OTI3MzIzLC05NzI5NDgwMzAsLTY3MzIyMjc1
+MSwxOTM4ODI2Mjk2LC0xNjc1NDIyNzM1XX0=
 -->
