@@ -55,7 +55,7 @@ except OSError:
 Think twice before creating new exception type!
 That was the first time, now think again...!
 > Usually [built-in exceptions](https://docs.python.org/3/library/exceptions.html#exception-hierarchy) are sufficient.
-> Also you
+> You can also utilize BaseException.arg
 
 If you are still sure:
 - Derive from [Exception](https://docs.python.org/3/library/exceptions.html#Exception) class (directly or indirectly)
@@ -70,6 +70,6 @@ class MyOtherFancyError(MyFancyError):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY2NDczMDMwLC05NzI5NDgwMzAsLTY3Mz
+eyJoaXN0b3J5IjpbNTE1NTM0NTQ0LC05NzI5NDgwMzAsLTY3Mz
 IyMjc1MSwxOTM4ODI2Mjk2LC0xNjc1NDIyNzM1XX0=
 -->
