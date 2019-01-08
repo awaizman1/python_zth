@@ -76,9 +76,10 @@ class MyOtherFancyError(MyFancyError):
 		this.special_info = special_info
 ```
 ## ```__cause__``` and ```__context__```
-Exception has 
+Chaining exceptions is done implicitly and can be done explicitly.
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTAyMDYyODUsNjU5OTI3MzIzLC05Nz
+eyJoaXN0b3J5IjpbLTE4OTY0NjY0MjYsNjU5OTI3MzIzLC05Nz
 I5NDgwMzAsLTY3MzIyMjc1MSwxOTM4ODI2Mjk2LC0xNjc1NDIy
 NzM1XX0=
 -->
