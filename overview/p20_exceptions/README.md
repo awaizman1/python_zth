@@ -18,15 +18,14 @@ Useful for code that must be executed if the try clause **does not** raise an ex
 ```python
 try:
 	f = open('file.txt', 'r')
-    except OSError:
-        print('cannot open')
-    else:
-        print('file has', len(f.readlines()), 'lines')
-        f.close()
+except OSError:
+    print('cannot open')
+else:
+    print('file has', len(f.readlines()), 'lines')
+    f.close()
 ```
 
-> Q: Why not put else clause code in try
-
+> Q: why not put else clause code in try block?
 
 ```python
 try:
@@ -36,7 +35,10 @@ try:
 except OSError:
     print('cannot open')
 ```
+
+> A: avoids accidentally catching an exception that wasn’t raised by the code being protected by the `try` … `except` statement.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MjcxMDA5NSwxOTM4ODI2Mjk2LC0xNj
+eyJoaXN0b3J5IjpbLTg2NzIwMjk5MiwxOTM4ODI2Mjk2LC0xNj
 c1NDIyNzM1XX0=
 -->
