@@ -10,10 +10,12 @@ except ZeroDivisionError:  # except single exception
 	print("can't divide by 0")
 except (ValueError, TypeError):  # except multiple exceptions
 	print("did you call 'int(..)' with a str? does it represent a number?")
-except OSError as e:
+except OSError as e:  # access the exception instance
 	print(e)
 ```
+```python
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDMwMjI1ODYsMTkzODgyNjI5NiwtMT
-Y3NTQyMjczNV19
+eyJoaXN0b3J5IjpbNDg0NDM4MzU2LDE5Mzg4MjYyOTYsLTE2Nz
+U0MjI3MzVdfQ==
 -->
