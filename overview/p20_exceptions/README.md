@@ -136,9 +136,16 @@ def process_file(filename):
 	if not os.path.exists(filename):
 		print("missing file")
 		return
-	f = open(filename)
+		
+	if not has_read_access(filename):
+		print("no read access to file")
+	
+	# more validations...
+
+	
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NzQ4MDEyNiwxNDM2MTQwMTQ5LC0yOD
-YzMDMwMjYsNjU5OTI3MzIzLC05NzI5NDgwMzAsLTY3MzIyMjc1
-MSwxOTM4ODI2Mjk2LC0xNjc1NDIyNzM1XX0=
+eyJoaXN0b3J5IjpbLTE5MDY0NTA3MzUsMTQzNjE0MDE0OSwtMj
+g2MzAzMDI2LDY1OTkyNzMyMywtOTcyOTQ4MDMwLC02NzMyMjI3
+NTEsMTkzODgyNjI5NiwtMTY3NTQyMjczNV19
 -->
