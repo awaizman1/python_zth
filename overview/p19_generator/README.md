@@ -54,9 +54,9 @@ def count():
 > What need to happen upon yield so that this magic will work?
 >
 ## Pipelines
-Combining generators 
+Generators can be combined into pipelines for natural stream processing.
 ```python
-
+def repeat(element, 
 ```
 ## Generator expression
 Similar to list comprehension, one can create generators
@@ -64,6 +64,6 @@ Similar to list comprehension, one can create generators
 g = (x**2 for x in range(1000) if x % 2 == 0)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMzA0NDg2LDE5ODc3MTgzMywxMDAxMD
-M4MzY2XX0=
+eyJoaXN0b3J5IjpbLTE1NjEyNjU3NDgsMTgyMzA0NDg2LDE5OD
+c3MTgzMywxMDAxMDM4MzY2XX0=
 -->
