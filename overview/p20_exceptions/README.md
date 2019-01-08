@@ -54,15 +54,17 @@ except OSError:
 ## User-defined exceptions
 Think twice before creating new exception type!
 That was the first time, now think again...!
-> Usually 
+> Usually [built-in exceptions](https://docs.python.org/3/library/exceptions.html#exception-hierarchy) are sufficient.
 
-Derive from [Exception](https://docs.python.org/3/library/exceptions.html#Exception) class (directly or indirectly)
+If you are still sure:
+- Derive from [Exception](https://docs.python.org/3/library/exceptions.html#Exception) class (directly or indirectly)
+- Name it XXX
 ```python
 class MyFancyError(Exception):
 	pass
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3Mjk0ODAzMCwtNjczMjIyNzUxLDE5Mz
-g4MjYyOTYsLTE2NzU0MjI3MzVdfQ==
+eyJoaXN0b3J5IjpbMTkxMTA1NTU2LC05NzI5NDgwMzAsLTY3Mz
+IyMjc1MSwxOTM4ODI2Mjk2LC0xNjc1NDIyNzM1XX0=
 -->
