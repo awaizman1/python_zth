@@ -56,7 +56,7 @@ def count():
 ## Pipelines
 Generators can be combined into pipelines for natural stream processing.
 ```python
-def repeat(element, times):
+def repeat(iterable, times):
 	for i in range(times):
 		yield element
 ```
@@ -68,6 +68,6 @@ Similar to list comprehension, one can create generators
 g = (x**2 for x in range(1000) if x % 2 == 0)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE2MTU0NTkxLDE4MjMwNDQ4NiwxOTg3Nz
+eyJoaXN0b3J5IjpbMTE1NTA5OTMxLDE4MjMwNDQ4NiwxOTg3Nz
 E4MzMsMTAwMTAzODM2Nl19
 -->
