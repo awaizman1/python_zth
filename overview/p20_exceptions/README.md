@@ -24,18 +24,19 @@ try:
         print('file has', len(f.readlines()), 'lines')
         f.close()
 ```
-What is the difference from:
+
+> Q: Why not put else clause code in try
+
+
 ```python
 try:
 	f = open('file.txt', 'r')
 	print('file has', len(f.readlines()), 'lines')
     f.close()
-
-    except OSError:
-        print('cannot open')
-    else:
+except OSError:
+    print('cannot open')
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg5ODE3NjM4LDE5Mzg4MjYyOTYsLTE2Nz
-U0MjI3MzVdfQ==
+eyJoaXN0b3J5IjpbLTU3MjcxMDA5NSwxOTM4ODI2Mjk2LC0xNj
+c1NDIyNzM1XX0=
 -->
