@@ -41,6 +41,15 @@ def count():
 		yield num
 		num += 1
 ```
+```python
+>>> for i in count():
+... 	print(i)
+0
+1
+2
+3
+...
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNTQzOTE5MSwxMDAxMDM4MzY2XX0=
+eyJoaXN0b3J5IjpbLTIwODUyMjM2OTMsMTAwMTAzODM2Nl19
 -->
