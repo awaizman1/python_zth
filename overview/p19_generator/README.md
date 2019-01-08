@@ -54,8 +54,10 @@ def count():
 > What need to happen upon yield so that this magic will work?
 >
 ## Generator expression
-Similar to list comprehension
+Similar to list comprehension, one can create generators
+```python
+g = (x**2 for x in range(1000)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMzcxOTAzNSwxMDAxMDM4MzY2XX0=
+eyJoaXN0b3J5IjpbLTEzMzIwNDEzMjYsMTAwMTAzODM2Nl19
 -->
