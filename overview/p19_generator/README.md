@@ -17,6 +17,7 @@ def count_to_2():
 	yield 2
 ```
 ```python
+
 >>>  g = count_to_2()
 >>> next(g)
 1
@@ -48,8 +49,10 @@ def count():
 1
 2
 3
-...
+4, 5, 6, ...
 ```
+> What need to happen upon yield so that this magic
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODUyMjM2OTMsMTAwMTAzODM2Nl19
+eyJoaXN0b3J5IjpbLTI5MjQyOTM0NiwxMDAxMDM4MzY2XX0=
 -->
