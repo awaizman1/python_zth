@@ -149,12 +149,14 @@ def handle_file(filename):
 ```python
 def handle_file(filename):
 	
-	with open(
-	# do the actual work
-	process_file(filename)
+	try:
+		# do the actual work
+		process_file(filename)
+	except OSError as e:
+		print("failed to handle file because: ", e)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MDY3OTA1LDE0MzYxNDAxNDksLTI4Nj
-MwMzAyNiw2NTk5MjczMjMsLTk3Mjk0ODAzMCwtNjczMjIyNzUx
-LDE5Mzg4MjYyOTYsLTE2NzU0MjI3MzVdfQ==
+eyJoaXN0b3J5IjpbLTQ1NzM4OTc2MywxNDM2MTQwMTQ5LC0yOD
+YzMDMwMjYsNjU5OTI3MzIzLC05NzI5NDgwMzAsLTY3MzIyMjc1
+MSwxOTM4ODI2Mjk2LC0xNjc1NDIyNzM1XX0=
 -->
