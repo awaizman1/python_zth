@@ -16,14 +16,15 @@ except OSError as e:  # access the exception instance
 ## Raise an exception
 ```python
 if something_went_wrong:
-	raise RuntimeError("bad")
+	raise RuntimeError("bad")  # bare raise
 ```
 ```python
 try:
 	raise RuntimeError("bad")
 except RuntimeError:
 	do_something()
-	raise  # 
+	raise  # re-raise
+```
 ## finally clause
 Always prefer ```context managers``` over ```finally``` for cleanups!
 ```python
@@ -76,6 +77,6 @@ class MyOtherFancyError(MyFancyError):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NDI2NjkyOCwtOTcyOTQ4MDMwLC02Nz
-MyMjI3NTEsMTkzODgyNjI5NiwtMTY3NTQyMjczNV19
+eyJoaXN0b3J5IjpbNjU5OTI3MzIzLC05NzI5NDgwMzAsLTY3Mz
+IyMjc1MSwxOTM4ODI2Mjk2LC0xNjc1NDIyNzM1XX0=
 -->
