@@ -13,6 +13,9 @@ except (ValueError, TypeError):  # except multiple exceptions
 except OSError as e:  # access the exception instance
 	print(e)
 ```
+## Raise an exception
+```python
+```
 ## else clause
 Useful for code that must be executed if the try clause **does not** raise an exception.
 ```python
@@ -39,6 +42,6 @@ except OSError:
 > A: avoids accidentally catching an exception that wasn’t raised by the code being protected by the `try` … `except` statement.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NzIwMjk5MiwxOTM4ODI2Mjk2LC0xNj
-c1NDIyNzM1XX0=
+eyJoaXN0b3J5IjpbLTEzNTE5MDA3NTAsMTkzODgyNjI5NiwtMT
+Y3NTQyMjczNV19
 -->
