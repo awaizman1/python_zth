@@ -125,9 +125,10 @@ IndexError
 > ```raise from``` sets the ```__cause__``` attribute
 > 
 > ```raise from None``` will suppress the ```__context__``` - useful in case you don't want the don't want the "_during handling another exception happened_" message
-
+## Tips
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NjMwMzAyNiw2NTk5MjczMjMsLTk3Mj
-k0ODAzMCwtNjczMjIyNzUxLDE5Mzg4MjYyOTYsLTE2NzU0MjI3
-MzVdfQ==
+eyJoaXN0b3J5IjpbMTcyODEyMTAwMSwtMjg2MzAzMDI2LDY1OT
+kyNzMyMywtOTcyOTQ4MDMwLC02NzMyMjI3NTEsMTkzODgyNjI5
+NiwtMTY3NTQyMjczNV19
 -->
