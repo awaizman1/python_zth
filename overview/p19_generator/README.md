@@ -56,6 +56,12 @@ def count():
 ## Pipelines
 Generators can be combined into pipelines for natural stream processing.
 ```python
+def even(iterable):
+	for i in iterable:
+		if i % 2 == 0:
+			yield i
+```
+```python
 def accumulate(iterable):
 	total = 0
 	for i in iterable:
@@ -63,13 +69,13 @@ def accumulate(iterable):
 		yield total
 ```
 ```python
->>> for i in repeat(
+>>> for i in accumulate(count()):
 ## Generator expression
 Similar to list comprehension, one can create generators
 ```python
 g = (x**2 for x in range(1000) if x % 2 == 0)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzc5OTY3OTYsMTgyMzA0NDg2LDE5OD
+eyJoaXN0b3J5IjpbLTE4Njc2NDM5MjAsMTgyMzA0NDg2LDE5OD
 c3MTgzMywxMDAxMDM4MzY2XX0=
 -->
