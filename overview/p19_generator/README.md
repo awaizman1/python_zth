@@ -1,5 +1,5 @@
 # Generator
-Generators are functions that can be paused and resumed on the fly, returning an object that can be iterated over.
+[generator](https://docs.python.org/3/glossary.html#term-generator) is a function that can be paused and resumed on the fly, returning an object that can be iterated over (a [generator iterator](https://docs.python.org/3/glossary.html#term-generator-iterator)).
 A generator is lazy evaluated - produces one item at a time and only when asked.
 
  - Can model infinite sequences (streams)
@@ -93,7 +93,7 @@ g = (x**2 for x in range(1000) if x % 2 == 0)
 Python introduces many builtin iterators and generators.
 Make your self familier with [range](), [zip](https://docs.python.org/3/library/functions.html#zip), [all](https://docs.python.org/3/library/functions.html#all), [any](https://docs.python.org/3/library/functions.html#any), [itertools](https://docs.python.org/3.7/library/itertools.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MTk1ODE4MSwxNjI3OTE5MjM4LC04Mz
-Y4NzY1MDAsMTgyMzA0NDg2LDE5ODc3MTgzMywxMDAxMDM4MzY2
-XX0=
+eyJoaXN0b3J5IjpbLTM1MTIzMTgxOCwxMDUxOTU4MTgxLDE2Mj
+c5MTkyMzgsLTgzNjg3NjUwMCwxODIzMDQ0ODYsMTk4NzcxODMz
+LDEwMDEwMzgzNjZdfQ==
 -->
