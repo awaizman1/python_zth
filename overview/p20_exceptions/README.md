@@ -14,7 +14,7 @@ except OSError as e:  # access the exception instance
 	print(e)
 ```
 ## else clause
-Useful for code that must be executed if the try clause does not raise an exception.
+Useful for code that must be executed if the try clause **does not** raise an exception.
 ```python
 try:
 	f = open('file.txt', 'r')
@@ -24,7 +24,18 @@ try:
         print('file has', len(f.readlines()), 'lines')
         f.close()
 ```
+What is the difference from:
+```python
+try:
+	f = open('file.txt', 'r')
+	print('file has', len(f.readlines()), 'lines')
+    f.close()
+
+    except OSError:
+        print('cannot open')
+    else:
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc1ODI0OTYwLDE5Mzg4MjYyOTYsLTE2Nz
+eyJoaXN0b3J5IjpbNzg5ODE3NjM4LDE5Mzg4MjYyOTYsLTE2Nz
 U0MjI3MzVdfQ==
 -->
