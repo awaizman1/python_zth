@@ -77,9 +77,29 @@ class MyOtherFancyError(MyFancyError):
 ```
 ## ```__cause__``` and ```__context__```
 Chaining exceptions is done implicitly and can be done explicitly.
- 
+### Implicitly
+```python
+try:
+    raise ValueError
+except Exception as e:
+    raise IndexError
+```
+```python
+Traceback (most recent call last):
+  File "tmp.py", line 2, in <module>
+    raise ValueError
+ValueError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "tmp.py", line 4, in <module>
+    raise IndexError
+IndexError
+```
+### Explicitly
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTY0NjY0MjYsNjU5OTI3MzIzLC05Nz
+eyJoaXN0b3J5IjpbLTEzMDA2NTI2MTcsNjU5OTI3MzIzLC05Nz
 I5NDgwMzAsLTY3MzIyMjc1MSwxOTM4ODI2Mjk2LC0xNjc1NDIy
 NzM1XX0=
 -->
