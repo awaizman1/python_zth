@@ -88,11 +88,12 @@ def accumulate(iterable):
 Similar to list comprehension, one can create generators
 ```python
 g = (x**2 for x in range(1000) if x % 2 == 0)
-## itertools
-
-
+```
+## Builtins iterators and generators
+Python introduces many builtin iterators and generators.
+Make your self familier with [!range]()
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNDY1NDUyNywxNjI3OTE5MjM4LC04Mz
-Y4NzY1MDAsMTgyMzA0NDg2LDE5ODc3MTgzMywxMDAxMDM4MzY2
-XX0=
+eyJoaXN0b3J5IjpbNzAyMTE2OTY5LDE2Mjc5MTkyMzgsLTgzNj
+g3NjUwMCwxODIzMDQ0ODYsMTk4NzcxODMzLDEwMDEwMzgzNjZd
+fQ==
 -->
