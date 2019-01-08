@@ -132,7 +132,7 @@ IndexError
 It's **E**asier to **A**sk **F**orgiveness than **P**ermission.
 ### Ask for permission approach
 ```python
-def process_file(filename):
+def handle_file(filename):
 	if not os.path.exists(filename):
 		print("missing file")
 		return
@@ -142,10 +142,19 @@ def process_file(filename):
 	
 	# more validations...
 
+	# do the actual work
+	process_file(filename)
+```
+### EAFP approach
+```python
+def handle_file(filename):
 	
+	with open(
+	# do the actual work
+	process_file(filename)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDY0NTA3MzUsMTQzNjE0MDE0OSwtMj
-g2MzAzMDI2LDY1OTkyNzMyMywtOTcyOTQ4MDMwLC02NzMyMjI3
-NTEsMTkzODgyNjI5NiwtMTY3NTQyMjczNV19
+eyJoaXN0b3J5IjpbLTk2MDY3OTA1LDE0MzYxNDAxNDksLTI4Nj
+MwMzAyNiw2NTk5MjczMjMsLTk3Mjk0ODAzMCwtNjczMjIyNzUx
+LDE5Mzg4MjYyOTYsLTE2NzU0MjI3MzVdfQ==
 -->
