@@ -9,9 +9,16 @@ A generator is lazy evaluated - produces one item at a time and only when asked.
 > Every generator is an iterator.
 
 ## Creating a generator
-Regular function with ```
+Regular function with ```python
+yield``` statement.
+```python
+def count_to_3():
+	yield 1
+	yield 2
+	yield 3
+```
 
 Unlike lists, they are [lazy](https://en.wikipedia.org/wiki/Lazy_evaluation) and thus produce items one at a time and only when asked. So they are much more [memory efficient](https://realpython.com/python-memory-management/) when dealing with large datasets.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTkwOTY0MjAsMTAwMTAzODM2Nl19
+eyJoaXN0b3J5IjpbLTEzNzI1OTE1NTgsMTAwMTAzODM2Nl19
 -->
