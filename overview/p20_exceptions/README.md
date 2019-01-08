@@ -14,8 +14,15 @@ except OSError as e:  # access the exception instance
 	print(e)
 ```
 ```python
+try:
+	f = open('file.t, 'r')
+    except OSError:
+        print('cannot open', arg)
+    else:
+        print(arg, 'has', len(f.readlines()), 'lines')
+        f.close()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg0NDM4MzU2LDE5Mzg4MjYyOTYsLTE2Nz
+eyJoaXN0b3J5IjpbNzUxMjkzNzM5LDE5Mzg4MjYyOTYsLTE2Nz
 U0MjI3MzVdfQ==
 -->
