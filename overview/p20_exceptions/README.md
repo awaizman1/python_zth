@@ -13,16 +13,18 @@ except (ValueError, TypeError):  # except multiple exceptions
 except OSError as e:  # access the exception instance
 	print(e)
 ```
+## else clause
+Useful for code that must be executed if the try clause does not raise an exception.
 ```python
 try:
-	f = open('file.t, 'r')
+	f = open('file.txt', 'r')
     except OSError:
-        print('cannot open', arg)
+        print('cannot open')
     else:
-        print(arg, 'has', len(f.readlines()), 'lines')
+        print('file has', len(f.readlines()), 'lines')
         f.close()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUxMjkzNzM5LDE5Mzg4MjYyOTYsLTE2Nz
+eyJoaXN0b3J5IjpbMzc1ODI0OTYwLDE5Mzg4MjYyOTYsLTE2Nz
 U0MjI3MzVdfQ==
 -->
