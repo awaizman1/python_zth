@@ -36,10 +36,11 @@ StopIteration
 ## Stateful generator
 ```python
 def count():
-
+	num = 0
 	while True:
-		
+		yield num
+		num += 1
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MDcyMTY3NiwxMDAxMDM4MzY2XX0=
+eyJoaXN0b3J5IjpbMTUxNTQzOTE5MSwxMDAxMDM4MzY2XX0=
 -->
