@@ -56,7 +56,13 @@ Think twice before creating new exception type!
 That was the first time, now think again...!
 > Blockquote
 
+Derive from [Exception](https://docs.python.org/3/library/exceptions.html#Exception) class (directly or indirectly)
+```python
+class MyFancyError(Exception):
+	pass
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDExMTk2MjIsLTY3MzIyMjc1MSwxOT
-M4ODI2Mjk2LC0xNjc1NDIyNzM1XX0=
+eyJoaXN0b3J5IjpbMTQ0OTU4Nzg3MiwtNjczMjIyNzUxLDE5Mz
+g4MjYyOTYsLTE2NzU0MjI3MzVdfQ==
 -->
