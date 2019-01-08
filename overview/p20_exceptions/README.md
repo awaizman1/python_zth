@@ -97,9 +97,31 @@ Traceback (most recent call last):
     raise IndexError
 IndexError
 ```
+
+> Blockquote
+
 ### Explicitly
+```python
+try:
+    raise ValueError
+except Exception as e:
+    raise IndexError from e
+```
+```python
+Traceback (most recent call last):
+  File "tmp.py", line 2, in <module>
+    raise ValueError
+ValueError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "tmp.py", line 4, in <module>
+    raise IndexError from e
+IndexError
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDA2NTI2MTcsNjU5OTI3MzIzLC05Nz
-I5NDgwMzAsLTY3MzIyMjc1MSwxOTM4ODI2Mjk2LC0xNjc1NDIy
-NzM1XX0=
+eyJoaXN0b3J5IjpbODczMzQ5NTI0LDY1OTkyNzMyMywtOTcyOT
+Q4MDMwLC02NzMyMjI3NTEsMTkzODgyNjI5NiwtMTY3NTQyMjcz
+NV19
 -->
