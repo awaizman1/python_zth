@@ -75,7 +75,7 @@ class MyOtherFancyError(MyFancyError):
 	def __init__(special_info):
 		this.special_info = special_info
 ```
-## ```__cause__``` and ```__context__```
+## Exception chaining - ```__cause__``` and ```__context__``` attributes
 Chaining exceptions is done implicitly and can be done explicitly.
 ### Implicitly
 ```python
@@ -126,7 +126,7 @@ IndexError
 > ```raise from None``` will supress the ```__context__``` - useful in case you don't want the don't want the "_during handling another exception happened_" message
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MzM1MTQyNCw2NTk5MjczMjMsLTk3Mj
+eyJoaXN0b3J5IjpbMTcxOTQ2MjAyMiw2NTk5MjczMjMsLTk3Mj
 k0ODAzMCwtNjczMjIyNzUxLDE5Mzg4MjYyOTYsLTE2NzU0MjI3
 MzVdfQ==
 -->
