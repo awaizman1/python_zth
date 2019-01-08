@@ -129,9 +129,10 @@ IndexError
 - Built-in exceptions are often the best choice.
 - Avoid protecting against TypeError (it is un-pythonic, cubersome the code) - rely on type checking.
 ## EAFP
-It's Easier to Ask Forgiveness than Permission
+It's **E**asier to **A**sk **F**orgiveness than **P**ermission.
+### Ask for p
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NTMxNzkyOSwxNDM2MTQwMTQ5LC0yOD
+eyJoaXN0b3J5IjpbMjA2NjQ5Nzg3NiwxNDM2MTQwMTQ5LC0yOD
 YzMDMwMjYsNjU5OTI3MzIzLC05NzI5NDgwMzAsLTY3MzIyMjc1
 MSwxOTM4ODI2Mjk2LC0xNjc1NDIyNzM1XX0=
 -->
