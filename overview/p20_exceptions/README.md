@@ -15,6 +15,8 @@ except OSError as e:  # access the exception instance
 ```
 ## Raise an exception
 ```python
+if something_went_wrong:
+	raise RuntimeError("bad")
 ```
 ## else clause
 Useful for code that must be executed if the try clause **does not** raise an exception.
@@ -40,8 +42,9 @@ except OSError:
 ```
 
 > A: avoids accidentally catching an exception that wasn’t raised by the code being protected by the `try` … `except` statement.
-
+## User-defined exceptions
+Think twice before cr
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTE5MDA3NTAsMTkzODgyNjI5NiwtMT
-Y3NTQyMjczNV19
+eyJoaXN0b3J5IjpbMTQ4Mjk3NzU0MywxOTM4ODI2Mjk2LC0xNj
+c1NDIyNzM1XX0=
 -->
