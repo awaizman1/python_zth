@@ -98,7 +98,7 @@ Traceback (most recent call last):
 IndexError
 ```
 
-> Blockquote
+> ```raise``` in an excpetion handler sets the ```__context__``` attribute
 
 ### Explicitly
 ```python
@@ -121,7 +121,7 @@ Traceback (most recent call last):
 IndexError
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODczMzQ5NTI0LDY1OTkyNzMyMywtOTcyOT
+eyJoaXN0b3J5IjpbNDcwMjc3ODQzLDY1OTkyNzMyMywtOTcyOT
 Q4MDMwLC02NzMyMjI3NTEsMTkzODgyNjI5NiwtMTY3NTQyMjcz
 NV19
 -->
