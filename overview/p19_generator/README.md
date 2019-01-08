@@ -3,6 +3,7 @@ Generators are functions that can be paused and resumed on the fly, returning an
 A generator is lazy evaluated - produces one item at a time and only when asked.
 
  - Can model infinite sequences (streams)
+ - Memory efficient
  - Composable into pipelines
  - Can maintain state and control flow
 
@@ -22,8 +23,11 @@ def count_to_2():
 1
 >>> next(g)
 2
->>>
-Unlike lists, they are [lazy](https://en.wikipedia.org/wiki/Lazy_evaluation) and thus produce items one at a time and only when asked. So they are much more [memory efficient](https://realpython.com/python-memory-management/) when dealing with large datasets.
+>>> next(g)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+StopIteration
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzc5MjM4MTUsMTAwMTAzODM2Nl19
+eyJoaXN0b3J5IjpbMjEzNDU5NDQzNywxMDAxMDM4MzY2XX0=
 -->
