@@ -58,9 +58,9 @@ Generators can be combined into pipelines for natural stream processing.
 ```python
 def accumulate(iterable):
 	total = 0
-	for i in t
-	for i in range(times):
-		yield element
+	for i in iterable:
+		total += i
+		yield total
 ```
 ```python
 >>> for i in repeat(
@@ -70,6 +70,6 @@ Similar to list comprehension, one can create generators
 g = (x**2 for x in range(1000) if x % 2 == 0)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMjEyMDczNiwxODIzMDQ0ODYsMTk4Nz
-cxODMzLDEwMDEwMzgzNjZdfQ==
+eyJoaXN0b3J5IjpbLTE2Mzc5OTY3OTYsMTgyMzA0NDg2LDE5OD
+c3MTgzMywxMDAxMDM4MzY2XX0=
 -->
