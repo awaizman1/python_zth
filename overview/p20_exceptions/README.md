@@ -18,6 +18,12 @@ except OSError as e:  # access the exception instance
 if something_went_wrong:
 	raise RuntimeError("bad")
 ```
+```python
+try:
+	raise RuntimeError("bad")
+except RuntimeError:
+	do_something()
+	raise  # 
 ## finally clause
 Always prefer ```context managers``` over ```finally``` for cleanups!
 ```python
@@ -55,11 +61,11 @@ except OSError:
 Think twice before creating new exception type!
 That was the first time, now think again...!
 > Usually [built-in exceptions](https://docs.python.org/3/library/exceptions.html#exception-hierarchy) are sufficient.
-> You can also utilize BaseException.arg
+> You can also utilize [BaseException.args](https://docs.python.org/3/library/exceptions.html#BaseException.args).
 
 If you are still sure:
 - Derive from [Exception](https://docs.python.org/3/library/exceptions.html#Exception) class (directly or indirectly)
-- Name it XXXError (and not XXXException)
+- Name it XXX**Error** (and not XXXException)
 ```python
 class MyFancyError(Exception):
 	pass
@@ -70,6 +76,6 @@ class MyOtherFancyError(MyFancyError):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE1NTM0NTQ0LC05NzI5NDgwMzAsLTY3Mz
-IyMjc1MSwxOTM4ODI2Mjk2LC0xNjc1NDIyNzM1XX0=
+eyJoaXN0b3J5IjpbMTg4NDI2NjkyOCwtOTcyOTQ4MDMwLC02Nz
+MyMjI3NTEsMTkzODgyNjI5NiwtMTY3NTQyMjczNV19
 -->
