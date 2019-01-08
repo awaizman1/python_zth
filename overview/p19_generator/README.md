@@ -53,11 +53,16 @@ def count():
 ```
 > What need to happen upon yield so that this magic will work?
 >
+## Pipelines
+```python
+
+```
 ## Generator expression
 Similar to list comprehension, one can create generators
 ```python
 g = (x**2 for x in range(1000) if x % 2 == 0)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NzcxODMzLDEwMDEwMzgzNjZdfQ==
+eyJoaXN0b3J5IjpbMjAxNTEwODExMCwxOTg3NzE4MzMsMTAwMT
+AzODM2Nl19
 -->
