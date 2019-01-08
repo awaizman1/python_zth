@@ -56,8 +56,8 @@ def count():
 ## Generator expression
 Similar to list comprehension, one can create generators
 ```python
-g = (x**2 for x in range(1000)
+g = (x**2 for x in range(1000) if x % 2 == 0)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzIwNDEzMjYsMTAwMTAzODM2Nl19
+eyJoaXN0b3J5IjpbMTk4NzcxODMzLDEwMDEwMzgzNjZdfQ==
 -->
