@@ -75,8 +75,10 @@ class MyOtherFancyError(MyFancyError):
 	def __init__(special_info):
 		this.special_info = special_info
 ```
-
+## ```__cause__``` and ```__context__```
+Exception has 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU5OTI3MzIzLC05NzI5NDgwMzAsLTY3Mz
-IyMjc1MSwxOTM4ODI2Mjk2LC0xNjc1NDIyNzM1XX0=
+eyJoaXN0b3J5IjpbLTE2NTAyMDYyODUsNjU5OTI3MzIzLC05Nz
+I5NDgwMzAsLTY3MzIyMjc1MSwxOTM4ODI2Mjk2LC0xNjc1NDIy
+NzM1XX0=
 -->
