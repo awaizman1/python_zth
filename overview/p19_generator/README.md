@@ -27,7 +27,13 @@ def count_to_2():
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 StopIteration
-
+```
+```python
+>>> for i in count_to_2():
+... 	print(i)
+1
+2
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNDU5NDQzNywxMDAxMDM4MzY2XX0=
+eyJoaXN0b3J5IjpbLTgwNjM3OTYxMSwxMDAxMDM4MzY2XX0=
 -->
