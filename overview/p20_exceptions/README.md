@@ -127,9 +127,10 @@ IndexError
 > ```raise from None``` will suppress the ```__context__``` - useful in case you don't want the don't want the "_during handling another exception happened_" message
 ## Tips
 - Built-in exceptions are often the best choice.
+- Avoid protecting against TypeError (it is un-pythonic, cubersome the code) - rely on type checking.
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk3MTQ5MzU4LC0yODYzMDMwMjYsNjU5OT
-I3MzIzLC05NzI5NDgwMzAsLTY3MzIyMjc1MSwxOTM4ODI2Mjk2
-LC0xNjc1NDIyNzM1XX0=
+eyJoaXN0b3J5IjpbMTQzNjE0MDE0OSwtMjg2MzAzMDI2LDY1OT
+kyNzMyMywtOTcyOTQ4MDMwLC02NzMyMjI3NTEsMTkzODgyNjI5
+NiwtMTY3NTQyMjczNV19
 -->
