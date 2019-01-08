@@ -77,6 +77,12 @@ def accumulate(iterable):
 ```python
 >>> for i in accumulate(even(count())):
 ... 	print(i)
+0
+2
+6
+12
+20
+30, ...
 ```
 ## Generator expression
 Similar to list comprehension, one can create generators
@@ -84,6 +90,6 @@ Similar to list comprehension, one can create generators
 g = (x**2 for x in range(1000) if x % 2 == 0)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNjg3NjUwMCwxODIzMDQ0ODYsMTk4Nz
-cxODMzLDEwMDEwMzgzNjZdfQ==
+eyJoaXN0b3J5IjpbMTYyNzkxOTIzOCwtODM2ODc2NTAwLDE4Mj
+MwNDQ4NiwxOTg3NzE4MzMsMTAwMTAzODM2Nl19
 -->
