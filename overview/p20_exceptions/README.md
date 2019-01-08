@@ -130,9 +130,12 @@ IndexError
 - Avoid protecting against TypeError (it is un-pythonic, cubersome the code) - rely on type checking.
 ## EAFP
 It's **E**asier to **A**sk **F**orgiveness than **P**ermission.
-### Ask for p
+### Ask for permission approach
+```python
+def process_file(filename):
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NjQ5Nzg3NiwxNDM2MTQwMTQ5LC0yOD
-YzMDMwMjYsNjU5OTI3MzIzLC05NzI5NDgwMzAsLTY3MzIyMjc1
-MSwxOTM4ODI2Mjk2LC0xNjc1NDIyNzM1XX0=
+eyJoaXN0b3J5IjpbLTgwMDA3ODA0LDE0MzYxNDAxNDksLTI4Nj
+MwMzAyNiw2NTk5MjczMjMsLTk3Mjk0ODAzMCwtNjczMjIyNzUx
+LDE5Mzg4MjYyOTYsLTE2NzU0MjI3MzVdfQ==
 -->
