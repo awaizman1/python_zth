@@ -18,6 +18,9 @@ except OSError as e:  # access the exception instance
 if something_went_wrong:
 	raise RuntimeError("bad")
 ```
+## finally clause
+Always prefer context managers over ```finally``` for cleanups
+
 ## else clause
 Useful for code that must be executed if the try clause **does not** raise an exception.
 ```python
@@ -48,6 +51,6 @@ That was the first time, now think again...
 > Blockquote
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MzIyMjc1MSwxOTM4ODI2Mjk2LC0xNj
-c1NDIyNzM1XX0=
+eyJoaXN0b3J5IjpbLTE4NTg1MDk4OTYsLTY3MzIyMjc1MSwxOT
+M4ODI2Mjk2LC0xNjc1NDIyNzM1XX0=
 -->
