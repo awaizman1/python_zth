@@ -43,8 +43,11 @@ except OSError:
 
 > A: avoids accidentally catching an exception that wasn’t raised by the code being protected by the `try` … `except` statement.
 ## User-defined exceptions
-Think twice before cr
+Think twice before creating new exception type.
+That was the first time, now think again...
+> Blockquote
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4Mjk3NzU0MywxOTM4ODI2Mjk2LC0xNj
+eyJoaXN0b3J5IjpbLTY3MzIyMjc1MSwxOTM4ODI2Mjk2LC0xNj
 c1NDIyNzM1XX0=
 -->
