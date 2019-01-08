@@ -10,9 +10,10 @@ except ZeroDivisionError:  # except single exception
 	print("can't divide by 0")
 except (ValueError, TypeError):  # except multiple exceptions
 	print("did you call 'int(..)' with a str? does it represent a number?")
-except 
+except OSError as e:
+	print(e)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MDc3Mjc3MCwxOTM4ODI2Mjk2LC0xNj
-c1NDIyNzM1XX0=
+eyJoaXN0b3J5IjpbLTE2MDMwMjI1ODYsMTkzODgyNjI5NiwtMT
+Y3NTQyMjczNV19
 -->
