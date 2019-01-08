@@ -10,8 +10,7 @@ A generator is lazy evaluated - produces one item at a time and only when asked.
 > Every generator is an iterator.
 
 ## Creating a generator
-Regular function with ```python
-yield``` statement.
+Regular function with ```yield``` statement.
 ```python
 def count_to_2():
 	yield 1
@@ -34,6 +33,13 @@ StopIteration
 1
 2
 ```
+## Stateful generator
+```python
+def count():
+
+	while True:
+		
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNjM3OTYxMSwxMDAxMDM4MzY2XX0=
+eyJoaXN0b3J5IjpbLTQ3MDcyMTY3NiwxMDAxMDM4MzY2XX0=
 -->
