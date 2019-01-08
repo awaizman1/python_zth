@@ -98,7 +98,7 @@ Traceback (most recent call last):
 IndexError
 ```
 
-> ```raise``` in an excpetion handler sets the ```__context__``` attribute
+> ```raise``` in an exception handler sets the ```__context__``` attribute
 
 ### Explicitly
 ```python
@@ -120,8 +120,13 @@ Traceback (most recent call last):
     raise IndexError from e
 IndexError
 ```
+
+> ```raise from``` sets the ```__cause__``` attribute
+> 
+> ```raise 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcwMjc3ODQzLDY1OTkyNzMyMywtOTcyOT
-Q4MDMwLC02NzMyMjI3NTEsMTkzODgyNjI5NiwtMTY3NTQyMjcz
-NV19
+eyJoaXN0b3J5IjpbLTE2MDc1MDYxMjAsNjU5OTI3MzIzLC05Nz
+I5NDgwMzAsLTY3MzIyMjc1MSwxOTM4ODI2Mjk2LC0xNjc1NDIy
+NzM1XX0=
 -->
