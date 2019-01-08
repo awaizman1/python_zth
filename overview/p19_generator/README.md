@@ -51,8 +51,11 @@ def count():
 3
 4, 5, 6, ...
 ```
-> What need to happen upon yield so that this magic
+> What need to happen upon yield so that this magic will work?
+>
+## Generator expression
+Similar to list comprehension
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MjQyOTM0NiwxMDAxMDM4MzY2XX0=
+eyJoaXN0b3J5IjpbLTUzMzcxOTAzNSwxMDAxMDM4MzY2XX0=
 -->
