@@ -55,16 +55,21 @@ except OSError:
 Think twice before creating new exception type!
 That was the first time, now think again...!
 > Usually [built-in exceptions](https://docs.python.org/3/library/exceptions.html#exception-hierarchy) are sufficient.
+> Also you
 
 If you are still sure:
 - Derive from [Exception](https://docs.python.org/3/library/exceptions.html#Exception) class (directly or indirectly)
-- Name it XXX
+- Name it XXXError (and not XXXException)
 ```python
 class MyFancyError(Exception):
 	pass
+
+class MyOtherFancyError(MyFancyError):
+	def __init__(special_info):
+		this.special_info = special_info
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMTA1NTU2LC05NzI5NDgwMzAsLTY3Mz
+eyJoaXN0b3J5IjpbMjY2NDczMDMwLC05NzI5NDgwMzAsLTY3Mz
 IyMjc1MSwxOTM4ODI2Mjk2LC0xNjc1NDIyNzM1XX0=
 -->
