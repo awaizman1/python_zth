@@ -194,16 +194,16 @@ When python searches ```sys.path``` for an import (i.e. ```import best_encoder``
  1. Scan ***all*** ```sys.path```
  2. If a regular package found (a directory ```best_encoder``` with ```__init__.py```) load it and stop.
  3. If a module is found (a file named ```best_encoder.py```) load it and stop.
- 4. Otherwise, all matching directories are 
+ 4. Otherwise, all matching directories are considered part of the namespace package (all directories named ```.
 
 # Time for task:
  - perform ***task.py***
  - test yourself by running ***test_task.py***
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxODI4NTMzNyw0NTUxNDAwOTIsLTg2MT
-cxMTEyMCwtMTQ4MzkzMDc1OSwzNTg5MzgwMjYsLTI0MDY3NDE4
-Niw0NzAxODk1MzAsMTQ1NzA5NjIxLDI2Nzk3MTYxOCwxMDk2NT
-UxNjU5LDY1NjY4Mzc3LC0yMDMzMzE3MTQ0LDE0NDQ0Nzc1Njcs
-MTAxMjk4MzU5Nl19
+eyJoaXN0b3J5IjpbNzU2MDcwNzkyLDQ1NTE0MDA5MiwtODYxNz
+ExMTIwLC0xNDgzOTMwNzU5LDM1ODkzODAyNiwtMjQwNjc0MTg2
+LDQ3MDE4OTUzMCwxNDU3MDk2MjEsMjY3OTcxNjE4LDEwOTY1NT
+E2NTksNjU2NjgzNzcsLTIwMzMzMTcxNDQsMTQ0NDQ3NzU2Nywx
+MDEyOTgzNTk2XX0=
 -->
