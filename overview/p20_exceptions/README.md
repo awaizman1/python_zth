@@ -26,7 +26,8 @@ except RuntimeError:
 	raise  # re-raise
 ```
 
-> When raising an exception
+> When raising an exception, pass a single str argument which describes the error.
+> Don't exploit th exception can take arbitrary args
 
 ## finally clause
 Always prefer ```context managers``` over ```finally``` for cleanups!
@@ -164,8 +165,7 @@ def handle_file(filename):
 		print("failed to handle file because: ", e)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMDM4MTM3NSwxMDg2NzM1ODYyLDE0Mz
-YxNDAxNDksLTI4NjMwMzAyNiw2NTk5MjczMjMsLTk3Mjk0ODAz
-MCwtNjczMjIyNzUxLDE5Mzg4MjYyOTYsLTE2NzU0MjI3MzVdfQ
-==
+eyJoaXN0b3J5IjpbOTI0MDQ2NTg1LDEwODY3MzU4NjIsMTQzNj
+E0MDE0OSwtMjg2MzAzMDI2LDY1OTkyNzMyMywtOTcyOTQ4MDMw
+LC02NzMyMjI3NTEsMTkzODgyNjI5NiwtMTY3NTQyMjczNV19
 -->
