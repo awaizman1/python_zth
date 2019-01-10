@@ -162,7 +162,15 @@ ValueError: blabla
 ## Assertion
 The [assert](https://docs.python.org/3.7/reference/simple_stmts.html?highlight=assert#the-assert-statement) statement is used to insert debugging assertions into a program .
 ```python
-def 
+class Color(Enum):
+	RED = 1
+	GREEN = 2
+	BLUE = 3
+
+def print_color(color):
+	if color == Color.RED
+		print("red")
+	elif color == Color.Green
 ## EAFP
 It's **E**asier to **A**sk **F**orgiveness than **P**ermission.
 ### Ask for permission approach
@@ -196,9 +204,9 @@ def handle_file(filename):
 		print("failed to handle file because: ", e)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTcyMjgwNjUsLTE1NDY1OTA5ODgsLT
-g5MzU2NDg3MSwtMTc4ODg4MTMyOCwxMDg2NzM1ODYyLDE0MzYx
-NDAxNDksLTI4NjMwMzAyNiw2NTk5MjczMjMsLTk3Mjk0ODAzMC
-wtNjczMjIyNzUxLDE5Mzg4MjYyOTYsLTE2NzU0MjI3MzVdfQ==
-
+eyJoaXN0b3J5IjpbLTMwNzU3MzkzMCwtMTgxNzIyODA2NSwtMT
+U0NjU5MDk4OCwtODkzNTY0ODcxLC0xNzg4ODgxMzI4LDEwODY3
+MzU4NjIsMTQzNjE0MDE0OSwtMjg2MzAzMDI2LDY1OTkyNzMyMy
+wtOTcyOTQ4MDMwLC02NzMyMjI3NTEsMTkzODgyNjI5NiwtMTY3
+NTQyMjczNV19
 -->
