@@ -144,17 +144,17 @@ __all__ = ["echo", "surround", "reverse"]
 ```
 path/
 	best_encoder/
-		__init__.py				Package __init__ file
+		__init__.py			Package __init__ file
 		avi/
-			__init__.py			Subpackate __init__ file
+			__init__.py		Subpackate __init__ file
 			encode.py
 			decode.py
 		mp4/
-			__init__.py			Subpackate __init__ file
+			__init__.py		Subpackate __init__ file
 			encode.py
 			decode.py
 		mkv/
-			__init__.py			Subpackate __init__ file
+			__init__.py		Subpackate __init__ file
 			encode.py
 			decode.py
 setup.py
@@ -190,9 +190,9 @@ setup.py
  - test yourself by running ***test_task.py***
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjI1NzMzMDAsLTg2MTcxMTEyMCwtMT
-Q4MzkzMDc1OSwzNTg5MzgwMjYsLTI0MDY3NDE4Niw0NzAxODk1
-MzAsMTQ1NzA5NjIxLDI2Nzk3MTYxOCwxMDk2NTUxNjU5LDY1Nj
-Y4Mzc3LC0yMDMzMzE3MTQ0LDE0NDQ0Nzc1NjcsMTAxMjk4MzU5
-Nl19
+eyJoaXN0b3J5IjpbNDU1MTQwMDkyLC04NjE3MTExMjAsLTE0OD
+M5MzA3NTksMzU4OTM4MDI2LC0yNDA2NzQxODYsNDcwMTg5NTMw
+LDE0NTcwOTYyMSwyNjc5NzE2MTgsMTA5NjU1MTY1OSw2NTY2OD
+M3NywtMjAzMzMxNzE0NCwxNDQ0NDc3NTY3LDEwMTI5ODM1OTZd
+fQ==
 -->
