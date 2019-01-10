@@ -189,13 +189,16 @@ path3/
 setup.py
 ```
 ### Importing namespace package
-When python searches sys.path for an import (i.e. import best_encoder
+When python searches ```sys.path``` for an import (i.e. ```import best_encoder```) it follows this rules:
+
+ 1. Matching
+
 # Time for task:
  - perform ***task.py***
  - test yourself by running ***test_task.py***
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwODY5MzA1Myw0NTUxNDAwOTIsLTg2MT
+eyJoaXN0b3J5IjpbLTQxNjUzNzMzNiw0NTUxNDAwOTIsLTg2MT
 cxMTEyMCwtMTQ4MzkzMDc1OSwzNTg5MzgwMjYsLTI0MDY3NDE4
 Niw0NzAxODk1MzAsMTQ1NzA5NjIxLDI2Nzk3MTYxOCwxMDk2NT
 UxNjU5LDY1NjY4Mzc3LC0yMDMzMzE3MTQ0LDE0NDQ0Nzc1Njcs
