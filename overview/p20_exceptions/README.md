@@ -133,7 +133,12 @@ IndexError
 - Built-in exceptions are often the best choice.
 - Avoid protecting against TypeError (it is un-pythonic, cumbersome the code) - rely on type checking.
 ## Traceback
-Every ```Exception``` has a ```__traceback__``` attribute - holding its associated 
+Every ```Exception``` has a ```__traceback__``` attribute - holding its associated [traceback object](https://docs.python.org/3.7/library/traceback.html).
+```python
+try:
+	raise ValueError("blabla")
+except ValueError as e:
+	print(e.__traceback__)
 ## EAFP
 It's **E**asier to **A**sk **F**orgiveness than **P**ermission.
 ### Ask for permission approach
@@ -167,7 +172,7 @@ def handle_file(filename):
 		print("failed to handle file because: ", e)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjgyMjk2NzIsLTE3ODg4ODEzMjgsMT
+eyJoaXN0b3J5IjpbLTE1NDYzMjc3MjQsLTE3ODg4ODEzMjgsMT
 A4NjczNTg2MiwxNDM2MTQwMTQ5LC0yODYzMDMwMjYsNjU5OTI3
 MzIzLC05NzI5NDgwMzAsLTY3MzIyMjc1MSwxOTM4ODI2Mjk2LC
 0xNjc1NDIyNzM1XX0=
