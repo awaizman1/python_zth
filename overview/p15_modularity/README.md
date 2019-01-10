@@ -143,7 +143,7 @@ __all__ = ["echo", "surround", "reverse"]
 ### Standard layout
 ```
 best_encoder/
-	__init__.py					**Package __init__ file**
+	__init__.py					Package __init__ file
 	avi/
 		__init__.py				Subpackate __init__ file
 		encode.py
@@ -156,25 +156,27 @@ best_encoder/
 		__init__.py				Subpackate __init__ file
 		encode.py
 		decode.py
+	setup.py
 ```
 ### Namespace package layout
 ```
 path1/
-	best_encoder/
+	best_encoder/				*NO package __init__ file
 		avi/
-			__init__.py
+			__init__.py			Subpackate __init__ file
 			encode.py
 			decode.py
+	set
 path2/
-	best_encoder/
+	best_encoder/				*NO package __init__ file
 		mp4/
-			__init__.py
+			__init__.py			Subpackate __init__ file
 			encode.py
 			decode.py
 path3/
-	best_encoder/
+	best_encoder/				*NO package __init__ file
 		mkv/
-			__init__.py
+			__init__.py			Subpackate __init__ file
 			encode.py
 			decode.py
 ```
@@ -183,8 +185,9 @@ path3/
  - test yourself by running ***test_task.py***
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MTcxMTEyMCwtMTQ4MzkzMDc1OSwzNT
-g5MzgwMjYsLTI0MDY3NDE4Niw0NzAxODk1MzAsMTQ1NzA5NjIx
-LDI2Nzk3MTYxOCwxMDk2NTUxNjU5LDY1NjY4Mzc3LC0yMDMzMz
-E3MTQ0LDE0NDQ0Nzc1NjcsMTAxMjk4MzU5Nl19
+eyJoaXN0b3J5IjpbLTEyOTUxNTI0NDQsLTg2MTcxMTEyMCwtMT
+Q4MzkzMDc1OSwzNTg5MzgwMjYsLTI0MDY3NDE4Niw0NzAxODk1
+MzAsMTQ1NzA5NjIxLDI2Nzk3MTYxOCwxMDk2NTUxNjU5LDY1Nj
+Y4Mzc3LC0yMDMzMzE3MTQ0LDE0NDQ0Nzc1NjcsMTAxMjk4MzU5
+Nl19
 -->
