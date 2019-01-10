@@ -199,12 +199,12 @@ When python searches ```sys.path``` for an import (i.e. ```import best_encoder``
 # Time for task:
  - perform ***task.py***
  - test yourself by running ***test_task.py***
- - create the namespace package ```best_encoder``` as above, run python where sys.path contains ```path1```, ``
+ - create the namespace package ```best_encoder``` as above, run python where ```sys.path``` contains ```path1```, ```path2``` and ```path3```. Now import ```best_encoder``` and examine its ```__path__``` attribute. Do the same for every encoder ```encode``` module.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzYxODkwMDYsNDU1MTQwMDkyLC04Nj
-E3MTExMjAsLTE0ODM5MzA3NTksMzU4OTM4MDI2LC0yNDA2NzQx
-ODYsNDcwMTg5NTMwLDE0NTcwOTYyMSwyNjc5NzE2MTgsMTA5Nj
-U1MTY1OSw2NTY2ODM3NywtMjAzMzMxNzE0NCwxNDQ0NDc3NTY3
-LDEwMTI5ODM1OTZdfQ==
+eyJoaXN0b3J5IjpbNjAyMDI3OTM3LDQ1NTE0MDA5MiwtODYxNz
+ExMTIwLC0xNDgzOTMwNzU5LDM1ODkzODAyNiwtMjQwNjc0MTg2
+LDQ3MDE4OTUzMCwxNDU3MDk2MjEsMjY3OTcxNjE4LDEwOTY1NT
+E2NTksNjU2NjgzNzcsLTIwMzMzMTcxNDQsMTQ0NDQ3NzU2Nywx
+MDEyOTgzNTk2XX0=
 -->
