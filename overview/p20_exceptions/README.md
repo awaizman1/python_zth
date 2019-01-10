@@ -164,7 +164,14 @@ The [assert](https://docs.python.org/3.7/reference/simple_stmts.html?highlight=a
 ```python
 assert expression1 [,expression2]
 ```
-is equiva
+is equivalent to:
+```python
+if __debug__:
+    if not expression1: raise AssertionError(expression2)
+```
+
+> ```__debug__``` is by default True. You can set it to False by running the interpreter with [-O](https://docs.python.org/3.7/using/cmdline.html#cmdoption-o) 
+
 ```python
 class Color(Enum):
 	RED = 1
@@ -215,9 +222,9 @@ def handle_file(filename):
 		print("failed to handle file because: ", e)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzQyMDU0NTYsLTE4MTcyMjgwNjUsLT
-E1NDY1OTA5ODgsLTg5MzU2NDg3MSwtMTc4ODg4MTMyOCwxMDg2
-NzM1ODYyLDE0MzYxNDAxNDksLTI4NjMwMzAyNiw2NTk5MjczMj
-MsLTk3Mjk0ODAzMCwtNjczMjIyNzUxLDE5Mzg4MjYyOTYsLTE2
-NzU0MjI3MzVdfQ==
+eyJoaXN0b3J5IjpbLTQ2MDA5MjY0MSwtMTgxNzIyODA2NSwtMT
+U0NjU5MDk4OCwtODkzNTY0ODcxLC0xNzg4ODgxMzI4LDEwODY3
+MzU4NjIsMTQzNjE0MDE0OSwtMjg2MzAzMDI2LDY1OTkyNzMyMy
+wtOTcyOTQ4MDMwLC02NzMyMjI3NTEsMTkzODgyNjI5NiwtMTY3
+NTQyMjczNV19
 -->
