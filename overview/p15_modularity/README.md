@@ -137,11 +137,14 @@ In order to explicitly define which modules to import on package * import use th
 # __init__.py
 
 __all__ = ["echo", "surround", "reverse"]
-``` 
+```
+# Time for task:
+ - perform ***task.py***
+ - test yourself by running ***test_task.py***
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU4OTM4MDI2LC0yNDA2NzQxODYsNDcwMT
-g5NTMwLDE0NTcwOTYyMSwyNjc5NzE2MTgsMTA5NjU1MTY1OSw2
-NTY2ODM3NywtMjAzMzMxNzE0NCwxNDQ0NDc3NTY3LDEwMTI5OD
-M1OTZdfQ==
+eyJoaXN0b3J5IjpbLTE0ODM5MzA3NTksMzU4OTM4MDI2LC0yND
+A2NzQxODYsNDcwMTg5NTMwLDE0NTcwOTYyMSwyNjc5NzE2MTgs
+MTA5NjU1MTY1OSw2NTY2ODM3NywtMjAzMzMxNzE0NCwxNDQ0ND
+c3NTY3LDEwMTI5ODM1OTZdfQ==
 -->
