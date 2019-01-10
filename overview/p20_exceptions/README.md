@@ -131,7 +131,9 @@ IndexError
 > ```raise from None``` will suppress the ```__context__``` - useful in case you don't want the don't want the "_during handling another exception happened_" message
 ## Tips
 - Built-in exceptions are often the best choice.
-- Avoid protecting against TypeError (it is un-pythonic, cubersome the code) - rely on type checking.
+- Avoid protecting against TypeError (it is un-pythonic, cumbersome the code) - rely on type checking.
+## Traceback
+Every ```Exception``` has a
 ## EAFP
 It's **E**asier to **A**sk **F**orgiveness than **P**ermission.
 ### Ask for permission approach
@@ -165,8 +167,8 @@ def handle_file(filename):
 		print("failed to handle file because: ", e)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODg4ODEzMjgsMTA4NjczNTg2MiwxND
-M2MTQwMTQ5LC0yODYzMDMwMjYsNjU5OTI3MzIzLC05NzI5NDgw
-MzAsLTY3MzIyMjc1MSwxOTM4ODI2Mjk2LC0xNjc1NDIyNzM1XX
-0=
+eyJoaXN0b3J5IjpbLTEzMTE0MTEyMTAsLTE3ODg4ODEzMjgsMT
+A4NjczNTg2MiwxNDM2MTQwMTQ5LC0yODYzMDMwMjYsNjU5OTI3
+MzIzLC05NzI5NDgwMzAsLTY3MzIyMjc1MSwxOTM4ODI2Mjk2LC
+0xNjc1NDIyNzM1XX0=
 -->
