@@ -25,6 +25,9 @@ except RuntimeError:
 	do_something()
 	raise  # re-raise
 ```
+
+> When raising an exception
+
 ## finally clause
 Always prefer ```context managers``` over ```finally``` for cleanups!
 ```python
@@ -62,7 +65,7 @@ except OSError:
 Think twice before creating new exception type!
 That was the first time, now think again...!
 > Usually [built-in exceptions](https://docs.python.org/3/library/exceptions.html#exception-hierarchy) are sufficient.
-> You can also utilize [BaseException.args](https://docs.python.org/3/library/exceptions.html#BaseException.args).
+
 
 If you are still sure:
 - Derive from [Exception](https://docs.python.org/3/library/exceptions.html#Exception) class (directly or indirectly)
@@ -161,7 +164,8 @@ def handle_file(filename):
 		print("failed to handle file because: ", e)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NjczNTg2MiwxNDM2MTQwMTQ5LC0yOD
-YzMDMwMjYsNjU5OTI3MzIzLC05NzI5NDgwMzAsLTY3MzIyMjc1
-MSwxOTM4ODI2Mjk2LC0xNjc1NDIyNzM1XX0=
+eyJoaXN0b3J5IjpbMTEyMDM4MTM3NSwxMDg2NzM1ODYyLDE0Mz
+YxNDAxNDksLTI4NjMwMzAyNiw2NTk5MjczMjMsLTk3Mjk0ODAz
+MCwtNjczMjIyNzUxLDE5Mzg4MjYyOTYsLTE2NzU0MjI3MzVdfQ
+==
 -->
