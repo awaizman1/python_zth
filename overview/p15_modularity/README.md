@@ -193,14 +193,15 @@ When python searches ```sys.path``` for an import (i.e. ```import best_encoder``
 
  1. Scan ***all*** ```sys.path```
  2. If a regular package found (a directory ```best_encoder``` with ```__init__.py```) load it and stop.
- 3. 
+ 3. If a module is found (a file named ```best_encoder.py```) load it and stop.
+ 4. Otherwise, all matching directories are 
 
 # Time for task:
  - perform ***task.py***
  - test yourself by running ***test_task.py***
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMDkzMTY4OSw0NTUxNDAwOTIsLTg2MT
+eyJoaXN0b3J5IjpbLTMxODI4NTMzNyw0NTUxNDAwOTIsLTg2MT
 cxMTEyMCwtMTQ4MzkzMDc1OSwzNTg5MzgwMjYsLTI0MDY3NDE4
 Niw0NzAxODk1MzAsMTQ1NzA5NjIxLDI2Nzk3MTYxOCwxMDk2NT
 UxNjU5LDY1NjY4Mzc3LC0yMDMzMzE3MTQ0LDE0NDQ0Nzc1Njcs
