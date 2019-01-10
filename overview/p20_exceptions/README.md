@@ -134,9 +134,11 @@ IndexError
 - Avoid protecting against TypeError (it is un-pythonic, cumbersome the code) - rely on type checking.
 ## Traceback
 Every ```Exception``` has a ```__traceback__``` attribute - holding its associated [traceback object](https://docs.python.org/3.7/library/traceback.html).
-> A traceback object holds all stack frames and its local variables. Don't reference traceback objects for long, otherwise 
+> A traceback object holds all stack frames and its local variables. Don't reference traceback objects for long, otherwise all those frames and variables won't be freed!
 
 ```python
+import traceback
+
 try:
 	raise ValueError("blabla")
 except ValueError as e:
@@ -180,8 +182,8 @@ def handle_file(filename):
 		print("failed to handle file because: ", e)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjk2MjkwNTcsLTE3ODg4ODEzMjgsMT
-A4NjczNTg2MiwxNDM2MTQwMTQ5LC0yODYzMDMwMjYsNjU5OTI3
-MzIzLC05NzI5NDgwMzAsLTY3MzIyMjc1MSwxOTM4ODI2Mjk2LC
-0xNjc1NDIyNzM1XX0=
+eyJoaXN0b3J5IjpbLTg5MzU2NDg3MSwtMTc4ODg4MTMyOCwxMD
+g2NzM1ODYyLDE0MzYxNDAxNDksLTI4NjMwMzAyNiw2NTk5Mjcz
+MjMsLTk3Mjk0ODAzMCwtNjczMjIyNzUxLDE5Mzg4MjYyOTYsLT
+E2NzU0MjI3MzVdfQ==
 -->
