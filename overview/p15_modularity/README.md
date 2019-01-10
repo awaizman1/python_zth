@@ -144,17 +144,17 @@ __all__ = ["echo", "surround", "reverse"]
 ```
 path/
 	best_encoder/
-		__init__.py					Package __init__ file
+		__init__.py				Package __init__ file
 		avi/
-			__init__.py				Subpackate __init__ file
+			__init__.py			Subpackate __init__ file
 			encode.py
 			decode.py
 		mp4/
-			__init__.py				Subpackate __init__ file
+			__init__.py			Subpackate __init__ file
 			encode.py
 			decode.py
 		mkv/
-			__init__.py				Subpackate __init__ file
+			__init__.py			Subpackate __init__ file
 			encode.py
 			decode.py
 setup.py
@@ -164,7 +164,7 @@ setup.py
 path1/
 	best_encoder/				*NO package __init__ file
 		avi/
-			__init__.py			Subpackate __init__ file
+			__init__.py		Subpackate __init__ file
 			encode.py
 			decode.py
 setup.py
@@ -172,7 +172,7 @@ setup.py
 path2/
 	best_encoder/				*NO package __init__ file
 		mp4/
-			__init__.py			Subpackate __init__ file
+			__init__.py		Subpackate __init__ file
 			encode.py
 			decode.py
 setup.py
@@ -180,7 +180,7 @@ setup.py
 path3/
 	best_encoder/				*NO package __init__ file
 		mkv/
-			__init__.py			Subpackate __init__ file
+			__init__.py		Subpackate __init__ file
 			encode.py
 			decode.py
 setup.py
@@ -190,9 +190,9 @@ setup.py
  - test yourself by running ***test_task.py***
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg5NDkyMzYsLTg2MTcxMTEyMCwtMTQ4Mz
-kzMDc1OSwzNTg5MzgwMjYsLTI0MDY3NDE4Niw0NzAxODk1MzAs
-MTQ1NzA5NjIxLDI2Nzk3MTYxOCwxMDk2NTUxNjU5LDY1NjY4Mz
-c3LC0yMDMzMzE3MTQ0LDE0NDQ0Nzc1NjcsMTAxMjk4MzU5Nl19
-
+eyJoaXN0b3J5IjpbLTE2NjI1NzMzMDAsLTg2MTcxMTEyMCwtMT
+Q4MzkzMDc1OSwzNTg5MzgwMjYsLTI0MDY3NDE4Niw0NzAxODk1
+MzAsMTQ1NzA5NjIxLDI2Nzk3MTYxOCwxMDk2NTUxNjU5LDY1Nj
+Y4Mzc3LC0yMDMzMzE3MTQ0LDE0NDQ0Nzc1NjcsMTAxMjk4MzU5
+Nl19
 -->
