@@ -158,13 +158,32 @@ best_encoder
 		decode.py
 ```
 ### Namespace package layout
-
+```
+path1
+	best_encoder
+		avi
+			__init__.py
+			encode.py
+			decode.py
+path2
+	best_encoder
+		mp4
+			__init__.py
+			encode.py
+			decode.py
+path3/
+	best_encoder/
+		mkv/
+			__init__.py
+			encode.py
+			decode.py
+```
 # Time for task:
  - perform ***task.py***
  - test yourself by running ***test_task.py***
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NTk3MDUxNCwtMTQ4MzkzMDc1OSwzNT
+eyJoaXN0b3J5IjpbMTY3MTYwNjA5NSwtMTQ4MzkzMDc1OSwzNT
 g5MzgwMjYsLTI0MDY3NDE4Niw0NzAxODk1MzAsMTQ1NzA5NjIx
 LDI2Nzk3MTYxOCwxMDk2NTUxNjU5LDY1NjY4Mzc3LC0yMDMzMz
 E3MTQ0LDE0NDQ0Nzc1NjcsMTAxMjk4MzU5Nl19
