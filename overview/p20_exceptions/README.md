@@ -138,7 +138,9 @@ Every ```Exception``` has a ```__traceback__``` attribute - holding its associat
 try:
 	raise ValueError("blabla")
 except ValueError as e:
+	print("traceback is an object")
 	print(type(e.__traceback__))  # traceback is an object
+	print("traceback is an object")
 	traceback.print_tb(e.__traceback__)  # printing a traceback
 	traceback.print_exc()  # printing 
 	
@@ -175,8 +177,8 @@ def handle_file(filename):
 		print("failed to handle file because: ", e)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjc4MDUyMTQsLTE3ODg4ODEzMjgsMT
-A4NjczNTg2MiwxNDM2MTQwMTQ5LC0yODYzMDMwMjYsNjU5OTI3
-MzIzLC05NzI5NDgwMzAsLTY3MzIyMjc1MSwxOTM4ODI2Mjk2LC
-0xNjc1NDIyNzM1XX0=
+eyJoaXN0b3J5IjpbLTYwMjI2OTI4LC0xNzg4ODgxMzI4LDEwOD
+Y3MzU4NjIsMTQzNjE0MDE0OSwtMjg2MzAzMDI2LDY1OTkyNzMy
+MywtOTcyOTQ4MDMwLC02NzMyMjI3NTEsMTkzODgyNjI5NiwtMT
+Y3NTQyMjczNV19
 -->
