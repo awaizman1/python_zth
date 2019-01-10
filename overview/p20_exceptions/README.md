@@ -143,7 +143,7 @@ try:
 	raise ValueError("blabla")
 except ValueError as e:
 	print("------->traceback is an object")
-	print(type(e.__traceback__))
+	print(e.__traceback__)
 	print("------->print a traceback object")
 	traceback.print_tb(e.__traceback__)
 	print("------->print current handled exception with traceback")
@@ -151,19 +151,12 @@ except ValueError as e:
 ```
 ```python
 ------->traceback is an object
-
-<class 'traceback'>
-
+<traceback object at 0x1038c3e88>
 ------->print a traceback object
-
 File "<stdin>", line 2, in <module>
-
 ------->print current handled exception with traceback
-
 Traceback (most recent call last):
-
 File "<stdin>", line 2, in <module>
-
 ValueError: blabla
 ```
 ## EAFP
@@ -199,8 +192,8 @@ def handle_file(filename):
 		print("failed to handle file because: ", e)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4ODI3MDEwNiwtODkzNTY0ODcxLC0xNz
-g4ODgxMzI4LDEwODY3MzU4NjIsMTQzNjE0MDE0OSwtMjg2MzAz
-MDI2LDY1OTkyNzMyMywtOTcyOTQ4MDMwLC02NzMyMjI3NTEsMT
-kzODgyNjI5NiwtMTY3NTQyMjczNV19
+eyJoaXN0b3J5IjpbLTE1NDY1OTA5ODgsLTg5MzU2NDg3MSwtMT
+c4ODg4MTMyOCwxMDg2NzM1ODYyLDE0MzYxNDAxNDksLTI4NjMw
+MzAyNiw2NTk5MjczMjMsLTk3Mjk0ODAzMCwtNjczMjIyNzUxLD
+E5Mzg4MjYyOTYsLTE2NzU0MjI3MzVdfQ==
 -->
