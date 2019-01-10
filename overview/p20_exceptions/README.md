@@ -168,9 +168,16 @@ class Color(Enum):
 	BLUE = 3
 
 def print_color(color):
-	if color == Color.RED
+	if color == Color.RED:
 		print("red")
-	elif color == Color.Green
+	elif color == Color.GREEN:
+		print("green")
+	elif color == Color.BLUE:
+		print("blue")
+	else:
+		assert False, "unknown color"
+```
+
 ## EAFP
 It's **E**asier to **A**sk **F**orgiveness than **P**ermission.
 ### Ask for permission approach
@@ -204,7 +211,7 @@ def handle_file(filename):
 		print("failed to handle file because: ", e)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNzU3MzkzMCwtMTgxNzIyODA2NSwtMT
+eyJoaXN0b3J5IjpbLTQ3MzQzNDI2MiwtMTgxNzIyODA2NSwtMT
 U0NjU5MDk4OCwtODkzNTY0ODcxLC0xNzg4ODgxMzI4LDEwODY3
 MzU4NjIsMTQzNjE0MDE0OSwtMjg2MzAzMDI2LDY1OTkyNzMyMy
 wtOTcyOTQ4MDMwLC02NzMyMjI3NTEsMTkzODgyNjI5NiwtMTY3
