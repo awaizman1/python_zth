@@ -148,7 +148,24 @@ except ValueError as e:
 	traceback.print_tb(e.__traceback__)
 	print("------->print current handled exception with traceback")
 	traceback.print_exc()
-```	
+```
+```python
+------->traceback is an object
+
+<class 'traceback'>
+
+------->print a traceback object
+
+File "<stdin>", line 2, in <module>
+
+------->print current handled exception with traceback
+
+Traceback (most recent call last):
+
+File "<stdin>", line 2, in <module>
+
+ValueError: blabla
+```
 ## EAFP
 It's **E**asier to **A**sk **F**orgiveness than **P**ermission.
 ### Ask for permission approach
@@ -182,8 +199,8 @@ def handle_file(filename):
 		print("failed to handle file because: ", e)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MzU2NDg3MSwtMTc4ODg4MTMyOCwxMD
-g2NzM1ODYyLDE0MzYxNDAxNDksLTI4NjMwMzAyNiw2NTk5Mjcz
-MjMsLTk3Mjk0ODAzMCwtNjczMjIyNzUxLDE5Mzg4MjYyOTYsLT
-E2NzU0MjI3MzVdfQ==
+eyJoaXN0b3J5IjpbLTk4ODI3MDEwNiwtODkzNTY0ODcxLC0xNz
+g4ODgxMzI4LDEwODY3MzU4NjIsMTQzNjE0MDE0OSwtMjg2MzAz
+MDI2LDY1OTkyNzMyMywtOTcyOTQ4MDMwLC02NzMyMjI3NTEsMT
+kzODgyNjI5NiwtMTY3NTQyMjczNV19
 -->
