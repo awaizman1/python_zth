@@ -159,6 +159,10 @@ Traceback (most recent call last):
 File "<stdin>", line 2, in <module>
 ValueError: blabla
 ```
+## Assertion
+The [assert](https://docs.python.org/3.7/reference/simple_stmts.html?highlight=assert#the-assert-statement) statement is used to insert debugging assertions into a program .
+```python
+def 
 ## EAFP
 It's **E**asier to **A**sk **F**orgiveness than **P**ermission.
 ### Ask for permission approach
@@ -192,8 +196,9 @@ def handle_file(filename):
 		print("failed to handle file because: ", e)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDY1OTA5ODgsLTg5MzU2NDg3MSwtMT
-c4ODg4MTMyOCwxMDg2NzM1ODYyLDE0MzYxNDAxNDksLTI4NjMw
-MzAyNiw2NTk5MjczMjMsLTk3Mjk0ODAzMCwtNjczMjIyNzUxLD
-E5Mzg4MjYyOTYsLTE2NzU0MjI3MzVdfQ==
+eyJoaXN0b3J5IjpbLTE4MTcyMjgwNjUsLTE1NDY1OTA5ODgsLT
+g5MzU2NDg3MSwtMTc4ODg4MTMyOCwxMDg2NzM1ODYyLDE0MzYx
+NDAxNDksLTI4NjMwMzAyNiw2NTk5MjczMjMsLTk3Mjk0ODAzMC
+wtNjczMjIyNzUxLDE5Mzg4MjYyOTYsLTE2NzU0MjI3MzVdfQ==
+
 -->
