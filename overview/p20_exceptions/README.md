@@ -170,7 +170,7 @@ if __debug__:
     if not expression1: raise AssertionError(expression2)
 ```
 
-> ```__debug__``` is by default True. You can set it to False by running the interpreter with [-O](https://docs.python.org/3.7/using/cmdline.html#cmdoption-o) 
+> ```__debug__``` is by default True. You can set it to False by running the interpreter with [-O](https://docs.python.org/3.7/using/cmdline.html#cmdoption-o) option.
 
 ```python
 class Color(Enum):
@@ -222,7 +222,7 @@ def handle_file(filename):
 		print("failed to handle file because: ", e)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MDA5MjY0MSwtMTgxNzIyODA2NSwtMT
+eyJoaXN0b3J5IjpbMTkxMTAwNTYyMCwtMTgxNzIyODA2NSwtMT
 U0NjU5MDk4OCwtODkzNTY0ODcxLC0xNzg4ODgxMzI4LDEwODY3
 MzU4NjIsMTQzNjE0MDE0OSwtMjg2MzAzMDI2LDY1OTkyNzMyMy
 wtOTcyOTQ4MDMwLC02NzMyMjI3NTEsMTkzODgyNjI5NiwtMTY3
