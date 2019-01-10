@@ -140,14 +140,22 @@ __all__ = ["echo", "surround", "reverse"]
 ```
 ## Namespace package
 [Namespace packages](https://packaging.python.org/guides/packaging-namespace-packages/) allow you to split the sub-packages and modules within a single [package](https://packaging.python.org/glossary/#term-import-package) across multiple, separate [distribution packages](https://packaging.python.org/glossary/#term-distribution-package).
-Assume you 
+```
+best_encoder
+	__init__.py
+	mp3
+		__init__.py
+		encode.py
+		decode.py
+	
+```
 # Time for task:
  - perform ***task.py***
  - test yourself by running ***test_task.py***
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI4MTEyODE1LC0xNDgzOTMwNzU5LDM1OD
-kzODAyNiwtMjQwNjc0MTg2LDQ3MDE4OTUzMCwxNDU3MDk2MjEs
-MjY3OTcxNjE4LDEwOTY1NTE2NTksNjU2NjgzNzcsLTIwMzMzMT
-cxNDQsMTQ0NDQ3NzU2NywxMDEyOTgzNTk2XX0=
+eyJoaXN0b3J5IjpbLTEyODE0NDM5OSwtMTQ4MzkzMDc1OSwzNT
+g5MzgwMjYsLTI0MDY3NDE4Niw0NzAxODk1MzAsMTQ1NzA5NjIx
+LDI2Nzk3MTYxOCwxMDk2NTUxNjU5LDY1NjY4Mzc3LC0yMDMzMz
+E3MTQ0LDE0NDQ0Nzc1NjcsMTAxMjk4MzU5Nl19
 -->
