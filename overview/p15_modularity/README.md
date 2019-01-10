@@ -140,6 +140,9 @@ __all__ = ["echo", "surround", "reverse"]
 ```
 ## Namespace package
 [Namespace packages](https://packaging.python.org/guides/packaging-namespace-packages/) allow you to split the sub-packages and modules within a single [package](https://packaging.python.org/glossary/#term-import-package) across multiple, separate [distribution packages](https://packaging.python.org/glossary/#term-distribution-package).
+
+> Each namespace package part can be separately installed, used, and versioned.
+
 ### Standard layout
 ```
 path/
@@ -190,9 +193,9 @@ setup.py
  - test yourself by running ***test_task.py***
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU1MTQwMDkyLC04NjE3MTExMjAsLTE0OD
-M5MzA3NTksMzU4OTM4MDI2LC0yNDA2NzQxODYsNDcwMTg5NTMw
-LDE0NTcwOTYyMSwyNjc5NzE2MTgsMTA5NjU1MTY1OSw2NTY2OD
-M3NywtMjAzMzMxNzE0NCwxNDQ0NDc3NTY3LDEwMTI5ODM1OTZd
-fQ==
+eyJoaXN0b3J5IjpbMTkxMzI3MDUwMyw0NTUxNDAwOTIsLTg2MT
+cxMTEyMCwtMTQ4MzkzMDc1OSwzNTg5MzgwMjYsLTI0MDY3NDE4
+Niw0NzAxODk1MzAsMTQ1NzA5NjIxLDI2Nzk3MTYxOCwxMDk2NT
+UxNjU5LDY1NjY4Mzc3LC0yMDMzMzE3MTQ0LDE0NDQ0Nzc1Njcs
+MTAxMjk4MzU5Nl19
 -->
