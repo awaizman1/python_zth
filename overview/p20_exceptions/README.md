@@ -27,7 +27,7 @@ except RuntimeError:
 ```
 
 > When raising an exception, pass a single str argument which describes the error.
-> Don't exploit the fact that exception can take arbitrary args, it's only for backwards.
+> Don't exploit the fact that exception can take arbitrary args, it's only for backwards ([pep-352](https://www.python.org/dev/peps/pep-0352/#id6)).
 
 ## finally clause
 Always prefer ```context managers``` over ```finally``` for cleanups!
@@ -165,8 +165,8 @@ def handle_file(filename):
 		print("failed to handle file because: ", e)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MjcxNTU0NywxMDg2NzM1ODYyLDE0Mz
-YxNDAxNDksLTI4NjMwMzAyNiw2NTk5MjczMjMsLTk3Mjk0ODAz
-MCwtNjczMjIyNzUxLDE5Mzg4MjYyOTYsLTE2NzU0MjI3MzVdfQ
-==
+eyJoaXN0b3J5IjpbLTE3ODg4ODEzMjgsMTA4NjczNTg2MiwxND
+M2MTQwMTQ5LC0yODYzMDMwMjYsNjU5OTI3MzIzLC05NzI5NDgw
+MzAsLTY3MzIyMjc1MSwxOTM4ODI2Mjk2LC0xNjc1NDIyNzM1XX
+0=
 -->
