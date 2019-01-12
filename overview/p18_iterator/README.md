@@ -110,9 +110,12 @@ class SquareIterator:
 4
 ```
 > Why an iterator must have ```__iter__``` which returns ```self```?
-
+## Time for task:
+ - perform ***task.py***
+ - test yourself by running ***test_task.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NjU3MDEwLC02NjQyODIwMDgsMTYyND
-E4MDQ0MiwtMzE2MzA0MDM3LDEyNjg3ODcxNTQsOTI4MzU3Nzc2
-LDE3MjY1ODkyNjIsMzI2NDQ4NjEyLC0xOTQ3NjAxNTU3XX0=
+eyJoaXN0b3J5IjpbLTEzODA2MzM0MDQsMTY0NjU3MDEwLC02Nj
+QyODIwMDgsMTYyNDE4MDQ0MiwtMzE2MzA0MDM3LDEyNjg3ODcx
+NTQsOTI4MzU3Nzc2LDE3MjY1ODkyNjIsMzI2NDQ4NjEyLC0xOT
+Q3NjAxNTU3XX0=
 -->
