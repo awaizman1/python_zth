@@ -25,12 +25,11 @@ Now you can install packages into environment:
 (my_venv) $ deactivate
 ```
 ## Time for task:
- - create 2 new virtual envs: ```env1``` & ```env2```
- - install the latest ```numpy``` into ```env1``` and ```numpy 1.14``` into ```env2```
- - validate that each env refers the correct
- - test yourself by running ***test_task.py***
+ - create 2 new virtual envs: ```env1``` & ```env2```.
+ - install the latest ```numpy``` into ```env1``` and ```numpy 1.14``` into ```env2```.
+ - validate that each env refers to the correct numpy version.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNjU0NDI1MCw3NzkwNzkyMTYsMjExMD
+eyJoaXN0b3J5IjpbMTE0MzU4Mzg0OSw3NzkwNzkyMTYsMjExMD
 UxMTU0NywtNzYwOTY4MDg3LDE0NTM1Nzg2MzQsLTExMDI0NDg5
 NzUsMTk0MjA0MDk0OV19
 -->
