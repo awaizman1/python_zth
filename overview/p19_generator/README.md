@@ -92,8 +92,11 @@ g = (x**2 for x in range(1000) if x % 2 == 0)
 ## Builtins iterators and generators
 Python introduces many builtin iterators and generators.
 Make your self familier with [range](), [zip](https://docs.python.org/3/library/functions.html#zip), [all](https://docs.python.org/3/library/functions.html#all), [any](https://docs.python.org/3/library/functions.html#any), [itertools](https://docs.python.org/3.7/library/itertools.html)
+## Time for task:
+ - perform ***task.py***
+ - test yourself by running ***test_task.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MTIzMTgxOCwxMDUxOTU4MTgxLDE2Mj
-c5MTkyMzgsLTgzNjg3NjUwMCwxODIzMDQ0ODYsMTk4NzcxODMz
-LDEwMDEwMzgzNjZdfQ==
+eyJoaXN0b3J5IjpbMTc2NzU4NjcwNiwtMzUxMjMxODE4LDEwNT
+E5NTgxODEsMTYyNzkxOTIzOCwtODM2ODc2NTAwLDE4MjMwNDQ4
+NiwxOTg3NzE4MzMsMTAwMTAzODM2Nl19
 -->
