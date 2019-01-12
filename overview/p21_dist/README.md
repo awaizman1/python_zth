@@ -24,8 +24,12 @@ Now you can install packages into environment:
 ```cmd
 (my_venv) $ deactivate
 ```
+## Time for task:
+ - create 2 new virtual envs: ```env1``` & ```env2```
+ - install ```numpy
+ - test yourself by running ***test_task.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk1NDA4NTMxLDc3OTA3OTIxNiwyMTEwNT
-ExNTQ3LC03NjA5NjgwODcsMTQ1MzU3ODYzNCwtMTEwMjQ0ODk3
-NSwxOTQyMDQwOTQ5XX0=
+eyJoaXN0b3J5IjpbLTE0OTM1NzIyNDcsNzc5MDc5MjE2LDIxMT
+A1MTE1NDcsLTc2MDk2ODA4NywxNDUzNTc4NjM0LC0xMTAyNDQ4
+OTc1LDE5NDIwNDA5NDldfQ==
 -->
