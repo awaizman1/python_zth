@@ -19,9 +19,9 @@ Notice how prompt changes after activation:
 ### Deactivate virtual env
 ```cmd
 (my_venv) $ deactivate
-
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MDk1ODUzMiwyMTEwNTExNTQ3LC03Nj
-A5NjgwODcsMTQ1MzU3ODYzNCwtMTEwMjQ0ODk3NSwxOTQyMDQw
-OTQ5XX0=
+eyJoaXN0b3J5IjpbNzc5MDc5MjE2LDIxMTA1MTE1NDcsLTc2MD
+k2ODA4NywxNDUzNTc4NjM0LC0xMTAyNDQ4OTc1LDE5NDIwNDA5
+NDldfQ==
 -->
