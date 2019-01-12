@@ -16,13 +16,15 @@ Notice how prompt changes after activation:
 ```cmd
 (my_venv) $
 ```
-Now you can install 
+Now you can install packages into environment:
+```cmd
+(my_venv) $
 ### Deactivate virtual env
 ```cmd
 (my_venv) $ deactivate
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDUyODg4MzAsNzc5MDc5MjE2LDIxMT
-A1MTE1NDcsLTc2MDk2ODA4NywxNDUzNTc4NjM0LC0xMTAyNDQ4
-OTc1LDE5NDIwNDA5NDldfQ==
+eyJoaXN0b3J5IjpbMTY0MzUzNjk3OSw3NzkwNzkyMTYsMjExMD
+UxMTU0NywtNzYwOTY4MDg3LDE0NTM1Nzg2MzQsLTExMDI0NDg5
+NzUsMTk0MjA0MDk0OV19
 -->
