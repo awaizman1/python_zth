@@ -25,5 +25,5 @@ def filtered_words_until(filename, filter, until_word):
                                                      words(filename)))
 
 
-for word in filtered_words_until("huge_file.txt", ["of, the, is, was"], "software"):
+for word in filtered_words_until("huge_file.txt", ["of", "the", "is", "was"], "software"):
     print(word)
