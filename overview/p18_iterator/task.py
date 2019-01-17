@@ -1,6 +1,6 @@
 # StudentGrade is a simple class holding a sequence of students and an associated
 # sequence of grades.
-# 1. make StudentGrade iterable.
+# 1. make StudentGrade iterable. Iteration over StudentGrade should yield tuples of (STUDENT_NAME, STUDENT_GRADE).
 # 2. make sure it can iterated multiple times.
 
 
