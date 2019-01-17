@@ -101,12 +101,9 @@ Ipsum
 --------------------------------
 Lorem
 Ipsum
-is
 simply
 dummy
 text
-of
-the
 printing
 and
 typesetting
@@ -115,14 +112,12 @@ Lorem
 Ipsum
 has
 been
-the
 industry's
 standard
 dummy
 text
 ever
 since
-the
 1500s,
 when
 an
@@ -131,7 +126,6 @@ printer
 took
 a
 galley
-of
 type
 and
 scrambled
@@ -151,7 +145,6 @@ five
 centuries,
 but
 also
-the
 leap
 into
 electronic
@@ -160,15 +153,11 @@ remaining
 essentially
 unchanged.
 It
-was
 popularised
 in
-the
 1960s
 with
-the
 release
-of
 Letraset
 sheets
 containing
@@ -181,4 +170,4 @@ recently
 with
 desktop
 publishing
-""")
+""", run_task_ref=True)
