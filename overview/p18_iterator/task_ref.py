@@ -6,12 +6,16 @@
 
 class StudentGrade:
     def __init__(self, students, grades):
+        
         self._students = students
         self._grades = grades
 
     def __iter__(self):
+        
         class StudentGradeIterator:
+            
             def __init__(self, student_grade):
+                
                 self._student_grade = student_grade
                 self._index = 0
 
@@ -19,6 +23,7 @@ class StudentGrade:
                 return self
 
             def __next__(self):
+                
                 if self._index >= len(self._student_grade._students):
                     raise StopIteration
 
