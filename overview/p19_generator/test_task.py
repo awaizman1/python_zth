@@ -170,4 +170,4 @@ recently
 with
 desktop
 publishing
-""", run_task_ref=True)
+""")
