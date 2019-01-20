@@ -1,7 +1,7 @@
 # Python is a strongly-dynamically typed language!  
-**Strongly typed** - every object has a definite type!  
+**Strongly typed** - in general, there is no implicit type conversion, every object has a definite type!  
   
-**Dynamically typed** - there's no type checking of your code prior to running it.  
+**Dynamically typed** - object types are only resolved at runtime (no type checking of your code prior to running it).  
  - In a statically-typed language like C++ / Java - the compiler does a lot of type checking for you.  
  - In python you can also extend the program by adding new code, extend objects and definitions and modify the type system.
 ### Time for task:
@@ -22,6 +22,6 @@ https://docs.python.org/3/glossary.html#term-bytecode
 ### Time for task:
 - observe ***task2.py***, run it and inspect its output
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MzAwMTIzNSw0MTk5OTEwNTIsMTcxOD
-g0ODU5N119
+eyJoaXN0b3J5IjpbLTEzNjk5MzY1OSwxMzczMDAxMjM1LDQxOT
+k5MTA1MiwxNzE4ODQ4NTk3XX0=
 -->

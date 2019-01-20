@@ -9,7 +9,7 @@ def get_task_module_name(run_task_ref):
         match = re.search(r"(test_task(\d*))\.py", frame.filename)
         if match:
             test_task_module_name = inspect.getmodule(frame.frame).__name__
-            task_module_name = "task_ref" if run_task_ref else f"task{match[2]}"
+            task_module_name = f"task{match[2]}_ref" if run_task_ref else f"task{match[2]}"
             return test_task_module_name.replace(match[1], task_module_name)
 
     raise RuntimeError("Can't find task module")

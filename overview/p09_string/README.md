@@ -79,7 +79,7 @@ True
 True
 >>> 'z' in s
 False
->>> o.index('e')
+>>> s.index('e')
 1
 >>> s.index('world')
 6
