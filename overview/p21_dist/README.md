@@ -95,7 +95,7 @@ setup(
     # long_description=long_description,
     # long_description_content_type="text/markdown",
     # url="https://github.com/pypa/sampleproject",
-    packages=setuptools.find_packages(),
+    packages=setuptools.find_packages(exclude=["tests*"]),
     # classifiers=[
     #     "Programming Language :: Python :: 3",
     #     "License :: OSI Approved :: MIT License",
@@ -114,9 +114,9 @@ Now you will get your distribution wheel:
 ```
 This distribution can be uploaded to PyPI / other repo or could be shared with others.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyOTUxOTc0MywtMTQyMTYzMjQyNywtNT
-UwMjMwMjMzLC0xMjQyMjkxNTE3LC01OTQyMzIyMDcsLTE5OTMw
-NTczOTYsLTUzNTE2NjQ2LDExNDM1ODM4NDksNzc5MDc5MjE2LD
-IxMTA1MTE1NDcsLTc2MDk2ODA4NywxNDUzNTc4NjM0LC0xMTAy
-NDQ4OTc1LDE5NDIwNDA5NDldfQ==
+eyJoaXN0b3J5IjpbODY3NzE0MDYzLDE4Mjk1MTk3NDMsLTE0Mj
+E2MzI0MjcsLTU1MDIzMDIzMywtMTI0MjI5MTUxNywtNTk0MjMy
+MjA3LC0xOTkzMDU3Mzk2LC01MzUxNjY0NiwxMTQzNTgzODQ5LD
+c3OTA3OTIxNiwyMTEwNTExNTQ3LC03NjA5NjgwODcsMTQ1MzU3
+ODYzNCwtMTEwMjQ0ODk3NSwxOTQyMDQwOTQ5XX0=
 -->
