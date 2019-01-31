@@ -29,9 +29,9 @@ Now you can install packages into environment:
  - install the latest ```numpy``` into ```env1``` and ```numpy 1.14``` into ```env2```.
  - validate that each env refers to the correct numpy version.
 # PIP - PIP Installs Packages
-PyP
+[PyPA](https://www.pypa.io/en/latest/) recommended tool for installing python packages
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4Nzg3ODE5LDExNDM1ODM4NDksNzc5MD
+eyJoaXN0b3J5IjpbLTUzNTE2NjQ2LDExNDM1ODM4NDksNzc5MD
 c5MjE2LDIxMTA1MTE1NDcsLTc2MDk2ODA4NywxNDUzNTc4NjM0
 LC0xMTAyNDQ4OTc1LDE5NDIwNDA5NDldfQ==
 -->
