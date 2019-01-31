@@ -28,7 +28,7 @@ Now you can install packages into environment:
  - create 2 new virtual envs: ```env1``` & ```env2```.
  - install the latest ```numpy``` into ```env1``` and ```numpy 1.14``` into ```env2```.
  - validate that each env refers to the correct numpy version.
-# PIP - PIP Installs Packages
+# PIP - *P*IP *I*nstalls *P*ackages
 [PyPA](https://www.pypa.io/en/latest/) recommended tool for installing python packages.
 Usually, packages are stored in [PyPI](https://pypi.org/) repo but can also reside in private repos, file system, etc.
 ### Install latest
@@ -64,13 +64,13 @@ Usually, packages are stored in [PyPI](https://pypi.org/) repo but can also resi
 (my_venv) $ python -m pip install -r requirements.txt
 ```
 ## Time for task:
- - using virtual env ```env2``` from above.
- - upgrade numpy to latest
- - list all installed packages
- - create new virtual env ```venv3```
+ - using virtual env ```env2``` from above:
+	 - upgrade numpy to latest
+	 - list all installed packages
+	 - create new virtual env ```venv3``` which is identical to ```venv2``` (using requirements file)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMDg4NjAwMCwtNTk0MjMyMjA3LC0xOT
-kzMDU3Mzk2LC01MzUxNjY0NiwxMTQzNTgzODQ5LDc3OTA3OTIx
-NiwyMTEwNTExNTQ3LC03NjA5NjgwODcsMTQ1MzU3ODYzNCwtMT
-EwMjQ0ODk3NSwxOTQyMDQwOTQ5XX0=
+eyJoaXN0b3J5IjpbLTEyNDIyOTE1MTcsLTU5NDIzMjIwNywtMT
+k5MzA1NzM5NiwtNTM1MTY2NDYsMTE0MzU4Mzg0OSw3NzkwNzky
+MTYsMjExMDUxMTU0NywtNzYwOTY4MDg3LDE0NTM1Nzg2MzQsLT
+ExMDI0NDg5NzUsMTk0MjA0MDk0OV19
 -->
