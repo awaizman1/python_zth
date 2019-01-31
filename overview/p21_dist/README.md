@@ -69,6 +69,7 @@ Usually, packages are stored in [PyPI](https://pypi.org/) repo but can also resi
 	 - list all installed packages
 	 - create new virtual env ```venv3``` which is identical to ```venv2``` (using requirements file)
 # Distributing your own package
+[packaging python projects](https://packaging.python.org/tutorials/packaging-projects/#packaging-python-projects)
 ## Recommended project layout
 ```
 my_project
@@ -103,8 +104,8 @@ setup(
 )
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NzEwOTMsLTEyNDIyOTE1MTcsLTU5ND
-IzMjIwNywtMTk5MzA1NzM5NiwtNTM1MTY2NDYsMTE0MzU4Mzg0
-OSw3NzkwNzkyMTYsMjExMDUxMTU0NywtNzYwOTY4MDg3LDE0NT
-M1Nzg2MzQsLTExMDI0NDg5NzUsMTk0MjA0MDk0OV19
+eyJoaXN0b3J5IjpbLTU1MDIzMDIzMywtMTI0MjI5MTUxNywtNT
+k0MjMyMjA3LC0xOTkzMDU3Mzk2LC01MzUxNjY0NiwxMTQzNTgz
+ODQ5LDc3OTA3OTIxNiwyMTEwNTExNTQ3LC03NjA5NjgwODcsMT
+Q1MzU3ODYzNCwtMTEwMjQ0ODk3NSwxOTQyMDQwOTQ5XX0=
 -->
