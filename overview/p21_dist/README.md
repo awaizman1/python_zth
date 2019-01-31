@@ -72,7 +72,7 @@ Usually, packages are stored in [PyPI](https://pypi.org/) repo but can also resi
 [packaging python projects](https://packaging.python.org/tutorials/packaging-projects/#packaging-python-projects)
 ## Recommended project layout
 ```
-my_project
+/my_project
 	/fancy_tool
 		__init__.py
 		some_module.py
@@ -107,8 +107,12 @@ setup(
 ```bash
 $ python setup.py bdist_wheel
 ```
+Now you will get your distribution wheel:
+```
+dist
+	fancy_tool-0.0.1-py3-none-any.whl
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxODA0NDYzOCwtNTUwMjMwMjMzLC0xMj
+eyJoaXN0b3J5IjpbMTE4NTA1NDMyOCwtNTUwMjMwMjMzLC0xMj
 QyMjkxNTE3LC01OTQyMzIyMDcsLTE5OTMwNTczOTYsLTUzNTE2
 NjQ2LDExNDM1ODM4NDksNzc5MDc5MjE2LDIxMTA1MTE1NDcsLT
 c2MDk2ODA4NywxNDUzNTc4NjM0LC0xMTAyNDQ4OTc1LDE5NDIw
