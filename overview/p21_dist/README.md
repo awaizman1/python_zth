@@ -80,8 +80,30 @@ my_project
 		test_some_module.py
 	
 	setup.py					build script for setuptools
+```
+## setup.py bare minimum
+```python
+from setuptools import setup
+
+setup(
+    name="example-pkg-your-username",
+    version="0.0.1",
+    author="Example Author",
+    author_email="author@example.com",
+    description="A small example package",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://github.com/pypa/sampleproject",
+    packages=setuptools.find_packages(),
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNzI5MTIxNSwtMTI0MjI5MTUxNywtNT
+eyJoaXN0b3J5IjpbLTc1NjM3OTI1NiwtMTI0MjI5MTUxNywtNT
 k0MjMyMjA3LC0xOTkzMDU3Mzk2LC01MzUxNjY0NiwxMTQzNTgz
 ODQ5LDc3OTA3OTIxNiwyMTEwNTExNTQ3LC03NjA5NjgwODcsMT
 Q1MzU3ODYzNCwtMTEwMjQ0ODk3NSwxOTQyMDQwOTQ5XX0=
