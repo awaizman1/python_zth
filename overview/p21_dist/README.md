@@ -72,7 +72,7 @@ Usually, packages are stored in [PyPI](https://pypi.org/) repo but can also resi
 ## Recommended project layout
 ```
 my_project
-	/package_a
+	/fancy_tool
 		__init__.py
 		some_module.py
 	/tests
@@ -86,25 +86,25 @@ my_project
 from setuptools import setup
 
 setup(
-    name="example-pkg-your-username",
+    name="fancy-tool",
     version="0.0.1",
-    author="Example Author",
-    author_email="author@example.com",
-    description="A small example package",
-    long_description=long_description,
-    long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    # author="Example Author",
+    # author_email="author@example.com",
+    # description="A small example package",
+    # long_description=long_description,
+    # long_description_content_type="text/markdown",
+    # url="https://github.com/pypa/sampleproject",
     packages=setuptools.find_packages(),
-    classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
-    ],
+    # classifiers=[
+    #     "Programming Language :: Python :: 3",
+    #     "License :: OSI Approved :: MIT License",
+    #     "Operating System :: OS Independent",
+    # ],
 )
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NjM3OTI1NiwtMTI0MjI5MTUxNywtNT
-k0MjMyMjA3LC0xOTkzMDU3Mzk2LC01MzUxNjY0NiwxMTQzNTgz
-ODQ5LDc3OTA3OTIxNiwyMTEwNTExNTQ3LC03NjA5NjgwODcsMT
-Q1MzU3ODYzNCwtMTEwMjQ0ODk3NSwxOTQyMDQwOTQ5XX0=
+eyJoaXN0b3J5IjpbLTQ0NzEwOTMsLTEyNDIyOTE1MTcsLTU5ND
+IzMjIwNywtMTk5MzA1NzM5NiwtNTM1MTY2NDYsMTE0MzU4Mzg0
+OSw3NzkwNzkyMTYsMjExMDUxMTU0NywtNzYwOTY4MDg3LDE0NT
+M1Nzg2MzQsLTExMDI0NDg5NzUsMTk0MjA0MDk0OV19
 -->
