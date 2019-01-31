@@ -32,19 +32,25 @@ Now you can install packages into environment:
 [PyPA](https://www.pypa.io/en/latest/) recommended tool for installing python packages.
 Usually, packages are stored in [PyPI](https://pypi.org/) repo but can also reside in private repos, file system, etc.
 
-```python
+```bash
 (my_venv) $ python -m pip install numpy
 ```
 
-```python
+```bash
 (my_venv) $ python -m pip install numpy==1.14
 ```
 
-```python
-(my_venv) $ python -m pip install numpy
+```bash
+(my_venv) $ python -m pip uninstall numpy
+```
+```bash
+(my_venv) $ python -m pip search numpy
+```
+```bash
+(my_venv) $ python -m pip list
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MzQwNTc0MSwtMTk5MzA1NzM5NiwtNT
+eyJoaXN0b3J5IjpbLTU5NDIzMjIwNywtMTk5MzA1NzM5NiwtNT
 M1MTY2NDYsMTE0MzU4Mzg0OSw3NzkwNzkyMTYsMjExMDUxMTU0
 NywtNzYwOTY4MDg3LDE0NTM1Nzg2MzQsLTExMDI0NDg5NzUsMT
 k0MjA0MDk0OV19
