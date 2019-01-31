@@ -108,13 +108,15 @@ setup(
 $ python setup.py bdist_wheel
 ```
 Now you will get your distribution wheel:
-```
-dist
+```bash
+/dist
 	fancy_tool-0.0.1-py3-none-any.whl
+```
+This distribution can be uploaded to PyPI / other repo or could be shared with others.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NTA1NDMyOCwtNTUwMjMwMjMzLC0xMj
-QyMjkxNTE3LC01OTQyMzIyMDcsLTE5OTMwNTczOTYsLTUzNTE2
-NjQ2LDExNDM1ODM4NDksNzc5MDc5MjE2LDIxMTA1MTE1NDcsLT
-c2MDk2ODA4NywxNDUzNTc4NjM0LC0xMTAyNDQ4OTc1LDE5NDIw
-NDA5NDldfQ==
+eyJoaXN0b3J5IjpbLTE0MjE2MzI0MjcsLTU1MDIzMDIzMywtMT
+I0MjI5MTUxNywtNTk0MjMyMjA3LC0xOTkzMDU3Mzk2LC01MzUx
+NjY0NiwxMTQzNTgzODQ5LDc3OTA3OTIxNiwyMTEwNTExNTQ3LC
+03NjA5NjgwODcsMTQ1MzU3ODYzNCwtMTEwMjQ0ODk3NSwxOTQy
+MDQwOTQ5XX0=
 -->
