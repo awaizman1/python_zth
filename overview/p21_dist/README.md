@@ -30,10 +30,10 @@ Now you can install packages into environment:
  - validate that each env refers to the correct numpy version.
 # PIP - PIP Installs Packages
 [PyPA](https://www.pypa.io/en/latest/) recommended tool for installing python packages.
-
+Usually, packages are stored in [PyPI](https://pypi.org/) repo but can also reside in priva
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzQxMjUxMjYsLTE5OTMwNTczOTYsLT
-UzNTE2NjQ2LDExNDM1ODM4NDksNzc5MDc5MjE2LDIxMTA1MTE1
-NDcsLTc2MDk2ODA4NywxNDUzNTc4NjM0LC0xMTAyNDQ4OTc1LD
-E5NDIwNDA5NDldfQ==
+eyJoaXN0b3J5IjpbMTQ4MTcyMTg2LC0xOTkzMDU3Mzk2LC01Mz
+UxNjY0NiwxMTQzNTgzODQ5LDc3OTA3OTIxNiwyMTEwNTExNTQ3
+LC03NjA5NjgwODcsMTQ1MzU3ODYzNCwtMTEwMjQ0ODk3NSwxOT
+QyMDQwOTQ5XX0=
 -->
