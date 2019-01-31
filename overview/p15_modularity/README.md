@@ -149,15 +149,15 @@ path/
 	best_encoder/
 		__init__.py			Package __init__ file
 		avi/
-			__init__.py		Subpackate __init__ file
+			__init__.py		Subpackage __init__ file
 			encode.py
 			decode.py
 		mp4/
-			__init__.py		Subpackate __init__ file
+			__init__.py		Subpackage __init__ file
 			encode.py
 			decode.py
 		mkv/
-			__init__.py		Subpackate __init__ file
+			__init__.py		Subpackage __init__ file
 			encode.py
 			decode.py
 setup.py
@@ -202,9 +202,9 @@ When python searches ```sys.path``` for an import (i.e. ```import best_encoder``
  - create the namespace package ```best_encoder``` as above, run python where ```sys.path``` contains ```path1```, ```path2``` and ```path3```. Now import ```best_encoder``` and examine its ```__path__``` attribute. Do the same for every encoder ```encode``` module.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODIyMzM2ODIsNjAyMDI3OTM3LDQ1NT
-E0MDA5MiwtODYxNzExMTIwLC0xNDgzOTMwNzU5LDM1ODkzODAy
-NiwtMjQwNjc0MTg2LDQ3MDE4OTUzMCwxNDU3MDk2MjEsMjY3OT
-cxNjE4LDEwOTY1NTE2NTksNjU2NjgzNzcsLTIwMzMzMTcxNDQs
-MTQ0NDQ3NzU2NywxMDEyOTgzNTk2XX0=
+eyJoaXN0b3J5IjpbMTE0MzE5MTI5Nyw2MDIwMjc5MzcsNDU1MT
+QwMDkyLC04NjE3MTExMjAsLTE0ODM5MzA3NTksMzU4OTM4MDI2
+LC0yNDA2NzQxODYsNDcwMTg5NTMwLDE0NTcwOTYyMSwyNjc5Nz
+E2MTgsMTA5NjU1MTY1OSw2NTY2ODM3NywtMjAzMzMxNzE0NCwx
+NDQ0NDc3NTY3LDEwMTI5ODM1OTZdfQ==
 -->
