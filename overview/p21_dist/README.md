@@ -41,7 +41,7 @@ Usually, packages are stored in [PyPI](https://pypi.org/) repo but can also resi
 ```
 ### Install from wheel
 ```bash
-(my_venv) $ python -m pip install numpy==1.14
+(my_venv) $ python -m pip install numpy-1.16.0-cp36-cp36m-win_amd64.whl
 ```
 ### Uninstall package
 ```bash
@@ -55,10 +55,14 @@ Usually, packages are stored in [PyPI](https://pypi.org/) repo but can also resi
 ```bash
 (my_venv) $ python -m pip list
 ```
+### Freeze environment
+```bash
+(my_venv) $ python -m pip freeze
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDYzMTgwNzcsLTU5NDIzMjIwNywtMT
-k5MzA1NzM5NiwtNTM1MTY2NDYsMTE0MzU4Mzg0OSw3NzkwNzky
-MTYsMjExMDUxMTU0NywtNzYwOTY4MDg3LDE0NTM1Nzg2MzQsLT
-ExMDI0NDg5NzUsMTk0MjA0MDk0OV19
+eyJoaXN0b3J5IjpbMTQxOTQzMzIzNCwtNTk0MjMyMjA3LC0xOT
+kzMDU3Mzk2LC01MzUxNjY0NiwxMTQzNTgzODQ5LDc3OTA3OTIx
+NiwyMTEwNTExNTQ3LC03NjA5NjgwODcsMTQ1MzU3ODYzNCwtMT
+EwMjQ0ODk3NSwxOTQyMDQwOTQ5XX0=
 -->
