@@ -28,8 +28,10 @@ Now you can install packages into environment:
  - create 2 new virtual envs: ```env1``` & ```env2```.
  - install the latest ```numpy``` into ```env1``` and ```numpy 1.14``` into ```env2```.
  - validate that each env refers to the correct numpy version.
+# PIP - PIP Installs Packages
+PyP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MzU4Mzg0OSw3NzkwNzkyMTYsMjExMD
-UxMTU0NywtNzYwOTY4MDg3LDE0NTM1Nzg2MzQsLTExMDI0NDg5
-NzUsMTk0MjA0MDk0OV19
+eyJoaXN0b3J5IjpbLTY4Nzg3ODE5LDExNDM1ODM4NDksNzc5MD
+c5MjE2LDIxMTA1MTE1NDcsLTc2MDk2ODA4NywxNDUzNTc4NjM0
+LC0xMTAyNDQ4OTc1LDE5NDIwNDA5NDldfQ==
 -->
