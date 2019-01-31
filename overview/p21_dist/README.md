@@ -74,10 +74,15 @@ Usually, packages are stored in [PyPI](https://pypi.org/) repo but can also resi
 my_project
 	package_a
 		__init__.py
-		
+		some_module.py
+	tests
+		__init__.py
+		test_some_module.py
+	
+	setup.py
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3ODY5NDc3MiwtMTI0MjI5MTUxNywtNT
-k0MjMyMjA3LC0xOTkzMDU3Mzk2LC01MzUxNjY0NiwxMTQzNTgz
-ODQ5LDc3OTA3OTIxNiwyMTEwNTExNTQ3LC03NjA5NjgwODcsMT
-Q1MzU3ODYzNCwtMTEwMjQ0ODk3NSwxOTQyMDQwOTQ5XX0=
+eyJoaXN0b3J5IjpbNzg0ODA5MTczLC0xMjQyMjkxNTE3LC01OT
+QyMzIyMDcsLTE5OTMwNTczOTYsLTUzNTE2NjQ2LDExNDM1ODM4
+NDksNzc5MDc5MjE2LDIxMTA1MTE1NDcsLTc2MDk2ODA4NywxND
+UzNTc4NjM0LC0xMTAyNDQ4OTc1LDE5NDIwNDA5NDldfQ==
 -->
