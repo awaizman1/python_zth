@@ -68,9 +68,16 @@ Usually, packages are stored in [PyPI](https://pypi.org/) repo but can also resi
 	 - upgrade numpy to latest
 	 - list all installed packages
 	 - create new virtual env ```venv3``` which is identical to ```venv2``` (using requirements file)
+# Distributing your own package
+## Recommended project layout
+```
+my_project
+	package_a
+		__init__.py
+		
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDIyOTE1MTcsLTU5NDIzMjIwNywtMT
-k5MzA1NzM5NiwtNTM1MTY2NDYsMTE0MzU4Mzg0OSw3NzkwNzky
-MTYsMjExMDUxMTU0NywtNzYwOTY4MDg3LDE0NTM1Nzg2MzQsLT
-ExMDI0NDg5NzUsMTk0MjA0MDk0OV19
+eyJoaXN0b3J5IjpbMjA3ODY5NDc3MiwtMTI0MjI5MTUxNywtNT
+k0MjMyMjA3LC0xOTkzMDU3Mzk2LC01MzUxNjY0NiwxMTQzNTgz
+ODQ5LDc3OTA3OTIxNiwyMTEwNTExNTQ3LC03NjA5NjgwODcsMT
+Q1MzU3ODYzNCwtMTEwMjQ0ODk3NSwxOTQyMDQwOTQ5XX0=
 -->
