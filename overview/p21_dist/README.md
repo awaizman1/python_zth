@@ -57,11 +57,18 @@ Usually, packages are stored in [PyPI](https://pypi.org/) repo but can also resi
 ```
 ### Freeze environment
 ```bash
-(my_venv) $ python -m pip freeze
+(my_venv) $ python -m pip freeze > requirements.txt
 ```
-
+### Install from requirements file
+```bash
+(my_venv) $ python -m pip install -r requirements.txt
+```
+## Time for task:
+ - using virtual env ```env2```.
+ - install the latest ```numpy``` into ```env1``` and ```numpy 1.14``` into ```env2```.
+ - validate that each env refers to the correct numpy version.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxOTQzMzIzNCwtNTk0MjMyMjA3LC0xOT
+eyJoaXN0b3J5IjpbMTQ1NTU1MDY4NywtNTk0MjMyMjA3LC0xOT
 kzMDU3Mzk2LC01MzUxNjY0NiwxMTQzNTgzODQ5LDc3OTA3OTIx
 NiwyMTEwNTExNTQ3LC03NjA5NjgwODcsMTQ1MzU3ODYzNCwtMT
 EwMjQ0ODk3NSwxOTQyMDQwOTQ5XX0=
