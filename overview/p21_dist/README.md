@@ -72,11 +72,11 @@ Usually, packages are stored in [PyPI](https://pypi.org/) repo but can also resi
 [packaging python projects](https://packaging.python.org/tutorials/packaging-projects/#packaging-python-projects)
 ## Recommended project layout
 ```
-/my_project
-	/fancy_tool
+/my_project						project root
+	/fancy_tool					project package
 		__init__.py
 		some_module.py
-	/tests
+	/tests						project package tests
 		__init__.py
 		test_some_module.py
 	
@@ -114,9 +114,9 @@ Now you will get your distribution wheel:
 ```
 This distribution can be uploaded to PyPI / other repo or could be shared with others.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjE2MzI0MjcsLTU1MDIzMDIzMywtMT
-I0MjI5MTUxNywtNTk0MjMyMjA3LC0xOTkzMDU3Mzk2LC01MzUx
-NjY0NiwxMTQzNTgzODQ5LDc3OTA3OTIxNiwyMTEwNTExNTQ3LC
-03NjA5NjgwODcsMTQ1MzU3ODYzNCwtMTEwMjQ0ODk3NSwxOTQy
-MDQwOTQ5XX0=
+eyJoaXN0b3J5IjpbMTgyOTUxOTc0MywtMTQyMTYzMjQyNywtNT
+UwMjMwMjMzLC0xMjQyMjkxNTE3LC01OTQyMzIyMDcsLTE5OTMw
+NTczOTYsLTUzNTE2NjQ2LDExNDM1ODM4NDksNzc5MDc5MjE2LD
+IxMTA1MTE1NDcsLTc2MDk2ODA4NywxNDUzNTc4NjM0LC0xMTAy
+NDQ4OTc1LDE5NDIwNDA5NDldfQ==
 -->
