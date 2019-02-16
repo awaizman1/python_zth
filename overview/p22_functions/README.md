@@ -9,16 +9,16 @@ def foo(a, b, c):
 	
 	return (a + b) / c
 ```
-## Calling ```foo``` with positional arguments
+### Calling ```foo``` with positional arguments
 ```python
 foo(1, 2, 3)  # a = 1, b = 2, c = 3
 ```
-## Calling ```foo``` with keywords arguments
+### Calling ```foo``` with keyword arguments
 ```python
-foo(b=2, a=1, c=3)  # any order for keywords args
+foo(b=2, a=1, c=3)  # any order for keyword args
 ```
 ```python
-foo(1, b=2, c=3)  # mixing positional and keywords args
+foo(1, b=2, c=3)  # mixing positional and keyword args
 ```
 ## Default args
 ```python
@@ -42,9 +42,10 @@ def make_pair(a, b, pair=[]):
 >>> make_pair(3, 4)
 [1, 2, 3, 4]
 ```
+## Arbitrary argument list
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNTU0MjU0NSwxMjA1MDI3NjE3LDQ1Nz
+eyJoaXN0b3J5IjpbMTg5NzUyMzYyNSwxMjA1MDI3NjE3LDQ1Nz
 EwNjg1XX0=
 -->
