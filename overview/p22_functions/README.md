@@ -52,10 +52,11 @@ def sum(initial, *args):
 	
 	return initial	
 ```
-def 
+def print_info(**kwargs):
+	
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzc2NTIyMTgsLTEwMjg0NTAxMjUsMT
-IwNTAyNzYxNyw0NTcxMDY4NV19
+eyJoaXN0b3J5IjpbLTkyMzAyMTIyNiwtMjEzNzY1MjIxOCwtMT
+AyODQ1MDEyNSwxMjA1MDI3NjE3LDQ1NzEwNjg1XX0=
 -->
