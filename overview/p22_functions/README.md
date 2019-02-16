@@ -74,11 +74,13 @@ Sometimes the arguments to a function already exist in a list/tuple/dict.
 endpoint=('127.0.0.1', 80)
 endpoint_as_dict={'host': '127.0.0.1', 'port': 80} 
 
-connect(*endpoint)
+connect(*endpoint)  # in
+
 connect(**endpoint)
+```
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NTA1ODcsLTIxMzc2NTIyMTgsLTEwMj
-g0NTAxMjUsMTIwNTAyNzYxNyw0NTcxMDY4NV19
+eyJoaXN0b3J5IjpbNTc5NTU1ODE5LC0yMTM3NjUyMjE4LC0xMD
+I4NDUwMTI1LDEyMDUwMjc2MTcsNDU3MTA2ODVdfQ==
 -->
