@@ -30,10 +30,18 @@ def connect(host, port=1234):
 > Default args are evaluated only once - at the point of function definition in the _defining_ scope.
 ```python
 def make_pair(a, b, pair=[]):
-	pair.append(a, b) 
+	
+	pair.append(a)
+	pair.append(b)
+	
+	return pair 
+```
+```python
+>>> make_pair(1, 2)
+[1, 2]
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MjkxMjk4NSwxMjA1MDI3NjE3LDQ1Nz
+eyJoaXN0b3J5IjpbMTgwMDQwNTkzNCwxMjA1MDI3NjE3LDQ1Nz
 EwNjg1XX0=
 -->
