@@ -24,9 +24,10 @@ foo(1, b=2, c=3)  # mixing positional and keywords args
 ```python
 def connect(host, port=1234):
 	...
-	
+```
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzOTc4NDA3OSwxMjA1MDI3NjE3LDQ1Nz
-EwNjg1XX0=
+eyJoaXN0b3J5IjpbNzc0MTg0NDY3LDEyMDUwMjc2MTcsNDU3MT
+A2ODVdfQ==
 -->
