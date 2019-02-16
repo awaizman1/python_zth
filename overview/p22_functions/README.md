@@ -21,7 +21,7 @@ foo(b=2, a=1, c=3)  # any order for keyword args
 foo(1, b=2, c=3)  # mixing positional and keyword args
 ```
 
-> The choice is a passed a
+> **The choice whether a passed arg is positional / keyword arg is made at the caller side!**
 
 ## Default args
 ```python
@@ -84,6 +84,6 @@ connect(**endpoint)  # instead of connect(endpoint['host'], endpoint['port'])
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MDY1NzIyMSwtMjEzNzY1MjIxOCwtMT
+eyJoaXN0b3J5IjpbMjEzNDM2MjA2NSwtMjEzNzY1MjIxOCwtMT
 AyODQ1MDEyNSwxMjA1MDI3NjE3LDQ1NzEwNjg1XX0=
 -->
