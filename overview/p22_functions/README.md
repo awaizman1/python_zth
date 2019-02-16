@@ -8,8 +8,14 @@ def foo(a, b, c):
 	
 	return (a + b) / c
 ```
-
+## Calling ```foo``` with positional arguments
+```python
+foo(1, 2, 3)  # a = 1, b = 2, c = 3
+```
+## Calling ```foo``` with keywords arguments
+```python
+foo(b=2, 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQwNTY2MjkzLDQ1NzEwNjg1XX0=
+eyJoaXN0b3J5IjpbLTk2MTEyMjA2MSw0NTcxMDY4NV19
 -->
