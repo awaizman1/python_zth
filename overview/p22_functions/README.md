@@ -52,11 +52,21 @@ def sum(initial, *args):
 	
 	return initial	
 ```
+```python
+>>> sum(0, 1, 2, 3)
+6
+```
+```python
 def print_info(**kwargs):
-	
+	for k, v in kwargs.items():
+		print(k, ' --> ', v)
+```
+```python
+>>> print_info(first_name='sun', 
+```
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMzAyMTIyNiwtMjEzNzY1MjIxOCwtMT
-AyODQ1MDEyNSwxMjA1MDI3NjE3LDQ1NzEwNjg1XX0=
+eyJoaXN0b3J5IjpbMTM5MjM2OTA3LC0yMTM3NjUyMjE4LC0xMD
+I4NDUwMTI1LDEyMDUwMjc2MTcsNDU3MTA2ODVdfQ==
 -->
