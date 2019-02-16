@@ -20,6 +20,9 @@ foo(b=2, a=1, c=3)  # any order for keyword args
 ```python
 foo(1, b=2, c=3)  # mixing positional and keyword args
 ```
+
+> The choice is a passed a
+
 ## Default args
 ```python
 def connect(host, port=1234):
@@ -74,13 +77,13 @@ Sometimes the arguments to a function already exist in a list/tuple/dict.
 endpoint=('127.0.0.1', 80)
 endpoint_as_dict={'host': '127.0.0.1', 'port': 80} 
 
-connect(*endpoint)  # in
+connect(*endpoint)  # instead of connect(endpoint[0], endpoint[1])
 
-connect(**endpoint)
+connect(**endpoint)  # instead of connect(endpoint['host'], endpoint['port'])
 ```
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc5NTU1ODE5LC0yMTM3NjUyMjE4LC0xMD
-I4NDUwMTI1LDEyMDUwMjc2MTcsNDU3MTA2ODVdfQ==
+eyJoaXN0b3J5IjpbLTc4MDY1NzIyMSwtMjEzNzY1MjIxOCwtMT
+AyODQ1MDEyNSwxMjA1MDI3NjE3LDQ1NzEwNjg1XX0=
 -->
