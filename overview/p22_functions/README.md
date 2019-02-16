@@ -62,11 +62,14 @@ def print_info(**kwargs):
 		print(k, ' --> ', v)
 ```
 ```python
->>> print_info(first_name='sun', 
+>>> print_info(first_name='jhon', last_name='doe', age='21')
+first_name --> 'jhon'
+last_name --> 'doe'
+age --'21'
 ```
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MjM2OTA3LC0yMTM3NjUyMjE4LC0xMD
-I4NDUwMTI1LDEyMDUwMjc2MTcsNDU3MTA2ODVdfQ==
+eyJoaXN0b3J5IjpbLTE3NDA2Mjc2MDgsLTIxMzc2NTIyMTgsLT
+EwMjg0NTAxMjUsMTIwNTAyNzYxNyw0NTcxMDY4NV19
 -->
