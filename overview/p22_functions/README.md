@@ -68,9 +68,13 @@ first_name --> jhon
 last_name --> doe
 age --> 21
 ```
+## Unpacking arguments lists
+Sometimes the arguments to a function already exist in a list/tuple/dict.
+host_port=('127.0.0.1', '80')
+co
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2Mjg5MjcwMiwtMjEzNzY1MjIxOCwtMT
-AyODQ1MDEyNSwxMjA1MDI3NjE3LDQ1NzEwNjg1XX0=
+eyJoaXN0b3J5IjpbNTA5NzgwMjQyLC0yMTM3NjUyMjE4LC0xMD
+I4NDUwMTI1LDEyMDUwMjc2MTcsNDU3MTA2ODVdfQ==
 -->
