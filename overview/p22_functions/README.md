@@ -43,9 +43,15 @@ def make_pair(a, b, pair=[]):
 [1, 2, 3, 4]
 ```
 ## Arbitrary argument list
+```def sum(initial, *args):
+		for arg in args:
+			initial += arg
+	
+		return initial	
+```
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NzUyMzYyNSwxMjA1MDI3NjE3LDQ1Nz
-EwNjg1XX0=
+eyJoaXN0b3J5IjpbNzg2OTQ2NTI0LDEyMDUwMjc2MTcsNDU3MT
+A2ODVdfQ==
 -->
