@@ -56,6 +56,7 @@ def sum(initial, *args):
 >>> sum(0, 1, 2, 3)
 6
 ```
+### Keyworded arbitrary argument list
 ```python
 def print_info(**kwargs):
 	for k, v in kwargs.items():
@@ -63,13 +64,13 @@ def print_info(**kwargs):
 ```
 ```python
 >>> print_info(first_name='jhon', last_name='doe', age='21')
-first_name --> 'jhon'
-last_name --> 'doe'
-age --'21'
+first_name --> jhon
+last_name --> doe
+age --> 21
 ```
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDA2Mjc2MDgsLTIxMzc2NTIyMTgsLT
-EwMjg0NTAxMjUsMTIwNTAyNzYxNyw0NTcxMDY4NV19
+eyJoaXN0b3J5IjpbMTk2Mjg5MjcwMiwtMjEzNzY1MjIxOCwtMT
+AyODQ1MDEyNSwxMjA1MDI3NjE3LDQ1NzEwNjg1XX0=
 -->
