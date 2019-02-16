@@ -26,6 +26,8 @@ foo(1, b=2, c=3)  # mixing positional and keyword args
 ```python
 >>> foo
 <function foo at 0x103cff620>
+>>> dir(foo)
+['__annotations__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__']
 
 ## Default args
 ```python
@@ -88,6 +90,6 @@ connect(**endpoint)  # instead of connect(endpoint['host'], endpoint['port'])
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDAyMzg5NTcsLTIxMzc2NTIyMTgsLT
+eyJoaXN0b3J5IjpbLTEwOTAyMTAzOTAsLTIxMzc2NTIyMTgsLT
 EwMjg0NTAxMjUsMTIwNTAyNzYxNyw0NTcxMDY4NV19
 -->
