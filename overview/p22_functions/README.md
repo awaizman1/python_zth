@@ -22,6 +22,10 @@ foo(1, b=2, c=3)  # mixing positional and keyword args
 ```
 
 > **The choice whether a passed arg is positional / keyword arg is made at the caller side!**
+### Function is an object!
+```python
+>>> foo
+<function foo at 0x103cff620>
 
 ## Default args
 ```python
@@ -84,6 +88,6 @@ connect(**endpoint)  # instead of connect(endpoint['host'], endpoint['port'])
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNDM2MjA2NSwtMjEzNzY1MjIxOCwtMT
-AyODQ1MDEyNSwxMjA1MDI3NjE3LDQ1NzEwNjg1XX0=
+eyJoaXN0b3J5IjpbLTE1MDAyMzg5NTcsLTIxMzc2NTIyMTgsLT
+EwMjg0NTAxMjUsMTIwNTAyNzYxNyw0NTcxMDY4NV19
 -->
