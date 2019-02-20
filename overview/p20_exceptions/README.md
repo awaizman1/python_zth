@@ -221,6 +221,9 @@ def handle_file(filename):
     except OSError as e:
         print("failed to handle file because: ", e)
 ```
+## Time for task:
+perform ***task.py*** and ***task2.py***
+test yourself by running ***test_task.py*** and ***test_task2.py***
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTkxMTAwNTYyMCwtMTgxNzIyODA2NSwtMT
 U0NjU5MDk4OCwtODkzNTY0ODcxLC0xNzg4ODgxMzI4LDEwODY3
