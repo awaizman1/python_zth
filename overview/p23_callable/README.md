@@ -62,7 +62,8 @@ A simple way to create anonymous callables / functions.
 
  - lambdas are anonymous (not bounded to a name)
  - limited to single expression body
- - can access 
+ - can reference variables from the containing scope
+ - cannot have docstring
 
 #### Syntax:
 ```python
@@ -92,6 +93,6 @@ def add(x, y):
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjk0NDk5MzAsNDI5NjgxNzAsLTE3OT
+eyJoaXN0b3J5IjpbLTEzNzE4NzkwNzYsNDI5NjgxNzAsLTE3OT
 c4NTcyNjNdfQ==
 -->
