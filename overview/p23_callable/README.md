@@ -25,10 +25,15 @@ class A():
 	
 	def __call__():
 		self.count += 1
-		print("I've
+		print(f"They called me {self.count} times")
 ```
+```python
+>>> a = A()
+They called me 1 times
+>>> a()
+>>> a()
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MDU2MTIyOF19
+eyJoaXN0b3J5IjpbOTk0MzQyNjhdfQ==
 -->
