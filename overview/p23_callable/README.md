@@ -56,7 +56,10 @@ True
 False
 ```
 
+## Lambdas
+A simple way to create anonymous callables / functions.
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTc4NTcyNjNdfQ==
+eyJoaXN0b3J5IjpbODc5MjIwMDk0LC0xNzk3ODU3MjYzXX0=
 -->
