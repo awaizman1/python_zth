@@ -111,10 +111,13 @@ connect(*endpoint)  # instead of connect(endpoint[0], endpoint[1])
 
 connect(**endpoint)  # instead of connect(endpoint['host'], endpoint['port'])
 ```
+## Inner functions
+
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzcxMDQ2OTMsLTEzMjI3MjY5ODAsLT
-gwMjMwMjU0MSwtMTA5MDIxMDM5MCwtMjEzNzY1MjIxOCwtMTAy
-ODQ1MDEyNSwxMjA1MDI3NjE3LDQ1NzEwNjg1XX0=
+eyJoaXN0b3J5IjpbMTM1MTc0MTIwNiwtMTAzNzEwNDY5MywtMT
+MyMjcyNjk4MCwtODAyMzAyNTQxLC0xMDkwMjEwMzkwLC0yMTM3
+NjUyMjE4LC0xMDI4NDUwMTI1LDEyMDUwMjc2MTcsNDU3MTA2OD
+VdfQ==
 -->
