@@ -127,12 +127,16 @@ def foo(a_vec, b_vec, c_vec):
  - Inner function is not accessible from outside the enclosing function.
  - Inner function object is created per run (and only when running) of the enclosing function.
  - LEGB rules applied to inner functions.
+## Closure
+```python
+def make_power(
 
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzc0NjI0MzgsLTc5ODg3NDQ1MiwxMz
-UxNzQxMjA2LC0xMDM3MTA0NjkzLC0xMzIyNzI2OTgwLC04MDIz
-MDI1NDEsLTEwOTAyMTAzOTAsLTIxMzc2NTIyMTgsLTEwMjg0NT
-AxMjUsMTIwNTAyNzYxNyw0NTcxMDY4NV19
+eyJoaXN0b3J5IjpbMTI2MDkzMjQ5NiwtMjA3NzQ2MjQzOCwtNz
+k4ODc0NDUyLDEzNTE3NDEyMDYsLTEwMzcxMDQ2OTMsLTEzMjI3
+MjY5ODAsLTgwMjMwMjU0MSwtMTA5MDIxMDM5MCwtMjEzNzY1Mj
+IxOCwtMTAyODQ1MDEyNSwxMjA1MDI3NjE3LDQ1NzEwNjg1XX0=
+
 -->
