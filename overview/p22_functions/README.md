@@ -59,6 +59,7 @@ def append_to(element, to=None):
 	return to
 ```
 ## Arbitrary argument list
+[arbitratyhttps://docs.python.org/3/tutorial/controlflow.html#arbitrary-argument-lists
 #### Ever wondered how ```print``` works?
 ```python
 >>> print(1)
@@ -106,7 +107,7 @@ connect(**endpoint)  # instead of connect(endpoint['host'], endpoint['port'])
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NDU0ODQ4NiwtMTMyMjcyNjk4MCwtOD
-AyMzAyNTQxLC0xMDkwMjEwMzkwLC0yMTM3NjUyMjE4LC0xMDI4
-NDUwMTI1LDEyMDUwMjc2MTcsNDU3MTA2ODVdfQ==
+eyJoaXN0b3J5IjpbLTIwNDU5OTMwLC0xMzIyNzI2OTgwLC04MD
+IzMDI1NDEsLTEwOTAyMTAzOTAsLTIxMzc2NTIyMTgsLTEwMjg0
+NTAxMjUsMTIwNTAyNzYxNyw0NTcxMDY4NV19
 -->
