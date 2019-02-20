@@ -58,8 +58,11 @@ False
 
 ## Lambdas
 A simple way to create anonymous callables / functions.
+[lambda](https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions)
+```python
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc5MjIwMDk0LC0xNzk3ODU3MjYzXX0=
+eyJoaXN0b3J5IjpbNTY5NjcyMDE0LC0xNzk3ODU3MjYzXX0=
 -->
