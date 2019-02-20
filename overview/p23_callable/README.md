@@ -17,9 +17,18 @@ class A:
 A()
 ```
 ## Creating callable objects
-Any object which has the [__call__](https://docs.python.org/3/reference/datamodel.html#object.__call__) attribute 
+Any object which has the [```__call__```](https://docs.python.org/3/reference/datamodel.html#object.__call__) attribute is callable.
+```python
+class A():
+	def __init__(self):
+		self.count = 0
+	
+	def __call__():
+		self.count += 1
+		print("I've
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NjEzMjIxOF19
+eyJoaXN0b3J5IjpbMTM0MDU2MTIyOF19
 -->
