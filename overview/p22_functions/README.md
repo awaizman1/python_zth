@@ -86,8 +86,10 @@ def sum(initial, *args):
 ### Keyworded arbitrary argument list
 #### Ever wondered how ```dict``` works?
 ```python
->>> dict('name'='jhon', 'age'=21)
-{
+>>> dict(name='jhon', age=21)
+{'name': 'jhon', 'age': 21}
+```
+#### Use the ```**kwargs``` in function definition:
 ```python
 def print_info(**kwargs):
 	for k, v in kwargs.items():
@@ -112,7 +114,7 @@ connect(**endpoint)  # instead of connect(endpoint['host'], endpoint['port'])
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMDQyODMxNywtMTMyMjcyNjk4MCwtOD
-AyMzAyNTQxLC0xMDkwMjEwMzkwLC0yMTM3NjUyMjE4LC0xMDI4
-NDUwMTI1LDEyMDUwMjc2MTcsNDU3MTA2ODVdfQ==
+eyJoaXN0b3J5IjpbLTEwMzcxMDQ2OTMsLTEzMjI3MjY5ODAsLT
+gwMjMwMjU0MSwtMTA5MDIxMDM5MCwtMjEzNzY1MjIxOCwtMTAy
+ODQ1MDEyNSwxMjA1MDI3NjE3LDQ1NzEwNjg1XX0=
 -->
