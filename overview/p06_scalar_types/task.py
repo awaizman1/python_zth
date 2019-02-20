@@ -4,21 +4,21 @@
 # 3. https://docs.python.org/3/library/functions.html#bool
 
 # print 10 literal in decimal base
-# your implementation here
+raise NotImplementedError("YOUR IMPLEMENTATION HERE")
 
 # print 10 literal in binary base
-# your implementation here
+raise NotImplementedError("YOUR IMPLEMENTATION HERE")
 
 # print 10 literal in hexadecimal base
-# your implementation here
+raise NotImplementedError("YOUR IMPLEMENTATION HERE")
 
 # convert to int and print
 f = 1.5
-# your implementation here
+raise NotImplementedError("YOUR IMPLEMENTATION HERE")
 
 # convert to int and print
 s = "121"
-# your implementation here
+raise NotImplementedError("YOUR IMPLEMENTATION HERE")
 
 # fill in objects_as_bool with the truth value of objects in 'objects'
 objects = [0, 12, 0.0, -1.5, [], [1, 2], "", "False", None]
@@ -36,7 +36,7 @@ class Connection:
     def open_conn(self):
         self.is_open = True
 
-    # your implementation here
+    raise NotImplementedError("YOUR IMPLEMENTATION HERE")
 
 
 conn = Connection()

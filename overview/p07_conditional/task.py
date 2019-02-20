@@ -12,13 +12,14 @@ import string
 
 def is_password_valid(password):
 
-    # your implementation here
     # hints:
     # - https://docs.python.org/3/reference/compound_stmts.html
     # - you can iterate chars in string using for-loop:
     #   for c in "hello world"...
     # - use string.ascii_lowercase, etc. and the 'membership test operation':
     #   x in s evaluates to True if x is a member of s, and False otherwise
+
+    raise NotImplementedError("YOUR IMPLEMENTATION HERE")
 
 
 p = input("Enter password:\n")
