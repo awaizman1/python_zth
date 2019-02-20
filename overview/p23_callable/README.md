@@ -61,7 +61,8 @@ A simple way to create anonymous callables / functions.
 [lambda](https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions)
 
  - lambdas are anonymous (not bounded to a name)
- - limited to single 
+ - limited to single expression body
+ - can access 
 
 #### Syntax:
 ```python
@@ -91,6 +92,6 @@ def add(x, y):
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA5ODUzMzE1LDQyOTY4MTcwLC0xNzk3OD
-U3MjYzXX0=
+eyJoaXN0b3J5IjpbLTE0Mjk0NDk5MzAsNDI5NjgxNzAsLTE3OT
+c4NTcyNjNdfQ==
 -->
