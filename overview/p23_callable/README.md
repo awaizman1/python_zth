@@ -59,7 +59,12 @@ False
 ## Lambdas
 A simple way to create anonymous callables / functions.
 [lambda](https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions)
-
+#### Syntax:
+```python
+lambda [arguments]: expression
+```
+```python
+lambda x, y: return x + y
 ```python
 >>> Point = namedtuple('Point', field_names=('x',  'y'), defaults=(0,  0))
 >>> points = [Point(1, 2), Point(4, 3), Point(2, 4)]
@@ -74,6 +79,6 @@ A simple way to create anonymous callables / functions.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMjMwNDM2Nyw0Mjk2ODE3MCwtMTc5Nz
-g1NzI2M119
+eyJoaXN0b3J5IjpbLTEzMjcxNDIzNTEsNDI5NjgxNzAsLTE3OT
+c4NTcyNjNdfQ==
 -->
