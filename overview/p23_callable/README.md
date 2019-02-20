@@ -29,11 +29,13 @@ class A():
 ```
 ```python
 >>> a = A()
+>>> a()
 They called me 1 times
 >>> a()
->>> a()
+They called me 2 times
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk0MzQyNjhdfQ==
+eyJoaXN0b3J5IjpbMTc4MjI3MTg1OV19
 -->
