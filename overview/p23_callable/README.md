@@ -1,20 +1,26 @@
 
 # Callables
 An object which can be called like a function.
+#### a function is a callable (recall a function is an object):
 ```python
-# a function is a callable (recall a function is an object)
 def foo():
 	print("hi from foo")
 
 foo()
 ```
+#### a class is a callable:
 ```python
-# a class is a callable
 class A:
 	def __init__(self):
 		print("hi from A init")
 
 A()
+```
+#### a lambda is a callable:
+```python
+add = lambda x, y: x + y
+
+add(1, 2)
 ```
 ## Creating callable objects
 Any object which has the [```__call__```](https://docs.python.org/3/reference/datamodel.html#object.__call__) attribute is callable.
@@ -93,6 +99,6 @@ def add(x, y):
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjYzNzI3NTMsLTEzNzE4NzkwNzYsND
-I5NjgxNzAsLTE3OTc4NTcyNjNdfQ==
+eyJoaXN0b3J5IjpbMTY1NzY4ODk1NywtMTM3MTg3OTA3Niw0Mj
+k2ODE3MCwtMTc5Nzg1NzI2M119
 -->
