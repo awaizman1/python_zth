@@ -2,7 +2,7 @@
 # Callables
 An object which can be called like a function.
 ```python
-# a function is a callable
+# a function is a callable (recall a function is an object)
 def foo():
 	print("hi from foo")
 
@@ -58,5 +58,5 @@ False
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTcyMjExNDBdfQ==
+eyJoaXN0b3J5IjpbLTE3OTc4NTcyNjNdfQ==
 -->
