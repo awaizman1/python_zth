@@ -145,14 +145,23 @@ def make_power(p):
 	return power
 ```
 ```python
->>
+>>> p2 = make_power(2)
+>>> p3 = make_power(3)
+>>> p2(5)
+pow by 2
+25
+>>> p3(5)
+pow by 3
+125
+```
+#### You can inspect the cap
 
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTg0NDA2OCwxMjAyNzE0NDgyLC0yMD
-c3NDYyNDM4LC03OTg4NzQ0NTIsMTM1MTc0MTIwNiwtMTAzNzEw
-NDY5MywtMTMyMjcyNjk4MCwtODAyMzAyNTQxLC0xMDkwMjEwMz
-kwLC0yMTM3NjUyMjE4LC0xMDI4NDUwMTI1LDEyMDUwMjc2MTcs
-NDU3MTA2ODVdfQ==
+eyJoaXN0b3J5IjpbNzA3NjA5MTg3LDEyMDI3MTQ0ODIsLTIwNz
+c0NjI0MzgsLTc5ODg3NDQ1MiwxMzUxNzQxMjA2LC0xMDM3MTA0
+NjkzLC0xMzIyNzI2OTgwLC04MDIzMDI1NDEsLTEwOTAyMTAzOT
+AsLTIxMzc2NTIyMTgsLTEwMjg0NTAxMjUsMTIwNTAyNzYxNyw0
+NTcxMDY4NV19
 -->
