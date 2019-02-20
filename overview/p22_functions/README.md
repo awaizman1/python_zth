@@ -156,14 +156,16 @@ pow by 3
 ```
 #### You can inspect the captured values using [```__closure__```](https://docs.python.org/3/reference/datamodel.html#index-34):
 ```python
->>> p2.__closure
+>>> p2.__closure__
+(<cell at 0x103ce2bb8: str object at 0x103de5530>, <cell at 0x103ce2d38: int object at 0x103a37c70>)
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTU0MDc5MTgsMTIwMjcxNDQ4MiwtMj
-A3NzQ2MjQzOCwtNzk4ODc0NDUyLDEzNTE3NDEyMDYsLTEwMzcx
-MDQ2OTMsLTEzMjI3MjY5ODAsLTgwMjMwMjU0MSwtMTA5MDIxMD
-M5MCwtMjEzNzY1MjIxOCwtMTAyODQ1MDEyNSwxMjA1MDI3NjE3
-LDQ1NzEwNjg1XX0=
+eyJoaXN0b3J5IjpbLTI3MTIxMjAzLDEyMDI3MTQ0ODIsLTIwNz
+c0NjI0MzgsLTc5ODg3NDQ1MiwxMzUxNzQxMjA2LC0xMDM3MTA0
+NjkzLC0xMzIyNzI2OTgwLC04MDIzMDI1NDEsLTEwOTAyMTAzOT
+AsLTIxMzc2NTIyMTgsLTEwMjg0NTAxMjUsMTIwNTAyNzYxNyw0
+NTcxMDY4NV19
 -->
