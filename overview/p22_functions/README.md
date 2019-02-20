@@ -116,12 +116,12 @@ connect(**endpoint)  # instead of connect(endpoint['host'], endpoint['port'])
 def foo(a_vec, b_vec):
 	
 	def dotprod(a, b):
-		return sum(a_element * b_element for p
+		return sum(pair[0] * pair[1] for pair in zip(a, b))
 ```
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MjU1NjQyMSwxMzUxNzQxMjA2LC0xMD
+eyJoaXN0b3J5IjpbLTc5ODg3NDQ1MiwxMzUxNzQxMjA2LC0xMD
 M3MTA0NjkzLC0xMzIyNzI2OTgwLC04MDIzMDI1NDEsLTEwOTAy
 MTAzOTAsLTIxMzc2NTIyMTgsLTEwMjg0NTAxMjUsMTIwNTAyNz
 YxNyw0NTcxMDY4NV19
