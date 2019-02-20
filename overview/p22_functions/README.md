@@ -118,13 +118,15 @@ def foo(a_vec, b_vec, c_vec):
 	def dotprod(a, b):
 		return sum(pair[0] * pair[1] for pair in zip(a, b))
 	
-	print("a * b is bigger then b * c" if dotprod(a,
+	print("a * b is bigger then b * c" 
+		  if dotprod(a_vec, b_vec) > dotprod(b_vec, c_vec) else
+		  "a * b is bigger then b * c")
 ```
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk5MjM4NjI2LC03OTg4NzQ0NTIsMTM1MT
-c0MTIwNiwtMTAzNzEwNDY5MywtMTMyMjcyNjk4MCwtODAyMzAy
-NTQxLC0xMDkwMjEwMzkwLC0yMTM3NjUyMjE4LC0xMDI4NDUwMT
-I1LDEyMDUwMjc2MTcsNDU3MTA2ODVdfQ==
+eyJoaXN0b3J5IjpbMTEyMjg2NDk0NiwtNzk4ODc0NDUyLDEzNT
+E3NDEyMDYsLTEwMzcxMDQ2OTMsLTEzMjI3MjY5ODAsLTgwMjMw
+MjU0MSwtMTA5MDIxMDM5MCwtMjEzNzY1MjIxOCwtMTAyODQ1MD
+EyNSwxMjA1MDI3NjE3LDQ1NzEwNjg1XX0=
 -->
