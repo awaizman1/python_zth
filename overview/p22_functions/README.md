@@ -59,7 +59,7 @@ def append_to(element, to=None):
 	return to
 ```
 ## Arbitrary argument list
-[arbitratyhttps://docs.python.org/3/tutorial/controlflow.html#arbitrary-argument-lists
+[arbitrary arg lists](https://docs.python.org/3/tutorial/controlflow.html#arbitrary-argument-lists)
 #### Ever wondered how ```print``` works?
 ```python
 >>> print(1)
@@ -69,6 +69,7 @@ def append_to(element, to=None):
 >>> print(1, 2, 3)
 1 2 3
 ```
+#### Use the ```*args``` in function definition:
 Arguments will be wrapped up in a tuple.
 ```python
 def sum(initial, *args):
@@ -107,7 +108,7 @@ connect(**endpoint)  # instead of connect(endpoint['host'], endpoint['port'])
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDU5OTMwLC0xMzIyNzI2OTgwLC04MD
+eyJoaXN0b3J5IjpbMTczOTkyMTMwLC0xMzIyNzI2OTgwLC04MD
 IzMDI1NDEsLTEwOTAyMTAzOTAsLTIxMzc2NTIyMTgsLTEwMjg0
 NTAxMjUsMTIwNTAyNzYxNyw0NTcxMDY4NV19
 -->
