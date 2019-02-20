@@ -27,9 +27,10 @@ hi from foo
 hi from foo
 >>> a = A()
 hi from A init
-a 
+a = A.__call__()
+hi from A init
 ```
-
+### Making your object callable
 ```python
 class A():
 	def __init__(self):
@@ -46,8 +47,12 @@ They called me 1 times
 >>> a()
 They called me 2 times
 ```
+### Test whether an object is calleble
+```python
+callable(foo)
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5OTUzOTA1XX0=
+eyJoaXN0b3J5IjpbLTE1MzU0MzgxMTNdfQ==
 -->
