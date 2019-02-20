@@ -50,6 +50,14 @@ def append_to(element, to=[]):
 >>> append_to(2)
 [1, 2]
 ```
+### Handling default arg
+```python
+def append_to(element, to=None):
+
+	to = [] if to is None else to
+	to.append(element)
+	return to
+```
 ## Arbitrary argument list
 Arguments will be wrapped up in a tuple.
 ```python
@@ -89,7 +97,7 @@ connect(**endpoint)  # instead of connect(endpoint['host'], endpoint['port'])
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTM0ODg1MzksLTEwOTAyMTAzOTAsLT
-IxMzc2NTIyMTgsLTEwMjg0NTAxMjUsMTIwNTAyNzYxNyw0NTcx
-MDY4NV19
+eyJoaXN0b3J5IjpbMTg0MTk2NzU0NSwtMTA5MDIxMDM5MCwtMj
+EzNzY1MjIxOCwtMTAyODQ1MDEyNSwxMjA1MDI3NjE3LDQ1NzEw
+Njg1XX0=
 -->
