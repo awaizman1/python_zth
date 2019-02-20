@@ -128,6 +128,7 @@ def foo(a_vec, b_vec, c_vec):
  - Inner function object is created per run (and only when running) of the enclosing function.
  - LEGB rules applied to inner functions.
 ## Closure
+A function object that remembers values in enclosing scopes even if they are not present in memory.
 ```python
 def make_power(p):
 	
@@ -143,13 +144,15 @@ def make_power(p):
 	
 	return power
 ```
+```python
+>>
 
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMjcxNDQ4MiwtMjA3NzQ2MjQzOCwtNz
-k4ODc0NDUyLDEzNTE3NDEyMDYsLTEwMzcxMDQ2OTMsLTEzMjI3
-MjY5ODAsLTgwMjMwMjU0MSwtMTA5MDIxMDM5MCwtMjEzNzY1Mj
-IxOCwtMTAyODQ1MDEyNSwxMjA1MDI3NjE3LDQ1NzEwNjg1XX0=
-
+eyJoaXN0b3J5IjpbLTEwOTg0NDA2OCwxMjAyNzE0NDgyLC0yMD
+c3NDYyNDM4LC03OTg4NzQ0NTIsMTM1MTc0MTIwNiwtMTAzNzEw
+NDY5MywtMTMyMjcyNjk4MCwtODAyMzAyNTQxLC0xMDkwMjEwMz
+kwLC0yMTM3NjUyMjE4LC0xMDI4NDUwMTI1LDEyMDUwMjc2MTcs
+NDU3MTA2ODVdfQ==
 -->
