@@ -1,29 +1,29 @@
 # Exceptions
 ```python
 try:
-	a_num = int(a)
-	b_num = int(b)
-	c = a_num / b_num
-	with open(r"C:\out.txt", "wt") as f:
-		f.write(str(c))
+    a_num = int(a)
+    b_num = int(b)
+    c = a_num / b_num
+    with open(r"C:\out.txt", "wt") as f:
+        f.write(str(c))
 except ZeroDivisionError:  # except single exception
-	print("can't divide by 0")
+    print("can't divide by 0")
 except (ValueError, TypeError):  # except multiple exceptions
-	print("did you call 'int(..)' with a str? does it represent a number?")
+    print("did you call 'int(..)' with a str? does it represent a number?")
 except OSError as e:  # access the exception instance
-	print(e)
+    print(e)
 ```
 ## Raise an exception
 ```python
 if something_went_wrong:
-	raise RuntimeError("bad")  # bare raise
+    raise RuntimeError("bad")  # bare raise
 ```
 ```python
 try:
-	raise RuntimeError("bad")
+    raise RuntimeError("bad")
 except RuntimeError:
-	do_something()
-	raise  # re-raise
+    do_something()
+    raise  # re-raise
 ```
 
 > When raising an exception, pass a single str argument which describes the error.
@@ -33,16 +33,16 @@ except RuntimeError:
 Always prefer ```context managers``` over ```finally``` for cleanups!
 ```python
 try:
-	raise RuntimeError
+    raise RuntimeError
 finally:
-	print("nothing can bypass me")
+    print("nothing can bypass me")
 ```
 
 ## else clause
 Useful for code that must be executed if the try clause **does not** raise an exception.
 ```python
 try:
-	f = open('file.txt', 'r')
+    f = open('file.txt', 'r')
 except OSError:
     print('cannot open')
 else:
@@ -54,8 +54,8 @@ else:
 
 ```python
 try:
-	f = open('file.txt', 'r')
-	print('file has', len(f.readlines()), 'lines')
+    f = open('file.txt', 'r')
+    print('file has', len(f.readlines()), 'lines')
     f.close()
 except OSError:
     print('cannot open')
@@ -73,11 +73,11 @@ If you are still sure:
 - Name it XXX**Error** (and not XXXException)
 ```python
 class MyFancyError(Exception):
-	pass
+    pass
 
 class MyOtherFancyError(MyFancyError):
-	def __init__(special_info):
-		this.special_info = special_info
+    def __init__(special_info):
+        this.special_info = special_info
 ```
 ## Exception chaining - ```__cause__``` and ```__context__``` attributes
 Chaining exceptions is done implicitly and can be done explicitly.
@@ -140,14 +140,14 @@ Every ```Exception``` has a ```__traceback__``` attribute - holding its associat
 import traceback
 
 try:
-	raise ValueError("blabla")
+    raise ValueError("blabla")
 except ValueError as e:
-	print("------->traceback is an object")
-	print(e.__traceback__)
-	print("------->print a traceback object")
-	traceback.print_tb(e.__traceback__)
-	print("------->print current handled exception with traceback")
-	traceback.print_exc()
+    print("------->traceback is an object")
+    print(e.__traceback__)
+    print("------->print a traceback object")
+    traceback.print_tb(e.__traceback__)
+    print("------->print current handled exception with traceback")
+    traceback.print_exc()
 ```
 ```python
 ------->traceback is an object
@@ -174,19 +174,19 @@ if __debug__:
 
 ```python
 class Color(Enum):
-	RED = 1
-	GREEN = 2
-	BLUE = 3
+    RED = 1
+    GREEN = 2
+    BLUE = 3
 
 def print_color(color):
-	if color == Color.RED:
-		print("red")
-	elif color == Color.GREEN:
-		print("green")
-	elif color == Color.BLUE:
-		print("blue")
-	else:
-		assert False, "unknown color"
+    if color == Color.RED:
+        print("red")
+    elif color == Color.GREEN:
+        print("green")
+    elif color == Color.BLUE:
+        print("blue")
+    else:
+        assert False, "unknown color"
 ```
 
 ## EAFP
@@ -194,17 +194,17 @@ It's **E**asier to **A**sk **F**orgiveness than **P**ermission.
 ### Ask for permission approach
 ```python
 def handle_file(filename):
-	if not os.path.exists(filename):
-		print("missing file")
-		return
+    if not os.path.exists(filename):
+        print("missing file")
+        return
 		
-	if not has_read_access(filename):
-		print("no read access to file")
+    if not has_read_access(filename):
+        print("no read access to file")
 	
-	# more validations...
+    # more validations...
 
-	# do the actual work
-	process_file(filename)
+    # do the actual work
+    process_file(filename)
 ```
 - hurts readability
 - practically impossible to validate all (what about race conditions here?, what is the the file is garbage?)
@@ -215,11 +215,11 @@ def handle_file(filename):
 ```python
 def handle_file(filename):
 	
-	try:
-		# do the actual work
-		process_file(filename)
-	except OSError as e:
-		print("failed to handle file because: ", e)
+    try:
+        # do the actual work
+        process_file(filename)
+    except OSError as e:
+        print("failed to handle file because: ", e)
 ```
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTkxMTAwNTYyMCwtMTgxNzIyODA2NSwtMT
