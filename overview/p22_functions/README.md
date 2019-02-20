@@ -154,14 +154,16 @@ pow by 2
 pow by 3
 125
 ```
-#### You can inspect the cap
+#### You can inspect the captured values using [```__closure__```](https://docs.python.org/3/reference/datamodel.html#index-34):
+```python
+>>> p2.__closure
 
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA3NjA5MTg3LDEyMDI3MTQ0ODIsLTIwNz
-c0NjI0MzgsLTc5ODg3NDQ1MiwxMzUxNzQxMjA2LC0xMDM3MTA0
-NjkzLC0xMzIyNzI2OTgwLC04MDIzMDI1NDEsLTEwOTAyMTAzOT
-AsLTIxMzc2NTIyMTgsLTEwMjg0NTAxMjUsMTIwNTAyNzYxNyw0
-NTcxMDY4NV19
+eyJoaXN0b3J5IjpbLTE2NTU0MDc5MTgsMTIwMjcxNDQ4MiwtMj
+A3NzQ2MjQzOCwtNzk4ODc0NDUyLDEzNTE3NDEyMDYsLTEwMzcx
+MDQ2OTMsLTEzMjI3MjY5ODAsLTgwMjMwMjU0MSwtMTA5MDIxMD
+M5MCwtMjEzNzY1MjIxOCwtMTAyODQ1MDEyNSwxMjA1MDI3NjE3
+LDQ1NzEwNjg1XX0=
 -->
