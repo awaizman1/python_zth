@@ -38,7 +38,7 @@ def connect(host, port=1234):
 > **Be careful when using mutable objects as default args!**
 > Default args are evaluated only once - at the point of function definition in the _defining_ scope.
 ```python
-def make_pair(a, b, pair=[]):
+def append_to(element, container=[]):
 	
 	pair.append(a)
 	pair.append(b)
@@ -90,6 +90,7 @@ connect(**endpoint)  # instead of connect(endpoint['host'], endpoint['port'])
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTAyMTAzOTAsLTIxMzc2NTIyMTgsLT
-EwMjg0NTAxMjUsMTIwNTAyNzYxNyw0NTcxMDY4NV19
+eyJoaXN0b3J5IjpbLTE1NTc2NDE0NjMsLTEwOTAyMTAzOTAsLT
+IxMzc2NTIyMTgsLTEwMjg0NTAxMjUsMTIwNTAyNzYxNyw0NTcx
+MDY4NV19
 -->
