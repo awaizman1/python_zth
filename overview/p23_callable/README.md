@@ -59,6 +59,7 @@ False
 ## Lambdas
 A simple way to create anonymous callables / functions.
 [lambda](https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions)
+
 ```python
 >>> Point = namedtuple('Point', field_names=('x',  'y'), defaults=(0,  0))
 >>> points = [Point(1, 2), Point(4, 3), Point(2, 4)]
@@ -66,17 +67,13 @@ A simple way to create anonymous callables / functions.
 >>> sorted(points, key=lambda point: point.x)
 [Point(x=1, y=2), Point(x=2, y=4), Point(x=4, y=3)]
 >>> # points sorted by x
->>> sorted(points, key=lambda point: point.x)
+>>> sorted(points, key=lambda point: point.y)
 [Point(x=1, y=2), Point(x=4, y=3), Point(x=2, y=4)]
-
-print("points sorted by x")
-sorted(points, key=lambda point: point.x)
-[Point(x=1, y=2), Point(x=2, y=4), Point(x=4, y=3)]
 ```
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTk2MDM4NDksNDI5NjgxNzAsLTE3OT
-c4NTcyNjNdfQ==
+eyJoaXN0b3J5IjpbMTYxMjMwNDM2Nyw0Mjk2ODE3MCwtMTc5Nz
+g1NzI2M119
 -->
