@@ -16,8 +16,10 @@ class A:
 
 A()
 ```
+## Creating callable objects
+Any object which has the [__call__](https://docs.python.org/3/reference/datamodel.html#object.__call__) attribute 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMzU5NDQ3Ml19
+eyJoaXN0b3J5IjpbMTk5NjEzMjIxOF19
 -->
