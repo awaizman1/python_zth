@@ -130,19 +130,22 @@ def foo(a_vec, b_vec, c_vec):
 ## Closure
 ```python
 def make_power(p):
-	message = "pow by
+	
+	message = f"pow by {p}"
+	
 	def power(x):
+		print(message)
 		ret = 1
 		for i in range(p):
 			ret *= x
 	
-	return x
+	return power
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc3ODU0NTAxLC0yMDc3NDYyNDM4LC03OT
+eyJoaXN0b3J5IjpbOTU4OTI1OTQ5LC0yMDc3NDYyNDM4LC03OT
 g4NzQ0NTIsMTM1MTc0MTIwNiwtMTAzNzEwNDY5MywtMTMyMjcy
 Njk4MCwtODAyMzAyNTQxLC0xMDkwMjEwMzkwLC0yMTM3NjUyMj
 E4LC0xMDI4NDUwMTI1LDEyMDUwMjc2MTcsNDU3MTA2ODVdfQ==
