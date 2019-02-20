@@ -111,7 +111,8 @@ connect(*endpoint)  # instead of connect(endpoint[0], endpoint[1])
 
 connect(**endpoint)  # instead of connect(endpoint['host'], endpoint['port'])
 ```
-## Inner functions
+## Inner / nested / local functions
+In python you can define functions within functions:
 ```python
 def foo(a_vec, b_vec, c_vec):
 	
@@ -122,10 +123,14 @@ def foo(a_vec, b_vec, c_vec):
 		  if dotprod(a_vec, b_vec) > dotprod(b_vec, c_vec) else
 		  "a * b is bigger then b * c")
 ```
+
+ - Inner function is not accessible from outside the enclosing function.
+ - Inner function object is created
+
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMjg2NDk0NiwtNzk4ODc0NDUyLDEzNT
+eyJoaXN0b3J5IjpbLTY4MzI0MDU5MiwtNzk4ODc0NDUyLDEzNT
 E3NDEyMDYsLTEwMzcxMDQ2OTMsLTEzMjI3MjY5ODAsLTgwMjMw
 MjU0MSwtMTA5MDIxMDM5MCwtMjEzNzY1MjIxOCwtMTAyODQ1MD
 EyNSwxMjA1MDI3NjE3LDQ1NzEwNjg1XX0=
