@@ -47,12 +47,16 @@ They called me 1 times
 >>> a()
 They called me 2 times
 ```
-### Test whether an object is calleble
+### Test whether an object is callable
+[```callable```](https://docs.python.org/3/library/functions.html#callable)
 ```python
-callable(foo)
+>>> callable(A)
+True
+>>> callable(5)
+False
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzU0MzgxMTNdfQ==
+eyJoaXN0b3J5IjpbLTIwOTcyMjExNDBdfQ==
 -->
