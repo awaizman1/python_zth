@@ -38,18 +38,17 @@ def connect(host, port=1234):
 > **Be careful when using mutable objects as default args!**
 > Default args are evaluated only once - at the point of function definition in the _defining_ scope.
 ```python
-def append_to(element, container=[]):
+def append_to(element, to=[]):
 	
-	pair.append(a)
-	pair.append(b)
+	to.append(element)
 	
-	return pair 
+	return to
 ```
 ```python
->>> make_pair(1, 2)
+>>> append_to(1)
+[1]
+>>> append_to(2)
 [1, 2]
->>> make_pair(3, 4)
-[1, 2, 3, 4]
 ```
 ## Arbitrary argument list
 Arguments will be wrapped up in a tuple.
@@ -90,7 +89,7 @@ connect(**endpoint)  # instead of connect(endpoint['host'], endpoint['port'])
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTc2NDE0NjMsLTEwOTAyMTAzOTAsLT
-IxMzc2NTIyMTgsLTEwMjg0NTAxMjUsMTIwNTAyNzYxNyw0NTcx
-MDY4NV19
+eyJoaXN0b3J5IjpbNzg0NjU0ODYzLC0xMDkwMjEwMzkwLC0yMT
+M3NjUyMjE4LC0xMDI4NDUwMTI1LDEyMDUwMjc2MTcsNDU3MTA2
+ODVdfQ==
 -->
