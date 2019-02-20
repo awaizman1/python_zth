@@ -60,9 +60,13 @@ False
 A simple way to create anonymous callables / functions.
 [lambda](https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions)
 ```python
+Point = namedtuple('Point', x=0, y=0)
+
+points = [Point(1, 2), Point(4, 3), Point(2, 4)]
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY5NjcyMDE0LC0xNzk3ODU3MjYzXX0=
+eyJoaXN0b3J5IjpbLTEzMzE5NDk4MjcsLTE3OTc4NTcyNjNdfQ
+==
 -->
