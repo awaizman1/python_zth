@@ -15,7 +15,7 @@ def get_task_module_name(run_task_ref):
     raise RuntimeError("Can't find task module")
 
 
-def run_test_and_get_output(input, run_task_ref):
+def run_test_and_get_output(input, run_task_ref=False):
     task_module_name = get_task_module_name(run_task_ref)
     print(f"Running: {sys.executable} -m {task_module_name}")
     ret = run([sys.executable, '-m', task_module_name], input=input, stdout=PIPE, stderr=STDOUT,
