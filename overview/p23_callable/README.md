@@ -59,12 +59,24 @@ False
 ## Lambdas
 A simple way to create anonymous callables / functions.
 [lambda](https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions)
+
+ - lambdas are anonymous (not bounded to a name)
+ - limited to single 
+
 #### Syntax:
 ```python
 lambda [arguments]: expression
 ```
+The expression:
 ```python
-lambda x, y: return x + y
+add = lambda x, y: x + y
+```
+is equivalent to:
+```python
+def add(x, y):
+	return x + y
+```
+
 ```python
 >>> Point = namedtuple('Point', field_names=('x',  'y'), defaults=(0,  0))
 >>> points = [Point(1, 2), Point(4, 3), Point(2, 4)]
@@ -79,6 +91,6 @@ lambda x, y: return x + y
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjcxNDIzNTEsNDI5NjgxNzAsLTE3OT
-c4NTcyNjNdfQ==
+eyJoaXN0b3J5IjpbNjA5ODUzMzE1LDQyOTY4MTcwLC0xNzk3OD
+U3MjYzXX0=
 -->
