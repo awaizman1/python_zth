@@ -112,12 +112,17 @@ connect(*endpoint)  # instead of connect(endpoint[0], endpoint[1])
 connect(**endpoint)  # instead of connect(endpoint['host'], endpoint['port'])
 ```
 ## Inner functions
-
+```python
+def foo(a_vec, b_vec):
+	
+	def dotprod(a, b):
+		return sum(a_element * b_element for p
+```
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MTc0MTIwNiwtMTAzNzEwNDY5MywtMT
-MyMjcyNjk4MCwtODAyMzAyNTQxLC0xMDkwMjEwMzkwLC0yMTM3
-NjUyMjE4LC0xMDI4NDUwMTI1LDEyMDUwMjc2MTcsNDU3MTA2OD
-VdfQ==
+eyJoaXN0b3J5IjpbLTM5MjU1NjQyMSwxMzUxNzQxMjA2LC0xMD
+M3MTA0NjkzLC0xMzIyNzI2OTgwLC04MDIzMDI1NDEsLTEwOTAy
+MTAzOTAsLTIxMzc2NTIyMTgsLTEwMjg0NTAxMjUsMTIwNTAyNz
+YxNyw0NTcxMDY4NV19
 -->
