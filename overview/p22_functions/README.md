@@ -129,14 +129,18 @@ def foo(a_vec, b_vec, c_vec):
  - LEGB rules applied to inner functions.
 ## Closure
 ```python
-def make_power(
+def make_power(p):
+	def power(x):
+		ret = 1
+		for i in range(p):
+			ret *= 
 
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MDkzMjQ5NiwtMjA3NzQ2MjQzOCwtNz
-k4ODc0NDUyLDEzNTE3NDEyMDYsLTEwMzcxMDQ2OTMsLTEzMjI3
-MjY5ODAsLTgwMjMwMjU0MSwtMTA5MDIxMDM5MCwtMjEzNzY1Mj
-IxOCwtMTAyODQ1MDEyNSwxMjA1MDI3NjE3LDQ1NzEwNjg1XX0=
+eyJoaXN0b3J5IjpbLTE0ODQ5MTYyMDQsLTIwNzc0NjI0MzgsLT
+c5ODg3NDQ1MiwxMzUxNzQxMjA2LC0xMDM3MTA0NjkzLC0xMzIy
+NzI2OTgwLC04MDIzMDI1NDEsLTEwOTAyMTAzOTAsLTIxMzc2NT
+IyMTgsLTEwMjg0NTAxMjUsMTIwNTAyNzYxNyw0NTcxMDY4NV19
 
 -->
