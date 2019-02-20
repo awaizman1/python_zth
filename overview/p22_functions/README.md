@@ -138,6 +138,8 @@ def make_power(p):
 		ret = 1
 		for i in range(p):
 			ret *= x
+		
+		return ret
 	
 	return power
 ```
@@ -145,9 +147,9 @@ def make_power(p):
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU4OTI1OTQ5LC0yMDc3NDYyNDM4LC03OT
-g4NzQ0NTIsMTM1MTc0MTIwNiwtMTAzNzEwNDY5MywtMTMyMjcy
-Njk4MCwtODAyMzAyNTQxLC0xMDkwMjEwMzkwLC0yMTM3NjUyMj
-E4LC0xMDI4NDUwMTI1LDEyMDUwMjc2MTcsNDU3MTA2ODVdfQ==
+eyJoaXN0b3J5IjpbMTIwMjcxNDQ4MiwtMjA3NzQ2MjQzOCwtNz
+k4ODc0NDUyLDEzNTE3NDEyMDYsLTEwMzcxMDQ2OTMsLTEzMjI3
+MjY5ODAsLTgwMjMwMjU0MSwtMTA5MDIxMDM5MCwtMjEzNzY1Mj
+IxOCwtMTAyODQ1MDEyNSwxMjA1MDI3NjE3LDQ1NzEwNjg1XX0=
 
 -->
