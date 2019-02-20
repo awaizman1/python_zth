@@ -59,6 +59,7 @@ def append_to(element, to=None):
 	return to
 ```
 ## Arbitrary argument list
+#### E
 Arguments will be wrapped up in a tuple.
 ```python
 def sum(initial, *args):
@@ -97,7 +98,7 @@ connect(**endpoint)  # instead of connect(endpoint['host'], endpoint['port'])
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjI3MjY5ODAsLTgwMjMwMjU0MSwtMT
-A5MDIxMDM5MCwtMjEzNzY1MjIxOCwtMTAyODQ1MDEyNSwxMjA1
-MDI3NjE3LDQ1NzEwNjg1XX0=
+eyJoaXN0b3J5IjpbMTE0MjE3NTk3MywtMTMyMjcyNjk4MCwtOD
+AyMzAyNTQxLC0xMDkwMjEwMzkwLC0yMTM3NjUyMjE4LC0xMDI4
+NDUwMTI1LDEyMDUwMjc2MTcsNDU3MTA2ODVdfQ==
 -->
