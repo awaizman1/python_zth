@@ -1,5 +1,5 @@
 
-# Function
+# Functions
 The keyword [`def`](https://docs.python.org/3/reference/compound_stmts.html#def) introduces a function _definition_.
 ```python
 def foo(a, b, c):
@@ -97,7 +97,7 @@ connect(**endpoint)  # instead of connect(endpoint['host'], endpoint['port'])
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMjMwMjU0MSwtMTA5MDIxMDM5MCwtMj
-EzNzY1MjIxOCwtMTAyODQ1MDEyNSwxMjA1MDI3NjE3LDQ1NzEw
-Njg1XX0=
+eyJoaXN0b3J5IjpbLTEzMjI3MjY5ODAsLTgwMjMwMjU0MSwtMT
+A5MDIxMDM5MCwtMjEzNzY1MjIxOCwtMTAyODQ1MDEyNSwxMjA1
+MDI3NjE3LDQ1NzEwNjg1XX0=
 -->
