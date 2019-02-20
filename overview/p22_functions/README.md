@@ -113,16 +113,18 @@ connect(**endpoint)  # instead of connect(endpoint['host'], endpoint['port'])
 ```
 ## Inner functions
 ```python
-def foo(a_vec, b_vec):
+def foo(a_vec, b_vec, c_vec):
 	
 	def dotprod(a, b):
 		return sum(pair[0] * pair[1] for pair in zip(a, b))
+	
+	print("a * b is bigger then b * c" if dotprod(a,
 ```
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5ODg3NDQ1MiwxMzUxNzQxMjA2LC0xMD
-M3MTA0NjkzLC0xMzIyNzI2OTgwLC04MDIzMDI1NDEsLTEwOTAy
-MTAzOTAsLTIxMzc2NTIyMTgsLTEwMjg0NTAxMjUsMTIwNTAyNz
-YxNyw0NTcxMDY4NV19
+eyJoaXN0b3J5IjpbODk5MjM4NjI2LC03OTg4NzQ0NTIsMTM1MT
+c0MTIwNiwtMTAzNzEwNDY5MywtMTMyMjcyNjk4MCwtODAyMzAy
+NTQxLC0xMDkwMjEwMzkwLC0yMTM3NjUyMjE4LC0xMDI4NDUwMT
+I1LDEyMDUwMjc2MTcsNDU3MTA2ODVdfQ==
 -->
