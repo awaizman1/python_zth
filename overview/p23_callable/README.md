@@ -4,7 +4,7 @@ An object which can be called like a function.
 ```python
 # a function is a callable
 def foo():
-	print("foo")
+	print("hi from foo")
 
 foo()
 ```
@@ -12,7 +12,7 @@ foo()
 # a class is a callable
 class A:
 	def __init__(self):
-		print("A init")
+		print("hi from A init")
 
 A()
 ```
@@ -21,6 +21,14 @@ Any object which has the [```__call__```](https://docs.python.org/3/reference/da
 
 > So... this means functions and classes has the ```__call__``` attribute!
 ```python
+>>> foo()
+hi from foo
+>>> foo.__call__()  # never invoke __call__ directly
+hi from foo
+>>> a = A()
+hi from A init
+a 
+```
 
 ```python
 class A():
@@ -41,5 +49,5 @@ They called me 2 times
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxODQyNTQ1OV19
+eyJoaXN0b3J5IjpbMTM5OTUzOTA1XX0=
 -->
