@@ -78,7 +78,7 @@ is equivalent to:
 def add(x, y):
 	return x + y
 ```
-
+#### lambdas are useful in functional programming:
 ```python
 >>> Point = namedtuple('Point', field_names=('x',  'y'), defaults=(0,  0))
 >>> points = [Point(1, 2), Point(4, 3), Point(2, 4)]
@@ -93,6 +93,6 @@ def add(x, y):
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzE4NzkwNzYsNDI5NjgxNzAsLTE3OT
-c4NTcyNjNdfQ==
+eyJoaXN0b3J5IjpbLTE1NjYzNzI3NTMsLTEzNzE4NzkwNzYsND
+I5NjgxNzAsLTE3OTc4NTcyNjNdfQ==
 -->
