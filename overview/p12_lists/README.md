@@ -75,7 +75,7 @@ sequence[start:stop:step]
 * ***end [default = len(sequence)]*** - the ending index of the slice (excluding this index)
 * ***step [default = 1]*** - the amount by which the index increases
 > If a negative stride is specified and the start or end indices are omitted,
-they default to ***-1*** and ***-1\*len(sequence) - 1*** respectively.
+they default to ***-1*** and ***-(len(sequence) + 1)*** respectively.
 
 ```python
 >>> a = ['foo', 'bar', 'baz', 'qux', 'quux', 'corge']
