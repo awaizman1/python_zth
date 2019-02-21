@@ -162,8 +162,8 @@ Each element in the comprehension can be a comprehension...
 seq_up_to = []
 for i in range(1, 5):
 	seq_up_to_i = []
-	for i in range(i):
-		seq_up_to_i.append(i)
+	for j in range(i):
+		seq_up_to_i.append(j)
 		
 	seq_up_to += seq_up_to_i
 ```
