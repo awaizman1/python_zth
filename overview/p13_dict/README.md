@@ -59,6 +59,30 @@ one
 two
 three
 ```
+## Other useful methods
+Instead of:
+```python
+if 'key' in d:
+ return d['key']
+else:
+ d['key'] = value
+ return d['key']
+```
+write:
+```python
+return d.setdefault('key', value)
+```
+Instead of:
+```python
+if 'key' in cache:
+ return cache['key']
+else:
+ return 'not found'
+```
+write:
+```python
+return cache.get('key', 'not found')
+```
 ## Keys immutability
 dict keys must be immutable (i.e. list can't be dict key).
 In more details, keys must be [hashable](https://docs.python.org/3/glossary.html#term-hashable).
