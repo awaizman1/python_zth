@@ -118,11 +118,13 @@ You wrote a nice package ```cpu_utilization``` which you would like to share wit
 the package can monitor system cpu utilization and alert if it reaches some threshold.
 
  - get familiar with ```cpu_utilization``` - what external packages dependencies does it use?
- - run the ```cpu_utilization``` test.
- - add setup.py to your project in order to make it distributable
+ - create a venv, install dependencies into it and run the ```cpu_utilization``` test in it.
+ - add setup.py to your project in order to make it distributable.
+ - now, dist your package as a wheel.
+ - inside a fresh venv (not the 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTIwNDA5OTgsODY3NzE0MDYzLDE4Mj
+eyJoaXN0b3J5IjpbLTE5ODY3MDIxMDUsODY3NzE0MDYzLDE4Mj
 k1MTk3NDMsLTE0MjE2MzI0MjcsLTU1MDIzMDIzMywtMTI0MjI5
 MTUxNywtNTk0MjMyMjA3LC0xOTkzMDU3Mzk2LC01MzUxNjY0Ni
 wxMTQzNTgzODQ5LDc3OTA3OTIxNiwyMTEwNTExNTQ3LC03NjA5
