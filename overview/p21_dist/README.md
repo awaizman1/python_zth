@@ -115,12 +115,16 @@ Now you will get your distribution wheel:
 This distribution can be uploaded to PyPI / other repo or could be shared with others.
 ## Time for task:
 You wrote a nice package ```cpu_utilization``` which you would like to share with others.
-the package can monitor system cpu utilization and alert if it reac
+the package can monitor system cpu utilization and alert if it reaches some threshold.
+
+ - get familiar with ```cpu_utilization``` - what external packages dependencies does it use?
+ - 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzODIyOTg4Miw4Njc3MTQwNjMsMTgyOT
-UxOTc0MywtMTQyMTYzMjQyNywtNTUwMjMwMjMzLC0xMjQyMjkx
-NTE3LC01OTQyMzIyMDcsLTE5OTMwNTczOTYsLTUzNTE2NjQ2LD
-ExNDM1ODM4NDksNzc5MDc5MjE2LDIxMTA1MTE1NDcsLTc2MDk2
-ODA4NywxNDUzNTc4NjM0LC0xMTAyNDQ4OTc1LDE5NDIwNDA5ND
-ldfQ==
+eyJoaXN0b3J5IjpbMTA3MDI5NzU1LDg2NzcxNDA2MywxODI5NT
+E5NzQzLC0xNDIxNjMyNDI3LC01NTAyMzAyMzMsLTEyNDIyOTE1
+MTcsLTU5NDIzMjIwNywtMTk5MzA1NzM5NiwtNTM1MTY2NDYsMT
+E0MzU4Mzg0OSw3NzkwNzkyMTYsMjExMDUxMTU0NywtNzYwOTY4
+MDg3LDE0NTM1Nzg2MzQsLTExMDI0NDg5NzUsMTk0MjA0MDk0OV
+19
 -->
