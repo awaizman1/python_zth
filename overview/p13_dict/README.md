@@ -62,11 +62,10 @@ three
 ## Other useful methods
 Instead of:
 ```python
-if 'key' in d:
- return d['key']
-else:
- d['key'] = value
- return d['key']
+if 'key' not in d:
+    d['key'] = value
+
+return d['key']
 ```
 write:
 ```python
@@ -74,10 +73,10 @@ return d.setdefault('key', value)
 ```
 Instead of:
 ```python
-if 'key' in cache:
- return cache['key']
+if 'key' in db:
+    return db['key']
 else:
- return 'not found'
+    return 'not found'
 ```
 write:
 ```python
