@@ -118,13 +118,14 @@ You wrote a nice package ```cpu_utilization``` which you would like to share wit
 the package can monitor system cpu utilization and alert if it reaches some threshold.
 
  - get familiar with ```cpu_utilization``` - what external packages dependencies does it use?
- - 
+ - run the ```cpu_utilization``` test.
+ - add setup.py to your project in order to make it distributable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MDI5NzU1LDg2NzcxNDA2MywxODI5NT
-E5NzQzLC0xNDIxNjMyNDI3LC01NTAyMzAyMzMsLTEyNDIyOTE1
-MTcsLTU5NDIzMjIwNywtMTk5MzA1NzM5NiwtNTM1MTY2NDYsMT
-E0MzU4Mzg0OSw3NzkwNzkyMTYsMjExMDUxMTU0NywtNzYwOTY4
-MDg3LDE0NTM1Nzg2MzQsLTExMDI0NDg5NzUsMTk0MjA0MDk0OV
-19
+eyJoaXN0b3J5IjpbLTEzMTIwNDA5OTgsODY3NzE0MDYzLDE4Mj
+k1MTk3NDMsLTE0MjE2MzI0MjcsLTU1MDIzMDIzMywtMTI0MjI5
+MTUxNywtNTk0MjMyMjA3LC0xOTkzMDU3Mzk2LC01MzUxNjY0Ni
+wxMTQzNTgzODQ5LDc3OTA3OTIxNiwyMTEwNTExNTQ3LC03NjA5
+NjgwODcsMTQ1MzU3ODYzNCwtMTEwMjQ0ODk3NSwxOTQyMDQwOT
+Q5XX0=
 -->
