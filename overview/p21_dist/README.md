@@ -121,13 +121,15 @@ the package can monitor system cpu utilization and alert if it reaches some thre
  - create a venv, install dependencies into it and run the ```cpu_utilization``` test in it.
  - add setup.py to your project in order to make it distributable.
  - now, dist your package as a wheel.
- - inside a fresh venv (not the 
+ - inside a fresh venv (not the previous one), install the ```cpu_utilization``` dist and test that it works.
+
+> Make sure you didn't have to install ```cpu_utilization``` dependencies manually in order to make it run!!!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODY3MDIxMDUsODY3NzE0MDYzLDE4Mj
-k1MTk3NDMsLTE0MjE2MzI0MjcsLTU1MDIzMDIzMywtMTI0MjI5
-MTUxNywtNTk0MjMyMjA3LC0xOTkzMDU3Mzk2LC01MzUxNjY0Ni
-wxMTQzNTgzODQ5LDc3OTA3OTIxNiwyMTEwNTExNTQ3LC03NjA5
-NjgwODcsMTQ1MzU3ODYzNCwtMTEwMjQ0ODk3NSwxOTQyMDQwOT
-Q5XX0=
+eyJoaXN0b3J5IjpbLTM3NDA1MjExMSw4Njc3MTQwNjMsMTgyOT
+UxOTc0MywtMTQyMTYzMjQyNywtNTUwMjMwMjMzLC0xMjQyMjkx
+NTE3LC01OTQyMzIyMDcsLTE5OTMwNTczOTYsLTUzNTE2NjQ2LD
+ExNDM1ODM4NDksNzc5MDc5MjE2LDIxMTA1MTE1NDcsLTc2MDk2
+ODA4NywxNDUzNTc4NjM0LC0xMTAyNDQ4OTc1LDE5NDIwNDA5ND
+ldfQ==
 -->
