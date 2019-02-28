@@ -123,10 +123,10 @@ the package can monitor system cpu utilization and alert if it reaches some thre
  - now, dist your package as a wheel.
  - inside a fresh venv (not the previous one), install the ```cpu_utilization``` dist and test that it works.
 
-> Make sure you didn't have to install ```cpu_utilization``` dependencies manually in order to make it run!!!
+> **Make sure you didn't have to install ```cpu_utilization``` dependencies manually in order to make it run!!!**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NDA1MjExMSw4Njc3MTQwNjMsMTgyOT
+eyJoaXN0b3J5IjpbLTUwODY5OTkxOSw4Njc3MTQwNjMsMTgyOT
 UxOTc0MywtMTQyMTYzMjQyNywtNTUwMjMwMjMzLC0xMjQyMjkx
 NTE3LC01OTQyMzIyMDcsLTE5OTMwNTczOTYsLTUzNTE2NjQ2LD
 ExNDM1ODM4NDksNzc5MDc5MjE2LDIxMTA1MTE1NDcsLTc2MDk2
