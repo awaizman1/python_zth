@@ -4,15 +4,15 @@ An object which can be called like a function.
 #### a function is a callable (recall a function is an object):
 ```python
 def foo():
-	print("hi from foo")
+    print("hi from foo")
 
 foo()
 ```
 #### a class is a callable:
 ```python
 class A:
-	def __init__(self):
-		print("hi from A init")
+    def __init__(self):
+        print("hi from A init")
 
 A()
 ```
@@ -39,12 +39,12 @@ hi from A init
 ### Making your object callable
 ```python
 class A():
-	def __init__(self):
-		self.count = 0
+    def __init__(self):
+        self.count = 0
 	
-	def __call__():
-		self.count += 1
-		print(f"They called me {self.count} times")
+    def __call__():
+        self.count += 1
+        print(f"They called me {self.count} times")
 ```
 ```python
 >>> a = A()
