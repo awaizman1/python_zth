@@ -16,7 +16,7 @@ def nice_to_have_send_message(message):
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.connect(("127.0.0.1", 5050))
     s.sendall(message.encode())
-    s.close
+    s.close()
 
 
 def log_event(message):
