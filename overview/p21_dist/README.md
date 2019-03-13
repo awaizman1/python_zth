@@ -18,7 +18,7 @@ Notice how prompt changes after activation:
 ```
 Now you can install packages into environment:
 ```cmd
-(my_venv) $ python -m pip install numpy==1.0
+(my_venv) $ python -m pip install numpy==1.14
 ```
 ### Deactivate virtual env
 ```cmd
