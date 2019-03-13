@@ -96,6 +96,9 @@ setup(
     # long_description_content_type="text/markdown",
     # url="https://github.com/pypa/sampleproject",
     packages=setuptools.find_packages(exclude=["tests*"]),
+    install_requires=[
+        numpy==1.14
+    ]
     # classifiers=[
     #     "Programming Language :: Python :: 3",
     #     "License :: OSI Approved :: MIT License",
