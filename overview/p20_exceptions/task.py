@@ -13,7 +13,7 @@ def redis_get(key):
 # when your database raises exception, you can't let it propagate up to the client because it will reveal your
 # implementation details (client shouldn't get redis errors and code logic around it...)
 # fix the code below so that RedisKeyNotFoundError will be raised as standard KeyError(f"key {key} not found").
-def my_get_from_redis(key):
+def my_get(key):
 
     raise NotImplementedError("YOUR IMPLEMENTATION HERE")
 
@@ -21,6 +21,6 @@ def my_get_from_redis(key):
 
 
 try:
-    my_get_from_redis("some_key")
+    my_get("some_key")
 except Exception as e:
     traceback.print_exc()
