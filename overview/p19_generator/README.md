@@ -60,6 +60,7 @@ def even(iterable):
     """
     Generator of even numbers in iterable
     """
+
     for i in iterable:
         if i % 2 == 0:
             yield i
@@ -69,6 +70,7 @@ def accumulate(iterable):
     """
     Generator for cumsum of iterable
     """
+
     total = 0
     for i in iterable:
         total += i
