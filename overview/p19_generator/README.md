@@ -13,8 +13,8 @@ A generator is lazy evaluated - produces one item at a time and only when asked.
 Regular function with ```yield``` statement.
 ```python
 def count_to_2():
-	yield 1
-	yield 2
+    yield 1
+    yield 2
 ```
 ```python
 
@@ -37,10 +37,10 @@ StopIteration
 ## Stateful generator
 ```python
 def count():
-	num = 0
-	while True:
-		yield num
-		num += 1
+    num = 0
+    while True:
+        yield num
+        num += 1
 ```
 ```python
 >>> for i in count():
@@ -57,26 +57,26 @@ def count():
 Generators can be combined into pipelines for natural stream processing.
 ```python
 def even(iterable):
-	"""
-	Generator of even numbers in iterable
-	"""
-	for i in iterable:
-		if i % 2 == 0:
-			yield i
+    """
+    Generator of even numbers in iterable
+    """
+    for i in iterable:
+        if i % 2 == 0:
+            yield i
 ```
 ```python
 def accumulate(iterable):
-	"""
-	Generator for cumsum of iterable
-	"""
-	total = 0
-	for i in iterable:
-		total += i
-		yield total
+    """
+    Generator for cumsum of iterable
+    """
+    total = 0
+    for i in iterable:
+        total += i
+        yield total
 ```
 ```python
 >>> for i in accumulate(even(count())):
-... 	print(i)
+...     print(i)
 0
 2
 6
