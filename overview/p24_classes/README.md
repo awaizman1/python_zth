@@ -52,10 +52,25 @@ class RedisClient:
     def get(self, key):                                 # public instance method
         ...
 ```
-## Static met
+## Static methods
+```python
+class Dog:
+
+    def __init__(self, name=None, age=0):
+
+        self.name = name                       # instance member
+        self.age = age                         # instance member
+        Dog.instance_count += 1               # modifying class member
+    
+    @static_method
+    def _get_random_name():                   # a static method (
+        ...
+    def bark(self):                            # instance method
+        print(f"{self.name} is barking...")
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNDQ4NDE4NSwzMzA2MTU2MjksLTEzOT
-M3MzE5MSwtNzQ5OTUxNTEzLC0xNTY2MjE4ODUzLDcxNjQ0MzE3
-M119
+eyJoaXN0b3J5IjpbLTE4NTM2ODgzMzQsMzMwNjE1NjI5LC0xMz
+kzNzMxOTEsLTc0OTk1MTUxMywtMTU2NjIxODg1Myw3MTY0NDMx
+NzNdfQ==
 -->
