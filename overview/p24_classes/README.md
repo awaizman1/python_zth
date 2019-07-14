@@ -17,7 +17,7 @@ class Dog:                                     # class definition
 [private variables](https://docs.python.org/3/tutorial/classes.html#private-variables)
 There is a convention in python (which is already enforced by IDEs, linters, etc.) - a named prefixed with underscore should be treated as private.
 
-> There is also a way to name-mangling (a name followed by double underscode
+> There is also a way to get name-mangling (i.e. ```__spam```) - usually not needed, avoid it.
 
 ```python
 class RedisClient:
@@ -39,6 +39,6 @@ class RedisClient:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwODkxNzg5LC03NDk5NTE1MTMsLTE1Nj
-YyMTg4NTMsNzE2NDQzMTczXX0=
+eyJoaXN0b3J5IjpbLTEzOTM3MzE5MSwtNzQ5OTUxNTEzLC0xNT
+Y2MjE4ODUzLDcxNjQ0MzE3M119
 -->
