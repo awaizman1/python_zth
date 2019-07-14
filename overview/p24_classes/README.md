@@ -53,6 +53,8 @@ class RedisClient:
         ...
 ```
 ## Static methods
+It is preffered to define a method which doesn't depend on instance's state (```self```) as static on
+[staticmethod](https://docs.python.org/3/library/functions.html#staticmethod)
 ```python
 class Dog:
 
@@ -67,7 +69,7 @@ class Dog:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNzE1NjQ3MCwzMzA2MTU2MjksLTEzOT
-M3MzE5MSwtNzQ5OTUxNTEzLC0xNTY2MjE4ODUzLDcxNjQ0MzE3
-M119
+eyJoaXN0b3J5IjpbLTcxMDA2NzcsLTMwNzE1NjQ3MCwzMzA2MT
+U2MjksLTEzOTM3MzE5MSwtNzQ5OTUxNTEzLC0xNTY2MjE4ODUz
+LDcxNjQ0MzE3M119
 -->
