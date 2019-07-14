@@ -25,11 +25,17 @@ class RedisClient:
         self.port = port                                # public member
         self._connection = self._connect(host, port)    # private member
     
-    def _connect(host, port):                           # pr
+    def _connect(host, port):                           # private instance method
+        ...
+    
+    def set(self, key, data):                           # public instance method
+        ...
+    
+    def get(self, key):                                 # public instance method
         ...
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTA2NTM2NDEsLTc0OTk1MTUxMywtMT
-U2NjIxODg1Myw3MTY0NDMxNzNdfQ==
+eyJoaXN0b3J5IjpbMTIwODI0Mzc2NiwtNzQ5OTUxNTEzLC0xNT
+Y2MjE4ODUzLDcxNjQ0MzE3M119
 -->
