@@ -18,13 +18,18 @@ class Dog:                                     # class definition
 There is a convention in python (which is already enforced by IDEs, linters, etc.) - a named prefixed with underscore should be treated as private.
 ```python
 class RedisClient:
+
     def __init__(self, host, port):
-        self._connection = self._connect(host, port)
     
-    def _connect(
+        self.host = host                                # public member
+        self.port = port                                # public member
+        self._connection = self._connect(host, port)    # private member
+    
+    def _connect(host, port):                           # pr
+        ...
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MjMxOTA0LC03NDk5NTE1MTMsLTE1Nj
-YyMTg4NTMsNzE2NDQzMTczXX0=
+eyJoaXN0b3J5IjpbLTE2NTA2NTM2NDEsLTc0OTk1MTUxMywtMT
+U2NjIxODg1Myw3MTY0NDMxNzNdfQ==
 -->
