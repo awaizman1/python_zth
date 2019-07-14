@@ -115,12 +115,14 @@ class Dog:
 
  - non pythonic - access attributes directly and not via setter/getter
  - boilerplate code of setter/getter
- - all consumer must modify their code to use ```g
+ - all consumer must modify their code to use ```get_name```
+## Try #2 - properties
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MzQ5NjU1NSwyMDkyNjE5NTMxLDE5MT
-g1Njc4OTYsMTgxMDA4NDQzMCwtMzA3MTU2NDcwLDMzMDYxNTYy
-OSwtMTM5MzczMTkxLC03NDk5NTE1MTMsLTE1NjYyMTg4NTMsNz
-E2NDQzMTczXX0=
+eyJoaXN0b3J5IjpbMTk1NDQ0NzQsMjA5MjYxOTUzMSwxOTE4NT
+Y3ODk2LDE4MTAwODQ0MzAsLTMwNzE1NjQ3MCwzMzA2MTU2Mjks
+LTEzOTM3MzE5MSwtNzQ5OTUxNTEzLC0xNTY2MjE4ODUzLDcxNj
+Q0MzE3M119
 -->
