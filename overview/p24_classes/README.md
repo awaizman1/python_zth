@@ -145,11 +145,14 @@ class Dog:
 >>> bolt.name  # accessing property as regular attribute
 'bolt'
 >>> bolt.name = 'puppy'  # probably a violation of what Dog writer meant...
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: can't set attribute
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzExNTcxMDQsMTk1NDQ0NzQsMjA5Mj
-YxOTUzMSwxOTE4NTY3ODk2LDE4MTAwODQ0MzAsLTMwNzE1NjQ3
-MCwzMzA2MTU2MjksLTEzOTM3MzE5MSwtNzQ5OTUxNTEzLC0xNT
-Y2MjE4ODUzLDcxNjQ0MzE3M119
+eyJoaXN0b3J5IjpbMTQ4MTc1NzEyMiwxOTU0NDQ3NCwyMDkyNj
+E5NTMxLDE5MTg1Njc4OTYsMTgxMDA4NDQzMCwtMzA3MTU2NDcw
+LDMzMDYxNTYyOSwtMTM5MzczMTkxLC03NDk5NTE1MTMsLTE1Nj
+YyMTg4NTMsNzE2NDQzMTczXX0=
 -->
