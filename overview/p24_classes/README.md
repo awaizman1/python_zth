@@ -111,10 +111,15 @@ class Dog:
     def get_age(self):                        # getter for age
         return age
 ```
+***Issues:***
+
+ - non pythonic - access attributes directly and not via setter/getter
+ - boilerplate code of setter/getter
+ - all consumer must modify their code to use ```g
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MzI5MTA1OCwyMDkyNjE5NTMxLDE5MT
+eyJoaXN0b3J5IjpbLTc4MzQ5NjU1NSwyMDkyNjE5NTMxLDE5MT
 g1Njc4OTYsMTgxMDA4NDQzMCwtMzA3MTU2NDcwLDMzMDYxNTYy
 OSwtMTM5MzczMTkxLC03NDk5NTE1MTMsLTE1NjYyMTg4NTMsNz
 E2NDQzMTczXX0=
