@@ -117,12 +117,32 @@ class Dog:
  - boilerplate code of setter/getter
  - all consumer must modify their code to use ```get_name```
 ## Try #2 - properties
+[property](https://docs.python.org/3/library/functions.html#property) is a superior python alternative for getter/setter.
+```python
+class Dog:
+    instance_count = 0
 
+    def __init__(self, name, age):
 
+        self._name = name                     # now name is private
+        self._age = age                       # now age is private
+        Dog.instance_count += 1
+    
+    def bark(self):                           # instance method
+        print(f"{self.name} is barking...")
+    
+    @property
+    def name(self):                       # getter for name
+        return name
+    
+    @property
+    def age(self):                        # getter for age
+        return age
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NDQ0NzQsMjA5MjYxOTUzMSwxOTE4NT
-Y3ODk2LDE4MTAwODQ0MzAsLTMwNzE1NjQ3MCwzMzA2MTU2Mjks
-LTEzOTM3MzE5MSwtNzQ5OTUxNTEzLC0xNTY2MjE4ODUzLDcxNj
-Q0MzE3M119
+eyJoaXN0b3J5IjpbMTU1MDMxNDQ4NCwxOTU0NDQ3NCwyMDkyNj
+E5NTMxLDE5MTg1Njc4OTYsMTgxMDA4NDQzMCwtMzA3MTU2NDcw
+LDMzMDYxNTYyOSwtMTM5MzczMTkxLC03NDk5NTE1MTMsLTE1Nj
+YyMTg4NTMsNzE2NDQzMTczXX0=
 -->
