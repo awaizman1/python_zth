@@ -118,6 +118,7 @@ class Dog:
  - all consumer must modify their code to use ```get_name```
 ## Try #2 - properties
 [property](https://docs.python.org/3/library/functions.html#property) is a superior python alternative for getter/setter.
+Can be used for getter, setter and deleter as required.
 ```python
 class Dog:
     instance_count = 0
@@ -139,9 +140,15 @@ class Dog:
     def age(self):                        # getter for age
         return age
 ```
+```python
+>>> bolt = Dog(name='bolt', age=3)
+>>> bolt.name  # accessing property as 
+'bolt'
+>>> bolt.name = 'puppy'  # probably a violation of what Dog writer meant...
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MDMxNDQ4NCwxOTU0NDQ3NCwyMDkyNj
+eyJoaXN0b3J5IjpbMTIzMTI2MDA0NCwxOTU0NDQ3NCwyMDkyNj
 E5NTMxLDE5MTg1Njc4OTYsMTgxMDA4NDQzMCwtMzA3MTU2NDcw
 LDMzMDYxNTYyOSwtMTM5MzczMTkxLC03NDk5NTE1MTMsLTE1Nj
 YyMTg4NTMsNzE2NDQzMTczXX0=
