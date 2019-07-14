@@ -78,13 +78,13 @@ class Dog:
         self.name = self._get_random_name() if name else name
         self.age = age
     
-    @staticmethod
-    def _get_random_name():                   # a static method (notice 'self' is missing)
-        ...
+    @classmethod
+    def create_newborn(cls, name):                   # a class method (notice 'cls' argument)
+        return cls(name, age=0)
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYxMTcxMjY1LDE4MTAwODQ0MzAsLTMwNz
-E1NjQ3MCwzMzA2MTU2MjksLTEzOTM3MzE5MSwtNzQ5OTUxNTEz
-LC0xNTY2MjE4ODUzLDcxNjQ0MzE3M119
+eyJoaXN0b3J5IjpbMTkxODU2Nzg5NiwxODEwMDg0NDMwLC0zMD
+cxNTY0NzAsMzMwNjE1NjI5LC0xMzkzNzMxOTEsLTc0OTk1MTUx
+MywtMTU2NjIxODg1Myw3MTY0NDMxNzNdfQ==
 -->
