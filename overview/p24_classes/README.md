@@ -18,7 +18,14 @@ class Dog:                                     # class definition
 >>> # access instance members
 >>> bolt.name
 'bolt'
+>>> # access class members
+>>> Dog.instance_count
+1
+>>> bolt.instance_count
+1
+>>> # access instance methods (note 'self' is implicit bounded)
 >>> bolt.bark()
+'bolt is barking...'
 ```
 ## Public / Protected / Private
 “Private” instance variables that cannot be accessed except from inside an object don’t exist in Python.
@@ -47,6 +54,6 @@ class RedisClient:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1ODQzMTA1LC0xMzkzNzMxOTEsLTc0OT
-k1MTUxMywtMTU2NjIxODg1Myw3MTY0NDMxNzNdfQ==
+eyJoaXN0b3J5IjpbLTMzNTY1NDg3NiwtMTM5MzczMTkxLC03ND
+k5NTE1MTMsLTE1NjYyMTg4NTMsNzE2NDQzMTczXX0=
 -->
