@@ -106,10 +106,10 @@ class Dog:
         print(f"{self.name} is barking...")
     
     def get_name(self):                       # getter for name
-        return name
+        return self._name
     
     def get_age(self):                        # getter for age
-        return age
+        return self._age
 ```
 ***Issues:***
 
@@ -134,11 +134,11 @@ class Dog:
     
     @property
     def name(self):                       # getter for name
-        return name
+        return self._name
     
     @property
     def age(self):                        # getter for age
-        return age
+        return self._age
 ```
 ```python
 >>> bolt = Dog(name='bolt', age=3)
@@ -148,8 +148,8 @@ class Dog:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMDI4NjI2MiwxOTU0NDQ3NCwyMDkyNj
-E5NTMxLDE5MTg1Njc4OTYsMTgxMDA4NDQzMCwtMzA3MTU2NDcw
-LDMzMDYxNTYyOSwtMTM5MzczMTkxLC03NDk5NTE1MTMsLTE1Nj
-YyMTg4NTMsNzE2NDQzMTczXX0=
+eyJoaXN0b3J5IjpbLTIwNzExNTcxMDQsMTk1NDQ0NzQsMjA5Mj
+YxOTUzMSwxOTE4NTY3ODk2LDE4MTAwODQ0MzAsLTMwNzE1NjQ3
+MCwzMzA2MTU2MjksLTEzOTM3MzE5MSwtNzQ5OTUxNTEzLC0xNT
+Y2MjE4ODUzLDcxNjQ0MzE3M119
 -->
