@@ -16,6 +16,9 @@ class Dog:                                     # class definition
 “Private” instance variables that cannot be accessed except from inside an object don’t exist in Python.
 [private variables](https://docs.python.org/3/tutorial/classes.html#private-variables)
 There is a convention in python (which is already enforced by IDEs, linters, etc.) - a named prefixed with underscore should be treated as private.
+
+> There is also a way to name-mangling (a name followed by double underscode
+
 ```python
 class RedisClient:
 
@@ -36,6 +39,6 @@ class RedisClient:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwODI0Mzc2NiwtNzQ5OTUxNTEzLC0xNT
-Y2MjE4ODUzLDcxNjQ0MzE3M119
+eyJoaXN0b3J5IjpbMTkwODkxNzg5LC03NDk5NTE1MTMsLTE1Nj
+YyMTg4NTMsNzE2NDQzMTczXX0=
 -->
