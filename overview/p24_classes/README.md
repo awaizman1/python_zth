@@ -89,12 +89,12 @@ class Dog:
 Consider our Dog.
 ```python
 >>> bolt = Dog(name='bolt', age=3)
->>> bolt.name = 'puppy'
+>>> bolt.name = 'puppy'  # probably a violation of what Dog writer meant...
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjQzOTgyNjEsMjA5MjYxOTUzMSwxOT
-E4NTY3ODk2LDE4MTAwODQ0MzAsLTMwNzE1NjQ3MCwzMzA2MTU2
-MjksLTEzOTM3MzE5MSwtNzQ5OTUxNTEzLC0xNTY2MjE4ODUzLD
-cxNjQ0MzE3M119
+eyJoaXN0b3J5IjpbLTgxMDU1Mzk0NiwyMDkyNjE5NTMxLDE5MT
+g1Njc4OTYsMTgxMDA4NDQzMCwtMzA3MTU2NDcwLDMzMDYxNTYy
+OSwtMTM5MzczMTkxLC03NDk5NTE1MTMsLTE1NjYyMTg4NTMsNz
+E2NDQzMTczXX0=
 -->
