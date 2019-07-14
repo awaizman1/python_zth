@@ -12,6 +12,9 @@ class Dog:                                     # class definition
     def bark(self):                            # instance method
         print(f"{self.name} is barking...")
 ```
+```python
+>>> 
+```
 ## Public / Protected / Private
 “Private” instance variables that cannot be accessed except from inside an object don’t exist in Python.
 [private variables](https://docs.python.org/3/tutorial/classes.html#private-variables)
@@ -39,6 +42,6 @@ class RedisClient:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTM3MzE5MSwtNzQ5OTUxNTEzLC0xNT
-Y2MjE4ODUzLDcxNjQ0MzE3M119
+eyJoaXN0b3J5IjpbMTI3NzkxMzc2OSwtMTM5MzczMTkxLC03ND
+k5NTE1MTMsLTE1NjYyMTg4NTMsNzE2NDQzMTczXX0=
 -->
