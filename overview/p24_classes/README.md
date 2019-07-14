@@ -91,9 +91,29 @@ Consider our Dog.
 >>> bolt = Dog(name='bolt', age=3)
 >>> bolt.name = 'puppy'  # probably a violation of what Dog writer meant...
 ```
+## Try #1 - private member with getter / setter
+```python
+class Dog:                                     # class definition
+    instance_count = 0                        # class member (shared by all instances)
+
+    def __init__(self, name, age):             # instance initialization method (not a constructor)
+
+        self._name = name                       # instance member
+        self._age = age                         # instance member
+        Dog.instance_count += 1               # modifying class member
+    
+    def bark(self):                            # instance method
+        print(f"{self.name} is barking...")
+    
+    def get_name(self):
+        return name
+    
+    def get_age(self):
+        return age
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMDU1Mzk0NiwyMDkyNjE5NTMxLDE5MT
+eyJoaXN0b3J5IjpbLTI4NDI2MDk0NCwyMDkyNjE5NTMxLDE5MT
 g1Njc4OTYsMTgxMDA4NDQzMCwtMzA3MTU2NDcwLDMzMDYxNTYy
 OSwtMTM5MzczMTkxLC03NDk5NTE1MTMsLTE1NjYyMTg4NTMsNz
 E2NDQzMTczXX0=
