@@ -13,9 +13,11 @@ class Dog:                                     # class definition
         print(f"{self.name} is barking...")
 ```
 ## Public / Protected / Private
-
+“Private” instance variables that cannot be accessed except from inside an object don’t exist in Python.
+[private variables](https://docs.python.org/3/tutorial/classes.html#private-variables)
+There is a convention 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0OTk1MTUxMywtMTU2NjIxODg1Myw3MT
-Y0NDMxNzNdfQ==
+eyJoaXN0b3J5IjpbLTE5NDEzNDI3ODgsLTc0OTk1MTUxMywtMT
+U2NjIxODg1Myw3MTY0NDMxNzNdfQ==
 -->
