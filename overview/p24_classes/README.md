@@ -1,13 +1,13 @@
 # Classes
 ```python
 class Dog:                                     # class definition
-    instances_count = 0                        # class member (shared by all instances)
+    instance_count = 0                        # class member (shared by all instances)
 
     def __init__(self, name, age):             # instance initialization method (not a constructor)
 
         self.name = name                       # instance member
         self.age = age                         # instance member
-        Dog.instances_count += 1               # modifying class member
+        Dog.instance_count += 1               # modifying class member
     
     def bark(self):                            # instance method
         print(f"{self.name} is barking...")
@@ -18,7 +18,7 @@ class Dog:                                     # class definition
 >>> # access instance members
 >>> bolt.name
 'bolt'
->>> # access class members
+>>> # access class members (via class or instance)
 >>> Dog.instance_count
 1
 >>> bolt.instance_count
@@ -54,6 +54,6 @@ class RedisClient:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNTY1NDg3NiwtMTM5MzczMTkxLC03ND
-k5NTE1MTMsLTE1NjYyMTg4NTMsNzE2NDQzMTczXX0=
+eyJoaXN0b3J5IjpbMzMwNjE1NjI5LC0xMzkzNzMxOTEsLTc0OT
+k1MTUxMywtMTU2NjIxODg1Myw3MTY0NDMxNzNdfQ==
 -->
