@@ -52,7 +52,8 @@ class RedisClient:
     def get(self, key):                                 # public instance method
         ...
 ```
-## Static methods and 
+## Static methods and class methods
+### static method
 It is preferred to define a method which doesn't depend on instance's state (```self```) as static one.
 [staticmethod](https://docs.python.org/3/library/functions.html#staticmethod)
 ```python
@@ -67,9 +68,11 @@ class Dog:
     def _get_random_name():                   # a static method (notice 'self' is missing)
         ...
 ```
+### class method
+Another form of static method in python is a class 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAyMjExMDU1LDE4MTAwODQ0MzAsLTMwNz
-E1NjQ3MCwzMzA2MTU2MjksLTEzOTM3MzE5MSwtNzQ5OTUxNTEz
-LC0xNTY2MjE4ODUzLDcxNjQ0MzE3M119
+eyJoaXN0b3J5IjpbLTk4NjgwMzc3MiwxODEwMDg0NDMwLC0zMD
+cxNTY0NzAsMzMwNjE1NjI5LC0xMzkzNzMxOTEsLTc0OTk1MTUx
+MywtMTU2NjIxODg1Myw3MTY0NDMxNzNdfQ==
 -->
