@@ -15,9 +15,9 @@ class Dog:                                     # class definition
 ## Public / Protected / Private
 “Private” instance variables that cannot be accessed except from inside an object don’t exist in Python.
 [private variables](https://docs.python.org/3/tutorial/classes.html#private-variables)
-There is a convention 
+There is a convention in python (which is already enforced by IDEs, linters, etc.) - a named prefixed with underscore should be treated as private.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDEzNDI3ODgsLTc0OTk1MTUxMywtMT
-U2NjIxODg1Myw3MTY0NDMxNzNdfQ==
+eyJoaXN0b3J5IjpbLTM1MzY0MDE0OCwtNzQ5OTUxNTEzLC0xNT
+Y2MjE4ODUzLDcxNjQ0MzE3M119
 -->
