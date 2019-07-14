@@ -9,11 +9,11 @@ class Dog:                                     # class definition
         self.age = age                         # instance member
         Dog.instances_count += 1               # modifying class member
     
-    def bark(self):
+    def bark(self):                            # member function
         print(f"{self.name} is barking...")
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc2MzE2NzU2LDcxNjQ0MzE3M119
+eyJoaXN0b3J5IjpbLTk2OTI5NTU5OSw3MTY0NDMxNzNdfQ==
 -->
