@@ -12,8 +12,10 @@ class Dog:                                     # class definition
     def bark(self):                            # instance method
         print(f"{self.name} is barking...")
 ```
+## Public / Protected / Private
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjYyMTg4NTMsNzE2NDQzMTczXX0=
+eyJoaXN0b3J5IjpbLTc0OTk1MTUxMywtMTU2NjIxODg1Myw3MT
+Y0NDMxNzNdfQ==
 -->
