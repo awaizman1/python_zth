@@ -40,7 +40,7 @@ r"C:\foo\goo"
 ```
 ```python
 # format strings (f-string)
->>> today = datetime.now()
+>>> today = dattime.now()
 >>> f"today is {today} tomorrow is {today + datetime.timedelta(days=1)}"
 'today is 2018-10-18 14:38:53.204763 tomorrow is 2018-10-19 14:38:53.204763'
 
@@ -79,7 +79,7 @@ True
 True
 >>> 'z' in s
 False
->>> s.index('e')
+>>> .index('e')
 1
 >>> s.index('world')
 6
@@ -103,7 +103,7 @@ False
 ```
 ## *str* format
 There are 3 ways to format a str.
-### 1. `printf`-style
+### 1.### `printf`-style
 [printf-style-string-formatting](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting)
 ```python
 >>> name = "Bob"
@@ -160,9 +160,9 @@ As you already saw above, all you need to know is that f-string uses the same [f
  - perform ***task.py*** and ***task2.py***
  - test yourself by running ***test_task.py*** and ***test_task2.py***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwOTM4MzIxMCwtMTEyODg4Mjk4MSwxNz
-Q5NzkzNzc5LC05MDEzNDM0MDgsMTA4MjU1NzU3NSwtMTg4NTMw
-MzEzMywtNjg3NTAyMzMzLC0xODQ3NjE0MjA5LC0xMDU0MDQ3Nz
-kwLDgyMzE2MjYzOCw4MjE4NTU1MTgsLTMxNjEyNzQ2NSwtMTM2
-Nzc5NjAwNywxODAzNjAzOTQ4XX0=
+eyJoaXN0b3J5IjpbOTc5MDkwMTc0LC02MDkzODMyMTAsLTExMj
+g4ODI5ODEsMTc0OTc5Mzc3OSwtOTAxMzQzNDA4LDEwODI1NTc1
+NzUsLTE4ODUzMDMxMzMsLTY4NzUwMjMzMywtMTg0NzYxNDIwOS
+wtMTA1NDA0Nzc5MCw4MjMxNjI2MzgsODIxODU1NTE4LC0zMTYx
+Mjc0NjUsLTEzNjc3OTYwMDcsMTgwMzYwMzk0OF19
 -->
