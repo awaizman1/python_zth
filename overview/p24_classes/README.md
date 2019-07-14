@@ -52,8 +52,10 @@ class RedisClient:
     def get(self, key):                                 # public instance method
         ...
 ```
+## Static met
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMwNjE1NjI5LC0xMzkzNzMxOTEsLTc0OT
-k1MTUxMywtMTU2NjIxODg1Myw3MTY0NDMxNzNdfQ==
+eyJoaXN0b3J5IjpbLTYwNDQ4NDE4NSwzMzA2MTU2MjksLTEzOT
+M3MzE5MSwtNzQ5OTUxNTEzLC0xNTY2MjE4ODUzLDcxNjQ0MzE3
+M119
 -->
