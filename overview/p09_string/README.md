@@ -102,7 +102,8 @@ False
 >>> del s[1:3]
 ```
 ## *str* format
-### `printf`-style
+There are 3 ways to format a str.
+### 1. `printf`-style
 [printf-style-string-formatting](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting)
 ```python
 >>> name = "Bob"
@@ -117,7 +118,7 @@ False
 >>> "The grade of %(student_name)s is %(grade)d in hex 0x%(grade)x" % {"grade": grade, "student_name": name}
 'The grade of Bob is 93 in hex 0x5d'
 ```
-### Format string style
+### 2. Format string style
 [format-string-syntax](https://docs.python.org/3/library/string.html#format-string-syntax)
 ```python
 # positional substitution
@@ -147,7 +148,7 @@ False
 >>>"The grade of {student[0]} is {student[1]}".format(student=("Bob", 93))
 'The grade of Bob is 93'
 ```
-### f-string
+### 3. f-string
 As you already saw above, all you need to know is that f-string uses the same [format()](https://docs.python.org/3/library/functions.html#format) protocol as in [Format string style](#Format-string-style)
 > 
 > 
