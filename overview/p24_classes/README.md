@@ -87,10 +87,13 @@ class Dog:
 ```
 ## Properties
 Consider our Dog.
-```pyth
+```python
+>>> bolt = Dog(name='bolt', age=3)
+>>> bolt.name = 'puppy'
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzE1NTE3MjgsMjA5MjYxOTUzMSwxOT
+eyJoaXN0b3J5IjpbLTEwMjQzOTgyNjEsMjA5MjYxOTUzMSwxOT
 E4NTY3ODk2LDE4MTAwODQ0MzAsLTMwNzE1NjQ3MCwzMzA2MTU2
 MjksLTEzOTM3MzE5MSwtNzQ5OTUxNTEzLC0xNTY2MjE4ODUzLD
 cxNjQ0MzE3M119
