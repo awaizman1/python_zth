@@ -69,10 +69,22 @@ class Dog:
         ...
 ```
 ### class method
-Another form of static method in python is a class 
+Another form of static method in python is a [class method]( https://docs.python.org/3/library/functions.html#classmethod). Similar to static method, but receives the class as implicit first argument.
+```python
+class Dog:
+
+    def __init__(self, name=None, age=0):
+
+        self.name = self._get_random_name() if name else name
+        self.age = age
+    
+    @staticmethod
+    def _get_random_name():                   # a static method (notice 'self' is missing)
+        ...
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NjgwMzc3MiwxODEwMDg0NDMwLC0zMD
-cxNTY0NzAsMzMwNjE1NjI5LC0xMzkzNzMxOTEsLTc0OTk1MTUx
-MywtMTU2NjIxODg1Myw3MTY0NDMxNzNdfQ==
+eyJoaXN0b3J5IjpbNDYxMTcxMjY1LDE4MTAwODQ0MzAsLTMwNz
+E1NjQ3MCwzMzA2MTU2MjksLTEzOTM3MzE5MSwtNzQ5OTUxNTEz
+LC0xNTY2MjE4ODUzLDcxNjQ0MzE3M119
 -->
