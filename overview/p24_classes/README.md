@@ -85,9 +85,13 @@ class Dog:
     def create_newborn(cls, name):                   # a class method (notice 'cls' argument)
         return cls(name, age=0)
 ```
+## Properties
+Consider our Dog.
+```pyth
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MjYxOTUzMSwxOTE4NTY3ODk2LDE4MT
-AwODQ0MzAsLTMwNzE1NjQ3MCwzMzA2MTU2MjksLTEzOTM3MzE5
-MSwtNzQ5OTUxNTEzLC0xNTY2MjE4ODUzLDcxNjQ0MzE3M119
+eyJoaXN0b3J5IjpbLTE5NzE1NTE3MjgsMjA5MjYxOTUzMSwxOT
+E4NTY3ODk2LDE4MTAwODQ0MzAsLTMwNzE1NjQ3MCwzMzA2MTU2
+MjksLTEzOTM3MzE5MSwtNzQ5OTUxNTEzLC0xNTY2MjE4ODUzLD
+cxNjQ0MzE3M119
 -->
