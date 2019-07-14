@@ -93,27 +93,28 @@ Consider our Dog.
 ```
 ## Try #1 - private member with getter / setter
 ```python
-class Dog:                                     # class definition
-    instance_count = 0                        # class member (shared by all instances)
+class Dog:
+    instance_count = 0
 
-    def __init__(self, name, age):             # instance initialization method (not a constructor)
+    def __init__(self, name, age):
 
-        self._name = name                       # instance member
-        self._age = age                         # instance member
-        Dog.instance_count += 1               # modifying class member
+        self._name = name                     # now name is private
+        self._age = age                       # now age is private
+        Dog.instance_count += 1
     
-    def bark(self):                            # instance method
+    def bark(self):                           # instance method
         print(f"{self.name} is barking...")
     
-    def get_name(self):
+    def get_name(self):                       # getter for name
         return name
     
-    def get_age(self):
+    def get_age(self):                        # getter for age
         return age
 ```
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NDI2MDk0NCwyMDkyNjE5NTMxLDE5MT
+eyJoaXN0b3J5IjpbMTg0MzI5MTA1OCwyMDkyNjE5NTMxLDE5MT
 g1Njc4OTYsMTgxMDA4NDQzMCwtMzA3MTU2NDcwLDMzMDYxNTYy
 OSwtMTM5MzczMTkxLC03NDk5NTE1MTMsLTE1NjYyMTg4NTMsNz
 E2NDQzMTczXX0=
