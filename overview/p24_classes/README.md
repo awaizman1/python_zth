@@ -142,13 +142,13 @@ class Dog:
 ```
 ```python
 >>> bolt = Dog(name='bolt', age=3)
->>> bolt.name  # accessing property as 
+>>> bolt.name  # accessing property as regular attribute
 'bolt'
 >>> bolt.name = 'puppy'  # probably a violation of what Dog writer meant...
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMTI2MDA0NCwxOTU0NDQ3NCwyMDkyNj
+eyJoaXN0b3J5IjpbMTYyMDI4NjI2MiwxOTU0NDQ3NCwyMDkyNj
 E5NTMxLDE5MTg1Njc4OTYsMTgxMDA4NDQzMCwtMzA3MTU2NDcw
 LDMzMDYxNTYyOSwtMTM5MzczMTkxLC03NDk5NTE1MTMsLTE1Nj
 YyMTg4NTMsNzE2NDQzMTczXX0=
