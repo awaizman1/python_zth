@@ -11,9 +11,9 @@ if x > 10:
     print(">10")
 else:
     if x < 0:
-        		print("<0")
+        print("<0")
     	else:
-        		print("0<=x<=10")
+        print("0<=x<=10")
 ```
 
 > Zen: ***flat is better than nested.***
@@ -22,7 +22,7 @@ else:
 if x > 10:
     print(">10")
 elif x < 0:
-print("<0")
+    print("<0")
 else:print("0<=x<=10")
 ```
 ## Conditional expression
